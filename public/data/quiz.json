@@ -1,14 +1,552 @@
 [
   {
     "id": 1,
-    "question": "Câu 1",
+    "question": "Thuật ngữ \"Tư tưởng Hồ Chí Minh\" được dùng theo nghĩa nào?",
     "options": {
-      "A": "Bảng trong DB",
-      "B": "Class Java ánh xạ DB",
-      "C": "Interface",
-      "D": "API"
+      "A": "Là tư tưởng của một cá nhân",
+      "B": "Là tư tưởng của lãnh tụ",
+      "C": "Là tư tưởng của một giai cấp, một dân tộc",
+      "D": "Là tất cả những vần đề trên"
     },
-    "answer": "B",
-    "explanation": "Entity trong JPA là một class Java được đánh dấu bằng annotation @Entity, dùng để ánh xạ (map) với một bảng trong cơ sở dữ liệu. Mỗi instance của entity tương ứng với một dòng (row) trong bảng đó. Entity không phải là bảng DB hay interface — nó là POJO (Plain Old Java Object) được JPA quản lý."
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "question": "Tìm đáp án sai: Khái niệm Tư tưởng Hồ Chí Minh mà Đại hội IX nêu lên bao gồm:",
+    "options": {
+      "A": "Bản chất cách mạng, khoa học của Tư tưởng Hồ Chí Minh",
+      "B": "Nguồn gốc tư tưởng, lý luận của Tư tưởng Hồ Chí Minh",
+      "C": "Nội dung Tư tưởng Hồ Chí Minh",
+      "D": "Kết cấu tư tưởng Hồ Chí Minh"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 3,
+    "question": "Đối tượng của bộ môn Tư tưởng Hồ Chí Minh?",
+    "options": {
+      "A": "Quá trình sản sinh tư tưởng",
+      "B": "Quá trình hiện thực hoá tư tưởng",
+      "C": "Quá trình sản sinh và hiện thực hoá tư tưởng",
+      "D": "Quá trình Đảng cộng sản vận dụng tư tưởng Hồ Chí Minh"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "Bộ môn Tư tưởng Hồ Chi Minh có mấy nhiệm vụ khi nghiên cứu Tư tưởng Hồ Chí Minh?",
+    "options": {
+      "A": "4 nhiệm vụ",
+      "B": "5 nhiệm vụ",
+      "C": "6 nhiệm vụ",
+      "D": "7 nhiệm vụ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "Tư tưởng Hồ Chí Minh có vị trí như thế nào trong hệ thống tư tưởng của Đảng Cộng sản Việt Nam?",
+    "options": {
+      "A": "Là một bộ phận trong hệ thống tư tưởng của Đảng",
+      "B": "Là bộ phận quan trọng trong hệ thống tư tưởng của Đảng",
+      "C": "Là bộ phận rất quan trọng trong hệ thống tư tưởng của Đảng.",
+      "D": "Là bộ phận nền tảng, kim chỉ nam cho hành động của Đảng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "question": "Có mấy nguyên tắc phương pháp luận khi nghiên cứu tư tưởng Hồ Chí Minh?",
+    "options": {
+      "A": "4 nguyên tắc",
+      "B": "5 nguyên tắc",
+      "C": "6 nguyên tắc",
+      "D": "7 nguyên tắc"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "Vấn đề nào mà giáo trình Tư tưởng Hồ Chí Minh chưa nêu khi nói về ý nghĩa học tập môn học này đối với sinh viên?",
+    "options": {
+      "A": "Nâng cao năng lực tư duy lý luận và phương pháp công tác",
+      "B": "Bôi dưỡng phẩm chất đạo đức cách mạng và rèn luyện bản lĩnh chính trị",
+      "C": "Nâng cao lòng tự hào dân tộc, tự hào về Bác kính yêu",
+      "D": "Bồi dưỡng tình yêu thiên nhiên, ý thức bảo vệ môi trường"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 8,
+    "question": "Trong những cơ sở hình thành Tư tưởng Hồ Chí Minh, cơ sở nào là quan trọng nhất?",
+    "options": {
+      "A": "Cơ sở khách quan",
+      "B": "Cơ sở chủ quan",
+      "C": "Cơ sở nào cũng quan trọng",
+      "D": "Không xác định được"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Trong những tiền đề lý luận hình thành Tư tưởng Hồ Chí Minh, tiêu đề nào quyết định bản chất cách mạng và khoa học của Tư tưởng Hồ Chí Minh?",
+    "options": {
+      "A": "Tinh hoa văn hoá dân tộc",
+      "B": "Tinh hoa văn hoá nhân loại",
+      "C": "Chủ nghĩa Mác- Lênin",
+      "D": "Tất cả các tiền đề trên"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "Tư tưởng nào của cụ Nguyễn Sinh Sắc có ảnh hưởng quyết định đến tư tưởng xây dựng một nhà nước của dân, do dân, vì dân của Hồ Chí Minh?",
+    "options": {
+      "A": "Thương yêu người nghèo",
+      "B": "Lòng yêu nước",
+      "C": "Lòng căm thù bọn xâm lược",
+      "D": "Tư tưởng \"thân dân\""
+    },
+    "answer": "D"
+  },
+  {
+    "id": 11,
+    "question": "Thời kỳ Bác Hồ xác lập con đường cứu nước được tính từ:",
+    "options": {
+      "A": "Trước năm 1911",
+      "B": "Từ 1911-1920",
+      "C": "Từ 1911-1930",
+      "D": "Từ 1920- 1941"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "Ngày tháng năm nào, Nguyễn Tất Thành ra nước ngoài tìm đường cứu nước?",
+    "options": {
+      "A": "6 – 5 – 1911",
+      "B": "5 – 6 – 1911",
+      "C": "15 – 6 – 1911",
+      "D": "25 – 6 – 1911"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "Ai gợi ý cho Nguyễn Tất Thành về phương hướng tìm đường cứu nước qua câu nói sau đây: \"Muốn đánh Pháp phải hiểu Pháp, muốn hiểu Pháp phải học tiếng Pháp\"?",
+    "options": {
+      "A": "Nguyễn Sinh Sắc",
+      "B": "Hoàng Thông",
+      "C": "Phan Bội Châu",
+      "D": "Nguyễn Quý Song"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "\"Đưa hổ cửa trước, rước beo cửa sau\" là câu Bác Hồ nói về chủ trương cứu nước của ai?",
+    "options": {
+      "A": "Nguyễn Trường Tộ",
+      "B": "Bùi Viện",
+      "C": "Phan Bội Châu",
+      "D": "Nguyễn Ảnh"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 15,
+    "question": "\"Ỷ Pháp cầu tiến bộ\" là câu Bác Hồ nói về chủ trương cứu nước của ai?",
+    "options": {
+      "A": "Phan Văn Trường",
+      "B": "Phái chủ hoà trong triều đình nhà Nguyễn",
+      "C": "Phan Chu Trinh",
+      "D": "Nguyễn Thế Truyền"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "question": "Lý do chính của việc Nguyễn Ái Quốc đến Pháp?",
+    "options": {
+      "A": "Để học nghề",
+      "B": "Để tìm hiểu văn minh Pháp",
+      "C": "Để vận động nhân dân Pháp ủng hộ cách mạng Việt Nam",
+      "D": "Vì nguồn gốc mọi đau khổ của nhân dân Việt Nam là ở tại \"chính quốc\""
+    },
+    "answer": "D"
+  },
+  {
+    "id": 17,
+    "question": "Nguyễn Ái Quốc sang Mỹ nhằm mục đích gì?",
+    "options": {
+      "A": "Để tham quan",
+      "B": "Để học nghề",
+      "C": "Để nghiên cứu Tuyên ngôn độc lập của nước Mỹ",
+      "D": "Để nghiên cứu cách mạng dân chủ tư sản Mỹ"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 18,
+    "question": "\"Cách mệnh Pháp cũng như cách mệnh Mỹ, nghĩa là cách mệnh tư bản, cách mệnh không đến nơi, tiếng là cộng hoà dân chủ, kì thực trong thì nó tước lục công nông, ngoài thì nó áp bức thuộc địa\". Câu nói trên được trích trong tác phẩm nào?",
+    "options": {
+      "A": "Hồ Chí Minh toàn tập, t1",
+      "B": "Hồ Chí Minh toàn tập, t2",
+      "C": "Hồ Chí Minh toàn tập, t3",
+      "D": "Hồ Chí Minh toàn tập, t4"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "question": "Nguyễn Ái Quốc đến nước Anh nhằm mục đích gì?",
+    "options": {
+      "A": "Nghiên cứu luật pháp của nước Anh",
+      "B": "Nghiên cứu cách mạng dân chủ tư sản Anh",
+      "C": "Để học nghề",
+      "D": "Để học tiếng Anh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Nguyễn Ái Quốc gửi bản yêu sách của nhân dân An Nam tới hội nghị Véc-xây vào năm nào?",
+    "options": {
+      "A": "Năm 1918",
+      "B": "Năm 1919",
+      "C": "Năm 1920",
+      "D": "Năm 1921"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 21,
+    "question": "\"Luận cương của Lênin làm cho tôi rất phấn khởi, sáng tỏ, tin tưởng biết bao. Tôi vui mừng đến phát khóc lên. Ngồi một mình trong buồng mà tôi nói to lên như đang nói trước quần chúng đông đảo: \"Hỡi đồng bào bị đoạ đầy đau khổ! Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta\". Câu trên được trích dẫn từ tác phẩm nào của Nguyễn Ái Quốc?",
+    "options": {
+      "A": "Đời hoạt động của Hồ Chủ tịch",
+      "B": "Con đường dẫn tôi đến với chủ nghĩa Lênin",
+      "C": "Lê Nin vĩ đại",
+      "D": "Cách mạng tháng Mười và con đường giải phóng thuộc địa"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "question": "\"Luận cương của Lênin về các vấn đề dân tộc và thuộc địa đến với Người như một ánh sáng kì diệu nâng cao về chất tất cả những hiểu biết và tình cảm cách mạng mà Người hằng nung nấu\". Ai là tác giả của nhận định trên?",
+    "options": {
+      "A": "Trường Chinh",
+      "B": "Phạm Văn Đồng",
+      "C": "Lê Duẩn",
+      "D": "Nguyễn Văn Linh"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 23,
+    "question": "\"Luận cương của Lênin theo Người về quê Việt/ Đất nước còn xa nhưng hạnh phúc đã gần rồi\". Ai là tác giả của những câu thơ trên?",
+    "options": {
+      "A": "Huy Cận",
+      "B": "Tố Hữu",
+      "C": "Chế Lan Viên",
+      "D": "Sóng Hồng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "question": "Bác Hồ thành lập Hội những người Việt Nam yêu nước tại Pháp năm nào?",
+    "options": {
+      "A": "1917",
+      "B": "1918",
+      "C": "1919",
+      "D": "1920"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "question": "Nguyễn Ái Quốc đọc bản \"Sơ thảo lần thứ nhất những vấn đề về dân tộc và thuộc địa của Lê-Nin\" vào thời gian nào?",
+    "options": {
+      "A": "Năm 1919",
+      "B": "Năm 1920",
+      "C": "Năm 1921",
+      "D": "Năm 1922"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 26,
+    "question": "Thời kỳ hình thành tư tưởng cơ bản về cách mạng Việt Nam được tính từ:",
+    "options": {
+      "A": "Năm 1921 đến năm 1930",
+      "B": "Năm 1931 đến năm 1945",
+      "C": "Năm 1945 đên năm 1954",
+      "D": "Năm 1954 đến năm 1969"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "question": "Tác phẩm \"Bản án chế độ thực dân Pháp\" của Bác Hồ được viết năm nào?",
+    "options": {
+      "A": "Năm 1925",
+      "B": "Năm 1927",
+      "C": "Năm 1928",
+      "D": "Năm1929"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "question": "\"Cương lĩnh đầu tiên của Đảng\" do Bác Hồ khởi thảo vào năm nào?",
+    "options": {
+      "A": "Năm 1929",
+      "B": "Năm 1930",
+      "C": "Năm 1931",
+      "D": "Năm 1932"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 29,
+    "question": "Sự phát triển của tình hình sau \"vụ án chính cương sách lược vắn tắt\" đã chứng tỏ ai đúng, ai sai lầm?",
+    "options": {
+      "A": "Những người có quan điểm \"tả khuynh\" trong Quốc tế Cộng sản và trong Ban chấp hành lâm thời Đảng Cộng sản Đông Dương đúng.",
+      "B": "Những người theo quan điểm \"tả khuynh\" sai lầm",
+      "C": "Hồ Chí Minh đúng",
+      "D": "Hồ Chí Minh sai"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 30,
+    "question": "Thử thách mà Hồ Chí Minh phải vượt qua trong giai đoạn 1930 – 1945 là gì?",
+    "options": {
+      "A": "Bị đế quốc cầm tù",
+      "B": "Đời sống khổ cực của người cách mạng trong điều kiện hoạt động bí mật",
+      "C": "Quan điểm \"tả khuynh\" của Quốc tế Cộng sản thời kì đó",
+      "D": "Bị bệnh hiểm nghèo"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 31,
+    "question": "Năm nào Đảng ta trở lại với Tư tưởng Hồ Chí Minh trong Chính cương sách lược vắn tắt?",
+    "options": {
+      "A": "1935",
+      "B": "1936",
+      "C": "1939",
+      "D": "1941"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 32,
+    "question": "Mốc thời gian nào đánh dấu mốc Nguyễn Ái Quốc trở về Tổ quốc sau ba mươi năm hoạt độngở nước ngoài?",
+    "options": {
+      "A": "28 – 1 – 1940",
+      "B": "28 – 1 – 1941",
+      "C": "28 – 1 – 1942",
+      "D": "28 – 1 – 1943"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "Thân phụ Hồ Chí Minh là Nguyễn Sinh Sắc. Ông sinh năm nào?",
+    "options": {
+      "A": "1860",
+      "B": "1862",
+      "C": "1863",
+      "D": "1983"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "question": "Thân mẫu Hồ Chí Minh là bà Hoàng Thị Loan. Bà sinh năm nào?",
+    "options": {
+      "A": "1865",
+      "B": "1866",
+      "C": "1868",
+      "D": "1870"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "question": "Huyện Bình Khê, nơi cụ Nguyễn Sinh Sắc - thân phụ của Hồ Chí Minh có thời gian làm tri huyện thuộc tỉnh nào?",
+    "options": {
+      "A": "Quảng Nam",
+      "B": "Quảng Ngãi",
+      "C": "Bình Định",
+      "D": "Phan Thiết"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 36,
+    "question": "Thân phụ của Hồ Chí Minh là ông Nguyễn Sinh Sắc. Ông mất năm nào?",
+    "options": {
+      "A": "1919",
+      "B": "1929",
+      "C": "1939",
+      "D": "1949"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "question": "Thân mẫu của Hồ Chí Minh là bà Hoàng Thị Loan. Bà mất năm nào?",
+    "options": {
+      "A": "1891",
+      "B": "1901",
+      "C": "1911",
+      "D": "1921"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "question": "Thân mẫu của Hồ Chí Minh là bà Hoàng Thị Loan. Bà mất ở đâu?",
+    "options": {
+      "A": "Nghệ An",
+      "B": "Hà Tĩnh",
+      "C": "Huế",
+      "D": "Bình Định"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "question": "Nguyễn Tất Thành học tại trường Quốc học Huế vào thời gian nào?",
+    "options": {
+      "A": "Năm học 1905 – 1906",
+      "B": "Năm học 1906 – 1907",
+      "C": "Năm học 1907 – 1908",
+      "D": "Năm học 1911 – 1912"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "question": "Nguyễn Tất Thành lần đầu tiếp xúc với khẩu hiệu: \"Tự do – Bình đẳng – Bác ái\" vào năm nào?",
+    "options": {
+      "A": "1904",
+      "B": "1905",
+      "C": "1908",
+      "D": "1917"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 41,
+    "question": "Nguyễn Tất Thành đã tham gia cuộc biểu tình chống thuế của nông dân tỉnh Thừa Thiên vào năm nào?",
+    "options": {
+      "A": "5/1905",
+      "B": "5/1906",
+      "C": "5/1908",
+      "D": "5/1911"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 42,
+    "question": "Nguyễn Tất Thành đến Quy Nhơn học thêm tiếng Pháp từ thời gian nào?",
+    "options": {
+      "A": "9/1907",
+      "B": "9/1909",
+      "C": "9/1911",
+      "D": "9/1912"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "question": "Nguyễn Tất Thành dạy học ở trường Dục Thanh thời gian nào?",
+    "options": {
+      "A": "9/1908 đến 9/1909",
+      "B": "9/1910 đến 2/1911",
+      "C": "9/1910 đến 4/1912",
+      "D": "9/1910 đến 5/1912"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 44,
+    "question": "Nguyễn Tất Thành lúc ra đi tìm đường cứu nước bao nhiêu tuổi?",
+    "options": {
+      "A": "19 tuổi",
+      "B": "20 tuổi",
+      "C": "21 tuổi",
+      "D": "24 tuổi"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 45,
+    "question": "Nguyễn Tất Thành nói: \"Tôi muốn đi ra ngoài xem nước Pháp và các nước khác làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta\". Câu nói đó vào thời gian nào?",
+    "options": {
+      "A": "6/1909",
+      "B": "7/1910",
+      "C": "6/1911",
+      "D": "6/1912"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 46,
+    "question": "Nguyễn Tất Thành ở Mỹ thời gian nào?",
+    "options": {
+      "A": "1911 – 1912",
+      "B": "1912 – 1913",
+      "C": "1912 – 1914",
+      "D": "1913 – 1915"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 47,
+    "question": "Nguyễn Tất Thành ở Anh thời gian nào?",
+    "options": {
+      "A": "1913 – 1914",
+      "B": "1914 – 1915",
+      "C": "1914 – 1916",
+      "D": "1914 – 1917"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 48,
+    "question": "Trong thời gian ở nước ngoài, Nguyễn Tât Thành đã làm những công việc gì?",
+    "options": {
+      "A": "Phụ bếp, cào tuyết",
+      "B": "Đốt lò, bán báo",
+      "C": "Thợ ảnh, làm bánh",
+      "D": "Tất cả công việc trên"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 49,
+    "question": "Nguyễn Ái Quốc dự Đại hội Tua tán thành Quốc tế III, tham gia thành lập Đảng Cộng sản Pháp khi nào?",
+    "options": {
+      "A": "12/1918",
+      "B": "12/1919",
+      "C": "12/1920",
+      "D": "12/1923"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 50,
+    "question": "Nguyễn Ái Quốc tham dự Đại hội lần thứ nhất của Đảng Cộng sản Pháp vào năm nào?",
+    "options": {
+      "A": "1919",
+      "B": "1920",
+      "C": "1921",
+      "D": "1922"
+    },
+    "answer": "C"
   }
 ]
