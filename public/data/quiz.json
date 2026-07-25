@@ -85,7 +85,7 @@
       "C": "Cơ sở nào cũng quan trọng",
       "D": "Không xác định được"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 9,
@@ -140,7 +140,7 @@
       "C": "Phan Bội Châu",
       "D": "Nguyễn Quý Song"
     },
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": 14,
@@ -195,7 +195,7 @@
       "C": "Hồ Chí Minh toàn tập, t3",
       "D": "Hồ Chí Minh toàn tập, t4"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
       "C": "Để học nghề",
       "D": "Để học tiếng Anh"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 20,
@@ -239,7 +239,7 @@
       "C": "Lê Duẩn",
       "D": "Nguyễn Văn Linh"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
       "C": "Chế Lan Viên",
       "D": "Sóng Hồng"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
       "C": "1919",
       "D": "1920"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
       "C": "Năm 1921",
       "D": "Năm 1922"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 26,
@@ -3814,7 +3814,7 @@
       "C": "Dựa vào sự chuyển biến của thời đại",
       "D": "Dựa vào các sự kiện lịch sử của cách mạng Việt Nam"
     },
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": 348,
