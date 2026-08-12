@@ -1,13 +1,310 @@
 [
   {
     "id": 1,
-    "question": "Thuật ngữ “Tư tưởng Hồ Chí Minh” được dùng theo nghĩa nào?",
+    "question": "Ở Phương đông, dân tộc được hình thành trên cơ sở nào?",
     "options": {
-      "A": "Là tư tưởng của một cá nhân",
-      "B": "Là tư tưởng của lãnh tụ",
-      "C": "Là tư tưởng của một giai cấp, một dân tộc",
-      "D": "Là tất cả những vần đề trên"
+      "A": "Một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế đã đạt tới một mức độ nhất định",
+      "B": "Là quá trình phát triển lâu dài của xã hội loài người, trải qua các hình thức cộng đồng từ thấp đến cao, bao gồm: thị tộc, bộ lạc, bộ tộc, dân tộc",
+      "C": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi",
+      "D": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế tuy đã đạt tới một mức độ nhất định song nhìn chung còn kém phát triển và ở trạng thái phân tán"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 2,
+    "question": "Hiện nay lực lượng chủ yếu của tiến trình lịch sử quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội là:",
+    "options": {
+      "A": "Công nhân các nước xã hội chủ nghĩa.",
+      "B": "Liên minh công nông.",
+      "C": "Giai cấp công nhân.",
+      "D": "Tầng lớp trí thức."
     },
     "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "Chọn từ thích hợp điền vào chỗ trống trong câu nói của Mác-Ăngghen “Sự sụp đổ của giai cấp tư sản và thắng lợi của giai cấp vô sản đều…………như nhau”",
+    "options": {
+      "A": "Đồng thời.",
+      "B": "Công bằng.",
+      "C": "Tất yếu.",
+      "D": "Diễn ra."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "Sự biến đổi cơ cấu xã hội-giai cấp ở Việt Nam trong thời kì quá độ lên chủ nghĩa xã hội ngoài tính đặc thù còn mang đặc điểm gì khác?",
+    "options": {
+      "A": "Tính khách quan.",
+      "B": "Tính quy luật phổ biến.",
+      "C": "Tính quy luật chung.",
+      "D": "Tính đa dạng, phong phú."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "question": "Từ thực tiễn cách mạng chỉ ra, giai cấp công nhân phải giác ngộ cách mạng, phải kiên quyết đấu tranh giành lấy chính quyền từ tay giai cấp tư sản khi có thời cơ cách mạng vì",
+    "options": {
+      "A": "Là mục tiêu cao cả.",
+      "B": "Là yêu cầu bức thiết.",
+      "C": "Là nội dung cách mạng.",
+      "D": "Chủ nghĩa tư bản không tự sụp đổ."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "question": "Lý thuyết phân kỳ hình thái kinh tế-xã hội cộng sản chủ nghĩa lần đầu tiên được đề cập trong tác phẩm nào?",
+    "options": {
+      "A": "Tuyên ngôn của Đảng cộng sản.",
+      "B": "Nội chiến ở Pháp.",
+      "C": "Bộ tư bản.",
+      "D": "Phê phán Cương lĩnh Gôta."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 7,
+    "question": "Theo NEP (chính sách kinh tế mới) của V.I Lênin trong thời kì quá độ về kinh tế cần coi trọng các quan hệ kinh tế:",
+    "options": {
+      "A": "Tiểu thủ công nghiệp.",
+      "B": "Hàng hóa – Tiền tệ.",
+      "C": "Nông nghiệp.",
+      "D": "Công nghiệp."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "Phạm trù nào được coi là cơ bản nhất, là xuất phát điểm của chủ nghĩa xã hội khoa học?",
+    "options": {
+      "A": "Giai cấp công nhân.",
+      "B": "Chuyên chính vô sản.",
+      "C": "Xã hội chủ nghĩa.",
+      "D": "Sứ mệnh lịch sử của giai cấp công nhân."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "question": "Nguyên nhân của xu hướng phát triển cơ cấu xã hội-giai cấp ở Việt Nam trong thời kì quá độ mang tính đa dạng và thống nhất là do:",
+    "options": {
+      "A": "Nền văn hóa đa dạng và thống nhất.",
+      "B": "Trình độ phát triển không đều giữa các giai cấp.",
+      "C": "Nền kinh tế nhiều thành phần.",
+      "D": "Đoàn kết dân tộc và đoàn kết toàn dân."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "Quan hệ nào của gia đình được coi là mối quan hệ tự nhiên, là yếu tố mạnh mẽ nhất gắn kết các thành viên trong gia đình với nhau?",
+    "options": {
+      "A": "Quan hệ huyết thống.",
+      "B": "Quan hệ nuôi dưỡng.",
+      "C": "Quan hệ quần tụ trong một không gian sinh tồn.",
+      "D": "Quan hệ hôn nhân."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "question": "Chủ nghĩa xã hội từng bước tiến tới thực hiện mục tiêu cao cả nhất, biến con người từ vương quốc của tất yếu sang:",
+    "options": {
+      "A": "Vương quốc của hòa bình.",
+      "B": "Vương quốc của tự do.",
+      "C": "Vương quốc của dân chủ.",
+      "D": "Vương quốc hạnh phúc."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "Tập đoàn người lao động trực tiếp hay gián tiếp vận hành những công cụ sản xuất có tính chất công nghiệp ngày càng hiện đại là:",
+    "options": {
+      "A": "Người lao động có kỹ thuật.",
+      "B": "Người lao động có tri thức.",
+      "C": "Giai cấp công nhân.",
+      "D": "Người lao động trực tiếp."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "Nội dung nào quan trọng nhất trong các nội dung liên minh công - nông - trí thức?",
+    "options": {
+      "A": "Chính trị.",
+      "B": "Kinh tế.",
+      "C": "Tư tưởng.",
+      "D": "Văn hoá - xã hội."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "Nhà nước pháp quyền XHCN quản lý mọi mặt của đời sống xã hội chủ yếu bằng gì?",
+    "options": {
+      "A": "Đường lối, chính sách.",
+      "B": "Hiến pháp, pháp luật.",
+      "C": "Tuyên truyền, giáo dục.",
+      "D": "Cả ba đều đúng."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 15,
+    "question": "Phương hướng phát huy dân chủ XHCN trong Văn kiện Đại hội XIII của Đảng?",
+    "options": {
+      "A": "Tiếp tục cụ thể hoá, hoàn thiện thể chế thực hành dân chủ, bảo đảm tất cả quyền lực nhà nước thuộc về nhân dân.",
+      "B": "Đảng và Nhà nước ban hành đường lối, chủ trương, chính sách, pháp luật tạo nền tảng chính trị, pháp lý, tôn trọng, bảo đảm, bảo vệ quyền làm chủ của nhân dân.",
+      "C": "Xử lý kịp thời, nghiêm minh những tổ chức, cá nhân lợi dụng dân chủ, gây rối nội bộ, làm mất ổn định chính trị - xã hội.",
+      "D": "Cả A, B và C."
+    },
+    "answer": ""
+  },
+  {
+    "id": 16,
+    "question": "Giai cấp công nhân VN ra đời vào thời kỳ nào?",
+    "options": {
+      "A": "Thực dân Pháp bắt đầu xâm lược nước ta.",
+      "B": "Thực dân Pháp khai thác thuộc địa lần thứ nhất.",
+      "C": "Khi triều đình nhà Nguyễn sụp đổ.",
+      "D": "Khi CMT8 thành công."
+    },
+    "answer": ""
+  },
+  {
+    "id": 17,
+    "question": "Chế độ dân chủ XHCN là chế độ dân chủ:",
+    "options": {
+      "A": "Cho tuyệt đại đa số nhân dân lao động.",
+      "B": "Của giai cấp nông dân.",
+      "C": "Của giai cấp công nhân.",
+      "D": "Của tiểu tư sản và tri thức."
+    },
+    "answer": ""
+  },
+  {
+    "id": 18,
+    "question": "Hệ giá trị mới được xây dựng: công bằng, dân chủ, tự do, bình đẳng thuộc nội dung nào trong sứ mệnh lịch sử của giai cấp công nhân?",
+    "options": {
+      "A": "Nội dung kinh tế.",
+      "B": "Nội dung chính trị- xã hội.",
+      "C": "Nội dung văn hoá tư tưởng.",
+      "D": "Nội dung xây dựng đạo đức mới."
+    },
+    "answer": ""
+  },
+  {
+    "id": 19,
+    "question": "Nhà nước tư sản ngày càng can thiệp sâu vào kinh tế có tác động thế nào đến vấn đề khủng hoảng trong nền kinh tế tư bản chủ nghĩa?",
+    "options": {
+      "A": "Giải quyết tốt.",
+      "B": "Khắc phục được.",
+      "C": "Tác động tích cực.",
+      "D": "Không giải quyết được."
+    },
+    "answer": ""
+  },
+  {
+    "id": 20,
+    "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết các tôn giáo là một vấn đề:",
+    "options": {
+      "A": "Nguyên tắc.",
+      "B": "Ưu tiên.",
+      "C": "Phải thực hiện.",
+      "D": "Cần thiết."
+    },
+    "answer": ""
+  },
+  {
+    "id": 21,
+    "question": "Về bản chất, tôn giáo là một hiện tượng xã hội phản ánh điều gì của con người trước tiên và xã hội?",
+    "options": {
+      "A": "Bế tắc, bất lực.",
+      "B": "Hoàn toàn bất lực.",
+      "C": "Lo lắng, sợ hãi.",
+      "D": "Hoàn toàn phụ thuộc."
+    },
+    "answer": ""
+  },
+  {
+    "id": 22,
+    "question": "Chỉ ra đâu là phương pháp nghiên cứu của CNXH-KH?",
+    "options": {
+      "A": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử.",
+      "B": "Kết hợp phương pháp logic và lịch sử.",
+      "C": "Khảo sát, so sánh và phân tích về chính trị- xã hội.",
+      "D": "Cả A, B, C đều đúng."
+    },
+    "answer": ""
+  },
+  {
+    "id": 23,
+    "question": "Chủ nghĩa Mác- Lê nin là hệ tư tưởng của giai cấp, tầng lớp nào?",
+    "options": {
+      "A": "Nhân dân lao động.",
+      "B": "Tầng lớp tri thức.",
+      "C": "Giai cấp công nhân.",
+      "D": "Giai cấp nông dân."
+    },
+    "answer": ""
+  },
+  {
+    "id": 24,
+    "question": "Giai cấp công nhân thông qua con đường nào để giải phóng mình và giải phóng nhân dân lao động?",
+    "options": {
+      "A": "Biểu tình, bãi công.",
+      "B": "Đấu tranh nghị viện.",
+      "C": "Cách mạng xã hội chủ nghĩa.",
+      "D": "Đấu tranh kinh tế."
+    },
+    "answer": ""
+  },
+  {
+    "id": 25,
+    "question": "Động lực chủ yếu phát triển nước ta trong giai đoạn mới xây dựng hệ thống chính trị là gì?",
+    "options": {
+      "A": "Xóa bỏ cơ chế tập trung quan liêu, bao cấp.",
+      "B": "Phát huy nội lực, tận dụng sức mạnh ngoại lực.",
+      "C": "Đổi mới chính trị kết hợp đổi mới kinh tế.",
+      "D": "Đại đoàn kết toàn dân."
+    },
+    "answer": ""
+  },
+  {
+    "id": 26,
+    "question": "Mâu thuẫn đối kháng giữa các giai cấp là do yếu tố nào?",
+    "options": {
+      "A": "Sự khác nhau về tư tưởng, lối sống.",
+      "B": "Sự khác nhau giữa giàu và nghèo.",
+      "C": "Sự khác nhau về mức thu nhập.",
+      "D": "Sự đối lập về lợi ích cơ bản - lợi ích kinh tế."
+    },
+    "answer": ""
+  },
+  {
+    "id": 27,
+    "question": "Theo chủ nghĩa Mác - Lênin, tín ngưỡng là gì?",
+    "options": {
+      "A": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người.",
+      "B": "Hệ thống niềm tin vào lực lượng có tính thần thánh.",
+      "C": "Hệ thống niềm tin vào lực lượng có tính thần thánh cầu mong sự che chở, giúp đỡ.",
+      "D": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người trước các sự vật, hiện tượng, lực lượng có tính thần thánh, linh thiêng để cầu mong sự che chở, giúp đỡ."
+    },
+    "answer": ""
+  },
+  {
+    "id": 28,
+    "question": "Trong phương thức sản xuất tư bản chủ nghĩa, mâu thuẫn giữa lực lượng sản xuất với quan hệ sản xuất bộc lộ qua cuộc khủng hoảng kinh tế lần thứ nhất vào năm…?",
+    "options": {
+      "A": "1824.",
+      "B": "1826.",
+      "C": "1827.",
+      "D": "1825."
+    },
+    "answer": ""
   }
 ]
