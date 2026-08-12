@@ -867,5 +867,325 @@
       "D": "Do sự khác biệt về trình độ học vấn"
     },
     "answer": "A"
+  },
+
+  {
+    "id": 80,
+    "question": "Giai cấp công nhân thông qua con đường nào để giải phóng mình và giải phóng nhân dân lao động?",
+    "options": {
+      "A": "Đấu tranh kinh tế",
+      "B": "Đấu tranh nghị trường",
+      "C": "Cách mạng xã hội chủ nghĩa",
+      "D": "Cải cách xã hội"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 81,
+    "question": "Nhiệm vụ cơ bản đầu tiên của cách mạng xã hội chủ nghĩa là gì?",
+    "options": {
+      "A": "Phát triển kinh tế",
+      "B": "Xây dựng nền văn hóa mới",
+      "C": "Giai cấp công nhân giành lấy chính quyền",
+      "D": "Xóa bỏ mọi hình thức nhà nước"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 82,
+    "question": "Giai cấp công nhân là người lao động gắn với nền sản xuất:",
+    "options": {
+      "A": "Nông nghiệp",
+      "B": "Thủ công nghiệp",
+      "C": "Đại công nghiệp",
+      "D": "Tiểu thủ công nghiệp"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 83,
+    "question": "Học thuyết Mác-lênin đã làm sáng tỏ vai trò lịch sử toàn thế giới của lực lượng nào?",
+    "options": {
+      "A": "Giai cấp nông dân",
+      "B": "Giai cấp tư sản",
+      "C": "Giai cấp công nhân",
+      "D": "Tầng lớp trí thức"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 84,
+    "question": "Mục đích học tập môn Chủ nghĩa xã hội khoa học nhằm giúp sinh viên:",
+    "options": {
+      "A": "Nhận thức về chính trị - xã hội",
+      "B": "Kỹ năng nghiên cứu khoa học",
+      "C": "Niềm tin vào lý tưởng cách mạng",
+      "D": "Cả A, B, C đều đúng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 85,
+    "question": "Chủ nghĩa xã hội khoa học ra đời trên cơ sở của tiền đề nào?",
+    "options": {
+      "A": "Kinh tế - xã hội",
+      "B": "Khoa học tự nhiên",
+      "C": "Tư tưởng, lý luận",
+      "D": "Cả A, B, C đều đúng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 86,
+    "question": "Phát kiến vĩ đại nào của Các Mác và Ăngghen là cơ sở hình thành chủ nghĩa xã hội khoa học?",
+    "options": {
+      "A": "Chủ nghĩa duy vật lịch sử",
+      "B": "Học thuyết về giá trị thặng dư",
+      "C": "Học thuyết về sứ mệnh lịch sử của giai cấp công nhân",
+      "D": "Cả A, B, C đều đúng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 87,
+    "question": "Đối tượng nghiên cứu của chủ nghĩa xã hội khoa học là gì?",
+    "options": {
+      "A": "Sứ mệnh lịch sử của giai cấp công nhân",
+      "B": "Sự thay thế tất yếu chủ nghĩa tư bản bằng chủ nghĩa xã hội",
+      "C": "Con đường cải tạo và xây dựng chủ nghĩa xã hội và chủ nghĩa cộng sản",
+      "D": "Cả A, B, C đều đúng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 88,
+    "question": "Chỉ ra đâu là phương pháp nghiên cứu của chủ nghĩa xã hội khoa học?",
+    "options": {
+      "A": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử",
+      "B": "Kết hợp phương pháp logic và lịch sử",
+      "C": "Khảo sát, so sánh và phân tích về chính trị - xã hội",
+      "D": "Cả A, B, C đều đúng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 89,
+    "question": "Một trong những cống hiến vĩ đại của C.Mác là xây dựng học thuyết nào?",
+    "options": {
+      "A": "Học thuyết giá trị",
+      "B": "Học thuyết về sứ mệnh lịch sử của giai cấp công nhân",
+      "C": "Học thuyết nhà nước pháp quyền",
+      "D": "Học thuyết dân chủ tư sản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 90,
+    "question": "Tập đoàn người lao động trực tiếp hay gián tiếp vận hành những công cụ sản xuất có tính chất công nghiệp ngày càng hiện đại là:",
+    "options": {
+      "A": "Giai cấp nông dân",
+      "B": "Tầng lớp trí thức",
+      "C": "Giai cấp công nhân",
+      "D": "Giai cấp tư sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 91,
+    "question": "Theo C.Mác, đặc điểm nào cho thấy giai cấp công nhân là giai cấp vô sản?",
+    "options": {
+      "A": "Có nhiều tư liệu sản xuất",
+      "B": "Không có tư liệu sản xuất",
+      "C": "Có quyền sở hữu tư bản",
+      "D": "Làm chủ các nhà máy tư bản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 92,
+    "question": "Theo C.Mác, công nhân tức là giai cấp chỉ có thể sống với điều kiện là kiếm được việc làm và chỉ kiếm được việc làm nếu họ:",
+    "options": {
+      "A": "Làm tăng tư bản",
+      "B": "Sở hữu tư liệu sản xuất",
+      "C": "Làm chủ doanh nghiệp",
+      "D": "Không tham gia sản xuất"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 93,
+    "question": "Về địa vị trong các nước đi theo con đường xã hội chủ nghĩa, về cơ bản giai cấp công nhân cùng với nhân dân lao động đã trở thành những người làm chủ về:",
+    "options": {
+      "A": "Tư liệu sản xuất chủ yếu",
+      "B": "Các doanh nghiệp tư nhân",
+      "C": "Tư bản tài chính",
+      "D": "Thị trường chứng khoán"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 94,
+    "question": "Xét về phương thức lao động, công nhân trong thế kỷ XIX khác gì so với công nhân hiện nay?",
+    "options": {
+      "A": "Chủ yếu là lao động trí óc",
+      "B": "Chủ yếu là lao động cơ khí",
+      "C": "Chủ yếu là lao động thủ công",
+      "D": "Chủ yếu là lao động nông nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 95,
+    "question": "Hiện nay trong các nước tư bản phát triển, tuyệt đại bộ phận tư liệu sản xuất nằm trong tay ai?",
+    "options": {
+      "A": "Giai cấp công nhân",
+      "B": "Giai cấp nông dân",
+      "C": "Các nhà tư bản lớn",
+      "D": "Nhà nước xã hội chủ nghĩa"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 96,
+    "question": "Hiện nay, lực lượng chủ yếu của tiến trình lịch sử quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội là:",
+    "options": {
+      "A": "Tầng lớp trí thức",
+      "B": "Giai cấp nông dân",
+      "C": "Giai cấp công nhân",
+      "D": "Giai cấp tư sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 97,
+    "question": "V.L.Lênin cho rằng, điểm yếu chủ yếu trong học thuyết Mác là ở chỗ nó làm sáng tỏ vai trò lịch sử thế giới của giai cấp vô sản là:",
+    "options": {
+      "A": "Xây dựng xã hội chủ nghĩa",
+      "B": "Phát triển chủ nghĩa tư bản",
+      "C": "Bảo vệ chế độ phong kiến",
+      "D": "Xây dựng nhà nước tư sản"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 98,
+    "question": "Theo C.Mác, bước một thực hiện sứ mệnh của giai cấp công nhân là họ chiếm lấy chính quyền, biến những tư liệu sản xuất thành của ai?",
+    "options": {
+      "A": "Giai cấp tư sản",
+      "B": "Công nhân và nông dân",
+      "C": "Các nhà tư bản lớn",
+      "D": "Tầng lớp quý tộc"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 99,
+    "question": "Nhờ có yếu tố nào mà giai cấp công nhân có khả năng đoàn kết với giai cấp khác để thực hiện sứ mệnh lịch sử của mình?",
+    "options": {
+      "A": "Khác biệt về lợi ích",
+      "B": "Lợi ích cơ bản thống nhất",
+      "C": "Cùng trình độ học vấn",
+      "D": "Cùng nghề nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 100,
+    "question": "Giai cấp công nhân là giai cấp tiên tiến cách mạng vì:",
+    "options": {
+      "A": "Đại biểu cho phương thức sản xuất tiên tiến",
+      "B": "Có nhiều tài sản nhất",
+      "C": "Chiếm số lượng đông nhất",
+      "D": "Có quyền lực kinh tế lớn nhất"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 101,
+    "question": "Trong xây dựng xã hội chủ nghĩa, giai cấp công nhân có đặc điểm thế nào mà họ kiên định, kiên quyết đấu tranh chống chế độ áp bức bóc lột, xoá bỏ chế độ tư hữu?",
+    "options": {
+      "A": "Tính tổ chức cao",
+      "B": "Tính triệt để cách mạng",
+      "C": "Tính tự phát",
+      "D": "Tính bảo thủ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 102,
+    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là các dân tộc:",
+    "options": {
+      "A": "Hoàn toàn bình đẳng",
+      "B": "Có quyền thống trị",
+      "C": "Phải tách biệt nhau",
+      "D": "Không có quyền bình đẳng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 103,
+    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là các dân tộc có quyền:",
+    "options": {
+      "A": "Thống trị",
+      "B": "Tự quyết",
+      "C": "Tách biệt hoàn toàn",
+      "D": "Xâm lược"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 104,
+    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là liên hiệp giai cấp công nhân với:",
+    "options": {
+      "A": "Giai cấp tư sản",
+      "B": "Tầng lớp quý tộc",
+      "C": "Tất cả các dân tộc",
+      "D": "Chỉ các nước xã hội chủ nghĩa"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 105,
+    "question": "Về bản chất, tôn giáo là một hiện tượng xã hội phản ánh điều gì của con người trước thiên nhiên và xã hội?",
+    "options": {
+      "A": "Sự giàu có và phát triển",
+      "B": "Bế tắc, bất lực",
+      "C": "Sự thống trị thiên nhiên",
+      "D": "Khả năng kiểm soát xã hội"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 106,
+    "question": "Còn nhiều hiện tượng mà khoa học chưa lí giải được, trình độ dân trí chưa cao khiến cho một số người tìm sự an ủi, che chở từ thần linh là nguyên nhân gì của sự tồn tại tôn giáo?",
+    "options": {
+      "A": "Kinh tế",
+      "B": "Chính trị",
+      "C": "Nhận thức",
+      "D": "Địa lý"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 107,
+    "question": "Đặc trưng bản chất của dân chủ xã hội chủ nghĩa là bảo đảm mọi quyền lực đều thuộc về lực lượng nào?",
+    "options": {
+      "A": "Giai cấp công nhân",
+      "B": "Đảng Cộng sản",
+      "C": "Nhà nước",
+      "D": "Nhân dân"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 108,
+    "question": "Chủ nghĩa Mác-lênin là hệ tư tưởng của giai cấp, tầng lớp nào?",
+    "options": {
+      "A": "Giai cấp nông dân",
+      "B": "Giai cấp công nhân",
+      "C": "Tầng lớp trí thức",
+      "D": "Giai cấp tư sản"
+    },
+    "answer": "B"
   }
 ]
