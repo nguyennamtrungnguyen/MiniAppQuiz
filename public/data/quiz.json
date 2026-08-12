@@ -2287,5 +2287,1423 @@
       "D": "Có quan hệ với nhân dân"
     },
     "answer": "B"
-  }
+  },
+  {
+    "id": 209,
+    "question": "Đoạn trích sau là của tác giả nào? “Con đường biện chứng của quá trình phát triển dân chủ là từ chuyên chế đến dân chủ tư sản, từ dân chủ tư sản đến dân chủ vô sản; từ dân chủ vô sản đến không còn dân chủ nữa”.",
+    "options": {
+      "A": "Ph.Ăngghen",
+      "B": "Hồ Chí Minh",
+      "C": "V.I.Lênin",
+      "D": "C.Mác"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 210,
+    "question": "Trong hệ thống chính trị nước ta, vai trò của Mặt trận Tổ quốc và các tổ chức chính trị - xã hội là gì?",
+    "options": {
+      "A": "Đoàn kết toàn dân tộc",
+      "B": "Đoàn kết, tập hợp quần chúng",
+      "C": "Bảo vệ quyền và lợi ích hợp pháp của công dân",
+      "D": "Tập hợp, vận động, đoàn kết rộng rãi các tầng lớp nhân dân"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 211,
+    "question": "Động lực của cách mạng XHCN là gì?",
+    "options": {
+      "A": "GCCN, giai cấp nông dân và tầng lớp trí thức",
+      "B": "Lực lượng cách mạng trong nước và ngoài nước",
+      "C": "Lực lượng đồng minh",
+      "D": "Toàn thể dân tộc"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 212,
+    "question": "Thực tiễn cho thấy, bản chất tốt đẹp và tính ưu việt của nền dân chủ XHCN ở Việt Nam ngày càng thể hiện:",
+    "options": {
+      "A": "Giá trị lấy dân làm gốc",
+      "B": "Giá trị ưu việt của chủ nghĩa xã hội",
+      "C": "Giá trị tốt đẹp của xã hội tương lai",
+      "D": "Giá trị văn hóa tinh thần"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 213,
+    "question": "Dân chủ XHCN có mối quan hệ như thế nào với việc xây dựng và hoạt động của nhà nước XHCN:",
+    "options": {
+      "A": "Là cơ sở, nền tảng",
+      "B": "Là cơ sở, động lực",
+      "C": "Là cơ sở, cách thức",
+      "D": "Là cơ sở, điều kiện"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 214,
+    "question": "Nhà nước pháp quyền XHCN quản lý mọi mặt của đời sống xã hội chủ yếu bằng yếu tố nào?",
+    "options": {
+      "A": "Đường lối, chính sách",
+      "B": "Tuyên truyền, giáo dục",
+      "C": "Nêu gương, giáo dục",
+      "D": "Hiến pháp, pháp luật"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 215,
+    "question": "Quyền lực nhà nước thống nhất, có sự phân cấp rõ ràng, có cơ chế phối hợp, nhịp nhàng giữa các cơ quan:",
+    "options": {
+      "A": "Các cơ quan trong chính phủ",
+      "B": "Ủy ban nhân dân các cấp từ Trung ương đến địa phương",
+      "C": "Lập pháp, hành pháp, tư pháp",
+      "D": "Các bộ, ngành từ Trung ương đến địa phương"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 216,
+    "question": "Hệ thống chính trị ở Việt Nam hiện nay ra đời từ khi nào?",
+    "options": {
+      "A": "1930",
+      "B": "1945",
+      "C": "1954",
+      "D": "1975"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 217,
+    "question": "Nhà nước XHCN đầu tiên trên thế giới ra đời ở quốc gia nào?",
+    "options": {
+      "A": "Trung Quốc",
+      "B": "Liên xô",
+      "C": "Cuba",
+      "D": "Việt Nam"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 218,
+    "question": "Theo quan điểm của chủ nghĩa Mác-Lênin, dân chủ gồm mấy đặc trưng?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 219,
+    "question": "Theo Hồ Chí Minh động lực quyết định nhất của CNXH là gì?",
+    "options": {
+      "A": "Khoa học kỹ thuật",
+      "B": "Con người",
+      "C": "Chính trị",
+      "D": "Sự ủng hộ, giúp đỡ quốc tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 220,
+    "question": "Một trong những nội dung tiếp tục xây dựng và hoàn thiện Nhà nước pháp quyền XHCN ở Việt Nam hiện nay:",
+    "options": {
+      "A": "Cải cách thể chế và phương thức hoạt động của Nhà nước",
+      "B": "Xây dựng các tổ chức nhà nước vững mạnh",
+      "C": "Nâng cao vai trò quản lý của các tổ chức nhà nước",
+      "D": "Hoàn thiện các hệ thống giám sát, phản biện xã hội"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 221,
+    "question": "Căn cứ vào tính chất của quyền lực nhà nước, chức năng của Nhà nước XHCN được chia thành:",
+    "options": {
+      "A": "Chức năng đối nội, chức năng đối ngoại",
+      "B": "Chức năng giai cấp, chức năng xã hội",
+      "C": "Chức năng đối nội, chức năng chính trị",
+      "D": "Chức năng kinh tế, chức năng chính trị"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 222,
+    "question": "Một trong những đổi mới tư duy của Đảng ta về hệ thống chính trị, về vấn đề Nhà nước là gì?",
+    "options": {
+      "A": "Xây dựng Nhà nước trong đó quyền lực thuộc về nhân dân",
+      "B": "Xây dựng Nhà nước pháp quyền XHCN",
+      "C": "Xây dựng Nhà nước của dân, do dân, vì dân",
+      "D": "Xây dựng Nhà nước có sự phân công rành mạch"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 223,
+    "question": "Bản chất xã hội của dân chủ XHCN:",
+    "options": {
+      "A": "Là sự kết hợp hài hòa về lợi ích giữa cá nhân, tập thể và lợi ích toàn xã hội",
+      "B": "Luôn có sự kế thừa trong bất cứ thời kỳ nào của lịch sử",
+      "C": "Hình thành và phát triển dưới sự lãnh đạo của Đảng, có sự quản lý của nhà nước XHCN",
+      "D": "Hình thành và phát triển một cách tự giác, đặt dưới sự lãnh đạo của GCCN thông qua tổ chức Đảng, có sự quản lý của nhà nước XHCN"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 224,
+    "question": "Theo quan điểm của chủ nghĩa Mác – Lênin về phương diện quyền lực, dân chủ là quyền lực thuộc về ai?",
+    "options": {
+      "A": "Là quyền của con người",
+      "B": "Là quyền tự do của mỗi người",
+      "C": "Là trật tự xã hội",
+      "D": "Là quyền lực thuộc về nhân dân"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 225,
+    "question": "Quan điểm: “Thực hành dân chủ là cái chìa khoá vạn năng có thể giải quyết mọi khó khăn” là của ai?",
+    "options": {
+      "A": "V.I.Lênin",
+      "B": "Hồ Chí Minh",
+      "C": "Mao Trạch Đông",
+      "D": "Lê Duẩn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 226,
+    "question": "Theo quan điểm của chủ nghĩa Mác – Lênin trên phương diện chế độ xã hội và trong lĩnh vực chính trị, dân chủ là gì?",
+    "options": {
+      "A": "Một hình thức hay hình thái nhà nước, là chính thể dân chủ hay chế độ dân chủ",
+      "B": "Dân là chủ và dân làm chủ",
+      "C": "Là quyền lực nhà nước thuộc sở hữu của nhân dân",
+      "D": "Là quyền tự do của mỗi người"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 227,
+    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Lịch sử xã hội loài người bước vào thời kỳ đen tối với sự thống trị của nhà nước chuyên chế phong kiến, chế độ dân chủ chủ nô đã bị xóa bỏ và thay vào đó là ”.",
+    "options": {
+      "A": "XHCN",
+      "B": "Nhà nước độc tài",
+      "C": "Chế độ độc tài chuyên chế",
+      "D": "TBCN"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 228,
+    "question": "Trên cơ sở của chủ nghĩa Mác – Lênin và điều kiện cụ thể của Việt Nam, Chủ tịch Hồ Chí Minh đã khẳng định dân chủ là gì?",
+    "options": {
+      "A": "Là quyền của con người",
+      "B": "Là dân là chủ và dân làm chủ",
+      "C": "Là nhân dân là người chủ, mà Chính phủ là người đầy tớ trung thành của nhân dân",
+      "D": "Là địa vị cao nhất là dân, vì dân là chủ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 229,
+    "question": "Tại sao dân chủ là phạm trù lịch sử?",
+    "options": {
+      "A": "Phản ánh lợi ích của tầng lớp tri thức",
+      "B": "Phản ánh lợi ích của giai cấp nắm giữ tư liệu sản xuất của xã hội",
+      "C": "Phản ánh lợi ích của giai cấp tiểu tư sản",
+      "D": "Phản ánh lợi ích của các giai cấp trong xã hội."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 230,
+    "question": "Đặc trưng cơ bản của nền dân chủ XHCN là gì?",
+    "options": {
+      "A": "Thiết lập nền dân chủ vô sản (dân chủ XHCN)",
+      "B": "Thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội",
+      "C": "Nâng cao mức độ giải phóng cho những người lao động",
+      "D": "Thực hiện quyền lực của nhân dân - tức là xây dựng nhà nước dân chủ thực sự, dân làm chủ nhà nước và xã hội, bảo vệ quyền và lợi ích cho đại đa số nhân dân"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 231,
+    "question": "So với các nền dân chủ trước đây, dân chủ XHCN có điểm khác biệt cơ bản nào?",
+    "options": {
+      "A": "Không còn mang tính giai cấp",
+      "B": "Là nền dân chủ rộng rãi cho GCCN và nhân dân lao động",
+      "C": "Là nền dân chủ thuần tuý",
+      "D": "Là nền dân chủ phi lịch sử"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 232,
+    "question": "Đổi mới hệ thống chính trị ở nước ta hiện nay là gì?",
+    "options": {
+      "A": "Đổi mới mục tiêu, con đường XHCN",
+      "B": "Thay đổi hệ thống tư duy lý luận",
+      "C": "Đổi mới nội dung, phương thức hoạt động, tổ chức cán bộ và quan hệ giữa các tổ chức trong hệ thống chính trị",
+      "D": "Đổi mới tư duy"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 233,
+    "question": "Nhà nước pháp quyền XHCN Việt Nam do cơ quan nào lãnh đạo?",
+    "options": {
+      "A": "ĐCS Việt Nam",
+      "B": "Quốc hội",
+      "C": "Mặt trận Tổ quốc Việt Nam",
+      "D": "Chính phủ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 234,
+    "question": "Động lực chủ yếu phát triển nước ta trong giai đoạn mới xây dựng hệ thống chính trị là gì?",
+    "options": {
+      "A": "Xóa bỏ cơ chế tập trung quan liêu, bao cấp",
+      "B": "Phát huy nội lực, tận dụng sức mạnh ngoại lực",
+      "C": "Đổi mới chính trị kết hợp đổi mới kinh tế",
+      "D": "Đại đoàn kết toàn dân"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 235,
+    "question": "Bản chất chính trị của nền dân chủ XHCN thể hiện như thế nào?",
+    "options": {
+      "A": "Là thực hiện quyền lực của GCCN và nhân dân lao động đối với toàn xã hội",
+      "B": "Là sự lãnh đạo của GCCN thông qua Đảng của nó đối với toàn xã hội, để thực hiện quyền lợi và lợi ích của toàn thể nhân dân lao động, trong đó có GCCN",
+      "C": "Là sự lãnh đạo của GCCN thông qua chính đảng của nó để cải tạo xã hội cũ và xây dựng xã hội mới",
+      "D": "Là sự lãnh đạo của GCCN thông qua Đảng của nó đối với toàn xã hội"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 236,
+    "question": "Tại sao dân chủ là phạm trù lịch sử?",
+    "options": {
+      "A": "Phản ánh lợi ích của giai cấp nắm giữ tư liệu sản xuất của xã hội",
+      "B": "Phản ánh lợi ích của tầng lớp tri thức",
+      "C": "Phản ánh lợi ích của giai cấp tiểu tư sản",
+      "D": "Phản ánh lợi ích của các giai cấp trong xã hội."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 237,
+    "question": "Bản chất của nhà nước XHCN là gì?",
+    "options": {
+      "A": "Mang bản chất của GCCN",
+      "B": "Mang bản chất của đa số nhân dân lao động",
+      "C": "Vừa mang bản chất của GCCN, vừa mang bản chất của nhân dân lao động và tính dân tộc sâu sắc",
+      "D": "Mang bản chất của GCCN, tính nhân dân rộng rãi và tính dân tộc sâu sắc"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 238,
+    "question": "Động lực chủ yếu phát triển nước ta trong giai đoạn mới xây dựng hệ thống chính trị là gì?",
+    "options": {
+      "A": "Xóa bỏ cơ chế tập trung quan liêu, bao cấp",
+      "B": "Phát huy nội lực, tận dụng sức mạnh ngoại lực",
+      "C": "Đổi mới chính trị kết hợp đổi mới kinh tế",
+      "D": "Đại đoàn kết toàn dân"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 239,
+    "question": "Lý luận về hình thái kinh tế - xã hội do C.Mác và Ph.Ăngghen khởi xướng, được V.I.Lênin bổ sung, phát triển, cụ thể hóa trong công cuộc xây dựng CNXH ở?",
+    "options": {
+      "A": "Trung Quốc",
+      "B": "Nga",
+      "C": "Nga - Xô Viết",
+      "D": "Việt Nam"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 240,
+    "question": "Ai là người đã đưa ra tư tưởng về sự tiêu vong của dân chủ cùng với sự tiêu vong của Nhà nước?",
+    "options": {
+      "A": "V.I.Lênin",
+      "B": "C.Mác",
+      "C": "Ph.Ăngghen",
+      "D": "Hồ Chí Minh"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 241,
+    "question": "Theo Hiến pháp 2013, hoạt động của Nhà nước được giám sát bởi nhân dân với phương châm:",
+    "options": {
+      "A": "Dân biết, dân bàn, dân kiểm tra thông qua các tổ chức, các cá nhân được nhân dân ủy nhiệm",
+      "B": "Nhà nước phục vụ nhân dân, gắn bó mật thiết với nhân dân, thực hiện đầy đủ các quyền làm chủ của nhân dân",
+      "C": "Nhà nước lắng nghe ý kiến của nhân dân và chịu sự kiểm soát của nhân dân",
+      "D": "Nhà nước phải được hoàn thiện bằng việc ban hành các cơ chế và biện pháp kiểm soát, ngăn ngừa các hiện tượng tiêu cực…"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 242,
+    "question": "Cách mạng vô sản trên thực tế được thực hiện bằng con đường:",
+    "options": {
+      "A": "Con đường thỏa hiệp",
+      "B": "Con đường bạo lực cách mạng",
+      "C": "Con đường hòa bình",
+      "D": "Đấu tranh chính trị"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 243,
+    "question": "Điền từ còn thiếu vào chỗ trống: “Nhà nước XHCN vừa có bản chất GCCN, vừa có tính nhân dân rộng rãi và tính ............ sâu sắc”.",
+    "options": {
+      "A": "Giai cấp",
+      "B": "Nhân đạo",
+      "C": "Cộng đồng",
+      "D": "Dân tộc"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 244,
+    "question": "Sự khác biệt cơ bản của nền dân chủ XHCN với các nền dân chủ của các xã hội có phân chia giai cấp trong lịch sử nhân loại?",
+    "options": {
+      "A": "Nền dân chủ XHCN là nền dân chủ có tổ chức ĐCS lãnh đạo",
+      "B": "Nền dân chủ XHCN là nền dân chủ của số đông, của tất cả quần chúng nhân dân lao động trong xã hội",
+      "C": "Nền dân chủ XHCN là nền dân chủ phi giai cấp",
+      "D": "Nền dân chủ XHCN là nền dân chủ được thực thi bằng luật pháp nhân dân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 245,
+    "question": "Trong xã hội có giai cấp, “Dân” là ai và do đối tượng nào quy định?",
+    "options": {
+      "A": "Dân là thành viên trong xã hội do luật pháp của giai cấp thống trị quy định",
+      "B": "Dân là mọi thành viên sống trong xã hội, dân do xã hội quy định",
+      "C": "Dân là những người tham gia vào quá trình lao động sản xuất xã hội, họ được tổ chức kinh tế công nhận",
+      "D": "Dân là mọi thành viên trong xã hội"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 246,
+    "question": "Sự ra đời của nền dân chủ XHCN đánh dấu bước phát triển mới về:",
+    "options": {
+      "A": "Giá trị của dân chủ",
+      "B": "Chất của dân chủ",
+      "C": "Lượng của dân chủ",
+      "D": "Nội dung của dân chủ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 247,
+    "question": "Cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta thời kỳ trước đổi mới là gì?",
+    "options": {
+      "A": "Lý luận Mác - Lênin về thời kỳ quá độ và về chuyên chính vô sản",
+      "B": "Lý luận của Hồ Chí Minh",
+      "C": "Cơ sở kinh tế và chính trị của hệ thống chuyên chính vô sản",
+      "D": "Lý luận Mác - Lênin về thời kỳ quá độ và về chuyên chính vô sản và cơ chế kế hoạch hóa tập trung, quan liêu, bao cấp"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 248,
+    "question": "Bản chất chính trị của nền dân chủ XHCN thể hiện như thế nào?",
+    "options": {
+      "A": "Là sự lãnh đạo của GCCN thông qua chính đảng của nó để cải tạo xã hội cũ và xây dựng xã hội mới",
+      "B": "Là sự lãnh đạo của GCCN thông qua đảng của nó đối với toàn xã hội, để thực hiện quyền lực và lợi ích của toàn thể nhân dân lao động, trong đó có GCCN",
+      "C": "Là cuộc cách mạng của GCCN cùng với nhân dân lao động đánh đổ sự thống trị của của giai cấp tư sản",
+      "D": "Là thực hiện quyền lực của GCCN và nhân dân lao động đối với toàn xã hội"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 249,
+    "question": "Nhà nước pháp quyền XHCN ở Việt Nam mang bản chất giai cấp nào?",
+    "options": {
+      "A": "Của nhân dân lao động",
+      "B": "GCCN",
+      "C": "GCCN - nông dân - trí thức",
+      "D": "Công nhân và nông dân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 250,
+    "question": "Nội hàm cơ bản của dân chủ XHCN là gì?",
+    "options": {
+      "A": "Toàn bộ quyền lực thuộc về nhân dân",
+      "B": "Quyền lực thuộc về Gia cấp công nhân",
+      "C": "Quyền lực thuộc về Gia cấp nông dân",
+      "D": "Quyền lực thuộc về người lãnh đạo"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 251,
+    "question": "Thuật ngữ “Dân chủ” ra đời từ thế kỷ nào đến thế kỷ nào?",
+    "options": {
+      "A": "V- IV (TCN)",
+      "B": "VIII-VII (TCN)",
+      "C": "VI-V (TCN)",
+      "D": "VII-VI (TCN)"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 252,
+    "question": "Hình thức dân chủ nào mà được thực hiện do nhân dân «ủy quyền», giao quyền lực của mình cho tổ chức mà nhân dân trực tiếp bầu ra?",
+    "options": {
+      "A": "Dân chủ gián tiếp",
+      "B": "Dân chủ trực tiếp",
+      "C": "Dân chủ hiến định",
+      "D": "Dân chủ bán trực tiếp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 253,
+    "question": "Trong quá trình đổi mới và thực thi dân chủ của nước ta hiện nay, nhiệm vụ nào được xem là khó khăn, phức tạp, nhạy cảm nhất hiện nay?",
+    "options": {
+      "A": "Cải cách giáo dục",
+      "B": "Xóa đói giảm nghèo",
+      "C": "Trật tự an toàn giao thông",
+      "D": "Chống tham nhũng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 254,
+    "question": "Thành phần kinh tế quá độ theo cách gọi của V.I.Lênin là thành phần kinh tế nào?",
+    "options": {
+      "A": "Kinh tế nhà nước",
+      "B": "Kinh tế tư bản tư nhân",
+      "C": "Kinh tế tập thể",
+      "D": "Kinh tế tư bản nhà nước"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 255,
+    "question": "Chọn câu đúng nhất: “Nguồn gốc của sự hình thành và phân chia giai cấp trong xã hội” là do đâu?",
+    "options": {
+      "A": "Sắc tộc",
+      "B": "Tài năng",
+      "C": "Tôn giáo",
+      "D": "Kinh tế"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 256,
+    "question": "Đoàn Thanh niên Cộng sản Hồ Chí Minh, Hội Liên hiệp Thanh niên Việt Nam cần chủ động hướng dẫn các hình thức hoạt động, các phong trào thi đua yêu nước, phát huy tài năng sáng tạo của vì sự nghiệp xây dựng và bảo vệ Tổ quốc XHCN.",
+    "options": {
+      "A": "Thanh niên",
+      "B": "Tuổi trẻ",
+      "C": "Thiếu nhi",
+      "D": "Thiếu niên"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 257,
+    "question": "Trong cơ cấu xã hội - giai cấp ở thời kỳ quá độ lên CNXH, giai cấp, tầng lớp nào là lực lượng tiêu biểu trong quá trình cải tạo xã hội cũ, xây dựng xã hội mới?",
+    "options": {
+      "A": "GCCN tầng lớp trí thức",
+      "B": "GCCN và đội ngũ doanh nhân",
+      "C": "Giai cấp nông dân, Đội ngũ trí thức, Đội ngũ doanh nhân, Đội ngũ thanh niên",
+      "D": "GCCN và nông dân"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 258,
+    "question": "Trong Mặt trận dân tộc thống nhất, ĐCS là?",
+    "options": {
+      "A": "Thành viên của Mặt trận dân tộc thống nhất",
+      "B": "Cử ra và miễn nhiệm người đứng đầu",
+      "C": "Cử ra và bãi bỏ người đứng đầu",
+      "D": "Lực lượng lãnh đạo Mặt trận dân tộc thống nhất"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 259,
+    "question": "Biến đổi của cơ cấu xã hội - giai cấp gắn liền và được quy định bởi sự biến động của cơ cấu nào?",
+    "options": {
+      "A": "Cơ cấu xã hội - kinh tế",
+      "B": "Cơ cấu xã hội - dân tộc",
+      "C": "Cơ cấu xã hội - dân cư",
+      "D": "Cơ cấu xã hội - dân số"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 260,
+    "question": "C.Mác và Ph.Ăngghen đã dựa vào những phát kiến nào để xây dựng luận chứng về sứ mệnh lịch sử của GCCN?",
+    "options": {
+      "A": "Phép biện chứng duy vật và học thuyết giá trị thặng dư",
+      "B": "Triết học cổ điển Đức và kinh tế chính trị học cổ điển Anh",
+      "C": "CNXH không tưởng phê phán",
+      "D": "Chủ nghĩa duy vật lịch sử và học thuyết giá trị thặng dư"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 261,
+    "question": "Cơ cấu xã hội nào có vai trò quan trọng nhất trong xã hội XHCN?",
+    "options": {
+      "A": "Cơ cấu giai cấp",
+      "B": "Cơ cấu xã hội",
+      "C": "Cơ cấu dân cư",
+      "D": "Cơ cấu nghề nghiệp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 262,
+    "question": "Trong quá trình xây dựng chủ nghĩa xã hội, liên minh giữa GCCN, giai cấp nông dân và tầng lớp trí thức dưới góc độ nào giữ vai trò quyết định?",
+    "options": {
+      "A": "Kinh tế",
+      "B": "Tư tưởng",
+      "C": "Chính trị",
+      "D": "Văn hoá"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 263,
+    "question": "Vai trò của đấu tranh giai cấp trong lịch sử nhân loại?",
+    "options": {
+      "A": "Là một động lực quan trọng của sự phát triển xã hội trong các xã hội có giai cấp",
+      "B": "Là động lực cơ bản của sự phát triển xã hội",
+      "C": "Lật đổ ách thống trị của giai cấp thống trị",
+      "D": "Thay thế các hình thái kinh tế xã hội từ thấp đến cao"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 264,
+    "question": "Quá độ lên CNXH bỏ qua chế độ TBCN là bỏ qua yếu tố nào của chủ nghĩa tư bản?",
+    "options": {
+      "A": "Bỏ qua nhà nước của giai cấp tư sản",
+      "B": "Bỏ qua cơ sở kinh tế của chủ nghĩa tư bản",
+      "C": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư tưởng TBCN",
+      "D": "Bỏ qua chế độ áp bức bóc lột của giai cấp tư sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 265,
+    "question": "Liên minh giữa GCCN với giai cấp nông dân và tầng lớp trí thức là do?",
+    "options": {
+      "A": "Yêu cầu của trí thức",
+      "B": "Yêu cầu của nông dân",
+      "C": "Do mong muốn của công nhân",
+      "D": "Do đòi hỏi khách quan của cả công nhân, nông dân và trí thức"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 266,
+    "question": "Xu hướng phát triển cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ mang tính đa dạng và thống nhất chủ yếu do yếu tố nào quyết định?",
+    "options": {
+      "A": "Do trình độ phát triển không đồng đều",
+      "B": "Do nền kinh tế nhiều thành phần",
+      "C": "Do nhu cầu của thời kỳ quá độ",
+      "D": "Do sự mong muốn của GCCN"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 267,
+    "question": "Mâu thuẫn đối kháng giữa các giai cấp là do yếu tố nào?",
+    "options": {
+      "A": "Sự khác nhau giữa giàu và nghèo",
+      "B": "Sự đối lập về lợi ích cơ bản - lợi ích kinh tế",
+      "C": "Sự khác nhau về mức thu nhập",
+      "D": "Sự khác nhau về tư tưởng, lối sống"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 268,
+    "question": "Trong thời kỳ quá độ lập trường chính trị của liên minh công - nông, trí thức được xác định bởi lập trường chính trị của giai cấp nào?",
+    "options": {
+      "A": "GCCN",
+      "B": "Nông dân, công nhân và trí thức",
+      "C": "Tầng lớp trí thức",
+      "D": "Giai cấp nông dân"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 269,
+    "question": "Cơ cấu xã hội - giai cấp của Việt Nam ở thời kỳ quá độ lên CNXH bao gồm những giai cấp, tầng lớp cơ bản nào?",
+    "options": {
+      "A": "Giai cấp nông dân, Đội ngũ trí thức, Đội ngũ doanh nhân",
+      "B": "Đội ngũ trí thức, Đội ngũ doanh nhân, Đội ngũ thanh niên",
+      "C": "GCCN, Giai cấp nông dân, Đội ngũ trí thức, Đội ngũ doanh nhân, Đội ngũ thanh niên",
+      "D": "GCCN, Giai cấp nông dân, Đội ngũ trí thức"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 270,
+    "question": "Yếu tố nào quyết định sự liên minh giữa GCCN, giai cấp nông dân và tầng lớp trí thức?",
+    "options": {
+      "A": "Do có cùng một kẻ thù là giai cấp tư sản",
+      "B": "Do GCCN mong muốn",
+      "C": "Do mục tiêu về chính trị của GCCN",
+      "D": "Do có những lợi ích cơ bản thống nhất với nhau"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 271,
+    "question": "Những triết gia nào đã dùng thuật ngữ khác nhau để chỉ về công nhân và GCCN?",
+    "options": {
+      "A": "C.Mác và Ph.Ăngghen và V.I.Lênin",
+      "B": "C.Mác và Ph.Ăngghen",
+      "C": "C.Mác và Ph.Ăngghen và Hêghen",
+      "D": "C.Mác và Ph.Ăngghen và Cantơ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 272,
+    "question": "Câu nói: “Vô sản tất cả các nước và các dân tộc bị áp bức, đoàn kết lại” là của ai?",
+    "options": {
+      "A": "Mác & Ph.Ăngghen",
+      "B": "C.Mác",
+      "C": "Hồ Chí Minh",
+      "D": "V.I.Lênin"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 273,
+    "question": "Cơ sở kinh tế của hệ thống chuyên chính vô sản thời kỳ trước đổi mới là nền kinh tế hướng tới mục tiêu gì?",
+    "options": {
+      "A": "Xoá bỏ chế độ tư hữu đối với tư liệu sản xuất",
+      "B": "Công bằng dân chủ",
+      "C": "Xóa ách áp bức bất công, giải phóng lao động",
+      "D": "Dân giàu nước mạnh"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 274,
+    "question": "Ai là người đưa ra tư tưởng:“Độc lập dân tộc gắn liền với chủ nghĩa xã hội”?",
+    "options": {
+      "A": "V.I.Lênin",
+      "B": "Hồ Chí Minh",
+      "C": "C.Mác",
+      "D": "Phạm Văn Đồng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 275,
+    "question": "Nội dung nào quan trọng nhất trong các nội dung Liên minh công – nông - trí thức?",
+    "options": {
+      "A": "Chính trị",
+      "B": "Tư tưởng",
+      "C": "Kinh tế",
+      "D": "Văn hoá- xã hội"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 276,
+    "question": "Sự chuyển đổi trong cơ cấu kinh tế đã dẫn đến những biến đổi trong cơ cấu xã hội - giai cấp ở Việt Nam diễn ra từ Đại hội nào?",
+    "options": {
+      "A": "Đại hội VIII (1996)",
+      "B": "Đại hội VI (1986)",
+      "C": "Đại hội IX (2001)",
+      "D": "Đại hội VII (1991)"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 277,
+    "question": "Tìm ý đúng cho luận điểm sau: “Cùng với sự phát triển của khoa học và công nghệ ngày càng hiện đại, GCCN” sẽ:",
+    "options": {
+      "A": "Giảm về số lượng và nâng cao về chất lượng",
+      "B": "Giảm về số lượng và có trình độ sản xuất ngày càng cao",
+      "C": "Tăng về số lượng giảm về chất lượng",
+      "D": "Tăng về số lượng và nâng cao về chất lượng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 278,
+    "question": "Xét về phương thức lao động, phương thức sản xuất, GCCN mang thuộc tính cơ bản nào?",
+    "options": {
+      "A": "Có số lượng đông nhất trong dân cư",
+      "B": "Có số lượng không đông trong dân cư, là giai cấp tạo ra của cải vật chất làm giàu cho xã hội",
+      "C": "Là giai cấp trực tiếp vận hành máy móc có tính chất công nghiệp ngày càng hiện đại",
+      "D": "Là giai cấp tạo ra của cải vật chất làm giàu cho xã hội"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 279,
+    "question": "Tại Đại hội đại biểu toàn quốc lần mấy Đảng ta khẳng định: “Đại đoàn kết toàn dân tộc là đường lối chiến lược của cách mạng Việt Nam, là động lực và nguồn lực to lớn trong xây dựng và bảo vệ Tổ quốc. Tăng cường khối đại đoàn kết toàn dân tộc trên nền tảng liên minh GCCN với giai cấp nông dân và đội ngũ trí thức do Đảng lãnh đạo”.",
+    "options": {
+      "A": "Đại hội XII",
+      "B": "Đại hội X",
+      "C": "Đại hội IX",
+      "D": "Đại hội XI"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 280,
+    "question": "Một trong những điều kiện chủ quan để GCCN thực hiện sứ mệnh lịch sử:",
+    "options": {
+      "A": "Địa vị chính trị - xã hội của giai cấp công",
+      "B": "Sự phát triển của bản thân GCCN cả về số lượng và chất lượng",
+      "C": "Địa vị kinh tế của GCCN",
+      "D": "Bao gồm tất cả các đáp án"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 281,
+    "question": "Đâu không là quan điểm của Đảng ta về việc giải quyết các vấn đề xã hội trong thời kỳ đổi mới?",
+    "options": {
+      "A": "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với chi tiêu phát triển con người",
+      "B": "Xây dựng và thể chế gắn kết kinh tế với tiến bộ, công bằng xã hội",
+      "C": "Đề ra chính sách làm phân hóa giàu nghèo ngày càng cao giữa các tầng lớp dân cư",
+      "D": "Kết hợp các mục tiêu kinh tế với mục tiêu xã hội"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 282,
+    "question": "Cơ cấu xã hội có những loại nào?",
+    "options": {
+      "A": "Cơ cấu xã hội - dân cư",
+      "B": "Cơ cấu xã hội - giai cấp; cơ cấu xã hội - dân tộc; cơ cấu xã hội - tôn giáo...",
+      "C": "Cơ cấu xã hội - nghề nghiệp",
+      "D": "Bao gồm tất cả các đáp án"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 283,
+    "question": "Ở Việt Nam hiện nay, giai tầng nào là chủ thể của quá trình phát triển, xây dựng nông thôn mới gắn với xây dựng các cơ sở công nghiệp, dịch vụ và phát triển đô thị theo quy hoạch; phát triển toàn diện, hiện đại hóa nông nghiệp.",
+    "options": {
+      "A": "GCCN",
+      "B": "Giai cấp nông dân",
+      "C": "Đội ngũ trí thức",
+      "D": "Đội ngũ doanh nhân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 284,
+    "question": "Trong các đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây tạo ra tâm lý ỷ lại, thụ động, tiêu cực trong hoạt động kinh tế?",
+    "options": {
+      "A": "Giá cả do Nhà nước quy định, nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh",
+      "B": "Nhà nước quản lý nền kinh tế thông qua chế độ cấp phát-giao nộp và cơ chế “xin- cho”",
+      "C": "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu",
+      "D": "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 285,
+    "question": "Cơ cấu xã hội - giai cấp biến đổi gắn liền và bị quy định bởi cơ cấu nào?",
+    "options": {
+      "A": "Cơ cấu kinh tế",
+      "B": "Cơ cấu chính trị",
+      "C": "Cơ cấu dân tộc",
+      "D": "Cơ cấu văn hoá"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 286,
+    "question": "Ở Việt Nam hiện nay, bộ phận nào là lực lượng nòng cốt trong liên minh GCCN với giai cấp nông dân và đội ngũ trí thức?",
+    "options": {
+      "A": "GCCN",
+      "B": "Đội ngũ doanh nhân",
+      "C": "Giai cấp nông dân",
+      "D": "Đội ngũ trí thức"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 287,
+    "question": "Cơ chế quản lý kinh tế ở nước ta thời kỳ trước đổi mới là gì?",
+    "options": {
+      "A": "Cơ chế kinh tế thị trường",
+      "B": "Cơ chế kinh tế thị trường định hướng XHCN",
+      "C": "Cơ chế kế hoạch hóa tập trung quan liêu, bao cấp",
+      "D": "Cơ chế xã hội"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 288,
+    "question": "Văn kiện Đại hội Đảng lần thứ mấy, Đảng ta bắt đầu dùng khái niệm: “Kinh tế thị trường định hướng XHCN”? ",
+    "options": {
+      "A": "Đại hội VI",
+      "B": "Đại hội VII",
+      "C": "Đại hội VIII",
+      "D": "Đại hội IX"
+    },
+    "answer": "D"
+  },{
+    "id": 289,
+    "question": "Khái niệm dân tộc – tộc người (ethnies) có mấy đặc trưng cơ bản sau đây\\:",
+    "options": {
+      "A": "Dân tộc là cộng đồng người được hình thành lâu dài trong lịch sử",
+      "B": "Dân tộc là cộng đồng người được hình thành lâu dài trong lịch sử, có lãnh thổ chung ổn định không bị chia cắt",
+      "C": "Dân tộc - tộc người (ethnies), là cộng đồng người được hình thành lâu dài trong lịch sử và có ba đặc trưng cơ bản: Cộng đồng về ngôn ngữ; Cộng đồng về văn hóa; Ý thức tự giác tộc người",
+      "D": "Dân tộc - tộc người (ethnies), là cộng đồng người được hình thành lâu dài trong lịch sử và có hai đặc trưng cơ bản: Cộng đồng về ngôn ngữ; Ý thức tự giác tộc người"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 290,
+    "question": "Trong một quốc gia đa tộc người, vấn đề gì được coi là có ý nghĩa cơ bản nhất để thực hiện quyền bình đẳng giữa các dân tộc?",
+    "options": {
+      "A": "Ban hành hệ thống hiến pháp và pháp luật về quyền bình đẳng giữa các dân tộc",
+      "B": "Xoá bỏ dần sự chênh lệch về mọi mặt giữa các dân tộc do lịch sử để lại",
+      "C": "Chống tư tưởng phân biệt chủng tộc, kì thị và chia rẽ dân tộc",
+      "D": "Nâng cao trình độ dân trí, văn hoá cho đồng bào"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 291,
+    "question": "Nội dung nào dưới đây phản ánh đúng nhất lập trường của người cộng sản về vấn đề tín ngưỡng, tôn giáo?",
+    "options": {
+      "A": "Sử dụng bạo lực để giải quyết vấn đề tôn giáo",
+      "B": "Luôn tôn trọng quyền tự do tín ngưỡng, tôn giáo của nhân dân",
+      "C": "Sử dụng bạo lực để giải quyết vấn đề tôn giáo",
+      "D": "Không quan tâm đến nhu cầu tín ngưỡng, tôn giáo của nhân dân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 292,
+    "question": "Trong các nội dung của quyền dân tộc tự quyết thì nội dung nào được coi là cơ bản nhất, tiên quyết nhất?",
+    "options": {
+      "A": "Tự quyết về chính trị",
+      "B": "Tự quyết về kinh tế",
+      "C": "Tự quyết về văn hoá",
+      "D": "Tự quyết về lãnh thổ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 293,
+    "question": "Số lượng tôn giáo và số lượng tín đồ của các tôn giáo hiện nay ở nước ta là bao nhiêu?",
+    "options": {
+      "A": "13 tôn giáo với khoảng 30 triệu tín đồ",
+      "B": "16 tôn giáo với khoảng 20 triệu tín đồ",
+      "C": "15 tôn giáo với khoảng 25 triệu tín đồ",
+      "D": "14 tôn giáo với khoảng 15 triệu tín đồ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 294,
+    "question": "Đoạn trích sau đây là của ai? “Tư tưởng hẹp hòi thì hành động cũng hẹp hòi. Tư tưởng hẹp hòi thì nhiều thu mà ít bạn (như vấn đề tôn giáo). Người mà hẹp hòi thì ít kẻ giúp. Đoàn thể mà hẹp hòi thì không phát triển”.",
+    "options": {
+      "A": "V.I.Lênin",
+      "B": "C.Mác",
+      "C": "Ph.Ăng ghen",
+      "D": "Hồ Chí Minh"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 295,
+    "question": "Hãy cho biết câu nói: “Tôn giáo là thuốc phiện của nhân dân” là của ai?",
+    "options": {
+      "A": "Phoi ơbắc",
+      "B": "V.I.Lênin",
+      "C": "Hêghen",
+      "D": "C.Mác"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 296,
+    "question": "Trong mối quan hệ với tín ngưỡng, tôn giáo là ?",
+    "options": {
+      "A": "Khái niệm nhỏ hơn, là một loại hình tín ngưỡng",
+      "B": "Một khái niệm hoàn toàn độc lập, không có mối liên hệ với tín ngưỡng",
+      "C": "Một khái niệm tương đương tín ngưỡng",
+      "D": "Một khái niệm rộng hơn, bao trùm tín ngưỡng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 297,
+    "question": "Nguyễn Ái Quốc xuất bản báo Người cung khổ (Le Paria) vào năm nào?",
+    "options": {
+      "A": "1920",
+      "B": "1921",
+      "C": "1922",
+      "D": "1923"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 298,
+    "question": "Tại sao tôn giáo là một phạm trù lịch sử?",
+    "options": {
+      "A": "Là do điều kiện kinh tế - xã hội sinh ra",
+      "B": "Tôn giáo ra đời, tồn tại và biến đổi trong một giai đoạn lịch sử nhất định của loài người",
+      "C": "Là sản phẩm của con người",
+      "D": "Tôn giáo sẽ tồn tại và phát triển cùng với sự phát triển của lịch sử nhân loại"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 299,
+    "question": "Nguyễn Ái Quốc cùng với một số nhà yêu nước của các nước thuộc địa khác thành lập Hội liên hiệp các dân tộc thuộc địa vào tháng? năm nào?",
+    "options": {
+      "A": "Tháng 4 - 1921",
+      "B": "Tháng 3 - 1921",
+      "C": "Tháng 6 - 1921",
+      "D": "Tháng 5 - 1921"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 300,
+    "question": "Hiện nay trên thế giới, số lượng tín đồ ảnh hưởng bởi tôn giáo chiếm tỷ lệ bao nhiêu?",
+    "options": {
+      "A": "Gần 5/4 dân số thế giới",
+      "B": "Gần 3/4 dân số thế giới",
+      "C": "Gần 1/4 dân số thế giới",
+      "D": "Gần 2/4 dân số thế giới"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 301,
+    "question": "Đại hội nào sau đây Đảng ta khẳng định:“Đoàn kết các dân tộc có vị trí chiến lược trong sự nghiệp cách mạng của nước ta.Tiếp tục hoàn thiện cơ chế chính sách, bảo đảm các dân tộc bình đẳng, tôn trọng, đoàn kết.., tạo chuyển biến rõ rệt trong phát triển kinh tế, văn hóa, xã hội vung đồng bào dân tộc thiểu số…”",
+    "options": {
+      "A": "Đại hội X",
+      "B": "Đại hội XI",
+      "C": "Đại hội IX",
+      "D": "Đại hội XII"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 302,
+    "question": "Bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của V.I.Lênin thường được gọi tắt là Luận cương của V.I.Lênin, được V.I.Lênin viết xong vào năm nào?",
+    "options": {
+      "A": "1918",
+      "B": "1920",
+      "C": "1921",
+      "D": "1922"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 303,
+    "question": "Về phương diện thế giới quan, các tôn giáo mang thế giới quan như thế nào?",
+    "options": {
+      "A": "Thế giới quan duy tâm",
+      "B": "Thế giới quan duy vật",
+      "C": "Duy tâm khách quan",
+      "D": "Duy tâm chủ quan"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 304,
+    "question": "Theo chủ nghĩa Mác - Lênin, hình thức tín ngưỡng gồm những loại hình tín ngưỡng nào?",
+    "options": {
+      "A": "Thờ cúng tổ tiên; tín ngưỡng Thờ anh hùng dân tộc",
+      "B": "Thờ cúng tổ tiên; tín ngưỡng Thờ anh hùng dân tộc; tín ngưỡng Thờ mẫu…",
+      "C": "Thờ anh hùng dân tộc",
+      "D": "Thờ cúng tổ tiên; Thần thánh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 305,
+    "question": "Đoạn trích sau đây là của ai? Trong văn hóa và đạo đức tôn giáo: “Cái gì tốt thì ta nên khôi phục và phát triển, còn cái gì xấu, thì ta phải bỏ đi”.",
+    "options": {
+      "A": "Ph.Ăng ghen",
+      "B": "Hồ Chí Minh",
+      "C": "C.Mác",
+      "D": "V.I.Lênin"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 306,
+    "question": "Nguồn gốc kinh tế - xã hội của tôn giáo là?",
+    "options": {
+      "A": "Do sự thất vọng, bất lực của con người trước những bất công xã hội",
+      "B": "Trình độ phát triển lực lượng sản xuất, sự áp bức về chính trị của con người; Do sự bần cùng về kinh tế, áp bức về chính trị của con người; Do sự thất vọng, bất lực của con người trước những bất công xã hội",
+      "C": "Trình độ phát triển lực lượng sản xuất, sự áp bức về chính trị của con người",
+      "D": "Do sự bần cùng về kinh tế, áp bức về chính trị của con người"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 307,
+    "question": "Hiện nay tôn giáo nào ở Việt Nam có số lượng tín đồ đông nhất?",
+    "options": {
+      "A": "Tin lành",
+      "B": "Công giáo",
+      "C": "Phật giáo",
+      "D": "Hồi giáo"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 308,
+    "question": "Đoạn trích sau đây là của ai? “Tín ngưỡng tự do và lương giáo đoàn kết”.",
+    "options": {
+      "A": "V.I.Lênin",
+      "B": "Ph.Ăng ghen",
+      "C": "Hồ Chí Minh",
+      "D": "C.Mác"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 309,
+    "question": "Ở Phương tây, dân tộc xuất hiện khi nào?",
+    "options": {
+      "A": "Khi cuộc cách mạng tư sản thắng lợi",
+      "B": "Khi phương thức sản xuất TBCN được xác lập thay thế phương thức sản xuất phong kiến",
+      "C": "Khi phương thức sản xuất TBCN được xác lập thay thế phương thức sản xuất chiếm hữu nô lệ",
+      "D": "Khi sự biến đổi của phương thức sản xuất chính là nguyên nhân quyết định sự biến đổi của cộng đồng dân tộc"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 310,
+    "question": "Hiện nay ở Việt Nam có những dân tộc, dân số chỉ vài trăm người. Đó là những dân tộc nào?",
+    "options": {
+      "A": "Cống, Hà nhì, La hủ, Lô lô, Phù lá, Si la",
+      "B": "Si la, Pu péo, Rơ măm, Brâu, Ơđu",
+      "C": "Cờ lao, La Chí, La ha, Pu péo",
+      "D": "Hoa, Ngái, Sán dìu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 311,
+    "question": "Đặc trưng nổi bật trong quan hệ giữa các dân tộc ở nước ta là gì?",
+    "options": {
+      "A": "Là sự có đoàn kết dân tộc, hoà hợp dân tộc trong một cộng đồng thống nhất",
+      "B": "Là các dân tộc có bản sắc văn hoá riêng, đa dạng, phong phú",
+      "C": "Là sự phân bố đan xen nhau, không một dân tộc nào có lãnh thổ riêng",
+      "D": "Là có sự chênh lệch về trình độ phát triển kinh tế - xã hội giữa các dân tộc"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 312,
+    "question": "Giữa chủ nghĩa Mác - Lênin và hệ tư tưởng tôn giáo khác nhau ở điểm nào?",
+    "options": {
+      "A": "Khác nhau về thế giới quan",
+      "B": "Khác nhau về nhân sinh quan",
+      "C": "Khác nhau về thế giới quan; về nhân sinh quan; về con đường mưu cầu hạnh phúc cho nhân dân",
+      "D": "Khác nhau ở con đường mưu cầu hạnh phúc cho nhân dân"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 313,
+    "question": "Loại hình tôn giáo cổ xưa nhất, thể hiện niềm tin của con người vào một loài động vật, cây cỏ, đồ vật, hiện tượng trong đời sống là nội dung của\\:",
+    "options": {
+      "A": "Tô tem giáo",
+      "B": "Bái vật giáo",
+      "C": "Ma thuật giáo",
+      "D": "Saman giáo"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 314,
+    "question": "Nội dung cương lĩnh dân tộc của chủ nghĩa Mác - Lênin là\\:",
+    "options": {
+      "A": "Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc lại",
+      "B": "Các dân tộc đoàn kết, bình đẳng và liên hiệp công nhân tất cả các dân tộc lại",
+      "C": "Các dân tộc có quyền tự quyết, các dân tộc có quyền bình đẳng, liên hiệp công nhân tất cả các dân tộc lại",
+      "D": "Các dân tộc hoàn toàn bình đẳng, tự quyết và liên hiệp công nhân các nước"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 315,
+    "question": "Điền từ còn thiếu vào chỗ trống: “Tôn giáo là một hình thái ý thức - xã hội phản ánh một cách hoang đường, hư ảo ....... khách quan. Qua sự phản ánh của tôn giáo, những sức mạnh tự phát trong tự nhiên và xã hội đều trở thành thần bí”.",
+    "options": {
+      "A": "Cuộc sống",
+      "B": "Thực tiễn",
+      "C": "Hiện thực",
+      "D": "Điều kiện"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 316,
+    "question": "Tác phẩm: “Về quyền dân tộc tự quyết” là của ai?",
+    "options": {
+      "A": "Ph.Ăng ghen",
+      "B": "V.I.Lênin",
+      "C": "C.Mác",
+      "D": "Stalin"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 317,
+    "question": "Đại hội nào Đảng ta đã khẳng định: “… phát huy những giá trị văn hóa, đạo đức tốt đẹp của các tôn giáo. Quan tâm và tạo điều kiện cho các tổ chức tôn giáo sinh hoạt theo hiến chương, điều lệ của tổ chức tôn giáo đã được Nhà nước công nhận, theo quy định của pháp luật, đóng góp tích cực vào sự nghiệp xây dựng và bảo vệ đất nước…”",
+    "options": {
+      "A": "Đại hội XI",
+      "B": "Đại hội X",
+      "C": "Đại hội XII",
+      "D": "Đại hội IX"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 318,
+    "question": "Chính sách dân tộc của Đảng, Nhà nước Việt Nam về Chính trị hiện nay là gì?",
+    "options": {
+      "A": "Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc",
+      "B": "Xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc",
+      "C": "Nâng cao nhận thức của đồng bào các dân tộc thiểu số",
+      "D": "Độc lập dân tộc và chủ nghĩa xã hội, dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 319,
+    "question": "Điền từ còn thiếu vào chỗ trống: Lênin viết: “Với sự giúp đỡ của giai cấp vô sản các nước tiên tiến, các nước lạc hậu có thể tiến tới chế độ Xô viết, và qua những giai đoạn phát triển nhất định, tiến tới chủ nghĩa cộng sản, không phải trải qua phát triển TBCN  ”.",
+    "options": {
+      "A": "Giai đoạn",
+      "B": "Chế độ",
+      "C": "Hình thức",
+      "D": "Quá trình"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 320,
+    "question": "Cương lĩnh: “Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc lại” là của ai?",
+    "options": {
+      "A": "V.I.Lênin",
+      "B": "Stalin",
+      "C": "Ph.Ăngghen",
+      "D": "C.Mác"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 321,
+    "question": "Để tăng cường, củng cố khối đại đoàn kết dân tộc ở nước ta hiện nay thì chính sách cụ thể nào của Đảng và Nhà nước ta được coi là vấn đề cực kỳ quan trọng?",
+    "options": {
+      "A": "Tôn trọng lợi ích, truyền thống, văn hoá của các dân tộc",
+      "B": "Tăng cường bồi dưỡng, đào tạo đội ngũ cán bộ là người dân tộc thiểu số",
+      "C": "Phát huy truyền thống đoàn kết giữa các dân tộc",
+      "D": "Phát triển kinh tế hàng hoá ở các vùng dân tộc thiểu số"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 322,
+    "question": "Dân tộc (Nation) hay quốc gia dân tộc là cộng đồng chính trị - xã hội có những đặc trưng cơ bản sau đây?",
+    "options": {
+      "A": "Có chung phương thức sinh hoạt kinh tế; Có lãnh thổ chung ổn định không bị chia cắt; Có sự quản lý của một nhà nước; Có ngôn ngữ chung của quốc gia; Có nét tâm lý",
+      "B": "Có lãnh thổ chung ổn định không bị chia cắt; Có sự quản lý của một nhà nước",
+      "C": "Có chung phương thức sinh hoạt kinh tế. Đây là đặc trưng quan trọng nhất của dân tộc và là cơ sở liên kết các bộ phận, các thành viên của dân tộc, tạo nên nền tảng vững chắc của dân tộc",
+      "D": "Có sự quản lý của một nhà nước; Có ngôn ngữ chung của quốc gia làm công cụ giao tiếp trong xã hội và trong cộng đồng (bao gồm cả ngôn ngữ nói và ngôn ngữ viết)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 323,
+    "question": "Chọn phương án đúng: Các thế lực thù địch sử dụng chiến lược “diễn biến hòa bình” chống phá sự nghiệp xây dựng Tổ quốc XHCN của nhân dân ta trên phương diện nào?",
+    "options": {
+      "A": "Đạo đức, lối sống",
+      "B": "Kinh tế, chính trị - xã hội",
+      "C": "Kinh tế, chính trị - xã hội; Đạo đức, lối sống; Văn hoá, tư tưởng",
+      "D": "Văn hoá, tư tưởng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 324,
+    "question": "Khi nào thì tôn giáo mang tính chính trị?",
+    "options": {
+      "A": "Phản ánh nguyện vọng của nhân dân",
+      "B": "Khi các giai cấp thống trị đã lợi dụng và sử dụng tôn giáo để phục vụ lợi ích của mình",
+      "C": "Khi các cuộc chiến tranh tôn giáo nổ ra",
+      "D": "Khi các cuộc chiến tranh tôn giáo nổ ra nhằm giành quyền lãnh đạo chính trị"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 325,
+    "question": "Nước ta có bao nhiêu dân tộc cùng nhau chung sống?",
+    "options": {
+      "A": "51",
+      "B": "52",
+      "C": "53",
+      "D": "54"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 326,
+    "question": "Điền từ còn thiếu vào chỗ trống: “Quyền dân tộc tự quyết là quyền làm chủ của mỗi dân tộc đối với vận mệnh dân tộc mình, quyền tự quyết định chế độ chính trị – xã hội và........ phát triển của dân tộc mình”.",
+    "options": {
+      "A": "Cách thức",
+      "B": "Mục tiêu",
+      "C": "Con đường",
+      "D": "Hình thức"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 327,
+    "question": "Trong một quốc gia đa tộc người, vấn đề gì được coi là có ý nghĩa cơ bản nhất để thực hiện quyền bình đẳng giữa các dân tộc?",
+    "options": {
+      "A": "Ban hành hệ thống hiến pháp và pháp luật về quyền bình đẳng giữa các dân tộc",
+      "B": "Chống tư tưởng phân biệt chủng tộc, kì thị và chia rẽ dân tộc",
+      "C": "Nâng cao trình độ dân trí, văn hoá cho đồng bào",
+      "D": "Xoá bỏ dần sự chênh lệch về mọi mặt giữa các dân tộc do lịch sử để lại"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 328,
+    "question": "Theo chủ nghĩa Mác - Lênin, tín ngưỡng là gì?",
+    "options": {
+      "A": "Hệ thống niềm tin vào lực lượng có tính thần thánh",
+      "B": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người",
+      "C": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người trước các sự vật, hiện tượng, lực lượng có tính thần thánh, linh thiêng để cầu mong sự che chở, giúp đỡ",
+      "D": "Hệ thống niềm tin vào lực lượng có tính thần thánh cầu mong sự che chở, giúp đỡ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 329,
+    "question": "Chính sách dân tộc về chính trị của Đảng, Nhà nước Việt Nam hiện nay là gì?",
+    "options": {
+      "A": "Chính sách dân tộc góp phần nâng cao tính tích cực chính trị của công dân",
+      "B": "Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc",
+      "C": "Chính sách dân tộc góp phần nâng cao nhận thức của đồng bào các dân tộc thiểu số về tầm quan trọng của vấn đề đoàn kết dân tộc, thống nhất mục tiêu chung là độc lập dân tộc và chủ nghĩa xã hội",
+      "D": "Thực hiện dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 330,
+    "question": "Theo chủ nghĩa Mác - Lênin, mê tín là gì?",
+    "options": {
+      "A": "Mê tín là niềm tin về mối quan hệ nhân quả giữa các sự kiện, sự vật, hiện tượng, nhưng thực tế không có mối liên hệ cụ thể, rõ ràng",
+      "B": "Mê tín tín là niềm tin mê muội, viển vông quá mức được bao phủ bởi các yếu tố siêu nhiên, thần thánh, hư ảo",
+      "C": "Mê tín là sự suy đoán, hành động tùy tiện, sai lệch những điều bình thường, chuẩn mực trong cuộc sống",
+      "D": "Mê tín là niềm tin mê muội, viển vông quá mức, không dựa trên một cơ sở khoa học nào"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 331,
+    "question": "Ở Phương đông, dân tộc được hình thành trên cơ sở nào?",
+    "options": {
+      "A": "Là quá trình phát triển lâu dài của xã hội loài người, trải qua các hình thức cộng đồng từ thấp đến cao, bao gồm: thị tộc, bộ lạc, bộ tộc, dân tộc",
+      "B": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi",
+      "C": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế tuy đã đạt tới một mức độ nhất định song nhìn chung còn kém phát triển và ở trạng thái phân tán",
+      "D": "Một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế đã đạt tới một mức độ nhất định"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 332,
+    "question": "Đoạn trích sau là của ai? “....….tất cả mọi tôn giáo chẳng qua chỉ là sự phản ánh hư ảo - vào trong đầu óc con người - của những lực lượng ở bên ngoài chi phối cuộc sống hàng ngày của họ; chỉ là sự phản ánh tỏng đó những lực lượng ở trần thế đã mang hình thức những lực lượng siêu trần thế”.",
+    "options": {
+      "A": "C.Mác",
+      "B": "Stalin",
+      "C": "Ph.Ăng ghen",
+      "D": "V.I.Lênin"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 333,
+    "question": "Hãy tìm ý đúng trong các phương án dưới đây, trong Văn kiện Đại hội đại biểu toàn quốc lần thứ IX của ĐCS Việt Nam?",
+    "options": {
+      "A": "Vấn đề dân tộc và tăng cường khối đại đoàn kết toàn dân tộc là vấn đề chiến lược của Việt Nam hiện nay",
+      "B": "Vấn đề dân tộc và đoàn kết các dân tộc có vị trí quyết định đến sự sống còn của dân tộc ta hiện nay",
+      "C": "Vấn đề dân tộc và đoàn kết các dân tộc luôn có vị trí chiến lược trong sự nghiệp cách mạng",
+      "D": "Vấn đề dân tộc có vai trò quan trọng đối với sự nghiệp phát triển kinh tế - xã hội ở nước ta hiện nay"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 334,
+    "question": "Trong các nội dung của quyền dân tộc tự quyết thì nội dung nào được coi là cơ bản nhất, tiên quyết nhất?",
+    "options": {
+      "A": "Tự quyết về văn hoá",
+      "B": "Tự quyết về chính trị",
+      "C": "Tự quyết về kinh tế",
+      "D": "Tự quyết về lãnh thổ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 335,
+    "question": "Hiện nay các dân tộc thiểu số ở nước ta có dân số chiếm tỉ lệ bao nhiêu phần trăm số dân cả nước?",
+    "options": {
+      "A": "13%",
+      "B": "17%",
+      "C": "15%",
+      "D": "13,5%"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 336,
+    "question": "Cách sắp xếp nào sau đây đúng về sự xuất hiện của các tộc người?",
+    "options": {
+      "A": "Bộ lạc, thị tộc, bộ tộc, dân tộc",
+      "B": "Bộ tộc, bộ lạc, thị tộc, dân tộc",
+      "C": "Thị tộc, bộ lạc, bộ tộc, dân tộc",
+      "D": "Thị tộc, bộ tộc, bộ lạc, dân tộc"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 337,
+    "question": "Theo chủ nghĩa Mác - Lênin, mê tín dị đoan là gì?",
+    "options": {
+      "A": "Mê tín dị đoan là hành động tùy tiện, sai lệch những điều bình thường, trái với các giá trị văn hóa, đạo đức, pháp luật, gây tổn hại cho cá nhân, xã hội và cộng đồng.",
+      "B": "Mê tín dị đoan là niềm tin của con người vào những lực lượng siêu nhiên, thần thánh đến mức độ mê muội, cuồng tín, dẫn đến những hành vi cực đoan, sai lệch quá mức, trái với các giá trị văn hóa, đạo đức, pháp luật, gây tổn hại cho cá nhân, xã hội và cộng đồng",
+      "C": "Mê tín dị đoan là niềm tin của con người vào những lực lượng siêu nhiên, viển vông quá mức được bao phủ bởi các yếu tố siêu nhiên, thần thánh, hư ảo",
+      "D": "Mê tín dị đoan là niềm tin của con người vào những lực lượng siêu nhiên, thần thánh đến mức độ mê muội, cuồng tín, dẫn đến những hành vi cực đoan, sai lệch."
+    },
+    "answer": "B"
+  },
 ]
