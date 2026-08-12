@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "question": "Thuật ngữ “Tư tưởng Hồ Chí Minh” được dùng theo nghĩa nào?",
+    "options": {
+      "A": "Là tư tưởng của một cá nhân",
+      "B": "Là tư tưởng của lãnh tụ",
+      "C": "Là tư tưởng của một giai cấp, một dân tộc",
+      "D": "Là tất cả những vần đề trên"
+    },
+    "answer": "C"
+  }
+]
