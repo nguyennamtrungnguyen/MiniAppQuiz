@@ -3167,7 +3167,8 @@
       "D": "Đại hội IX"
     },
     "answer": "D"
-  },{
+  },
+  {
     "id": 289,
     "question": "Khái niệm dân tộc – tộc người (ethnies) có mấy đặc trưng cơ bản sau đây\\:",
     "options": {
@@ -3706,4 +3707,444 @@
     },
     "answer": "B"
   },
+  {
+    "id": 338,
+    "question": "Căn cứ vào phạm vi tác động của quyền lực nhà nước XHCN thì nhà nước có chức năng nào?",
+    "options": {
+      "A": "Chức năng đối nội.",
+      "B": "Chức năng chính trị.",
+      "C": "Chức năng kinh tế.",
+      "D": "Chức năng giai cấp."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 339,
+    "question": "Chủ nghĩa Mác – Lênin là hệ tư tưởng của giai cấp, tầng lớp nào?",
+    "options": {
+      "A": "Nhân dân lao động.",
+      "B": "Tầng lớp trí thức.",
+      "C": "GCCN.",
+      "D": "Giai cấp nông dân."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 340,
+    "question": "GCCN thông qua con đường nào để giải phóng mình và giải phóng nhân dân lao động?",
+    "options": {
+      "A": "Biểu tình, bãi công",
+      "B": "Đấu tranh nghị viện.",
+      "C": "Cách mạng XHCN.",
+      "D": "Đấu tranh kinh tế."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 341,
+    "question": "GCCN là người lao động gắn với nền sản xuất:",
+    "options": {
+      "A": "Nông nghiệp.",
+      "B": "Thủ công nghiệp.",
+      "C": "Đại công nghiệp.",
+      "D": "Công - nông nghiệp."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 342,
+    "question": "Trong các nước đi theo con đường XHCN, GCCN cùng với nhân dân lao động đã trở thành những người làm chủ về:",
+    "options": {
+      "A": "Tất cả tư liệu lao động.",
+      "B": "Hầu hết tư liệu sản xuất.",
+      "C": "Tư liệu sản xuất chủ yếu.",
+      "D": "Tất cả sản phẩm xã hội."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 343,
+    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là các dân tộc:",
+    "options": {
+      "A": "Hoàn toàn bình đẳng.",
+      "B": "Tất cả bình đẳng.",
+      "C": "Có nhiều bình đẳng.",
+      "D": "Bình đẳng về văn hoá."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 344,
+    "question": "Một trong ba nội dung cơ bản trong “cương lĩnh dân tộc” của Lênin là các dân tộc có quyền:",
+    "options": {
+      "A": "Tự do.",
+      "B": "Tự quyết.",
+      "C": "Độc lập.",
+      "D": "Làm chủ."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 345,
+    "question": "Một trong ba nội dung cơ bản trong “cương lĩnh dân tộc” của Lênin là liên hiệp GCCN với:",
+    "options": {
+      "A": "Nông dân các nước.",
+      "B": "Nhân dân thế giới.",
+      "C": "Tất cả các dân tộc.",
+      "D": "Người lao động của các nước."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 346,
+    "question": "Đặc trưng bản chất của dân chủ XHCN là bảo đảm mọi quyền lực đều thuộc về lực lượng nào?",
+    "options": {
+      "A": "Công nhân và nông dân.",
+      "B": "Nhân dân.",
+      "C": "Trí thức.",
+      "D": "Những người lao động."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 347,
+    "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết giữa các tôn giáo là một vấn đề:",
+    "options": {
+      "A": "Mang tính nguyên tắc.",
+      "B": "Ưu tiên hàng đầu.",
+      "C": "Phải thực hiện ngay.",
+      "D": "Cần thiết và cấp bách."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 348,
+    "question": "Lao động trong nền sản xuất đại công nghiệp với hệ thống sản xuất dây chuyền đã hình thành đặc điểm nào ở GCCN?",
+    "options": {
+      "A": "Tính khẩn trương.",
+      "B": "Tinh thần cách mạng.",
+      "C": "Tính tổ chức, kỷ luật.",
+      "D": "Tính chính trị cao."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 349,
+    "question": "Để sứ mệnh lịch sử của GCCN từ khả năng thành hiện thực phải thông qua nhân tố chủ quan, trong đó nhân tố quyết định là:",
+    "options": {
+      "A": "Thành lập ĐCS.",
+      "B": "Xây dựng khối liên minh công - nông.",
+      "C": "Thành lập Mặt trận dân tộc thống nhất.",
+      "D": "Xây dựng hệ thống chính trị."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 350,
+    "question": "Quan niệm cơ bản của Chủ nghĩa Mác-Lênin là dân chủ với tư cách một phạm trù chính trị gắn với một kiểu nhà nước và một giai cấp cầm quyền thì sẽ:",
+    "options": {
+      "A": "Có tính nhân dân rộng rãi.",
+      "B": "Không có dân chủ phi giai cấp.",
+      "C": "Có nền dân chủ phi giai cấp.",
+      "D": "Thủ tiêu dân chủ nhân dân."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 351,
+    "question": "Căn cứ vào lĩnh vực tác động của quyền lực nhà nước XHCN thì nhà nước có chức năng nào?",
+    "options": {
+      "A": "Chức năng chính trị.",
+      "B": "Chức năng giai cấp.",
+      "C": "Chức năng đối nội.",
+      "D": "Cả a, b, c đều đúng."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 352,
+    "question": "Nhà nước XHCN vừa có bản chất GCCN, vừa có tính nhân dân rộng rãi và tính …… sâu sắc",
+    "options": {
+      "A": "Giai cấp.",
+      "B": "Nhân đạo.",
+      "C": "Dân tộc.",
+      "D": "Cộng đồng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 353,
+    "question": "Trong quá trình xây dựng chủ nghĩa xã hội, liên minh giữa GCCN, giai cấp nông dân và tầng lớp trí thức nội dung nào giữ vai trò quyết định?",
+    "options": {
+      "A": "Chính trị",
+      "B": "Kinh tế",
+      "C": "Văn hóa",
+      "D": "Tư tưởng."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 354,
+    "question": "Gia đình được xây dựng trên cơ sở mối quan hệ nào?",
+    "options": {
+      "A": "Quan hệ hôn nhân.",
+      "B": "Quan hệ huyết thống.",
+      "C": "Quan hệ nuôi dưỡng, giáo dục.",
+      "D": "Tất cả đáp án đều đúng."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 355,
+    "question": "Đâu là vị trí của gia đình trong mối quan hệ với xã hội?",
+    "options": {
+      "A": "Gia đình là tế bào của xã hội.",
+      "B": "Gia đình là tổ ấm mang lại các giá trị hạnh phúc.",
+      "C": "Gia đình là cầu nối giữa cá nhân với xã hội.",
+      "D": "Tất cả đáp án đều đúng."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 356,
+    "question": "Hãy xác định chức năng cơ bản của gia đình:",
+    "options": {
+      "A": "Tái sản xuất ra con người.",
+      "B": "Nuôi dưỡng, giáo dục.",
+      "C": "Kinh tế và tổ chức tiêu dùng.",
+      "D": "Tất cả đáp án đều đúng."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 357,
+    "question": "Nội dung nào thể hiện chế độ hôn nhân tiến bộ?",
+    "options": {
+      "A": "Hôn nhân gắn kết",
+      "B": "Hôn nhân bình đẳng",
+      "C": "Hôn nhân bền vững",
+      "D": "Hôn nhân tự nguyện"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 358,
+    "question": "Sự biến đổi về cơ cấu xã hội – giai cấp gắn liền và qui định bởi sự biến đổi của loại hình cơ cấu nào?",
+    "options": {
+      "A": "Cơ cấu kinh tế.",
+      "B": "Cơ cấu chính trị.",
+      "C": "Cơ cấu văn hoá.",
+      "D": "Cơ cấu dân tộc."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 359,
+    "question": "Xu hướng biến đổi chủ yếu của các giai cấp, tầng lớp trong thời kỳ quá độ lên CNXH là gì?",
+    "options": {
+      "A": "Xích lại gần nhau.",
+      "B": "Tách xa nhau.",
+      "C": "Đan xen vào nhau.",
+      "D": "Triệt tiêu lẫn nhau."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 360,
+    "question": "Cách mạng XHCN vẫn là một tất yếu khách quan của tiến trình phát triển lịch sử nhân loại chừng nào:",
+    "options": {
+      "A": "Nguyên nhân sâu xa chưa được giải quyết.",
+      "B": "Mâu thuẫn giữa tư sản với vô sản chưa được giải quyết.",
+      "C": "Chế độ XHCN chưa được hoàn thiện.",
+      "D": "Mâu thuẫn giai cấp vẫn còn."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 361,
+    "question": "Nội dung trước tiên của cách mạng XHCN là phải giành chính quyền về tay GCCN, nhân dân lao động, đưa những người lao động:",
+    "options": {
+      "A": "Thành người lao động tập thể.",
+      "B": "Làm chủ tư liệu sản xuất.",
+      "C": "Thành người quản lý xã hội.",
+      "D": "Lên địa vị làm chủ xã hội."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 362,
+    "question": "Tại sao nói cách mạng XHCN là cuộc cách mạng toàn diện, sâu sắc và triệt để nhất trong lịch sử?",
+    "options": {
+      "A": "Vì GCCN lãnh đạo.",
+      "B": "Vì thủ tiêu chủ nghĩa tư bản.",
+      "C": "Vì lôi kéo được đông đảo nhân dân tham gia.",
+      "D": "Vì xoá bỏ chế độ tư hữu, thủ tiêu chế độ người bóc lột người."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 363,
+    "question": "Liên minh giai cấp về văn hóa trong CNXH GCCN, nông dân và những người lao động khác phải thường xuyên:",
+    "options": {
+      "A": "Nâng cao đạo đức cách mạng.",
+      "B": "Học tập nâng cao trình độ.",
+      "C": "Đoàn kết, hợp tác, tương trợ.",
+      "D": "Nâng cao tính tổ chức, kỷ luật."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 364,
+    "question": "Chọn câu trả lời đúng. Cuộc cách mạng vô sản, về cơ bản khác các cuộc cách mạng trước đó trong lịch sử như thế nào?",
+    "options": {
+      "A": "Thủ tiêu sự thống trị của giai cấp thống trị phản động.",
+      "B": "Thủ tiêu sở hữu tư nhân nói chung.",
+      "C": "Thủ tiêu chế độ tư hữu về tư liệu sản xuất.",
+      "D": "Thủ tiêu nhà nước tư sản."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 365,
+    "question": "C.Mác đã nói về giai đoạn thấp của xã hội cộng sản chủ nghĩa, là một xã hội vừa thoát thai từ xã hội TBCN, do đó về mọi phương diện đều:",
+    "options": {
+      "A": "Chưa thật sự văn minh.",
+      "B": "Chưa thực sự hoàn thiện.",
+      "C": "Còn mang dấu vết xã hội cũ.",
+      "D": "Còn rất lạc hậu về kinh tế."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 366,
+    "question": "Đặc trưng cơ bản của CNXH là gì?",
+    "options": {
+      "A": "Khả năng đoàn kết phong trào công nhân quốc tế.",
+      "B": "Tập hợp nhân dân lao động chống lại chủ nghĩa tư bản.",
+      "C": "Do nhân dân lao động làm chủ.",
+      "D": "Tất cả tư liệu sản xuất của xã hội đều là sở hữu chung."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 367,
+    "question": "Chủ nghĩa Mác – Lênin và hệ tư tưởng tôn giáo khác nhau cơ bản ở điểm nào?",
+    "options": {
+      "A": "Khác nhau về thế giới quan.",
+      "B": "Khác nhau về nhân sinh quan.",
+      "C": "Khác nhau ở con đường mưu cầu hạnh phúc cho nhân dân.",
+      "D": "Tất cả các đáp án đều đúng."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 368,
+    "question": "Mặt tư tưởng của tôn giáo thể hiện sự tín ngưỡng tôn giáo. Trong quá trình xây dựng chủ nghĩa xã hội, khắc phục mặt này là việc làm:",
+    "options": {
+      "A": "Cấp bách.",
+      "B": "Khẩn chương",
+      "C": "Thường xuyên",
+      "D": "Lâu dài"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 369,
+    "question": "Sự biến đổi cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ lên CNXH ngoài tính đặc thù còn mang đặc điểm gì khác?",
+    "options": {
+      "A": "Tính quy luật chung.",
+      "B": "Tính đa dạng, phong phú.",
+      "C": "Tính quy luật phổ biến.",
+      "D": "Tính khách quan."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 370,
+    "question": "Chức năng cơ bản và riêng có của gia đình là gì?",
+    "options": {
+      "A": "Chức năng nuôi dưỡng và giáo dục.",
+      "B": "Chức năng kinh tế và tổ chức tiêu dùng.",
+      "C": "Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm.",
+      "D": "Chức năng tái sản xuất ra con người."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 371,
+    "question": "Quan hệ nào của gia đình được coi là mối quan hệ tự nhiên, là yếu tố mạnh mẽ nhất gắn kết các thành viên trong gia đình với nhau?",
+    "options": {
+      "A": "Quan hệ hôn nhân.",
+      "B": "Quan hệ nuôi dưỡng.",
+      "C": "Quan hệ huyết thống.",
+      "D": "Quan hệ quần tụ trong một không gian sinh tồn."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 372,
+    "question": "Điều kiện và tiền đề kinh tế - xã hội để xây dựng gia đình trong thời kỳ quá độ lên CNXH là gì?",
+    "options": {
+      "A": "Xác lập chế độ công hữu về tư liệu sản xuất.",
+      "B": "Hoàn thiện các chính sách văn hóa – xã hội.",
+      "C": "Phát triển giáo dục, đào tạo.",
+      "D": "Phát triển khoa học – công nghệ hiện đại."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 373,
+    "question": "Tìm ra điểm khác biệt của GCCN hiện nay với GCCN thế kỷ XIX?",
+    "options": {
+      "A": "Làm việc trong nền sản xuất công nghiệp.",
+      "B": "Công nhân một số nước trở thành giai cấp cầm quyền.",
+      "C": "Là giai cấp bán sức lao động cho nhà tư bản.",
+      "D": "GCCN phát triển cả số lượng và chất lượng."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 374,
+    "question": "Nhà nước Cộng hoà XHCN Việt Nam là nhà nước pháp quyền mang bản chất gì?",
+    "options": {
+      "A": "Giai cấp nông dân, tính nhân dân và tính dân tộc.",
+      "B": "Nhân dân và dân tộc.",
+      "C": "GCCN, tính nhân dân và tính dân tộc.",
+      "D": "Tính nhân dân rộng rãi và dân tộc sâu sắc."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 375,
+    "question": "Điểm then chốt để thực hiện thành công sứ mệnh lịch sử của GCCN Việt Nam là gì?",
+    "options": {
+      "A": "Tăng nhanh số lượng GCCN.",
+      "B": "Trí thức hóa nhanh GCCN.",
+      "C": "Liên minh chặt chẽ với các giai cấp lao động khác.",
+      "D": "Xây dựng Đảng trong sạch, vững mạnh."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 376,
+    "question": "Đâu là yếu tố cơ bản để GCCN Việt Nam gắn bó mật thiết với các tầng lớp nhân dân trong xã hội?",
+    "options": {
+      "A": "Thống nhất cao về lợi ích.",
+      "B": "Cùng là người lao động.",
+      "C": "Đều là động lực trong xây dựng xã hội mới.",
+      "D": "Đều là người làm chủ đất nước."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 377,
+    "question": "Chức năng, nhiệm vụ của nhà nước XHCN biểu hiện tâp trung ở việc quản lý xã hội trên tất cả các lĩnh vực bằng:",
+    "options": {
+      "A": "Khoa học và công nghệ.",
+      "B": "Các công cụ kinh tế.",
+      "C": "Hiến pháp và pháp luật.",
+      "D": "Hệ thống kế hoạch hóa."
+    },
+    "answer": "C"
+  }
 ]
