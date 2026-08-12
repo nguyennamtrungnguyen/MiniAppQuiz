@@ -1187,5 +1187,1105 @@
       "D": "Giai cấp tư sản"
     },
     "answer": "B"
+  },
+  {
+    "id": 109,
+    "question": "Đối tượng nghiên cứu của CNXH khoa học là gì?",
+    "options": {
+      "A": "Là quy luật kinh tế của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội XHCN",
+      "B": "Là quy luật xã hội của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội TBCN",
+      "C": "Là những quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội TBCN",
+      "D": "Là những quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội cộng sản chủ nghĩa"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 110,
+    "question": "Trong phương thức sản xuất TBCN, mâu thuẫn trong lĩnh vực kinh tế là mâu thuẫn giữa...",
+    "options": {
+      "A": "Lực lượng sản xuất mang tính xã hội với quan hệ sản xuất mang tính xã hội TBCN",
+      "B": "Lực lượng sản xuất mang tính cá nhân với quan hệ sản xuất mang tính xã hội TBCN",
+      "C": "Lực lượng sản xuất mang tính cá nhân với quan hệ sản xuất mang tính tư nhân TBCN",
+      "D": "Lực lượng sản xuất mang tính xã hội với quan hệ sản xuất mang tính tư nhân TBCN"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 111,
+    "question": "Những yếu tố tư tưởng CNXH được xuất hiện từ khi nào?",
+    "options": {
+      "A": "Khi chế độ TBCN ra đời",
+      "B": "Khi xuất hiện GCCN",
+      "C": "Ngay từ thời cộng sản nguyên thủy",
+      "D": "Sự xuất hiện chế độ tư hữu, xuất hiện giai cấp thống trị và bóc lột"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 112,
+    "question": "Trong phương thức sản xuất TBCN, mâu thuẫn giữa lực lượng sản xuất với quan hệ sản xuất bộc lộ qua cuộc khủng hoảng kinh tế lần thứ nhất vào năm...?",
+    "options": {
+      "A": "1824",
+      "B": "1827",
+      "C": "1826",
+      "D": "1825"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 113,
+    "question": "Chọn phương án đúng nhất: Chủ nghĩa Mác - Lênin được cấu thành từ ba bộ phận lý luận cơ bản nào?",
+    "options": {
+      "A": "Kinh tế chính trị học, CNXH khoa học, triết học Mác - Lênin",
+      "B": "CNXH khoa học, kinh tế chính trị cổ điển Anh, triết học cổ điển Đức",
+      "C": "CNXH không tưởng, triết học Mác - Lênin, kinh tế chính trị Mác - Lênin",
+      "D": "Triết học Mác - Lênin, kinh tế chính trị Mác - Lênin, CNXH khoa học"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 114,
+    "question": "Ai đã đưa ra quan niệm: “CNXH là sự phản kháng và đấu tranh chống sự bóc lột người lao động, một cuộc đấu tranh nhằm hoàn toàn xoá bỏ sự bóc lột”?",
+    "options": {
+      "A": "S.Phuriê",
+      "B": "C.Mác",
+      "C": "Ph.Ăngghen",
+      "D": "V.I.Lênin"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 115,
+    "question": "Phong trào đấu tranh của giai cấp vô sản vào những năm 30, 40 của thế kỷ XIX chứng tỏ rằng...",
+    "options": {
+      "A": "Giai cấp tư sản là một lực lượng chính trị độc lập",
+      "B": "Phong trào vô sản là một lực lượng chính trị - xã hội độc lập",
+      "C": "Giai cấp vô sản cần liên minh với địa chủ, phong kiến chống tư sản",
+      "D": "Giai cấp vô sản là một lực lượng chính trị - xã hội độc lập"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 116,
+    "question": "Những nhà tư tưởng tiêu biểu của CNXH không tưởng phê phán đầu thế kỷ XIX?",
+    "options": {
+      "A": "Grắccơ Babớp, Xanh Ximông, Sáclơ Phuriê",
+      "B": "Xanh Ximông, Sáclơ Phuriê, G.Mably",
+      "C": "Xanh Ximông, Giăng Mêliê, Rôbớt",
+      "D": "Xanh Ximông, Sáclơ Phuriê, Rôbớt Ôoen"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 117,
+    "question": "Phạm trù nào được coi là cơ bản nhất, là xuất phát điểm của CNXH khoa học?",
+    "options": {
+      "A": "GCCN",
+      "B": "Chuyên chính vô sản",
+      "C": "XHCN",
+      "D": "Sứ mệnh lịch sử của GCCN"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 118,
+    "question": "Tác phẩm nào được Lênin đánh giá là: “Tác phẩm chủ yếu và cơ bản trình bày CNXH khoa học”?",
+    "options": {
+      "A": "Chống Đuyrinh",
+      "B": "Hệ tư tưởng Đức",
+      "C": "Phê phán cương lĩnh Gôta",
+      "D": "Tư bản"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 119,
+    "question": "Lần đầu tiên Ph.Ăngghen nói: “Chủ nghĩa Mác được cấu thành bởi ba bộ phận” trong tác phẩm nào?",
+    "options": {
+      "A": "Sự phát triển của CNXH từ không tưởng đến khoa học",
+      "B": "Tình cảnh GCCN Anh",
+      "C": "Tuyên ngôn của ĐCS",
+      "D": "Chống Đuyrinh"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 120,
+    "question": "Từ khi ra đời (1848) đến nay, CNXH khoa học phát triển qua mấy giai đoạn chủ yếu?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 121,
+    "question": "Lý thuyết phân kỳ hình thái kinh tế - xã hội cộng sản chủ nghĩa lần đầu tiên được đề cập trong tác phẩm nào?",
+    "options": {
+      "A": "Nội chiến ở Pháp",
+      "B": "Bộ tư bản",
+      "C": "Phê phán Cương lĩnh Gôta",
+      "D": "Tuyên ngôn của ĐCS"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 122,
+    "question": "Công lao lớn nhất của V.I.Lênin là gì?",
+    "options": {
+      "A": "Nghiên cứu về Đảng kiểu mới của GCCN",
+      "B": "Nghiên cứu về cách mạng dân chủ tư sản kiểu mới",
+      "C": "Đấu tranh chống lại các trào lưu phi mácxít",
+      "D": "Làm cho lý luận CNXH trở thành hiện thực"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 123,
+    "question": "Tác phẩm đầu tiên mà C.Mác và Ph.Ăngghen viết chung là tác phẩm nào?",
+    "options": {
+      "A": "Hệ tư tưởng Đức",
+      "B": "Tuyên ngôn ĐCS",
+      "C": "Tình cảnh GCCN Anh",
+      "D": "Gia đình thần thánh"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 124,
+    "question": "Quốc tế cộng sản là tên gọi khác của tổ chức nào dưới đây?",
+    "options": {
+      "A": "Quốc tế I",
+      "B": "Quốc tế II",
+      "C": "Hội liên hiệp công nhân quốc tế",
+      "D": "Quốc tế III"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 125,
+    "question": "Bản chất GCCN của ĐCS Việt Nam được thể hiện ở:",
+    "options": {
+      "A": "Trình độ đảng viên trong Đảng",
+      "B": "Số lượng đảng viên trong Đảng",
+      "C": "Nền tảng lý luận, mục tiêu, đường lối, nguyên tắc tổ chức của Đảng",
+      "D": "Khả năng lãnh đạo"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 126,
+    "question": "So với GCCN truyền thống ở thế kỷ XIX, GCCN hiện nay vừa có những điểm tương đồng vừa có những điểm khác biệt nào?",
+    "options": {
+      "A": "Là lực lượng sản xuất hàng đầu của xã hội hiện đại.",
+      "B": "Được đào tạo chuẩn mực và thường xuyên được đào tạo lại, đáp ứng sự thay đổi nhanh chóng của công nghệ trong nền sản xuất.",
+      "C": "Gắn liền với cách mạng và khoa học công nghệ hiện đại, với sự phát triển kinh tế tri thức.",
+      "D": "Là lực lượng sản xuất hàng đầu của xã hội hiện đại; gắn liền với cách mạng và khoa học công nghệ hiện đại, với sự phát triển kinh tế tri thức."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 127,
+    "question": "Khái niệm: “Chuyên chính của giai cấp vô sản” được sử dụng lần đầu tiên trong tác phẩm nào?",
+    "options": {
+      "A": "Hệ tư tưởng Đức",
+      "B": "Nội chiến ở Pháp",
+      "C": "Tuyên ngôn của ĐCS",
+      "D": "Những nguyên lý của chủ nghĩa cộng sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 128,
+    "question": "Việc phát hiện ra sự phân chia xã hội thành giai cấp và đấu tranh giai cấp là công lao của ai?",
+    "options": {
+      "A": "Các nhà sử học tư sản trước Mác",
+      "B": "V.I.Lênin",
+      "C": "C.Mác",
+      "D": "Ph.Ăngghen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 129,
+    "question": "Điều kiện quan trọng không thể thiếu để thực hiện sứ mệnh lịch sử của GCCN:",
+    "options": {
+      "A": "Liên minh công - nông - trí thức dưới sự lãnh đạo của ĐCS",
+      "B": "Sự liên minh giữa GCCN với quần chúng nhân dân do GCCN lãnh đạo",
+      "C": "Sự liên minh giữa GCCN với giai cấp nông dân và các tầng lớp lao động do GCCN lãnh đạo",
+      "D": "Sự liên minh giữa GCCN với giai cấp nông dân thông qua đội tiền phong của GCCN"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 130,
+    "question": "ĐCS mang bản chất của giai cấp:",
+    "options": {
+      "A": "GCCN và dân tộc.",
+      "B": "GCCN và nhân dân lao động.",
+      "C": "GCCN và giai cấp nông dân.",
+      "D": "GCCN"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 131,
+    "question": "Tác giả nào là người đầu tiên đưa ra khái niệm cách mạng dân chủ tư sản kiểu mới?",
+    "options": {
+      "A": "C.Mác",
+      "B": "C.Mác và Ph.Ăngghen",
+      "C": "Ph.Ăngghen",
+      "D": "V.I.Lênin"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 132,
+    "question": "Sứ mệnh lịch sử thế giới của GCCN là:",
+    "options": {
+      "A": "Xoá bỏ chế độ tư hữu",
+      "B": "Xoá bỏ chế độ TBCN",
+      "C": "Xoá bỏ nhà nước của giai cấp tư sản và xây dựng thành công CNXH và chủ nghĩa cộng sản",
+      "D": "Xoá bỏ chế độ tư hữu về tư liệu sản xuất"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 133,
+    "question": "Xét về phương thức lao động, phương thức sản xuất, GCCN mang thuộc tính cơ bản:",
+    "options": {
+      "A": "Là giai cấp trực tiếp hay gián tiếp vận hành máy móc có tính chất công nghiệp ngày càng hiện đại",
+      "B": "Có số lượng đông nhất trong dân cư.",
+      "C": "Là giai cấp tạo ra của cải vật chất làm giàu cho xã hội.",
+      "D": "Là giai cấp cấp tiến"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 134,
+    "question": "Luận điểm của Hồ Chí Minh về ĐCS Việt Nam là gì?",
+    "options": {
+      "A": "Trong đảng, GCCN trở thành tự giác - hiểu rõ và biết thực hiện sứ mệnh lịch sử",
+      "B": "Đảng của GCCN, kiên định mục tiêu độc lập dân tộc và chủ nghĩa xã hội, kiên định chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh",
+      "C": "Trong đảng, quyền lợi của GCCN và nhân dân lao động và của dân tộc là một",
+      "D": "Đảng của GCCN, đồng thời là Đảng của dân tộc Việt Nam vừa khẳng định bản chất GCCN của Đảng theo chủ nghĩa Mác - Lênin, vừa thể hiện được nét đặc thù của Đảng ta"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 135,
+    "question": "Cống hiến vĩ đại của C.Mác mà nhờ đó CNXH từ không tưởng trở thành khoa học là:",
+    "options": {
+      "A": "Chỉ ra sự cần thiết phải thay thế chủ nghĩa tư bản bằng chủ nghĩa xã hội.",
+      "B": "Lên án mạnh mẽ chủ nghĩa tư bản, bóc lột GCCN làm thuê.",
+      "C": "Phản ánh đúng khát vọng của nhân dân lao động bị áp bức.",
+      "D": "Phát hiện ra GCCN là lực lượng xã hội có thể thủ tiêu chủ nghĩa tư bản, xây dựng chủ nghĩa xã hội"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 136,
+    "question": "Nội dung kinh tế sứ mệnh lịch sử của GCCN Việt Nam hiện nay",
+    "options": {
+      "A": "Lực lượng đi đầu trong sự nghiệp CNH - HĐH đất nước",
+      "B": "Thực hiện khối liên minh Công - Nông - Trí thức để tạo ra những động lực phát triển nông nghiệp - nông thôn và nông dân ở nước ta theo hướng phát triển bền vững, chủ động hội nhập quốc tế",
+      "C": "Là nguồn nhân lực chủ yếu tham gia phát triển nền kinh tế thị trường, định hướng XHCN",
+      "D": "Cả A, B, C"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 137,
+    "question": "Để thực hiện sứ mệnh lịch sử của mình GCCN phải liên minh với các giai tầng xã hội nào?",
+    "options": {
+      "A": "Thực hiện khối liên minh công - nông - trí thức và cấp công tư sản",
+      "B": "Thực hiện khối liên minh công - nông - trí thức; hệ thống tổ chức công đoàn",
+      "C": "Thực hiện khối liên minh công - nông - trí thức",
+      "D": "Thực hiện khối liên minh công - nông"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 138,
+    "question": "Phạm trù nào được coi là cơ bản nhất, là xuất phát điểm của CNXH khoa học?",
+    "options": {
+      "A": "GCCN",
+      "B": "Chuyên chính vô sản",
+      "C": "XHCN",
+      "D": "Sứ mệnh lịch sử của GCCN"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 139,
+    "question": "V.I.Lênin khái quát quy luật hình thành chính Đảng của GCCN bằng công thức:",
+    "options": {
+      "A": "Lý luận Mác – Lênin + Phong trào công nhân -> ĐCS.",
+      "B": "Lý luận Mác + Phong trào công nhân + Phong trào yêu nước -> ĐCS.",
+      "C": "Lý luận Mác – Lênin + Phong trào công nhân + Phong trào yêu nước -> ĐCS.",
+      "D": "Lý luận Mác + Phong trào công nhân -> ĐCS"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 140,
+    "question": "Những yếu tố tư tưởng XHCN được xuất hiện từ khi nào?",
+    "options": {
+      "A": "Sự xuất hiện của GCCN.",
+      "B": "Chế độ TBCN ra đời.",
+      "C": "Xuất hiện chế độ tư hữu, xuất hiện giai cấp thống trị và bóc lột",
+      "D": "Ngay từ thời cộng sản nguyên thuỷ."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 141,
+    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Xét về phương thức lao động, công nhân trong thế kỷ XIX chủ yếu là lao động cơ khí, lao động chân tay, thì nay đã xuất hiện một bộ phận công nhân của những ngành..................... ở trình độ phát triển cao, do vậy công nhân có trình độ tri thức ngày càng cao”.",
+    "options": {
+      "A": "Công nghệ thông tin",
+      "B": "Ứng dụng công nghệ",
+      "C": "Ứng dụng công nghệ thông tin",
+      "D": "Công nghệ hiện đại"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 142,
+    "question": "Đặc trưng nào được coi là đặc trưng cơ bản nhất của GCCN nói chung?",
+    "options": {
+      "A": "Họ lao động trong nền công nghiệp có trình độ công nghệ và kỹ thuật hiện đại",
+      "B": "Bị giai cấp tư sản bóc lột",
+      "C": "Không có tư liệu sản xuất, phải bán sức lao động",
+      "D": "Là sản phẩm của nền đại công nghiệp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 143,
+    "question": "Nội dung văn hóa - xã hội trong việc thực hiện Sứ mệnh lịch sử của GCCN ngày nay so với thế kỷ XIX là gì?",
+    "options": {
+      "A": "Tiên phong về trí tuệ, gương mẫu trong cuộc sống, đi đầu trong xây dựng một nền văn hóa tiến bộ.",
+      "B": "Lãnh đạo hoặc đi đầu trong xây dựng một nền văn hóa tiến bộ vì công bằng, bình đẳng và quyền con người.",
+      "C": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng.",
+      "D": "Vẫn là lực lượng giữ vai trò sáng tạo văn hóa cho xã hội, quyết định sự tồn tại của xã hội."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 144,
+    "question": "Những biến đổi và khác biệt của GCCN hiện đại là gì?",
+    "options": {
+      "A": "Xu hướng trí tuệ hoá GCCN (công nhân tri thức); tham gia vào sở hữu (trung lưu hóa); ít hơn về số lượng",
+      "B": "Xu hướng trí tuệ hoá GCCN (công nhân tri thức); tham gia vào sở hữu (trung lưu hóa)",
+      "C": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng; xu hướng trí tuệ hoá GCCN (công nhân tri thức); ít hơn về số lượng",
+      "D": "Đi đầu trong đấu tranh, tiên phong về trí tuệ, gương mẫu trong cuộc sống"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 145,
+    "question": "Nội dung chính trị trong việc thực hiện Sứ mệnh lịch sử của GCCN ngày nay so với thế kỷ XIX là gì?",
+    "options": {
+      "A": "Đi đầu trong đấu tranh, tiên phong về trí tuệ, gương mẫu trong cuộc sống",
+      "B": "Vẫn là lực lượng giữ vai trò sản xuất vật chất chủ yếu cho xã hội, quyết định sự tồn tại của xã hội",
+      "C": "Ở các nước TBCN GCCN đi đầu trong các cuộc đấu tranh chống áp bức, bất công, áp đặt của chủ nghĩa đế quốc; chống nghèo đói, ô nhiễm môi trường.",
+      "D": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng; có cuộc sống đầy đủ hơn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 146,
+    "question": "Theo C.Mác: GCCN là giai cấp của những người công nhân và người lao động phải …….. để đổi lấy tiền lương và họ không phải là chủ sở hữu của phương tiện sản xuất.",
+    "options": {
+      "A": "Bán sức lao động",
+      "B": "Làm việc",
+      "C": "Làm thuê",
+      "D": "Lao động"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 147,
+    "question": "GCCN Việt Nam ra đời trước giai cấp tư sản vào đầu thế kỷ nào?",
+    "options": {
+      "A": "XIX",
+      "B": "XXI",
+      "C": "XVIII",
+      "D": "XX"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 148,
+    "question": "Đặc trưng nào được coi là đặc trưng cơ bản nhất của GCCN nói chung?",
+    "options": {
+      "A": "Là sản phẩm của nền đại công nghiệp",
+      "B": "Bị giai cấp tư sản bóc lột",
+      "C": "Họ lao động trong nền công nghiệp có trình độ công nghệ và kỹ thuật hiện đại",
+      "D": "Không có tư liệu sản xuất, phải bán sức lao động"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 149,
+    "question": "Điểm biến đổi và khác biệt của GCCN hiện đại so với GCCN ở thế kỷ XIX là:",
+    "options": {
+      "A": "Xu hướng “trí tuệ hóa” tăng nhanh và “trung lưu hóa” gia tăng.",
+      "B": "GCCN hiện nay vẫn đang là lực lượng sản xuất hàng đầu của xã hội hiện đại.",
+      "C": "Ở các nước TBCN hiện nay, công nhân vẫn bị giai cấp tư sản và chủ nghĩa tư bản bóc lột giá trị thặng dư.",
+      "D": "Phong trào cộng sản và công nhân ở nhiều nước vẫn luôn là lực lượng đi đầu trong các cuộc đấu tranh vì hòa bình, hợp tác và phát triển..."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 150,
+    "question": "Theo C.Mác và Ph.Ăngghen đặc điểm nổi bật của GCCN là gì?",
+    "options": {
+      "A": "Là giai cấp đại diện cho lực lượng sản xuất tiên tiến",
+      "B": "GCCN là một tập đoàn xã hội ổn định, hình thành và phát triển cùng với quá trình phát triển của nền công nghiệp hiện đại",
+      "C": "GCCN là sản phẩm của bản thân nền đại công nghiệp, là chủ thể của quá trình sản xuất vật chất hiện đại.",
+      "D": "Lao động bằng phương thức công nghiệp với đặc trưng công cụ lao động là máy móc, tạo ra năng suất lao động cao, quá trình lao động mang tính chất xã hội hóa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 151,
+    "question": "Nội dung kinh tế trong việc thực hiện Sứ mệnh lịch sử của GCCN ngày nay so với thế kỷ XIX là gì?",
+    "options": {
+      "A": "Đi đầu trong đấu tranh, tiên phong về trí tuệ, gương mẫu trong cuộc sống",
+      "B": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng; có cuộc sống đầy đủ hơn",
+      "C": "Là lực lượng sản xuất hàng đầu của xã hội hiện đại",
+      "D": "Vẫn là lực lượng giữ vai trò sản xuất vật chất chủ yếu cho xã hội, quyết định sự tồn tại của xã hội"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 152,
+    "question": "Chọn phương án đúng điền vào chỗ trống: “GCCN là giai cấp… và có tinh thần…”",
+    "options": {
+      "A": "Tiên phong dân chủ/ dân chủ triệt để nhất.",
+      "B": "Tiên phong cách mạng/ cách mạng triệt để nhất",
+      "C": "Tiên phong cách mạng/ dân chủ triệt để nhất.",
+      "D": "Tiên phong dân chủ/ cách mạng triệt để nhất."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 153,
+    "question": "Xét trong quan hệ sản xuất TBCN, GCCN có vị trí:",
+    "options": {
+      "A": "Là giai cấp nghèo khổ nhất, không có tài sản.",
+      "B": "Là giai cấp lạc hậu nhất.",
+      "C": "Là giai cấp có số lượng đông trong dân cư, luôn đi đầu trong cuộc đấu tranh chống giai cấp tư sản.",
+      "D": "Là giai cấp không có tư liệu sản xuất, đi làm thuê cho các nhà tư bản, bị tư bản bóc lột giá trị thặng dư"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 154,
+    "question": "Trong các đặc điểm sứ mệnh lịch sử của GCCN, GCCN là giai cấp triệt để cách mạng vì sao?",
+    "options": {
+      "A": "Là giai cấp thực hiện xoá bỏ mọi chế độ tư hữu",
+      "B": "Xoá bỏ chủ nghĩa tư bản và xây dựng chủ nghĩa xã hội",
+      "C": "Là giai cấp cùng khổ nhất trong xã hội",
+      "D": "Là giai cấp không có tư liệu sản xuất"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 155,
+    "question": "Chọn phương án đúng điền vào chỗ trống: “GCCN có những… thống nhất với… của đại đa số quần chúng nhân dân lao động”",
+    "options": {
+      "A": "Lợi ích chung/ lợi ích cụ thể.",
+      "B": "Lợi ích chung/ lợi ích",
+      "C": "Lợi ích cơ bản/ lợi ích",
+      "D": "Lợi ích cơ bản/ lợi ích cụ thể"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 156,
+    "question": "Một trong những đặc điểm sứ mệnh lịch sử của GCCN:",
+    "options": {
+      "A": "Là sự nghiệp cách mạng của quần chúng và mang lại lợi ích cho thiểu số",
+      "B": "Là sự nghiệp cách mạng của quần chúng và mang lại lợi ích cho đông đảo quần chúng",
+      "C": "Là sự nghiệp cách mạng của bản thân GCCN cùng với đông đảo quần chúng và mang lại lợi ích cho đa số",
+      "D": "Là sự nghiệp cách mạng của GCCN và chỉ mang lại lợi ích cho chính bản thân GCCN"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 157,
+    "question": "Chọn phương án đúng nhất: Theo C.Mác và Ph.Ăngghen những điều kiện quy định sứ mệnh lịch sử của GCCN thì điều kiện khách quan để GCCN thực hiện sứ mệnh lịch sử là gì?",
+    "options": {
+      "A": "Do địa vị kinh tế của GCCN; do địa vị chính trị - xã hội của GCCN; do nhu cầu giải quyết mâu thuẫn trong chủ nghĩa tư bản",
+      "B": "ĐCS; sự phát triển của bản thân GCCN",
+      "C": "Sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác do GCCN thông qua đội tiên phong của nó là ĐCS lãnh đạo",
+      "D": "Do sự phát triển của bản thân GCCN cả về số lượng và chất lượng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 158,
+    "question": "Yếu tố nào giữ vai trò quyết định nhất đối với tính cách mạng triệt để nhất của GCCN?",
+    "options": {
+      "A": "Bị bóc lột nặng nề nhất trong chủ nghĩa tư bản.",
+      "B": "Đại diện cho xã hội tương lai",
+      "C": "Nghèo khổ nhất trong chủ nghĩa tư bản.",
+      "D": "Bị bóc lột nặng nề nhất."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 159,
+    "question": "Sứ mệnh lịch sử của GCCN là phạm trù trung tâm của nguyên lý nào trong chủ nghĩa Mác – Lênin?",
+    "options": {
+      "A": "Kinh tế chính trị Mác - Lênin",
+      "B": "Triết học Mác – Lênin",
+      "C": "CNXH khoa học",
+      "D": "Học thuyết Kinh tế xã hội"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 160,
+    "question": "Sứ mệnh lịch sử thế giới của GCCN vừa mang tính .. vừa mang tính ..",
+    "options": {
+      "A": "Giai cấp …… dân tộc.",
+      "B": "Giai cấp …… nhân dân.",
+      "C": "Dân tộc …… nhân dân.",
+      "D": "Dân tộc …… quốc tế"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 161,
+    "question": "C. Mác và Ăngghen luận giải một cách khoa học sứ mệnh lịch sử của GCCN là dựa trên phát kiến:",
+    "options": {
+      "A": "Chủ nghĩa duy vật biện chứng",
+      "B": "Chủ nghĩa duy vật lịch sử và học thuyết giá trị thặng dư",
+      "C": "Kinh tế học chính trị cổ điển Anh",
+      "D": "Thuyết tiến hoá của Darwin"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 162,
+    "question": "Đặc điểm nào khẳng định GCCN là giai cấp tiến bộ nhất",
+    "options": {
+      "A": "Đại biểu cho phương thức sản xuất hiện đại",
+      "B": "Có tinh thần quốc tế trong sáng",
+      "C": "Có tính chất tổ chức kỷ luật cao",
+      "D": "Có số lượng đông"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 163,
+    "question": "Chọn phương án đúng điền vào chỗ trống: Theo quan điểm của chủ nghĩa Mác – Lênin: “Lực lượng sản xuất hàng đầu của toàn nhân loại là…, là…”",
+    "options": {
+      "A": "Công nhân/ người không lao động.",
+      "B": "Trí thức/ người lao động.",
+      "C": "Công nhân/ người lao động",
+      "D": "Nông dân/ người lao động."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 164,
+    "question": "Với phương thức lao động công nghiệp trong nền sản xuất TBCN, giai cấp nào là những người trực tiếp hay gián tiếp vận hành các công cụ lao động có tính chất công nghiệp ngày càng hiện đại và xã hội hóa cao?",
+    "options": {
+      "A": "Giai cấp tư sản",
+      "B": "GCCN",
+      "C": "Giai cấp nông dân",
+      "D": "GCCN và nông dân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 165,
+    "question": "Theo tư tưởng Hồ Chí Minh, quy luật hình thành và phát triển của ĐCS Việt Nam là gì?",
+    "options": {
+      "A": "Chủ nghĩa Mác; tư tưởng Hồ Chí Minh và phong trào công nhân",
+      "B": "Chủ nghĩa Mác – Lênin; tư tưởng Hồ Chí Minh và phong trào công nhân",
+      "C": "Chủ nghĩa Mác – Lênin; tư tưởng Hồ Chí Minh; phong trào công nhân và phong trào yêu nước",
+      "D": "Chủ nghĩa Mác – Lênin; phong trào công nhân, phong trào yêu nước"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 166,
+    "question": "Chọn phương án đúng nhất: Theo C.Mác và Ph.Ăngghen những điều kiện quy định sứ mệnh lịch sử của GCCN thì điều kiện khách quan để GCCN thực hiện sứ mệnh lịch sử là gì?",
+    "options": {
+      "A": "Do sự phát triển của bản thân GCCN cả về số lượng và chất lượng",
+      "B": "Sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác",
+      "C": "Do địa vị kinh tế của GCCN; do địa vị chính trị - xã hội của GCCN; do nhu cầu giải quyết mâu thuẫn trong chủ nghĩa tư bản",
+      "D": "ĐCS; sự phát triển của bản thân GCCN do GCCN thông qua đội tiên phong của nó là ĐCS lãnh đạo"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 167,
+    "question": "CNXH khoa học ra đời từ điều kiện kinh tế - xã hội:",
+    "options": {
+      "A": "Khi ra đời chính Đảng của GCCN.",
+      "B": "Khi có sự ủng hộ của giai cấp nông dân và tầng lớp trí thức đối với GCCN",
+      "C": "Khi GCCN đã thực sự giác ngộ sứ mệnh lịch sử của giai cấp mình.",
+      "D": "Khi phương thức sản xuất TBCN đã phát triển và sự lớn mạnh của GCCN"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 168,
+    "question": "GCCN hình thành và phát triển mạnh trong xã hội?",
+    "options": {
+      "A": "Xã hội TBCN",
+      "B": "Xã hội chiếm hữu nô lệ",
+      "C": "Xã hội XHCN",
+      "D": "Xã hội phong kiến"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 169,
+    "question": "GCCN có những đặc điểm chủ yếu nào?",
+    "options": {
+      "A": "Lao động bằng phương thức công nghiệp với đặc trưng công cụ lao động là máy móc, tạo ra năng suất lao động cao, quá trình lao động mang tính chất xã hội hóa.",
+      "B": "Đại biểu cho lực lượng sản xuất tiên tiến, cho phương thức sản xuất tiên tiến, quyết định sự tồn tại và phát triển của xã hội hiện đại.",
+      "C": "Nền sản xuất đại công nghiệp và phương thức sản xuất tiên tiến đã rèn luyện cho GCCN những phẩm chất đặc biệt về tính tổ chức, kỷ luật lao động, tinh thần hợp tác...",
+      "D": "Bao gồm tất cả các đáp án."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 170,
+    "question": "Chọn phương án đúng nhất điền vào chỗ trống “Chủ nghĩa Mác – Lênin chỉ rõ, để cuộc cách mạng thực hiện sứ mệnh lịch sử của GCCN đi tới thắng lợi, phải có sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác, thông qua đội tiên phong của nó là ”.",
+    "options": {
+      "A": "Giai cấp bị thống trị lãnh đạo",
+      "B": "ĐCS lãnh đạo",
+      "C": "Liên minh công nông và tầng lớp trí thức lãnh đạo",
+      "D": "GCCN lãnh đạo"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 171,
+    "question": "Theo C.Mác và Ph.Ăngghen những điều kiện quy định sứ mệnh lịch sử của GCCN thì “Điều kiện chủ quan để GCCN thực hiện sứ mệnh lịch sử” là gì?",
+    "options": {
+      "A": "Sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác do GCCN thông qua đội tiên phong của nó là ĐCS lãnh đạo.",
+      "B": "ĐCS; sự phát triển của bản thân GCCN",
+      "C": "Liên minh giai cấp giữa GCCN với các tầng lớp lao động khác; sự phát triển của bản thân GCCN",
+      "D": "Sự phát triển của bản thân GCCN cả về số lượng và chất lượng; ĐCS là nhân tố chủ quan quan trọng nhất để GCCN thực hiện thắng lợi sứ mệnh lịch sử của mình"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 172,
+    "question": "ĐCS đại biểu cho lợi ích và trí tuệ của:",
+    "options": {
+      "A": "GCCN.",
+      "B": "GCCN và giai cấp nông dân.",
+      "C": "Tất cả các giai cấp, các tầng lớp nhân dân trong xã hội.",
+      "D": "GCCN và nhân dân lao động."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 173,
+    "question": "Hãy cho biết: “3 khâu đột phá” của thời kỳ quá độ lên CNXH trong Giáo trình CNXH khoa học (dành cho bậc đại học – không chuyên lý luận chính trị) – 2021 là gì?",
+    "options": {
+      "A": "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; hiệu quả công việc tăng cao; phát triển kết cấu hạ tầng đồng bộ",
+      "B": "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; phát triển nguồn nhân lực chất lượng cao; phát triển kết cấu hạ tầng đồng bộ",
+      "C": "Năng suất lao động tăng cao; quốc phòng; an ninh vững chắc; phát triển kết cấu hạ tầng đồng",
+      "D": "Theo hiệu quả lao động; phát triển nguồn nhân lực chất lượng cao; phát triển kết cấu hạ tầng đồng bộ; phát triển nguồn nhân lực chất lượng cao"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 174,
+    "question": "Nguyên nhân sâu xa dẫn đến sự thay thế hình thái kinh tế - xã hội TBCN bằng hình thái kinh tế - xã hội cộng sản chủ nghĩa là gì?",
+    "options": {
+      "A": "Mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa ngày càng cao với quan hệ sản xuất TBCN dựa trên chế độ chiếm hữu tư nhân TBCN về tư liệu sản xuất chủ yếu",
+      "B": "Mâu thuẫn giữa các giai cấp, tầng lớp lao động trong xã hội",
+      "C": "Mâu thuẫn giữa phương thức sản xuất cộng sản chủ nghĩa với phương thức sản xuất TBCN",
+      "D": "Mâu thuẫn giữa tư liệu lao động đối với đối tượng lao động trong nền sản xuất hàng hóa TBCN"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 175,
+    "question": "Thời kỳ quá độ lên CNXH có mấy đặc điểm cơ bản?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 176,
+    "question": "Quá độ lên CNXH bỏ qua chế độ TBCN được hiểu là:",
+    "options": {
+      "A": "Tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ TBCN",
+      "B": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng TBCN",
+      "C": "Tạo ra sự biến đổi về chất của xã hội trên tất cả các lĩnh vực của đời sống",
+      "D": "Cả A, B, C"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 177,
+    "question": "Theo quan điểm của các nhà sáng lập chủ nghĩa xã hội khoa học, CNXH gồm mấy đặc trưng?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 178,
+    "question": "Khái niệm: “Hệ thống chính trị XHCN” do tổ chức Đảng nào sau đây nêu ra?",
+    "options": {
+      "A": "ĐCS Liên Xô",
+      "B": "ĐCS Trung Quốc",
+      "C": "ĐCS Việt Nam",
+      "D": "Quốc tế Cộng sản (Quốc tế III)"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 179,
+    "question": "Theo C.Mác và Ph.Ăngghen hình thái kinh tế - xã hội cộng sản chủ nghĩa phát triển qua mấy giai đoạn?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 180,
+    "question": "Những đặc trưng cơ bản của CNXH mà nhân dân ta đang xây dựng hiện nay được thông qua tại đại hội nào?",
+    "options": {
+      "A": "Đại hội IX",
+      "B": "Đại hội VIII",
+      "C": "Đại hội VII",
+      "D": "Đại hội VI"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 181,
+    "question": "\"Thiết lập, tăng cường chuyên chính vô sản\" là đặc điểm của thời kỳ quá độ lên CNXH trên lĩnh vực nào?",
+    "options": {
+      "A": "Trên lĩnh vực chính trị",
+      "B": "Trên lĩnh vực kinh tế",
+      "C": "Trên lĩnh vực tư tưởng - văn hóa",
+      "D": "Trên lĩnh vực xã hội"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 182,
+    "question": "Ai khẳng định: “Đối với những nước chưa có chủ nghĩa tư bản phát triển cao thì cần phải có thời kì quá độ khá lâu dài, từ chủ nghĩa tư bản lên chủ nghĩa xã hội”?",
+    "options": {
+      "A": "Ph.Ăngghen",
+      "B": "Hồ Chí Minh",
+      "C": "V.I.Lênin",
+      "D": "C.Mác"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 183,
+    "question": "Trong giai đoạn hiện nay, thực hiện bước quá độ lên CNXH ở Việt Nam có những yếu tố thuận lợi nào?",
+    "options": {
+      "A": "Cách mạng khoa học và công nghệ hiện đại đang diễn ra mạnh mẽ",
+      "B": "Nền sản xuất vật chất và đời sống xã hội đang trong quá trình quốc tế hóa sâu sắc",
+      "C": "Quá trình đổi mới và chính sách cởi mở của Đảng và Nhà nước Việt Nam trong hội nhập quốc tế",
+      "D": "Cả A, B, C"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 184,
+    "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (1991) Đảng ta xác định mấy phương hướng?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 185,
+    "question": "Tiêu chí nào là quan trọng nhất để C.Mác phân chia giai đoạn phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa?",
+    "options": {
+      "A": "Ý thức giác ngộ của nhân dân lao động",
+      "B": "Trình độ quản lý của Nhà nước",
+      "C": "Trình độ dân trí của xã hội",
+      "D": "Trình độ xã hội hóa của lực lượng sản xuất"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 186,
+    "question": "Hãy cho biết mục tiêu của cách mạng XHCN là gì?",
+    "options": {
+      "A": "Giải phóng con người",
+      "B": "Giải phóng xã hội",
+      "C": "Giải phóng xã hội, giải phóng con người khỏi chế độ áp bức, bóc lột",
+      "D": "Giải phóng xã hội, giải phóng con người"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 187,
+    "question": "Cách mạng vô sản trên thực tế được thực hiện bằng con đường:",
+    "options": {
+      "A": "Con đường thỏa hiệp",
+      "B": "Con đường bạo lực cách mạng",
+      "C": "Con đường hòa bình",
+      "D": "Đấu tranh chính trị"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 188,
+    "question": "Một trong những thuận lợi khi Việt Nam quá độ lên chủ nghĩa xã hội:",
+    "options": {
+      "A": "Cuộc cách mạng khoa học và công nghệ hiện đại đang diễn ra mạnh mẽ, cuốn hút tất cả các nước ở mức độ khác nhau",
+      "B": "Xuất phát từ một xã hội vốn là thuộc địa, nửa phong kiến, lực lượng sản xuất rất thấp.",
+      "C": "Các thế lực thù địch thường xuyên tìm cách phá hoại.",
+      "D": "Đất nước trải qua chiến tranh ác liệt, kéo dài nhiều thập kỷ, hậu quả để lại còn nặng nề."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 189,
+    "question": "Chọn phương án đúng nhất điền vào chỗ trống: C.Mác cho rằng: “Giữa xã hội TBCN và xã hội cộng sản chủ nghĩa là một thời kỳ ….. từ xã hội này sang xã hội kia. Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị, và nhà nước của thời kỳ ấy không thể là cái gì khác hơn là nền chuyên chính cách mạng của giai cấp vô sản”.",
+    "options": {
+      "A": "Quá độ chính trị",
+      "B": "Chuyên chính cách mạng",
+      "C": "Của giai cấp vô sản",
+      "D": "Cải biến cách mạng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 190,
+    "question": "C. Mác đã dựa vào nhân tố nào trong sự vận động của chủ nghĩa tư bản để kết luận rằng xã hội tư bản sẽ chuyển sang xã hội XHCN?",
+    "options": {
+      "A": "C.Mác đã phân tích những quy luật kinh tế trong xã hội tư bản",
+      "B": "C.Mác đã phân tích những áp bức, bất công trong xã hội tư bản",
+      "C": "C.Mác đã phân tích những hạn chế trong xã hội tư bản",
+      "D": "C.Mác đã phân tích sự phân hóa giàu nghèo trong xã hội tư bản"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 191,
+    "question": "Đặc trưng bản chất của CNXH ở Việt Nam gồm mấy đặc trưng?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "36",
+      "D": "8"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 192,
+    "question": "Điều kiện ra đời của CNXH là gì?",
+    "options": {
+      "A": "Mâu thuẫn giữa tư sản và phong kiến",
+      "B": "Mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân TBCN",
+      "C": "Mâu thuẫn với quan hệ sản xuất TBCN",
+      "D": "Mâu thuẫn giữa GCCN hiện đại với giai cấp tư sản lỗi thời"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 193,
+    "question": "Sự khác nhau giữa giai đoạn thấp và giai đoạn cao của hình thái kinh tế - xã hội cộng sản chủ nghĩa là gì?",
+    "options": {
+      "A": "Giai đoạn thấp còn sự phân chia giai cấp, giai đoạn cao còn một giai cấp",
+      "B": "Giai đoạn thấp làm theo năng lực, hưởng theo lao động, giai đoạn cao làm theo năng lực, hưởng theo nhu cầu",
+      "C": "Giai đoạn thấp thực hiện phân phối theo nhu cầu, giai đoạn cao thực hiện phân phối theo lao động",
+      "D": "Giai đoạn thấp sử dụng pháp quyền tư sản, giai đoạn cao sử dụng pháp quyền XHCN"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 194,
+    "question": "Hãy cho biết: CNXH (Socialism) được hiểu theo mấy nghĩa?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 195,
+    "question": "Một trong những khó khăn khi Việt Nam quá độ lên chủ nghĩa xã hội:",
+    "options": {
+      "A": "Xuất phát từ một xã hội vốn là thuộc địa, nửa phong kiến, lực lượng sản xuất rất thấp.",
+      "B": "Cuộc cách mạng khoa học và công nghệ hiện đại đang diễn ra mạnh mẽ.",
+      "C": "Thời đại ngày nay vẫn là thời đại quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội.",
+      "D": "Bao gồm tất cả các đáp án."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 196,
+    "question": "Hãy cho biết: CNXH thực hiện nguyên tắc phân phối như thế nào?",
+    "options": {
+      "A": "Theo hiệu quả công việc",
+      "B": "Theo hiệu quả lao động",
+      "C": "Theo lao động",
+      "D": "Theo năng suất lao động"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 197,
+    "question": "Hãy cho biết: Mục đích cách mạng XHCN là gì?",
+    "options": {
+      "A": "Giải phóng GCCN, nhân dân lao động ra khỏi tình trạng bị áp bức bóc lột, đưa lại cuộc sống ấm no hạnh phúc",
+      "B": "Giải phóng toàn xã hội",
+      "C": "Giải phóng con người khỏi tình trạng bị áp bức bóc lột, đưa lại cuộc sống ấm no hạnh phúc",
+      "D": "Giải phóng GCCN, nhân dân lao động"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 198,
+    "question": "Cách mạng XHCN theo nghĩa hẹp là gì?",
+    "options": {
+      "A": "Giải phóng GCCN, xây dựng CNXH và chủ nghĩa cộng sản.",
+      "B": "Là quá trình cải biến một cách toàn diện trên tất cả các lĩnh vực của đời sống xã hội từ kinh tế, chính trị, văn hoá, tư tưởng, v.v. để xây dựng CNXH và cuối cùng là chủ nghĩa cộng sản",
+      "C": "Là cuộc cách mạng của GCCN cùng với nhân dân lao động đánh đổ sự thống trị của giai cấp tư sản",
+      "D": "Là một cuộc cách mạng chính trị được kết thúc bằng việc GCCN cùng với nhân dân lật đổ giai cấp tư sản và chủ nghĩa tư bản"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 199,
+    "question": "Học thuyết hình thái kinh tế - xã hội của chủ nghĩa Mác - Lênin đã cung cấp những tiêu chuẩn thực sự duy vật, khoa học cho sự phân kỳ lịch sử, trong đó có sự phân kỳ hình thái kinh tế - xã hội nào?",
+    "options": {
+      "A": "Xã hội - XHCN",
+      "B": "TBCN",
+      "C": "Chiếm hữu nô lệ",
+      "D": "Cộng sản chủ nghĩa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 200,
+    "question": "So với hình thái kinh tế xã hội đã xuất hiện trong lịch sử, hình thái kinh tế - xã hội cộng sản chủ nghĩa có sự khác biệt về chất đó là gì?",
+    "options": {
+      "A": "Dưới sự lãnh đạo của ĐCS có giai cấp đối kháng",
+      "B": "Là nền chuyên chính cách mạng của giai cấp vô sản",
+      "C": "Không có giai cấp đối kháng, con người từng bước trở thành người tự do",
+      "D": "Là nền chuyên chính cách mạng của giai cấp vô sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 201,
+    "question": "Cách mạng XHCN theo nghĩa rộng là gì?",
+    "options": {
+      "A": "Là quá trình cải biến một cách toàn diện trên tất cả các lĩnh vực của đời sống xã hội từ kinh tế, chính trị, văn hoá, tư tưởng, v.v. để xây dựng CNXH và cuối cùng là chủ nghĩa cộng sản",
+      "B": "Là một cuộc cách mạng có nội dung chủ yếu về mặt kinh tế dưới sự lãnh đạo của GCCN để xây dựng CNXH và chủ nghĩa cộng sản",
+      "C": "Với nhân dân lao động giành được chính quyền, thiết lập nhà nước chuyên chính vô sản",
+      "D": "Là cuộc cách mạng của GCCN cùng với nhân dân lao động đánh đổ sự thống trị của giai cấp tư sản và lật đổ chủ nghĩa tư bản"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 202,
+    "question": "Học thuyết về hình thái kinh tế - xã hội do C.Mác và Ph.Ăngghen khởi xướng được V.I.Lênin bổ sung, phát triển và hiện thực hóa trong công cuộc xây dựng CNXH ở nước nào?",
+    "options": {
+      "A": "Triều Tiên",
+      "B": "Trung Quốc",
+      "C": "Việt Nam",
+      "D": "Nga Xô viết"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 203,
+    "question": "Trong các đặc trưng của chủ nghĩa xã hội, đặc trưng nào thể hiện thuộc tính bản chất?",
+    "options": {
+      "A": "Tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ TBCN",
+      "B": "Tạo ra sự biến đổi về chất của xã hội trên tất cả các lĩnh vực của đời sống",
+      "C": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng TBCN",
+      "D": "Cả A, B, C"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 204,
+    "question": "Hãy cho biết: “4 trụ cột” phát triển của thời kỳ quá độ lên CNXH trong Giáo trình CNXH khoa học (dành cho bậc đại học – không chuyên lý luận chính trị) – 2021 là gì?",
+    "options": {
+      "A": "Con người có cuộc sống tiên tiến; ấm no, tự do, hạnh phúc; có điều kiện phát triển toàn diện; phát triển nguồn nhân lực chất lượng cao",
+      "B": "Xây dựng Đảng là then chốt; phát triển văn hóa, con người là nền tảng tinh thần; phát triển nguồn nhân lực chất lượng cao",
+      "C": "Có nền văn hóa, đậm đà bản sắc dân tộc; phát triển kinh tế - xã hội là trung tâm; xây dựng Đảng là then chốt",
+      "D": "Phát triển kinh tế - xã hội là trung tâm; xây dựng Đảng là then chốt; phát triển văn hóa, con người là nền tảng tinh thần; củng cố quốc phòng, an ninh là nhiệm vụ trọng yếu và thường xuyên"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 205,
+    "question": "Đoạn trích sau: “Giữ vững và tăng cường bản chất GCCN của Đảng. Đây là nhiệm vụ có ý nghĩa quan trọng hàng đầu đối với Đảng ta”. Được Đảng ta ghi ở Đại hội nào?",
+    "options": {
+      "A": "Đại hội VI",
+      "B": "Đại hội VII",
+      "C": "Đại hội VIII",
+      "D": "Đại hội IX"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 206,
+    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Trong điều kiện xã hội mới - xã hội XHCN, GCCN cùng với nhân dân lao động là ........ ra các giá trị văn hóa, tinh thần của xã hội”.",
+    "options": {
+      "A": "Chủ thể sáng tạo",
+      "B": "Lực lượng sáng tạo",
+      "C": "Giai cấp sáng tạo",
+      "D": "Người sáng tạo"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 207,
+    "question": "Thời kì quá độ lên CNXH bắt đầu khi nào?",
+    "options": {
+      "A": "Khi xây dựng thành công chủ nghĩa xã hội",
+      "B": "Là việc thiết lập, tăng cường chuyên chính vô sản",
+      "C": "Khi GCCN và nhân dân lao động giành được chính quyền",
+      "D": "GCCN và nhân dân lao động giành được chính quyền"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 208,
+    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Chủ nghĩa xã hội, với bản chất tốt đẹp do con người, vì con người luôn là bảo đảm cho các dân tộc ….. và hợp tác hữu nghị, đồng thời có quan hệ với nhân dân tất cả các nước trên thế giới”.",
+    "options": {
+      "A": "Vì con người",
+      "B": "Bình đẳng, đoàn kết",
+      "C": "Hợp tác hữu nghị",
+      "D": "Có quan hệ với nhân dân"
+    },
+    "answer": "B"
   }
 ]
