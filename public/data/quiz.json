@@ -151,7 +151,7 @@
       "C": "Tuyên truyền, giáo dục.",
       "D": "Cả ba đều đúng."
     },
-    "answer": "D"
+    "answer": "B"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
       "C": "Xử lý kịp thời, nghiêm minh những tổ chức, cá nhân lợi dụng dân chủ, gây rối nội bộ, làm mất ổn định chính trị - xã hội.",
       "D": "Cả A, B và C."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
       "C": "Khi triều đình nhà Nguyễn sụp đổ.",
       "D": "Khi CMT8 thành công."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
       "C": "Của giai cấp công nhân.",
       "D": "Của tiểu tư sản và tri thức."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
       "C": "Nội dung văn hoá tư tưởng.",
       "D": "Nội dung xây dựng đạo đức mới."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
       "C": "Tác động tích cực.",
       "D": "Không giải quyết được."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
       "C": "Phải thực hiện.",
       "D": "Cần thiết."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
       "C": "Lo lắng, sợ hãi.",
       "D": "Hoàn toàn phụ thuộc."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
       "C": "Khảo sát, so sánh và phân tích về chính trị- xã hội.",
       "D": "Cả A, B, C đều đúng."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
       "C": "Giai cấp công nhân.",
       "D": "Giai cấp nông dân."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
       "C": "Cách mạng xã hội chủ nghĩa.",
       "D": "Đấu tranh kinh tế."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
       "C": "Đổi mới chính trị kết hợp đổi mới kinh tế.",
       "D": "Đại đoàn kết toàn dân."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "id": 26,
@@ -283,7 +283,7 @@
       "C": "Sự khác nhau về mức thu nhập.",
       "D": "Sự đối lập về lợi ích cơ bản - lợi ích kinh tế."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "id": 27,
@@ -294,7 +294,7 @@
       "C": "Hệ thống niềm tin vào lực lượng có tính thần thánh cầu mong sự che chở, giúp đỡ.",
       "D": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người trước các sự vật, hiện tượng, lực lượng có tính thần thánh, linh thiêng để cầu mong sự che chở, giúp đỡ."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "id": 28,
@@ -305,6 +305,567 @@
       "C": "1827.",
       "D": "1825."
     },
-    "answer": ""
+    "answer": "D"
+  },
+  {
+    "id": 29,
+    "question": "Đặc trưng bản chất của dân chủ xã hội chủ nghĩa là bảo đảm mọi quyền lực đều thuộc về lực lượng nào?",
+    "options": {
+      "A": "Giai cấp công nhân",
+      "B": "Nhân dân",
+      "C": "Nhà nước",
+      "D": "Đảng Cộng sản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "Nhà nước đầu tiên thực hiện quyền lực thực sự của nhân dân là sau cuộc cách mạng nào?",
+    "options": {
+      "A": "Cách mạng Pháp",
+      "B": "Cách mạng Tháng Mười Nga",
+      "C": "Cách mạng Mỹ",
+      "D": "Cách mạng Anh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 31,
+    "question": "Đặc trưng của nền văn hóa xã hội chủ nghĩa là nền văn hoá có tính nhân dân rộng rãi và tính:",
+    "options": {
+      "A": "Quốc tế",
+      "B": "Giai cấp",
+      "C": "Dân tộc",
+      "D": "Hiện đại"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 32,
+    "question": "Một trong những phương thức để thực hiện được những nội dung chính yếu của nền văn hoá xã hội chủ nghĩa là không ngừng tăng cường sự lãnh đạo và quản lý của:",
+    "options": {
+      "A": "Nhà nước và nhân dân",
+      "B": "Đảng và Nhà nước",
+      "C": "Giai cấp công nhân",
+      "D": "Các tổ chức xã hội"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết các tôn giáo là một vấn đề:",
+    "options": {
+      "A": "Nguyên tắc",
+      "B": "Ưu tiên",
+      "C": "Tự nguyện",
+      "D": "Tạm thời"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "question": "Dân tộc VN là một quốc gia đa dân tộc bao gồm:",
+    "options": {
+      "A": "52 dân tộc",
+      "B": "53 dân tộc",
+      "C": "54 dân tộc",
+      "D": "55 dân tộc"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "question": "Cơ cấu xã hội của xã hội chủ nghĩa được đặc trưng bởi 2 giai cấp cơ bản đối lập nhau về lợi ích là:",
+    "options": {
+      "A": "Giai cấp công nhân và giai cấp nông dân",
+      "B": "Giai cấp tư sản và giai cấp vô sản",
+      "C": "Giai cấp công nhân và tầng lớp trí thức",
+      "D": "Giai cấp nông dân và giai cấp tư sản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "Chủ nghĩa Mác – Lênin đã chỉ ra những công cụ nhận thức và cải tạo thế giới cho lực lượng nào?",
+    "options": {
+      "A": "Giai cấp nông dân",
+      "B": "Giai cấp tư sản",
+      "C": "Giai cấp công nhân",
+      "D": "Tầng lớp trí thức"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 37,
+    "question": "Cách mạng xã hội chủ nghĩa do giai cấp, tầng lớp nào lãnh đạo?",
+    "options": {
+      "A": "Giai cấp nông dân",
+      "B": "Tầng lớp trí thức",
+      "C": "Giai cấp công nhân",
+      "D": "Giai cấp tư sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 38,
+    "question": "Đâu không phải là cơ sở chế độ hôn nhân tự nguyện trong thời kỳ quá độ lên chủ nghĩa xã hội?",
+    "options": {
+      "A": "Tình yêu chân chính",
+      "B": "Tự nguyện kết hôn",
+      "C": "Hôn nhân chỉ cần đảm bảo về mặt pháp lý",
+      "D": "Sự bình đẳng giữa vợ và chồng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 39,
+    "question": "Sự ra đời của chế độ dân chủ xã hội chủ nghĩa được thiết lập cho:",
+    "options": {
+      "A": "Giai cấp công nhân và nhân dân lao động",
+      "B": "Giai cấp tư sản",
+      "C": "Giai cấp nông dân בלבד",
+      "D": "Tầng lớp trí thức"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "question": "Thời kỳ quá độ lên chủ nghĩa xã hội trên phạm vi cả nước bắt đầu từ khi nào?",
+    "options": {
+      "A": "1945",
+      "B": "1954",
+      "C": "1975",
+      "D": "1986"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 41,
+    "question": "Lao động trong nền sản xuất đại công nghiệp với hệ thống sản xuất dây chuyền đã hình thành đặc điểm nào ở giai cấp công nhân?",
+    "options": {
+      "A": "Tính cá nhân",
+      "B": "Tính tổ chức, kỷ luật",
+      "C": "Tính tự phát",
+      "D": "Tính phân tán"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "question": "Để sứ mệnh lịch sử của giai cấp công nhân từ khả năng thành hiện thực phải thông qua nhân tố chủ quan, trong đó nhân tố quyết định là:",
+    "options": {
+      "A": "Tăng số lượng công nhân",
+      "B": "Phát triển kinh tế",
+      "C": "Thành lập Đảng Cộng sản",
+      "D": "Liên minh với giai cấp tư sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 43,
+    "question": "Theo nghĩa hẹp, cách mạng xã hội chủ nghĩa là cách mạng chính trị, kết thúc bằng việc công nhân, nhân dân lao động giành được chính quyền và xây dựng:",
+    "options": {
+      "A": "Chủ nghĩa tư bản",
+      "B": "Xã hội phong kiến",
+      "C": "Chủ nghĩa xã hội",
+      "D": "Nhà nước tư sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 44,
+    "question": "Nhà nước tư sản ngày càng can thiệp sâu vào kinh tế có tác động thế nào đến vấn đề khủng hoảng trong nền kinh tế tư bản chủ nghĩa?",
+    "options": {
+      "A": "Giải quyết hoàn toàn khủng hoảng",
+      "B": "Khắc phục triệt để khủng hoảng",
+      "C": "Làm mất hoàn toàn mâu thuẫn kinh tế",
+      "D": "Không giải quyết được"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 45,
+    "question": "Chủ nghĩa xã hội từng bước tiến tới thực hiện mục tiêu cao cả nhất, biến con người từ vương quốc của tất yếu sang:",
+    "options": {
+      "A": "Vương quốc dân chủ",
+      "B": "Vương quốc tự do",
+      "C": "Vương quốc bình đẳng",
+      "D": "Vương quốc hạnh phúc"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 46,
+    "question": "Theo Lênin, nguyên tắc cao nhất của chuyên chính vô sản là duy trì khối liên minh giữa giai cấp công nhân và lực lượng nào để giai cấp công nhân có thể giữ được vai trò lãnh đạo và giữ chính quyền nhà nước?",
+    "options": {
+      "A": "Giai cấp tư sản",
+      "B": "Tầng lớp trí thức",
+      "C": "Giai cấp nông dân",
+      "D": "Tiểu tư sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 47,
+    "question": "Từ mâu thuẫn trong kinh tế của chủ nghĩa tư bản biểu hiện thành mâu thuẫn giữa giai cấp công nhân với giai cấp tư sản ngày càng trở nên quyết liệt trên lĩnh vực:",
+    "options": {
+      "A": "Văn hóa",
+      "B": "Chính trị – xã hội",
+      "C": "Tôn giáo",
+      "D": "Giáo dục"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 48,
+    "question": "Khi Đảng cộng sản ra đời, toàn bộ hoạt động của Đảng đều hướng vào vấn đề trung tâm của cách mạng là:",
+    "options": {
+      "A": "Phát triển kinh tế tư bản",
+      "B": "Cải cách giáo dục",
+      "C": "Lật đổ nhà nước của giai cấp tư sản",
+      "D": "Xây dựng nhà nước phong kiến"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 49,
+    "question": "Về chính trị, trong thời kỳ quá độ, kết cấu giai cấp xã hội đa dạng gồm giai cấp công nhân, nông dân, tầng lớp trí thức và:",
+    "options": {
+      "A": "Một bộ phận giai cấp tư sản, những người sản xuất nhỏ và những tầng lớp lao động khác",
+      "B": "Chỉ có giai cấp tư sản",
+      "C": "Chỉ có tầng lớp trí thức",
+      "D": "Chỉ có người lao động trong công nghiệp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 50,
+    "question": "Nội dung cơ bản về tư tưởng – văn hoá của thời kỳ quá độ là xây dựng nền văn hoá mới xã hội chủ nghĩa, cần phải tiếp thu giá trị tinh hoa của:",
+    "options": {
+      "A": "Văn hóa phương Tây",
+      "B": "Văn hóa phương Đông",
+      "C": "Văn hoá nhân loại",
+      "D": "Văn hóa truyền thống"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 51,
+    "question": "Theo C. Mác và Ph. Ăngghen đến xã hội chủ nghĩa thì quan hệ sản xuất xã hội chủ nghĩa mới được xác lập đầy đủ. Lúc đó, tư liệu sản xuất tồn tại dưới hình thức sở hữu toàn dân và hình thức sở hữu nào?",
+    "options": {
+      "A": "Sở hữu tư nhân",
+      "B": "Sở hữu tập thể",
+      "C": "Sở hữu cá nhân",
+      "D": "Sở hữu tư bản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 52,
+    "question": "Dân chủ và thực hiện dân chủ là nhu cầu như thế nào của con người?",
+    "options": {
+      "A": "Chủ quan",
+      "B": "Tạm thời",
+      "C": "Khách quan",
+      "D": "Ngẫu nhiên"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 53,
+    "question": "Về dân chủ, một trong ba quan niệm cơ bản của Chủ nghĩa Mác-Lênin là dân chủ với tư cách một phạm trù chính trị gắn với một kiểu nhà nước và một giai cấp cầm quyền thì sẽ:",
+    "options": {
+      "A": "Có dân chủ phi giai cấp",
+      "B": "Không có dân chủ phi giai cấp",
+      "C": "Không liên quan đến giai cấp",
+      "D": "Chỉ tồn tại trong xã hội tư bản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 54,
+    "question": "V. I. Lênin cho rằng, chế độ dân chủ là một hình thức nhà nước. Cho nên, chế độ dân chủ là việc thi hành có tổ chức, có hệ thống. Nhằm:",
+    "options": {
+      "A": "Cưỡng bức đối với con người",
+      "B": "Xóa bỏ mọi hình thức nhà nước",
+      "C": "Phát triển kinh tế tư bản",
+      "D": "Xây dựng xã hội phong kiến"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 55,
+    "question": "Cơ sở kinh tế của nền dân chủ xã hội chủ nghĩa là gì?",
+    "options": {
+      "A": "Sở hữu tư nhân",
+      "B": "Sở hữu toàn dân",
+      "C": "Sở hữu tư bản",
+      "D": "Sở hữu cá nhân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "question": "Trên cơ sở của sự kết hợp hài hoà lợi ích cá nhân, lợi ích tập thể, lợi ích của toàn xã hội, nền dân chủ xã hội chủ nghĩa có đặc trưng là động viên:",
+    "options": {
+      "A": "Một bộ phận giai cấp công nhân",
+      "B": "Các nhà tư bản",
+      "C": "Mọi tiềm năng của nhân dân",
+      "D": "Tầng lớp trí thức בלבד"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 57,
+    "question": "Nền dân chủ xã hội chủ nghĩa là một nền dân chủ rộng rãi nhất trong lịch sử, nhưng phải đảm bảo:",
+    "options": {
+      "A": "Là nền dân chủ không có giai cấp",
+      "B": "Là nền dân chủ mang tính giai cấp",
+      "C": "Là nền dân chủ của giai cấp tư sản",
+      "D": "Là nền dân chủ phi chính trị"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "question": "Xây dựng nền dân chủ xã hội chủ nghĩa là tất yếu vì dân chủ là yếu tố nào của quá trình xây dựng chủ nghĩa xã hội?",
+    "options": {
+      "A": "Thành tố",
+      "B": "Trở ngại",
+      "C": "Kết quả cuối cùng",
+      "D": "Yếu tố phụ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 59,
+    "question": "Nhà nước xã hội chủ nghĩa là một tổ chức chính trị dựa trên cơ sở kinh tế:",
+    "options": {
+      "A": "Tư bản chủ nghĩa",
+      "B": "Phong kiến",
+      "C": "Xã hội chủ nghĩa",
+      "D": "Tiểu sản xuất"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 60,
+    "question": "Một trong năm chức năng cơ bản của nhà nước xã hội chủ nghĩa có đặc trưng về nguyên tắc khác hẳn với nhà nước tư sản là vì lợi ích của:",
+    "options": {
+      "A": "Giai cấp tư sản",
+      "B": "Một bộ phận nhân dân",
+      "C": "Tuyệt đại đa số nhân dân",
+      "D": "Các nhà tư bản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 61,
+    "question": "Một trong năm chức năng cơ bản của nhà nước xã hội chủ nghĩa, theo V. I. Lênin, là chuyên chính vô sản không phải chỉ là bạo lực đối với bọn bóc lột, và cũng không phải chủ yếu là bạo lực mà mặt cơ bản của nó là:",
+    "options": {
+      "A": "Tăng cường quân sự",
+      "B": "Tổ chức, xây dựng xã hội mới",
+      "C": "Đấu tranh kinh tế",
+      "D": "Phát triển tư bản tư nhân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 62,
+    "question": "Chức năng, nhiệm vụ của nhà nước xã hội chủ nghĩa biểu hiện tập trung ở việc quản lý xã hội trên tất cả các lĩnh vực bằng:",
+    "options": {
+      "A": "Hiến pháp và pháp luật",
+      "B": "Phong tục và tập quán",
+      "C": "Tuyên truyền בלבד",
+      "D": "Các tổ chức kinh tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "question": "Trong thời kỳ quá độ còn có các giai cấp, tầng lớp trung gian khác, họ thường dao động, nên tất yếu cần có nhân tố nào nhằm bảo đảm sự lãnh đạo của giai cấp công nhân đối với toàn xã hội?",
+    "options": {
+      "A": "Liên minh công nhân – nông dân – trí thức",
+      "B": "Liên minh công nhân – tư sản",
+      "C": "Liên minh nông dân – tư sản",
+      "D": "Liên minh các nhà tư bản"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 64,
+    "question": "Để mở rộng dân chủ kiên quyết đấu tranh chống lại mọi hành vi đi ngược lại những chuẩn mực dân chủ, đòi hỏi phải có một thiết chế phù hợp đó là:",
+    "options": {
+      "A": "Dân chủ đi liền với chuyên chính",
+      "B": "Dân chủ tách khỏi pháp luật",
+      "C": "Dân chủ không cần nhà nước",
+      "D": "Dân chủ chỉ dựa vào kinh tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 65,
+    "question": "Căn cứ vào lĩnh vực tác động của quyền lực nhà nước xã hội chủ nghĩa thì nhà nước có chức năng nào?",
+    "options": {
+      "A": "Chức năng kinh tế",
+      "B": "Chức năng chính trị",
+      "C": "Chức năng văn hóa",
+      "D": "Chức năng giáo dục"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 66,
+    "question": "Theo giáo trình chủ nghĩa xã hội khoa học, lĩnh vực nào không phải đặc điểm của thời kỳ quá độ lên chủ nghĩa xã hội?",
+    "options": {
+      "A": "Lĩnh vực kinh tế",
+      "B": "Lĩnh vực chính trị",
+      "C": "Lĩnh vực tư tưởng – văn hóa",
+      "D": "Lĩnh vực đối ngoại"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 67,
+    "question": "Căn cứ vào phạm vi tác động của quyền lực nhà nước xã hội chủ nghĩa thì nhà nước có chức năng nào?",
+    "options": {
+      "A": "Chức năng đối ngoại",
+      "B": "Chức năng đối nội",
+      "C": "Chức năng kinh tế",
+      "D": "Chức năng văn hóa"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 68,
+    "question": "Đâu là những điều kiện chủ quan để giai cấp công nhân thực hiện sứ mệnh lịch sử của mình?",
+    "options": {
+      "A": "Đảng cộng sản ra đời và thực hiện vai trò lãnh đạo",
+      "B": "Sự trưởng thành của giai cấp công nhân cả về số lượng và chất lượng",
+      "C": "Xây dựng khối liên minh giai cấp với nông dân và các giai cấp lao động khác",
+      "D": "Cả A, B, C đều đúng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 69,
+    "question": "Hệ giá trị mới được xây dựng: công bằng, dân chủ, tự do, bình đẳng thuộc nội dung nào trong sứ mệnh lịch sử của giai cấp công nhân?",
+    "options": {
+      "A": "Nội dung kinh tế",
+      "B": "Nội dung chính trị - xã hội",
+      "C": "Nội dung văn hoá tư tưởng",
+      "D": "Nội dung quân sự"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 70,
+    "question": "Đâu là yếu tố cơ bản để giai cấp công nhân Việt Nam gắn bó mật thiết với các tầng lớp nhân dân trong xã hội?",
+    "options": {
+      "A": "Khác biệt về nghề nghiệp",
+      "B": "Thống nhất cao về lợi ích",
+      "C": "Khác biệt về thu nhập",
+      "D": "Cùng một trình độ học vấn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 71,
+    "question": "Đâu là những biến đổi của giai cấp công nhân VN từ sau đổi mới năm 1986?",
+    "options": {
+      "A": "Tăng nhanh về số lượng và chất lượng",
+      "B": "Đi đầu trong sự nghiệp công nghiệp hoá, hiện đại hoá đất nước",
+      "C": "Đa dạng về cơ cấu nghề nghiệp",
+      "D": "Cả A, B, C đều đúng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 72,
+    "question": "Điểm then chốt để thực hiện thành công sứ mệnh lịch sử của giai cấp công nhân VN là gì?",
+    "options": {
+      "A": "Tăng số lượng công nhân",
+      "B": "Xây dựng Đảng trong sạch, vững mạnh để thực hiện tốt vai trò lãnh đạo",
+      "C": "Phát triển kinh tế tư nhân",
+      "D": "Giảm vai trò của Đảng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 73,
+    "question": "Để tạo nên mối liên hệ quốc gia và quốc tế mở rộng, xoá bỏ sự biệt lập, thúc đẩy các dân tộc xích lại gần nhau, có một xu hướng phát triển là các dân tộc:",
+    "options": {
+      "A": "Tách biệt nhau",
+      "B": "Liên hiệp lại",
+      "C": "Cạnh tranh với nhau",
+      "D": "Khép kín với nhau"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 74,
+    "question": "Ý thức tôn giáo là niềm tin của một bộ phận nhân dân, là yếu tố bền vững nhất trong đời sống tinh thần là nguyên nhân gì của sự tồn tại tôn giáo?",
+    "options": {
+      "A": "Kinh tế",
+      "B": "Chính trị",
+      "C": "Tâm lý",
+      "D": "Nhận thức"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 75,
+    "question": "Giải quyết vấn đề tôn giáo trong chủ nghĩa xã hội cần dựa trên nguyên tắc là khắc phục dần những tiêu cực của tôn giáo phải gắn liền với quá trình cải tạo xã hội cũ và xây dựng:",
+    "options": {
+      "A": "Xã hội mới",
+      "B": "Xã hội tư bản",
+      "C": "Xã hội phong kiến",
+      "D": "Nhà nước tư sản"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 76,
+    "question": "Một nguyên tắc giải quyết vấn đề tôn giáo trong chủ nghĩa xã hội là cần phân biệt rõ mặt:",
+    "options": {
+      "A": "Kinh tế và văn hóa",
+      "B": "Chính trị và tư tưởng",
+      "C": "Xã hội và giáo dục",
+      "D": "Pháp luật và kinh tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 77,
+    "question": "Tình hình CNTB thế giới đầu thế kỷ XX là:",
+    "options": {
+      "A": "Chủ nghĩa tư bản chuyển sang giai đoạn chủ nghĩa đế quốc",
+      "B": "Chủ nghĩa tư bản bị xóa bỏ hoàn toàn",
+      "C": "Chủ nghĩa tư bản chuyển sang chế độ phong kiến",
+      "D": "Chủ nghĩa tư bản không còn phát triển"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 78,
+    "question": "Chủ nghĩa xã hội khoa học nghiên cứu những quy luật chuyển biến xã hội từ:",
+    "options": {
+      "A": "Chủ nghĩa phong kiến sang chủ nghĩa tư bản",
+      "B": "Chủ nghĩa tư bản sang chủ nghĩa xã hội",
+      "C": "Chủ nghĩa xã hội sang chủ nghĩa tư bản",
+      "D": "Xã hội nguyên thủy sang xã hội phong kiến"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 79,
+    "question": "Nguyên nhân sâu xa của cách mạng xã hội chủ nghĩa là gì?",
+    "options": {
+      "A": "Do mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất",
+      "B": "Do sự khác biệt về văn hóa",
+      "C": "Do mâu thuẫn giữa các tôn giáo",
+      "D": "Do sự khác biệt về trình độ học vấn"
+    },
+    "answer": "A"
   }
 ]
