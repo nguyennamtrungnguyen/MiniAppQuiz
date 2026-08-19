@@ -1,722 +1,3602 @@
 [
   {
     "id": 1,
-    "question": "Theo ISO/IEC/IEEE Std. 90003:2014, Software product (sản phẩm phần mềm) được hiểu là gì?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Software product?",
     "options": {
-      "A": "Chỉ bao gồm mã nguồn và chương trình thực thi",
-      "B": "Tập hợp các chương trình máy tính, thủ tục, và có thể kèm tài liệu và dữ liệu liên quan",
-      "C": "Chỉ bao gồm tài liệu yêu cầu và tài liệu thiết kế",
-      "D": "Chỉ bao gồm chương trình máy tính và cơ sở dữ liệu"
+      "A": "Chỉ mã nguồn",
+      "B": "Chỉ tài liệu yêu cầu",
+      "C": "Chỉ chương trình đã biên dịch",
+      "D": "Tập hợp các chương trình máy tính, thủ tục, và có thể kèm tài liệu và dữ liệu liên quan"
     },
-    "answer": "Tập hợp các chương trình máy tính, thủ tục, và có thể kèm tài liệu và dữ liệu liên quan",
-    "explanation": "Tài liệu định nghĩa Software product không chỉ là code mà còn bao gồm các chương trình, procedures và có thể có documentation và data liên quan."
+    "answer": "D",
+    "explanation": "Software product không chỉ là code mà có thể bao gồm procedures, documentation và data liên quan."
   },
   {
     "id": 2,
-    "question": "Theo tài liệu, phát biểu nào đúng nhất về phạm vi của Software product?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Software product'?",
     "options": {
-      "A": "Software product chỉ là source code",
-      "B": "Software product chỉ là chương trình đã biên dịch",
-      "C": "Software product bao gồm code, tài liệu, quy trình vận hành và dữ liệu liên quan",
-      "D": "Software product chỉ là dữ liệu do người dùng tạo ra"
+      "A": "Tập hợp các chương trình máy tính, thủ tục, và có thể kèm tài liệu và dữ liệu liên quan",
+      "B": "Chỉ mã nguồn",
+      "C": "Chỉ chương trình đã biên dịch",
+      "D": "Chỉ tài liệu yêu cầu"
     },
-    "answer": "Software product bao gồm code, tài liệu, quy trình vận hành và dữ liệu liên quan",
-    "explanation": "Tài liệu nhấn mạnh rằng phần mềm không chỉ là code; chất lượng cần được xem xét đối với toàn bộ các thành phần liên quan của sản phẩm."
+    "answer": "A",
+    "explanation": "Software product không chỉ là code mà có thể bao gồm procedures, documentation và data liên quan."
   },
   {
     "id": 3,
-    "question": "Theo tài liệu, có bao nhiêu nguyên nhân chính được liệt kê dẫn đến lỗi (defect) trong phần mềm?",
+    "question": "Một sinh viên cần ghi nhớ 'Software product'. Đáp án nào là chính xác?",
     "options": {
-      "A": "5",
-      "B": "7",
-      "C": "8",
-      "D": "9"
+      "A": "Chỉ tài liệu yêu cầu",
+      "B": "Chỉ chương trình đã biên dịch",
+      "C": "Tập hợp các chương trình máy tính, thủ tục, và có thể kèm tài liệu và dữ liệu liên quan",
+      "D": "Chỉ mã nguồn"
     },
-    "answer": "9",
-    "explanation": "Tài liệu liệt kê 9 nguyên nhân chính, từ yêu cầu sai hoặc thiếu, giao tiếp kém, lỗi thiết kế và coding cho đến lỗi quy trình kiểm thử và tài liệu."
+    "answer": "C",
+    "explanation": "Software product không chỉ là code mà có thể bao gồm procedures, documentation và data liên quan."
   },
   {
     "id": 4,
-    "question": "Nguyên nhân nào sau đây được tài liệu liệt kê là nguyên nhân gây lỗi phần mềm?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Software Quality?",
     "options": {
-      "A": "Lỗi trong thiết kế logic",
-      "B": "Luôn sử dụng kiểm thử tự động",
-      "C": "Sử dụng mô hình Agile",
-      "D": "Có quá nhiều tài liệu"
+      "A": "Chỉ tốc độ chạy chương trình",
+      "B": "Chỉ số lượng lỗi được tìm thấy",
+      "C": "Chỉ mức độ hài lòng của lập trình viên",
+      "D": "Mức độ sản phẩm đáp ứng yêu cầu và mức độ các yêu cầu phản ánh đúng nhu cầu, mong muốn và kỳ vọng của stakeholders"
     },
-    "answer": "Lỗi trong thiết kế logic",
-    "explanation": "Logical design errors là một trong 9 nguyên nhân gây lỗi phần mềm được liệt kê trong tài liệu."
+    "answer": "D",
+    "explanation": "Chất lượng không chỉ là chạy đúng chức năng; yêu cầu cũng phải phản ánh nhu cầu và kỳ vọng thực tế."
   },
   {
     "id": 5,
-    "question": "Trường hợp nào tạo ra correctable defects theo tài liệu?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Software Quality'?",
     "options": {
-      "A": "Requirement sai ngay từ đầu",
-      "B": "Requirement và design đúng nhưng xảy ra sai sót khi build",
-      "C": "Requirement đúng nhưng design sai",
-      "D": "Requirement, design và build đều đúng"
+      "A": "Mức độ sản phẩm đáp ứng yêu cầu và mức độ các yêu cầu phản ánh đúng nhu cầu, mong muốn và kỳ vọng của stakeholders",
+      "B": "Chỉ mức độ hài lòng của lập trình viên",
+      "C": "Chỉ số lượng lỗi được tìm thấy",
+      "D": "Chỉ tốc độ chạy chương trình"
     },
-    "answer": "Requirement và design đúng nhưng xảy ra sai sót khi build",
-    "explanation": "Khi requirement và design đúng nhưng có mistakes made in build, sản phẩm có bug/correctable defects vì phần yêu cầu và thiết kế vẫn đúng."
+    "answer": "A",
+    "explanation": "Chất lượng không chỉ là chạy đúng chức năng; yêu cầu cũng phải phản ánh nhu cầu và kỳ vọng thực tế."
   },
   {
     "id": 6,
-    "question": "Nếu requirement ngay từ đầu đã sai nhưng design và build đều được thực hiện đúng theo requirement đó thì kết quả là gì?",
+    "question": "Một sinh viên cần ghi nhớ 'Software Quality'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Sản phẩm chắc chắn đúng vì design và build đúng",
-      "B": "Chỉ phát sinh lỗi coding",
-      "C": "Sản phẩm cuối cùng vẫn là wrong product delivered",
-      "D": "Chỉ phát sinh lỗi kiểm thử"
+      "A": "Chỉ số lượng lỗi được tìm thấy",
+      "B": "Chỉ mức độ hài lòng của lập trình viên",
+      "C": "Chỉ tốc độ chạy chương trình",
+      "D": "Mức độ sản phẩm đáp ứng yêu cầu và mức độ các yêu cầu phản ánh đúng nhu cầu, mong muốn và kỳ vọng của stakeholders"
     },
-    "answer": "Sản phẩm cuối cùng vẫn là wrong product delivered",
-    "explanation": "Nếu requirement sai, việc design và build đúng theo requirement sai vẫn tạo ra sản phẩm sai. Loại lỗi này có thể bị che khuất vì mọi bước đều được thực hiện đúng theo yêu cầu sai."
+    "answer": "D",
+    "explanation": "Chất lượng không chỉ là chạy đúng chức năng; yêu cầu cũng phải phản ánh nhu cầu và kỳ vọng thực tế."
   },
   {
     "id": 7,
-    "question": "Theo tài liệu, thứ tự các giai đoạn mà chi phí phát hiện và sửa lỗi tăng dần là gì?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: SQA?",
     "options": {
-      "A": "Test → Build → Design → Requirements → Live use",
-      "B": "Requirements → Design → Build → Test → Live use",
-      "C": "Build → Requirements → Test → Design → Live use",
-      "D": "Design → Requirements → Build → Live use → Test"
+      "A": "Chỉ hoạt động sửa bug",
+      "B": "Tập hợp hoạt động xác định và đánh giá tính phù hợp của các quy trình phần mềm, cung cấp bằng chứng rằng quy trình phù hợp và tạo ra sản phẩm có chất lượng phù hợp mục đích",
+      "C": "Chỉ hoạt động chạy test",
+      "D": "Chỉ hoạt động viết tài liệu"
     },
-    "answer": "Requirements → Design → Build → Test → Live use",
-    "explanation": "Tài liệu trình bày chi phí sửa lỗi tăng dần từ Requirements đến Design, Build, Test và cao nhất khi hệ thống đã Live use."
+    "answer": "B",
+    "explanation": "SQA tập trung vào sự phù hợp của quy trình và bằng chứng về chất lượng sản phẩm tạo ra."
   },
   {
     "id": 8,
-    "question": "Tại sao việc phát hiện lỗi càng sớm càng quan trọng?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'SQA'?",
     "options": {
-      "A": "Vì lỗi sớm luôn dễ nhìn thấy hơn",
-      "B": "Vì lỗi phát hiện càng muộn thì chi phí sửa càng lớn",
-      "C": "Vì testing chỉ được phép thực hiện ở đầu dự án",
-      "D": "Vì lỗi ở giai đoạn requirement không thể sửa"
+      "A": "Chỉ hoạt động sửa bug",
+      "B": "Chỉ hoạt động viết tài liệu",
+      "C": "Chỉ hoạt động chạy test",
+      "D": "Tập hợp hoạt động xác định và đánh giá tính phù hợp của các quy trình phần mềm, cung cấp bằng chứng rằng quy trình phù hợp và tạo ra sản phẩm có chất lượng phù hợp mục đích"
     },
-    "answer": "Vì lỗi phát hiện càng muộn thì chi phí sửa càng lớn",
-    "explanation": "Chi phí sửa lỗi tăng theo thời gian và mức độ lỗi lan sang các giai đoạn sau. Đây là cơ sở kinh tế cho việc đầu tư vào SQA và kiểm thử sớm."
+    "answer": "D",
+    "explanation": "SQA tập trung vào sự phù hợp của quy trình và bằng chứng về chất lượng sản phẩm tạo ra."
   },
   {
     "id": 9,
-    "question": "Theo IEEE Std. 730-2014 trong tài liệu, Software Quality phụ thuộc vào yếu tố nào?",
+    "question": "Một sinh viên cần ghi nhớ 'SQA'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Chỉ mức độ đáp ứng các yêu cầu kỹ thuật",
-      "B": "Chỉ số lượng lỗi được phát hiện",
-      "C": "Mức độ đáp ứng yêu cầu và mức độ các yêu cầu phản ánh đúng nhu cầu, mong muốn và kỳ vọng của stakeholders",
-      "D": "Chỉ mức độ hài lòng của lập trình viên"
+      "A": "Tập hợp hoạt động xác định và đánh giá tính phù hợp của các quy trình phần mềm, cung cấp bằng chứng rằng quy trình phù hợp và tạo ra sản phẩm có chất lượng phù hợp mục đích",
+      "B": "Chỉ hoạt động viết tài liệu",
+      "C": "Chỉ hoạt động sửa bug",
+      "D": "Chỉ hoạt động chạy test"
     },
-    "answer": "Mức độ đáp ứng yêu cầu và mức độ các yêu cầu phản ánh đúng nhu cầu, mong muốn và kỳ vọng của stakeholders",
-    "explanation": "Tài liệu nhấn mạnh đáp ứng đúng yêu cầu chưa đủ. Bản thân yêu cầu cũng phải phản ánh chính xác nhu cầu, mong muốn và kỳ vọng thực tế của stakeholders."
+    "answer": "A",
+    "explanation": "SQA tập trung vào sự phù hợp của quy trình và bằng chứng về chất lượng sản phẩm tạo ra."
   },
   {
     "id": 10,
-    "question": "Theo IEEE Std. 730-2014, Software Quality Assurance (SQA) là gì?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: QA vs QC?",
     "options": {
-      "A": "Tập hợp hoạt động chỉ dùng để tìm bug trong code",
-      "B": "Tập hợp hoạt động xác định và đánh giá tính phù hợp của các quy trình phần mềm, cung cấp bằng chứng rằng quy trình phù hợp và tạo ra sản phẩm có chất lượng phù hợp mục đích",
-      "C": "Một phương pháp sửa lỗi sau khi triển khai",
-      "D": "Một công cụ tự động hóa kiểm thử"
-    },
-    "answer": "Tập hợp hoạt động xác định và đánh giá tính phù hợp của các quy trình phần mềm, cung cấp bằng chứng rằng quy trình phù hợp và tạo ra sản phẩm có chất lượng phù hợp mục đích",
-    "explanation": "Đây là định nghĩa SQA theo IEEE Std. 730-2014 được trình bày trong tài liệu. SQA tập trung vào sự phù hợp của software processes và bằng chứng về chất lượng sản phẩm tạo ra."
-  },
-  {
-    "id": 11,
-    "question": "Đặc điểm quan trọng của chức năng SQA theo tài liệu là gì?",
-    "options": {
-      "A": "Luôn do chính lập trình viên thực hiện",
-      "B": "Có tính khách quan (objectivity) đối với dự án",
-      "C": "Chỉ quan tâm đến ngân sách",
-      "D": "Không cần độc lập với dự án"
-    },
-    "answer": "Có tính khách quan (objectivity) đối với dự án",
-    "explanation": "Tài liệu nhấn mạnh objectivity của chức năng SQA. SQA cũng có thể độc lập về mặt tổ chức để tránh áp lực kỹ thuật, quản lý hoặc tài chính từ dự án."
-  },
-  {
-    "id": 12,
-    "question": "Điểm khác biệt cốt lõi giữa QA và QC theo tài liệu là gì?",
-    "options": {
-      "A": "QA tập trung sản phẩm, QC tập trung quy trình",
-      "B": "QA phát hiện lỗi, QC phòng ngừa lỗi",
+      "A": "QA tập trung sản phẩm còn QC tập trung quy trình",
+      "B": "QA chỉ là debugging còn QC chỉ là coding",
       "C": "QA tập trung vào quy trình và phòng ngừa; QC tập trung vào sản phẩm và phát hiện lỗi",
       "D": "QA và QC hoàn toàn giống nhau"
     },
-    "answer": "QA tập trung vào quy trình và phòng ngừa; QC tập trung vào sản phẩm và phát hiện lỗi",
-    "explanation": "QA là Process focused và Prevention oriented, còn QC là Product focused và Detection oriented. Đây là điểm phân biệt quan trọng trong tài liệu."
+    "answer": "C",
+    "explanation": "Đây là điểm phân biệt cốt lõi giữa Quality Assurance và Quality Control trong tài liệu."
+  },
+  {
+    "id": 11,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'QA vs QC'?",
+    "options": {
+      "A": "QA và QC hoàn toàn giống nhau",
+      "B": "QA tập trung sản phẩm còn QC tập trung quy trình",
+      "C": "QA tập trung vào quy trình và phòng ngừa; QC tập trung vào sản phẩm và phát hiện lỗi",
+      "D": "QA chỉ là debugging còn QC chỉ là coding"
+    },
+    "answer": "C",
+    "explanation": "Đây là điểm phân biệt cốt lõi giữa Quality Assurance và Quality Control trong tài liệu."
+  },
+  {
+    "id": 12,
+    "question": "Một sinh viên cần ghi nhớ 'QA vs QC'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "QA tập trung sản phẩm còn QC tập trung quy trình",
+      "B": "QA chỉ là debugging còn QC chỉ là coding",
+      "C": "QA và QC hoàn toàn giống nhau",
+      "D": "QA tập trung vào quy trình và phòng ngừa; QC tập trung vào sản phẩm và phát hiện lỗi"
+    },
+    "answer": "D",
+    "explanation": "Đây là điểm phân biệt cốt lõi giữa Quality Assurance và Quality Control trong tài liệu."
   },
   {
     "id": 13,
-    "question": "Hoạt động nào sau đây thuộc QC theo bảng so sánh trong tài liệu?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: SQA objective 1?",
     "options": {
-      "A": "Xác định và triển khai quy trình",
-      "B": "Kiểm toán",
-      "C": "Đào tạo",
-      "D": "Review và Testing"
+      "A": "Chỉ tăng tốc độ lập trình",
+      "B": "Đảm bảo sự tuân thủ các yêu cầu kỹ thuật/chức năng",
+      "C": "Chỉ tăng doanh thu",
+      "D": "Chỉ giảm số lượng nhân viên"
     },
-    "answer": "Review và Testing",
-    "explanation": "Theo tài liệu, các hoạt động điển hình của QC là Review và Testing, tập trung phát hiện lỗi trong sản phẩm."
+    "answer": "B",
+    "explanation": "Một mục tiêu của SQA là đảm bảo sản phẩm và quá trình tuân thủ các yêu cầu kỹ thuật/chức năng."
   },
   {
     "id": 14,
-    "question": "Hoạt động nào sau đây thuộc QA theo tài liệu?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'SQA objective 1'?",
     "options": {
-      "A": "Testing",
-      "B": "Review sản phẩm",
-      "C": "Xác định và triển khai quy trình, kiểm toán và đào tạo",
-      "D": "So sánh Actual Result với Expected Result"
+      "A": "Chỉ giảm số lượng nhân viên",
+      "B": "Đảm bảo sự tuân thủ các yêu cầu kỹ thuật/chức năng",
+      "C": "Chỉ tăng doanh thu",
+      "D": "Chỉ tăng tốc độ lập trình"
     },
-    "answer": "Xác định và triển khai quy trình, kiểm toán và đào tạo",
-    "explanation": "QA tập trung vào quy trình và phòng ngừa lỗi. Các hoạt động điển hình được tài liệu nêu gồm xác định và triển khai quy trình, auditing và training."
+    "answer": "B",
+    "explanation": "Một mục tiêu của SQA là đảm bảo sản phẩm và quá trình tuân thủ các yêu cầu kỹ thuật/chức năng."
   },
   {
     "id": 15,
-    "question": "Ba mục tiêu chính của SQA theo tài liệu là gì?",
+    "question": "Một sinh viên cần ghi nhớ 'SQA objective 1'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Tăng doanh thu, giảm nhân sự, tăng tốc độ code",
-      "B": "Đảm bảo tuân thủ yêu cầu kỹ thuật/chức năng; tuân thủ tiến độ/ngân sách; khởi xướng và quản lý cải tiến",
-      "C": "Tìm bug, sửa bug, triển khai phần mềm",
-      "D": "Viết code, viết test, triển khai hệ thống"
+      "A": "Chỉ tăng tốc độ lập trình",
+      "B": "Chỉ tăng doanh thu",
+      "C": "Chỉ giảm số lượng nhân viên",
+      "D": "Đảm bảo sự tuân thủ các yêu cầu kỹ thuật/chức năng"
     },
-    "answer": "Đảm bảo tuân thủ yêu cầu kỹ thuật/chức năng; tuân thủ tiến độ/ngân sách; khởi xướng và quản lý cải tiến",
-    "explanation": "Ba mục tiêu gồm tuân thủ functional/technical requirements, tuân thủ scheduling/budgets và quản lý các hoạt động cải tiến hiệu quả phát triển phần mềm cũng như SQA."
+    "answer": "D",
+    "explanation": "Một mục tiêu của SQA là đảm bảo sản phẩm và quá trình tuân thủ các yêu cầu kỹ thuật/chức năng."
   },
   {
     "id": 16,
-    "question": "Vì sao cần định nghĩa toàn diện các yêu cầu chất lượng?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: SQA objective 2?",
     "options": {
-      "A": "Vì chức năng phần mềm luôn không quan trọng",
-      "B": "Vì khách hàng có thể không hài lòng dù chức năng chạy đúng nếu maintenance, reliability, reusability hoặc các khía cạnh khác kém",
-      "C": "Vì chỉ cần yêu cầu phi chức năng",
-      "D": "Vì mọi phần mềm đều phải có cùng một yêu cầu chất lượng"
+      "A": "Chỉ đảm bảo giao diện đẹp",
+      "B": "Chỉ đảm bảo có nhiều test case",
+      "C": "Chỉ đảm bảo source code ngắn",
+      "D": "Đảm bảo với mức độ tin cậy chấp nhận được sự tuân thủ yêu cầu về tiến độ và ngân sách"
     },
-    "answer": "Vì khách hàng có thể không hài lòng dù chức năng chạy đúng nếu maintenance, reliability, reusability hoặc các khía cạnh khác kém",
-    "explanation": "Tài liệu chỉ ra rằng phần mềm chạy đúng chức năng chưa đảm bảo khách hàng hài lòng. Các yêu cầu chất lượng phải bao quát nhiều khía cạnh trong suốt vòng đời."
+    "answer": "D",
+    "explanation": "SQA cũng quan tâm đến scheduling và budgets của dự án."
   },
   {
     "id": 17,
-    "question": "Mô hình McCall chia các Software Quality Factors thành bao nhiêu nhóm lớn?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'SQA objective 2'?",
     "options": {
-      "A": "2",
-      "B": "3",
-      "C": "4",
-      "D": "5"
+      "A": "Chỉ đảm bảo giao diện đẹp",
+      "B": "Đảm bảo với mức độ tin cậy chấp nhận được sự tuân thủ yêu cầu về tiến độ và ngân sách",
+      "C": "Chỉ đảm bảo có nhiều test case",
+      "D": "Chỉ đảm bảo source code ngắn"
     },
-    "answer": "3",
-    "explanation": "McCall's Triangle of Quality trong tài liệu chia các quality factors thành Product Operation, Product Revision và Product Transition."
+    "answer": "B",
+    "explanation": "SQA cũng quan tâm đến scheduling và budgets của dự án."
   },
   {
     "id": 18,
-    "question": "Nhóm nào thuộc Product Operation trong mô hình McCall?",
+    "question": "Một sinh viên cần ghi nhớ 'SQA objective 2'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Maintainability, Flexibility, Testability",
-      "B": "Portability, Reusability, Interoperability",
-      "C": "Correctness, Reliability, Efficiency, Integrity, Usability",
-      "D": "Safety, Manageability, Survivability"
+      "A": "Chỉ đảm bảo giao diện đẹp",
+      "B": "Chỉ đảm bảo source code ngắn",
+      "C": "Đảm bảo với mức độ tin cậy chấp nhận được sự tuân thủ yêu cầu về tiến độ và ngân sách",
+      "D": "Chỉ đảm bảo có nhiều test case"
     },
-    "answer": "Correctness, Reliability, Efficiency, Integrity, Usability",
-    "explanation": "Product Operation gồm 5 yếu tố: Correctness, Reliability, Efficiency, Integrity và Usability."
+    "answer": "C",
+    "explanation": "SQA cũng quan tâm đến scheduling và budgets của dự án."
   },
   {
     "id": 19,
-    "question": "Nhóm Product Revision trong mô hình McCall gồm những yếu tố nào?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: SQA objective 3?",
+    "options": {
+      "A": "Chỉ sửa lỗi giao diện",
+      "B": "Khởi xướng và quản lý các hoạt động cải tiến hiệu quả phát triển phần mềm và SQA",
+      "C": "Chỉ thay đổi công nghệ frontend",
+      "D": "Chỉ tăng số lượng tài liệu"
+    },
+    "answer": "B",
+    "explanation": "Mục tiêu thứ ba của SQA là thúc đẩy và quản lý cải tiến."
+  },
+  {
+    "id": 20,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'SQA objective 3'?",
+    "options": {
+      "A": "Chỉ thay đổi công nghệ frontend",
+      "B": "Chỉ sửa lỗi giao diện",
+      "C": "Khởi xướng và quản lý các hoạt động cải tiến hiệu quả phát triển phần mềm và SQA",
+      "D": "Chỉ tăng số lượng tài liệu"
+    },
+    "answer": "C",
+    "explanation": "Mục tiêu thứ ba của SQA là thúc đẩy và quản lý cải tiến."
+  },
+  {
+    "id": 21,
+    "question": "Một sinh viên cần ghi nhớ 'SQA objective 3'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ thay đổi công nghệ frontend",
+      "B": "Chỉ sửa lỗi giao diện",
+      "C": "Chỉ tăng số lượng tài liệu",
+      "D": "Khởi xướng và quản lý các hoạt động cải tiến hiệu quả phát triển phần mềm và SQA"
+    },
+    "answer": "D",
+    "explanation": "Mục tiêu thứ ba của SQA là thúc đẩy và quản lý cải tiến."
+  },
+  {
+    "id": 22,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Comprehensive quality requirements?",
+    "options": {
+      "A": "Chỉ mô tả chức năng",
+      "B": "Chỉ mô tả database",
+      "C": "Cần bao quát tất cả các khía cạnh của việc sử dụng phần mềm trong suốt vòng đời",
+      "D": "Chỉ mô tả giao diện"
+    },
+    "answer": "C",
+    "explanation": "Khách hàng có thể không hài lòng dù chức năng chạy đúng nếu maintenance, reliability, reusability hoặc training kém."
+  },
+  {
+    "id": 23,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Comprehensive quality requirements'?",
+    "options": {
+      "A": "Cần bao quát tất cả các khía cạnh của việc sử dụng phần mềm trong suốt vòng đời",
+      "B": "Chỉ mô tả giao diện",
+      "C": "Chỉ mô tả chức năng",
+      "D": "Chỉ mô tả database"
+    },
+    "answer": "A",
+    "explanation": "Khách hàng có thể không hài lòng dù chức năng chạy đúng nếu maintenance, reliability, reusability hoặc training kém."
+  },
+  {
+    "id": 24,
+    "question": "Một sinh viên cần ghi nhớ 'Comprehensive quality requirements'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ mô tả giao diện",
+      "B": "Cần bao quát tất cả các khía cạnh của việc sử dụng phần mềm trong suốt vòng đời",
+      "C": "Chỉ mô tả database",
+      "D": "Chỉ mô tả chức năng"
+    },
+    "answer": "B",
+    "explanation": "Khách hàng có thể không hài lòng dù chức năng chạy đúng nếu maintenance, reliability, reusability hoặc training kém."
+  },
+  {
+    "id": 25,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: McCall categories?",
+    "options": {
+      "A": "3 nhóm: Product Operation, Product Revision và Product Transition",
+      "B": "4 nhóm",
+      "C": "2 nhóm",
+      "D": "6 nhóm"
+    },
+    "answer": "A",
+    "explanation": "McCall's Triangle of Quality chia các quality factors thành 3 category."
+  },
+  {
+    "id": 26,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'McCall categories'?",
+    "options": {
+      "A": "4 nhóm",
+      "B": "6 nhóm",
+      "C": "3 nhóm: Product Operation, Product Revision và Product Transition",
+      "D": "2 nhóm"
+    },
+    "answer": "C",
+    "explanation": "McCall's Triangle of Quality chia các quality factors thành 3 category."
+  },
+  {
+    "id": 27,
+    "question": "Một sinh viên cần ghi nhớ 'McCall categories'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "2 nhóm",
+      "B": "6 nhóm",
+      "C": "3 nhóm: Product Operation, Product Revision và Product Transition",
+      "D": "4 nhóm"
+    },
+    "answer": "C",
+    "explanation": "McCall's Triangle of Quality chia các quality factors thành 3 category."
+  },
+  {
+    "id": 28,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Product Operation?",
+    "options": {
+      "A": "Correctness, Reliability, Efficiency, Integrity, Usability",
+      "B": "Safety, Manageability, Survivability",
+      "C": "Portability, Reusability, Interoperability",
+      "D": "Maintainability, Flexibility, Testability"
+    },
+    "answer": "A",
+    "explanation": "Product Operation phản ánh chất lượng khi phần mềm đang được sử dụng/vận hành."
+  },
+  {
+    "id": 29,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Product Operation'?",
+    "options": {
+      "A": "Correctness, Reliability, Efficiency, Integrity, Usability",
+      "B": "Maintainability, Flexibility, Testability",
+      "C": "Safety, Manageability, Survivability",
+      "D": "Portability, Reusability, Interoperability"
+    },
+    "answer": "A",
+    "explanation": "Product Operation phản ánh chất lượng khi phần mềm đang được sử dụng/vận hành."
+  },
+  {
+    "id": 30,
+    "question": "Một sinh viên cần ghi nhớ 'Product Operation'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Correctness, Reliability, Efficiency, Integrity, Usability",
+      "B": "Maintainability, Flexibility, Testability",
+      "C": "Portability, Reusability, Interoperability",
+      "D": "Safety, Manageability, Survivability"
+    },
+    "answer": "A",
+    "explanation": "Product Operation phản ánh chất lượng khi phần mềm đang được sử dụng/vận hành."
+  },
+  {
+    "id": 31,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Product Revision?",
+    "options": {
+      "A": "Integrity, Usability, Correctness",
+      "B": "Correctness, Reliability, Efficiency",
+      "C": "Maintainability, Flexibility, Testability",
+      "D": "Portability, Reusability, Interoperability"
+    },
+    "answer": "C",
+    "explanation": "Product Revision phản ánh mức độ dễ sửa lỗi, thay đổi hoặc kiểm thử lại."
+  },
+  {
+    "id": 32,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Product Revision'?",
+    "options": {
+      "A": "Maintainability, Flexibility, Testability",
+      "B": "Correctness, Reliability, Efficiency",
+      "C": "Portability, Reusability, Interoperability",
+      "D": "Integrity, Usability, Correctness"
+    },
+    "answer": "A",
+    "explanation": "Product Revision phản ánh mức độ dễ sửa lỗi, thay đổi hoặc kiểm thử lại."
+  },
+  {
+    "id": 33,
+    "question": "Một sinh viên cần ghi nhớ 'Product Revision'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Integrity, Usability, Correctness",
+      "B": "Correctness, Reliability, Efficiency",
+      "C": "Portability, Reusability, Interoperability",
+      "D": "Maintainability, Flexibility, Testability"
+    },
+    "answer": "D",
+    "explanation": "Product Revision phản ánh mức độ dễ sửa lỗi, thay đổi hoặc kiểm thử lại."
+  },
+  {
+    "id": 34,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Product Transition?",
+    "options": {
+      "A": "Correctness, Reliability, Efficiency",
+      "B": "Portability, Reusability, Interoperability",
+      "C": "Maintainability, Flexibility, Testability",
+      "D": "Integrity, Usability, Reliability"
+    },
+    "answer": "B",
+    "explanation": "Product Transition phản ánh khả năng thích ứng khi chuyển sang môi trường/hệ thống khác."
+  },
+  {
+    "id": 35,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Product Transition'?",
     "options": {
       "A": "Correctness, Reliability, Efficiency",
       "B": "Maintainability, Flexibility, Testability",
       "C": "Portability, Reusability, Interoperability",
-      "D": "Verifiability, Safety, Survivability"
+      "D": "Integrity, Usability, Reliability"
     },
-    "answer": "Maintainability, Flexibility, Testability",
-    "explanation": "Product Revision tập trung vào mức độ dễ dàng sửa lỗi, thay đổi hoặc kiểm thử lại và gồm Maintainability, Flexibility và Testability."
-  },
-  {
-    "id": 20,
-    "question": "Nhóm Product Transition gồm những yếu tố nào?",
-    "options": {
-      "A": "Portability, Reusability, Interoperability",
-      "B": "Correctness, Integrity, Usability",
-      "C": "Maintainability, Flexibility, Testability",
-      "D": "Reliability, Efficiency, Safety"
-    },
-    "answer": "Portability, Reusability, Interoperability",
-    "explanation": "Product Transition phản ánh khả năng thích ứng khi chuyển sang môi trường hoặc hệ thống khác và gồm Portability, Reusability, Interoperability."
-  },
-  {
-    "id": 21,
-    "question": "Quality Factor nào liên quan đến độ chính xác và đầy đủ của đầu ra yêu cầu?",
-    "options": {
-      "A": "Correctness",
-      "B": "Reliability",
-      "C": "Efficiency",
-      "D": "Usability"
-    },
-    "answer": "Correctness",
-    "explanation": "Correctness liên quan đến việc phần mềm cung cấp đầu ra chính xác, đầy đủ theo yêu cầu; thông tin cũng cần được cập nhật và sẵn sàng."
-  },
-  {
-    "id": 22,
-    "question": "Một yêu cầu quy định xác suất hệ thống ở trạng thái lỗi trong giờ cao điểm phải dưới 0,5% thuộc Quality Factor nào?",
-    "options": {
-      "A": "Efficiency",
-      "B": "Reliability",
-      "C": "Correctness",
-      "D": "Integrity"
-    },
-    "answer": "Reliability",
-    "explanation": "Ví dụ Super-Lab trong tài liệu gắn yêu cầu về xác suất hệ thống ở trạng thái lỗi và failure rate với Reliability."
-  },
-  {
-    "id": 23,
-    "question": "Quality Factor nào liên quan đến tài nguyên cần thiết để phần mềm thực hiện các chức năng?",
-    "options": {
-      "A": "Efficiency",
-      "B": "Flexibility",
-      "C": "Integrity",
-      "D": "Portability"
-    },
-    "answer": "Efficiency",
-    "explanation": "Efficiency là khả năng phần mềm thực hiện các chức năng với nguồn tài nguyên cần thiết và phù hợp."
-  },
-  {
-    "id": 24,
-    "question": "Một hệ thống ghi log chi tiết và báo cáo các lần truy cập trái phép vào dữ liệu y tế. Trong mô hình McCall của tài liệu, yếu tố phù hợp nhất là gì?",
-    "options": {
-      "A": "Usability",
-      "B": "Integrity",
-      "C": "Flexibility",
-      "D": "Reusability"
-    },
-    "answer": "Integrity",
-    "explanation": "Trong tài liệu, Integrity liên quan đến bảo mật hệ thống và kiểm soát quyền truy cập (access rights)."
-  },
-  {
-    "id": 25,
-    "question": "Khả năng người dùng dễ học và dễ thực hiện các tác vụ cần thiết thuộc Quality Factor nào?",
-    "options": {
-      "A": "Usability",
-      "B": "Maintainability",
-      "C": "Interoperability",
-      "D": "Reliability"
-    },
-    "answer": "Usability",
-    "explanation": "Usability phản ánh khả năng người dùng học và sử dụng phần mềm để thực hiện công việc cần thiết một cách dễ dàng."
-  },
-  {
-    "id": 26,
-    "question": "Một phần mềm có log file và cơ chế tự chẩn đoán để hỗ trợ kiểm thử. Đây là ví dụ của Quality Factor nào?",
-    "options": {
-      "A": "Flexibility",
-      "B": "Testability",
-      "C": "Portability",
-      "D": "Efficiency"
-    },
-    "answer": "Testability",
-    "explanation": "Testability là khả năng phần mềm hỗ trợ tốt cho việc kiểm thử, ví dụ thông qua log file hoặc cơ chế automatic diagnostics."
-  },
-  {
-    "id": 27,
-    "question": "Khả năng phần mềm thích ứng với khách hàng mới hoặc tác vụ mới thuộc yếu tố nào?",
-    "options": {
-      "A": "Maintainability",
-      "B": "Flexibility",
-      "C": "Correctness",
-      "D": "Integrity"
-    },
-    "answer": "Flexibility",
-    "explanation": "Flexibility là mức độ sản phẩm có thể thích ứng với khách hàng mới, tác vụ mới hoặc hoàn cảnh sử dụng mới."
-  },
-  {
-    "id": 28,
-    "question": "Khả năng sử dụng lại các thành phần phần mềm cho những dự án khác thuộc yếu tố nào?",
-    "options": {
-      "A": "Reusability",
-      "B": "Portability",
-      "C": "Usability",
-      "D": "Testability"
-    },
-    "answer": "Reusability",
-    "explanation": "Reusability là khả năng sử dụng lại các thành phần phần mềm cho các dự án khác."
-  },
-  {
-    "id": 29,
-    "question": "Một hệ thống có khả năng giao tiếp và trao đổi dữ liệu với phần mềm khác. Quality Factor nào phù hợp nhất?",
-    "options": {
-      "A": "Portability",
-      "B": "Interoperability",
-      "C": "Maintainability",
-      "D": "Efficiency"
-    },
-    "answer": "Interoperability",
-    "explanation": "Interoperability là khả năng phần mềm giao tiếp hoặc kết nối với các thành phần hay hệ thống khác."
-  },
-  {
-    "id": 30,
-    "question": "Một phần mềm chạy trên Linux nhưng phải tương thích với các ứng dụng trong môi trường Windows NT. Đây là ví dụ của yếu tố nào?",
-    "options": {
-      "A": "Portability",
-      "B": "Integrity",
-      "C": "Correctness",
-      "D": "Testability"
-    },
-    "answer": "Portability",
-    "explanation": "Tài liệu dùng ví dụ phần mềm phát triển cho Linux phải tương thích với môi trường Windows NT để minh họa cho Portability."
-  },
-  {
-    "id": 31,
-    "question": "Theo tài liệu, mô hình Evans & Marciniak (1987) có bao nhiêu yếu tố chất lượng?",
-    "options": {
-      "A": "10",
-      "B": "12",
-      "C": "14",
-      "D": "15"
-    },
-    "answer": "12",
-    "explanation": "Evans & Marciniak (1987) được tài liệu mô tả có 12 yếu tố, chia thành 3 nhóm."
-  },
-  {
-    "id": 32,
-    "question": "Theo tài liệu, Deutsch & Willis (1988) có bao nhiêu yếu tố chất lượng?",
-    "options": {
-      "A": "10",
-      "B": "12",
-      "C": "15",
-      "D": "18"
-    },
-    "answer": "15",
-    "explanation": "Deutsch & Willis (1988) được tài liệu mô tả có 15 yếu tố, chia thành 4 nhóm."
-  },
-  {
-    "id": 33,
-    "question": "Điểm nào đúng về Evans & Marciniak và Deutsch & Willis so với McCall theo tài liệu?",
-    "options": {
-      "A": "Cả hai đều có Testability nhưng McCall không có",
-      "B": "Cả hai đều không có Testability và bổ sung các yếu tố mới so với McCall",
-      "C": "Cả hai đều không có Portability",
-      "D": "Cả hai chỉ có 5 yếu tố"
-    },
-    "answer": "Cả hai đều không có Testability và bổ sung các yếu tố mới so với McCall",
-    "explanation": "Tài liệu nêu cả hai mô hình không có Testability và bổ sung Verifiability, Expandability; Deutsch & Willis còn có Safety, Manageability và Survivability."
-  },
-  {
-    "id": 34,
-    "question": "Yếu tố nào được cả Evans & Marciniak và Deutsch & Willis bổ sung theo tài liệu?",
-    "options": {
-      "A": "Verifiability",
-      "B": "Safety",
-      "C": "Manageability",
-      "D": "Survivability"
-    },
-    "answer": "Verifiability",
-    "explanation": "Verifiability và Expandability xuất hiện ở cả hai mô hình. Safety, Manageability và Survivability thuộc phần bổ sung của Deutsch & Willis."
-  },
-  {
-    "id": 35,
-    "question": "Trong mô hình Deutsch & Willis, yếu tố nào sau đây được bổ sung?",
-    "options": {
-      "A": "Testability",
-      "B": "Correctness",
-      "C": "Safety",
-      "D": "Usability"
-    },
-    "answer": "Safety",
-    "explanation": "Theo tài liệu, Deutsch & Willis bổ sung Safety, Manageability và Survivability, bên cạnh Verifiability và Expandability."
+    "answer": "C",
+    "explanation": "Product Transition phản ánh khả năng thích ứng khi chuyển sang môi trường/hệ thống khác."
   },
   {
     "id": 36,
-    "question": "SQA Architecture trong tài liệu gồm bao nhiêu nhóm thành phần lớn?",
+    "question": "Một sinh viên cần ghi nhớ 'Product Transition'. Đáp án nào là chính xác?",
     "options": {
-      "A": "4",
-      "B": "5",
-      "C": "6",
-      "D": "7"
+      "A": "Correctness, Reliability, Efficiency",
+      "B": "Portability, Reusability, Interoperability",
+      "C": "Maintainability, Flexibility, Testability",
+      "D": "Integrity, Usability, Reliability"
     },
-    "answer": "6",
-    "explanation": "Kiến trúc SQA được tài liệu chia thành 6 nhóm: Pre-project, Project Life Cycle, Quality Infrastructure, Quality Management, Standards và Organizational Base – Human."
+    "answer": "B",
+    "explanation": "Product Transition phản ánh khả năng thích ứng khi chuyển sang môi trường/hệ thống khác."
   },
   {
     "id": 37,
-    "question": "Thành phần nào thuộc Pre-project SQA components?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Correctness?",
     "options": {
-      "A": "Contract Review và Development & Quality Plan",
-      "B": "Software Testing và Software Maintenance",
-      "C": "Project Progress Control và SW Quality Metrics",
-      "D": "Management và SQA Forums"
+      "A": "Tỷ lệ lỗi tối đa",
+      "B": "Tính chính xác, đầy đủ của đầu ra; thông tin phải cập nhật và sẵn sàng",
+      "C": "Khả năng chạy trên OS khác",
+      "D": "Khả năng tái sử dụng component"
     },
-    "answer": "Contract Review và Development & Quality Plan",
-    "explanation": "Pre-project SQA components có 2 thành phần chính là Contract Review và Development & Quality Plan."
+    "answer": "B",
+    "explanation": "Correctness tập trung vào độ chính xác và đầy đủ của đầu ra yêu cầu."
   },
   {
     "id": 38,
-    "question": "Thành phần nào thuộc Project Life Cycle SQA components?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Correctness'?",
     "options": {
-      "A": "Formal Design Reviews, Peer Reviews, Experts Opinion, Software Testing, Software Maintenance, SQA of External Participants",
-      "B": "Contract Review và Development & Quality Plan",
-      "C": "Project Progress Control và SW Quality Costs",
-      "D": "Management, SQA Unit, SQA Trustees"
+      "A": "Khả năng tái sử dụng component",
+      "B": "Tính chính xác, đầy đủ của đầu ra; thông tin phải cập nhật và sẵn sàng",
+      "C": "Khả năng chạy trên OS khác",
+      "D": "Tỷ lệ lỗi tối đa"
     },
-    "answer": "Formal Design Reviews, Peer Reviews, Experts Opinion, Software Testing, Software Maintenance, SQA of External Participants",
-    "explanation": "Đây là toàn bộ nhóm thành phần Project Life Cycle được liệt kê trong kiến trúc SQA của tài liệu."
+    "answer": "B",
+    "explanation": "Correctness tập trung vào độ chính xác và đầy đủ của đầu ra yêu cầu."
   },
   {
     "id": 39,
-    "question": "Nhóm nào chứa Procedures, Support Devices, Training Instructions, Preventive Actions, Configuration Management và Document Control?",
+    "question": "Một sinh viên cần ghi nhớ 'Correctness'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Quality Management components",
-      "B": "Quality Infrastructure components",
-      "C": "Standards",
-      "D": "Organizational Base – Human components"
+      "A": "Tỷ lệ lỗi tối đa",
+      "B": "Khả năng chạy trên OS khác",
+      "C": "Khả năng tái sử dụng component",
+      "D": "Tính chính xác, đầy đủ của đầu ra; thông tin phải cập nhật và sẵn sàng"
     },
-    "answer": "Quality Infrastructure components",
-    "explanation": "Các thành phần được nêu đều thuộc Quality Infrastructure, tức cơ sở hạ tầng chất lượng."
+    "answer": "D",
+    "explanation": "Correctness tập trung vào độ chính xác và đầy đủ của đầu ra yêu cầu."
   },
   {
     "id": 40,
-    "question": "Project Progress Control, Software Quality Metrics và Software Quality Costs thuộc nhóm nào?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Reliability?",
     "options": {
-      "A": "Quality Management components",
-      "B": "Project Life Cycle SQA components",
-      "C": "Pre-project SQA components",
-      "D": "Quality Infrastructure components"
+      "A": "Mức tỷ lệ lỗi (failure rate) tối đa được phép hoặc mức độ hệ thống gặp sự cố và phục hồi",
+      "B": "Khả năng học cách sử dụng",
+      "C": "Quyền truy cập",
+      "D": "Khả năng tái sử dụng"
     },
-    "answer": "Quality Management components",
-    "explanation": "Quality Management components gồm Project Progress Control, SW Quality Metrics và SW Quality Costs."
+    "answer": "A",
+    "explanation": "Reliability liên quan đến tần suất sự cố/failure rate và thời gian phục hồi."
   },
   {
     "id": 41,
-    "question": "Quality Management Standards và Project Process Standards thuộc nhóm nào trong SQA Architecture?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Reliability'?",
     "options": {
-      "A": "Quality Infrastructure",
-      "B": "Standards",
-      "C": "Pre-project",
-      "D": "Organizational Base – Human"
+      "A": "Khả năng học cách sử dụng",
+      "B": "Mức tỷ lệ lỗi (failure rate) tối đa được phép hoặc mức độ hệ thống gặp sự cố và phục hồi",
+      "C": "Quyền truy cập",
+      "D": "Khả năng tái sử dụng"
     },
-    "answer": "Standards",
-    "explanation": "Nhóm Standards trong kiến trúc SQA gồm Quality Management Standards và Project Process Standards."
+    "answer": "B",
+    "explanation": "Reliability liên quan đến tần suất sự cố/failure rate và thời gian phục hồi."
   },
   {
     "id": 42,
-    "question": "Management, SQA Unit, SQA Trustees, SQA Committees và SQA Forums thuộc nhóm nào?",
+    "question": "Một sinh viên cần ghi nhớ 'Reliability'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Quality Management",
-      "B": "Project Life Cycle",
-      "C": "Organizational Base – Human components",
-      "D": "Quality Infrastructure"
+      "A": "Khả năng tái sử dụng",
+      "B": "Khả năng học cách sử dụng",
+      "C": "Quyền truy cập",
+      "D": "Mức tỷ lệ lỗi (failure rate) tối đa được phép hoặc mức độ hệ thống gặp sự cố và phục hồi"
     },
-    "answer": "Organizational Base – Human components",
-    "explanation": "Đây là các thành phần cơ sở tổ chức – con người trong SQA Architecture."
+    "answer": "D",
+    "explanation": "Reliability liên quan đến tần suất sự cố/failure rate và thời gian phục hồi."
   },
   {
     "id": 43,
-    "question": "Contract Review trong Pre-project SQA phải bao gồm việc rà soát những tài liệu nào?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Efficiency?",
     "options": {
-      "A": "Test Case và Test Suite",
-      "B": "Proposal Draft và Contract Drafts",
-      "C": "Source Code và Database",
-      "D": "Test Summary Report và Incident Report"
+      "A": "Khả năng review tài liệu",
+      "B": "Khả năng thay đổi chức năng",
+      "C": "Tài nguyên cần thiết để phần mềm thực hiện các chức năng",
+      "D": "Quyền truy cập dữ liệu"
     },
-    "answer": "Proposal Draft và Contract Drafts",
-    "explanation": "Contract Review gồm hai giai đoạn: review Proposal Draft trước khi gửi khách hàng tiềm năng và review Contract Drafts trước khi ký hợp đồng."
+    "answer": "C",
+    "explanation": "Efficiency tập trung vào tài nguyên cần thiết để thực hiện chức năng."
   },
   {
     "id": 44,
-    "question": "Mục tiêu nào sau đây thuộc rà soát Proposal Draft?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Efficiency'?",
     "options": {
-      "A": "Xác định các rủi ro phát triển",
-      "B": "Chỉ kiểm tra source code",
-      "C": "Chỉ kiểm tra kết quả test",
-      "D": "Chỉ xác định lỗi giao diện"
+      "A": "Khả năng review tài liệu",
+      "B": "Quyền truy cập dữ liệu",
+      "C": "Khả năng thay đổi chức năng",
+      "D": "Tài nguyên cần thiết để phần mềm thực hiện các chức năng"
     },
-    "answer": "Xác định các rủi ro phát triển",
-    "explanation": "Một trong các mục tiêu của Proposal Draft review là xác định các rủi ro phát triển. Ngoài ra còn có làm rõ yêu cầu, rà soát phương án, nguồn lực, tiến độ và năng lực các bên."
+    "answer": "D",
+    "explanation": "Efficiency tập trung vào tài nguyên cần thiết để thực hiện chức năng."
   },
   {
     "id": 45,
-    "question": "Mục tiêu nào thuộc Contract Draft review?",
+    "question": "Một sinh viên cần ghi nhớ 'Efficiency'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Tạo test suite",
-      "B": "Đảm bảo tất cả thỏa thuận giữa khách hàng và công ty được ghi chép đầy đủ và chính xác trong hợp đồng và phụ lục",
-      "C": "Chạy regression testing",
-      "D": "Thiết kế database"
+      "A": "Khả năng thay đổi chức năng",
+      "B": "Tài nguyên cần thiết để phần mềm thực hiện các chức năng",
+      "C": "Khả năng review tài liệu",
+      "D": "Quyền truy cập dữ liệu"
     },
-    "answer": "Đảm bảo tất cả thỏa thuận giữa khách hàng và công ty được ghi chép đầy đủ và chính xác trong hợp đồng và phụ lục",
-    "explanation": "Contract Draft review nhằm đảm bảo không còn vấn đề chưa làm rõ và mọi thỏa thuận đạt được đều được ghi chép đầy đủ, chính xác."
+    "answer": "B",
+    "explanation": "Efficiency tập trung vào tài nguyên cần thiết để thực hiện chức năng."
   },
   {
     "id": 46,
-    "question": "Mục tiêu nào sau đây thuộc Development & Quality Plan?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Integrity?",
     "options": {
-      "A": "Lập lịch hoạt động phát triển và ước tính nhân lực, ngân sách",
-      "B": "Chỉ sửa bug sau triển khai",
-      "C": "Chỉ tạo test case",
-      "D": "Chỉ lựa chọn ngôn ngữ lập trình"
+      "A": "Khả năng chạy trên phần cứng khác",
+      "B": "Bảo mật hệ thống và kiểm soát quyền truy cập",
+      "C": "Khả năng học sử dụng",
+      "D": "Khả năng sửa lỗi"
     },
-    "answer": "Lập lịch hoạt động phát triển và ước tính nhân lực, ngân sách",
-    "explanation": "Development & Quality Plan có mục tiêu lập lịch phát triển, ước tính nguồn nhân lực và ngân sách, giải quyết rủi ro, thực hiện SQA và cung cấp dữ liệu cho quản lý."
+    "answer": "B",
+    "explanation": "Integrity trong tài liệu gắn với security và access rights."
   },
   {
     "id": 47,
-    "question": "Yếu tố nào sau đây KHÔNG thuộc 5 yếu tố của Development & Quality Plan được tài liệu liệt kê?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Integrity'?",
     "options": {
-      "A": "Mục tiêu chất lượng",
-      "B": "Các bài kiểm thử phần mềm đã lên kế hoạch",
-      "C": "Kế hoạch quản lý cấu hình",
-      "D": "Chính sách tuyển dụng nhân viên sau khi dự án kết thúc"
+      "A": "Bảo mật hệ thống và kiểm soát quyền truy cập",
+      "B": "Khả năng sửa lỗi",
+      "C": "Khả năng chạy trên phần cứng khác",
+      "D": "Khả năng học sử dụng"
     },
-    "answer": "Chính sách tuyển dụng nhân viên sau khi dự án kết thúc",
-    "explanation": "Năm yếu tố gồm Quality objectives, planned evaluation activities, planned software tests, planned acceptance tests cho phần mềm phát triển bên ngoài và configuration management plan."
+    "answer": "A",
+    "explanation": "Integrity trong tài liệu gắn với security và access rights."
   },
   {
     "id": 48,
-    "question": "Theo lịch sử testing trong tài liệu, giai đoạn 1960s–1980s được mô tả như thế nào?",
+    "question": "Một sinh viên cần ghi nhớ 'Integrity'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Testing là Must have",
-      "B": "Testing là Should have",
-      "C": "Testing là Nice to have",
-      "D": "Testing là Strategic asset"
+      "A": "Bảo mật hệ thống và kiểm soát quyền truy cập",
+      "B": "Khả năng chạy trên phần cứng khác",
+      "C": "Khả năng sửa lỗi",
+      "D": "Khả năng học sử dụng"
     },
-    "answer": "Testing là Nice to have",
-    "explanation": "Tài liệu chia lịch sử thành 1960s–1980s: Nice to have; 1990s: Should have; 2000+: Must have."
+    "answer": "A",
+    "explanation": "Integrity trong tài liệu gắn với security và access rights."
   },
   {
     "id": 49,
-    "question": "Đặc điểm testing trong giai đoạn 2000+ theo tài liệu là gì?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Usability?",
     "options": {
-      "A": "Chỉ black-box và tester part-time",
-      "B": "Black/grey/white-box, system-system, non-functional testing và tester chuyên nghiệp",
-      "C": "Chỉ functional testing",
-      "D": "Không có tester độc lập"
+      "A": "Tỷ lệ failure",
+      "B": "Khả năng tái sử dụng",
+      "C": "Khả năng chuyển môi trường",
+      "D": "Khả năng dễ học và dễ thực hiện các tác vụ cần thiết"
     },
-    "answer": "Black/grey/white-box, system-system, non-functional testing và tester chuyên nghiệp",
-    "explanation": "Tài liệu mô tả giai đoạn 2000+ là Must have, có black/grey/white-box, system-system testing, non-functional testing, đáp ứng yêu cầu và Fit-for-Use, tester chuyên nghiệp."
+    "answer": "D",
+    "explanation": "Usability phản ánh mức độ dễ học và dễ thực hiện tác vụ."
   },
   {
     "id": 50,
-    "question": "Theo định nghĩa Testing trong tài liệu, Testing bao gồm những hoạt động nào?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Usability'?",
     "options": {
-      "A": "Chỉ dynamic testing sau khi code hoàn thành",
-      "B": "Tất cả hoạt động trong vòng đời phát triển, cả static và dynamic, liên quan đến planning, preparation và evaluation sản phẩm cùng work products",
-      "C": "Chỉ debugging",
-      "D": "Chỉ chạy test case tự động"
+      "A": "Tỷ lệ failure",
+      "B": "Khả năng chuyển môi trường",
+      "C": "Khả năng dễ học và dễ thực hiện các tác vụ cần thiết",
+      "D": "Khả năng tái sử dụng"
     },
-    "answer": "Tất cả hoạt động trong vòng đời phát triển, cả static và dynamic, liên quan đến planning, preparation và evaluation sản phẩm cùng work products",
-    "explanation": "Tài liệu định nghĩa Testing là một process xuyên suốt vòng đời, bao gồm static và dynamic, planning, preparation, evaluation, xác định đáp ứng yêu cầu, fit for purpose và detect defects."
+    "answer": "C",
+    "explanation": "Usability phản ánh mức độ dễ học và dễ thực hiện tác vụ."
   },
   {
     "id": 51,
-    "question": "Theo tài liệu, Testing KHÔNG phải là hoạt động nào?",
+    "question": "Một sinh viên cần ghi nhớ 'Usability'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Phát hiện lỗi",
-      "B": "Đánh giá sản phẩm",
-      "C": "Debugging và sửa lỗi",
-      "D": "Kiểm tra sản phẩm đáp ứng yêu cầu"
+      "A": "Khả năng chuyển môi trường",
+      "B": "Tỷ lệ failure",
+      "C": "Khả năng tái sử dụng",
+      "D": "Khả năng dễ học và dễ thực hiện các tác vụ cần thiết"
     },
-    "answer": "Debugging và sửa lỗi",
-    "explanation": "Testing nhằm phát hiện lỗi. Debugging là quá trình lập trình viên tìm nguyên nhân gây lỗi trong code và sửa lỗi, khác với mục tiêu của testing."
+    "answer": "D",
+    "explanation": "Usability phản ánh mức độ dễ học và dễ thực hiện tác vụ."
   },
   {
     "id": 52,
-    "question": "Nguyên tắc Testing shows presence of defects có ý nghĩa gì?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintainability?",
     "options": {
-      "A": "Nếu không tìm thấy lỗi thì chắc chắn phần mềm không có lỗi",
-      "B": "Testing có thể chứng minh phần mềm hoàn toàn không có lỗi",
-      "C": "Testing chỉ có thể chứng minh sự tồn tại của lỗi, không thể chứng minh không còn lỗi",
-      "D": "Testing không thể phát hiện bất kỳ lỗi nào"
+      "A": "Khả năng chạy trên hệ điều hành khác",
+      "B": "Khả năng dễ sửa lỗi, thêm chức năng mới và chỉnh sửa chức năng hiện có",
+      "C": "Khả năng kiểm soát quyền truy cập",
+      "D": "Khả năng đo thời gian phản hồi"
     },
-    "answer": "Testing chỉ có thể chứng minh sự tồn tại của lỗi, không thể chứng minh không còn lỗi",
-    "explanation": "Theo nguyên tắc P1, testing có thể chứng minh defects tồn tại nhưng không thể chứng minh phần mềm hoàn toàn không còn defects."
+    "answer": "B",
+    "explanation": "Maintainability thuộc Product Revision."
   },
   {
     "id": 53,
-    "question": "Nguyên tắc Exhaustive testing is impossible nói lên điều gì?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintainability'?",
     "options": {
-      "A": "Mọi phần mềm đều có thể kiểm thử toàn bộ",
-      "B": "Không thể kiểm thử mọi tổ hợp input/precondition trừ các trường hợp rất đơn giản",
-      "C": "Không cần phân tích rủi ro khi kiểm thử",
-      "D": "Chỉ cần kiểm thử một trường hợp đại diện"
+      "A": "Khả năng đo thời gian phản hồi",
+      "B": "Khả năng kiểm soát quyền truy cập",
+      "C": "Khả năng chạy trên hệ điều hành khác",
+      "D": "Khả năng dễ sửa lỗi, thêm chức năng mới và chỉnh sửa chức năng hiện có"
     },
-    "answer": "Không thể kiểm thử mọi tổ hợp input/precondition trừ các trường hợp rất đơn giản",
-    "explanation": "Tài liệu minh họa với 10 trường input, mỗi trường có 5 giá trị tạo thành 5^10 = 9.765.625 tổ hợp. Vì vậy cần ưu tiên test dựa trên risk và priority."
+    "answer": "D",
+    "explanation": "Maintainability thuộc Product Revision."
   },
   {
     "id": 54,
-    "question": "Theo ví dụ trong tài liệu, 10 trường input với mỗi trường có 5 giá trị tạo ra bao nhiêu tổ hợp?",
+    "question": "Một sinh viên cần ghi nhớ 'Maintainability'. Đáp án nào là chính xác?",
     "options": {
-      "A": "50",
-      "B": "500",
-      "C": "976.562,5",
-      "D": "9.765.625"
+      "A": "Khả năng chạy trên hệ điều hành khác",
+      "B": "Khả năng đo thời gian phản hồi",
+      "C": "Khả năng dễ sửa lỗi, thêm chức năng mới và chỉnh sửa chức năng hiện có",
+      "D": "Khả năng kiểm soát quyền truy cập"
     },
-    "answer": "9.765.625",
-    "explanation": "Tài liệu tính 5^10 = 9.765.625 tổ hợp, minh họa vì sao exhaustive testing là không khả thi."
+    "answer": "C",
+    "explanation": "Maintainability thuộc Product Revision."
   },
   {
     "id": 55,
-    "question": "Tiêu chí nào sau đây phù hợp với việc ưu tiên kiểm thử dựa trên rủi ro?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Flexibility?",
     "options": {
-      "A": "Chỉ kiểm thử những phần ít quan trọng nhất",
-      "B": "Kiểm thử nơi lỗi có thể gây hậu quả nghiêm trọng nhất",
-      "C": "Luôn kiểm thử module đầu tiên trước",
-      "D": "Chỉ kiểm thử các phần ít thay đổi"
+      "A": "Mức độ thích ứng của sản phẩm với khách hàng mới, tác vụ mới, v.v.",
+      "B": "Tỷ lệ failure rate",
+      "C": "Khả năng kiểm soát quyền truy cập",
+      "D": "Khả năng ghi log"
     },
-    "answer": "Kiểm thử nơi lỗi có thể gây hậu quả nghiêm trọng nhất",
-    "explanation": "Tài liệu đưa ra nhiều tiêu chí ưu tiên dựa trên risk, trong đó có kiểm thử nơi lỗi gây hậu quả nghiêm trọng nhất, nơi sự cố dễ nhận thấy, nơi có khả năng lỗi cao và khu vực phức tạp hoặc quan trọng về kỹ thuật."
+    "answer": "A",
+    "explanation": "Flexibility tạo thêm không gian cho cải tiến chức năng trong tương lai."
   },
   {
     "id": 56,
-    "question": "Nguyên tắc Early testing yêu cầu điều gì?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Flexibility'?",
     "options": {
-      "A": "Chỉ bắt đầu testing sau khi triển khai",
-      "B": "Testing nên bắt đầu càng sớm càng tốt trong vòng đời phát triển",
-      "C": "Chỉ tester mới được tham gia từ cuối dự án",
-      "D": "Chỉ test sau khi tất cả code hoàn thành"
+      "A": "Khả năng ghi log",
+      "B": "Khả năng kiểm soát quyền truy cập",
+      "C": "Mức độ thích ứng của sản phẩm với khách hàng mới, tác vụ mới, v.v.",
+      "D": "Tỷ lệ failure rate"
     },
-    "answer": "Testing nên bắt đầu càng sớm càng tốt trong vòng đời phát triển",
-    "explanation": "Early testing nhấn mạnh bắt đầu kiểm thử càng sớm càng tốt vì lỗi phát hiện càng muộn thì chi phí sửa càng cao."
+    "answer": "C",
+    "explanation": "Flexibility tạo thêm không gian cho cải tiến chức năng trong tương lai."
   },
   {
     "id": 57,
-    "question": "Defect clustering đề cập đến hiện tượng nào?",
+    "question": "Một sinh viên cần ghi nhớ 'Flexibility'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Mọi module có số lượng lỗi bằng nhau",
-      "B": "Phần lớn lỗi thường tập trung ở một số ít module",
-      "C": "Lỗi chỉ xuất hiện ở database",
-      "D": "Lỗi luôn xuất hiện ở module đầu tiên"
+      "A": "Mức độ thích ứng của sản phẩm với khách hàng mới, tác vụ mới, v.v.",
+      "B": "Khả năng kiểm soát quyền truy cập",
+      "C": "Khả năng ghi log",
+      "D": "Tỷ lệ failure rate"
     },
-    "answer": "Phần lớn lỗi thường tập trung ở một số ít module",
-    "explanation": "Tài liệu mô tả defect clustering là hiện tượng lỗi tập trung ở một số ít hot spots và đưa ra quy tắc 80–20: khoảng 80% lỗi nằm trong khoảng 20% module."
+    "answer": "A",
+    "explanation": "Flexibility tạo thêm không gian cho cải tiến chức năng trong tương lai."
   },
   {
     "id": 58,
-    "question": "The pesticide paradox có ý nghĩa gì?",
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testability?",
     "options": {
-      "A": "Một test case càng lặp lại càng phát hiện nhiều lỗi mới",
-      "B": "Nếu lặp lại cùng một bộ test nhiều lần, bộ test dần không còn phát hiện lỗi mới",
-      "C": "Không cần thay đổi test case",
-      "D": "Chỉ cần sử dụng automated testing"
+      "A": "Khả năng giao tiếp với thiết bị khác",
+      "B": "Khả năng chạy trên OS khác",
+      "C": "Khả năng tái sử dụng",
+      "D": "Khả năng phần mềm hỗ trợ tốt cho việc kiểm thử, ví dụ log file và automatic diagnostics"
     },
-    "answer": "Nếu lặp lại cùng một bộ test nhiều lần, bộ test dần không còn phát hiện lỗi mới",
-    "explanation": "Tương tự côn trùng lờn thuốc, cùng một test suite lặp lại có thể mất khả năng phát hiện lỗi mới. Cần thường xuyên rà soát, sửa đổi và bổ sung test case."
+    "answer": "D",
+    "explanation": "Testability giúp kiểm thử thuận lợi thông qua các cơ chế hỗ trợ như logging/diagnostics."
   },
   {
     "id": 59,
-    "question": "Nguyên tắc Testing is context dependent có nghĩa là gì?",
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testability'?",
     "options": {
-      "A": "Mọi sản phẩm phải dùng cùng một phương pháp testing",
-      "B": "Phương pháp testing cần phù hợp với yêu cầu, mục đích và mức độ rủi ro của từng sản phẩm",
-      "C": "Chỉ phần mềm safety-critical mới cần testing",
-      "D": "Chỉ web application mới cần testing"
+      "A": "Khả năng phần mềm hỗ trợ tốt cho việc kiểm thử, ví dụ log file và automatic diagnostics",
+      "B": "Khả năng tái sử dụng",
+      "C": "Khả năng giao tiếp với thiết bị khác",
+      "D": "Khả năng chạy trên OS khác"
     },
-    "answer": "Phương pháp testing cần phù hợp với yêu cầu, mục đích và mức độ rủi ro của từng sản phẩm",
-    "explanation": "Tài liệu nêu không nên áp dụng cùng một cách kiểm thử cho mọi sản phẩm vì mỗi sản phẩm có yêu cầu, chức năng, mục đích và rủi ro khác nhau."
+    "answer": "A",
+    "explanation": "Testability giúp kiểm thử thuận lợi thông qua các cơ chế hỗ trợ như logging/diagnostics."
   },
   {
     "id": 60,
-    "question": "Absence of errors fallacy cảnh báo điều gì?",
+    "question": "Một sinh viên cần ghi nhớ 'Testability'. Đáp án nào là chính xác?",
     "options": {
-      "A": "Sửa hết lỗi luôn đảm bảo người dùng chấp nhận hệ thống",
-      "B": "Nếu không tìm thấy lỗi thì hệ thống chắc chắn phù hợp nhu cầu",
-      "C": "Tìm và sửa hết lỗi không có nghĩa hệ thống sẽ được người dùng chấp nhận nếu không đáp ứng nhu cầu và kỳ vọng",
-      "D": "Testing không liên quan đến nhu cầu người dùng"
+      "A": "Khả năng phần mềm hỗ trợ tốt cho việc kiểm thử, ví dụ log file và automatic diagnostics",
+      "B": "Khả năng tái sử dụng",
+      "C": "Khả năng chạy trên OS khác",
+      "D": "Khả năng giao tiếp với thiết bị khác"
     },
-    "answer": "Tìm và sửa hết lỗi không có nghĩa hệ thống sẽ được người dùng chấp nhận nếu không đáp ứng nhu cầu và kỳ vọng",
-    "explanation": "P7 nhấn mạnh rằng phần mềm có thể không còn lỗi được phát hiện nhưng vẫn không có giá trị đối với người dùng nếu không đáp ứng đúng nhu cầu và kỳ vọng thực tế."
+    "answer": "A",
+    "explanation": "Testability giúp kiểm thử thuận lợi thông qua các cơ chế hỗ trợ như logging/diagnostics."
+  },
+  {
+    "id": 61,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Portability?",
+    "options": {
+      "A": "Khả năng sửa lỗi",
+      "B": "Khả năng học sử dụng",
+      "C": "Khả năng thích ứng với môi trường khác, gồm phần cứng và phần mềm khác",
+      "D": "Khả năng xác định failure rate"
+    },
+    "answer": "C",
+    "explanation": "Portability thuộc Product Transition."
+  },
+  {
+    "id": 62,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Portability'?",
+    "options": {
+      "A": "Khả năng sửa lỗi",
+      "B": "Khả năng thích ứng với môi trường khác, gồm phần cứng và phần mềm khác",
+      "C": "Khả năng học sử dụng",
+      "D": "Khả năng xác định failure rate"
+    },
+    "answer": "B",
+    "explanation": "Portability thuộc Product Transition."
+  },
+  {
+    "id": 63,
+    "question": "Một sinh viên cần ghi nhớ 'Portability'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Khả năng sửa lỗi",
+      "B": "Khả năng xác định failure rate",
+      "C": "Khả năng thích ứng với môi trường khác, gồm phần cứng và phần mềm khác",
+      "D": "Khả năng học sử dụng"
+    },
+    "answer": "C",
+    "explanation": "Portability thuộc Product Transition."
+  },
+  {
+    "id": 64,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Reusability?",
+    "options": {
+      "A": "Khả năng kiểm thử",
+      "B": "Khả năng học sử dụng",
+      "C": "Khả năng sử dụng lại các thành phần phần mềm cho các dự án khác",
+      "D": "Khả năng bảo mật"
+    },
+    "answer": "C",
+    "explanation": "Reusability nói về việc tái sử dụng component cho dự án khác."
+  },
+  {
+    "id": 65,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Reusability'?",
+    "options": {
+      "A": "Khả năng sử dụng lại các thành phần phần mềm cho các dự án khác",
+      "B": "Khả năng bảo mật",
+      "C": "Khả năng học sử dụng",
+      "D": "Khả năng kiểm thử"
+    },
+    "answer": "A",
+    "explanation": "Reusability nói về việc tái sử dụng component cho dự án khác."
+  },
+  {
+    "id": 66,
+    "question": "Một sinh viên cần ghi nhớ 'Reusability'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Khả năng kiểm thử",
+      "B": "Khả năng bảo mật",
+      "C": "Khả năng học sử dụng",
+      "D": "Khả năng sử dụng lại các thành phần phần mềm cho các dự án khác"
+    },
+    "answer": "D",
+    "explanation": "Reusability nói về việc tái sử dụng component cho dự án khác."
+  },
+  {
+    "id": 67,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Interoperability?",
+    "options": {
+      "A": "Khả năng thay đổi chức năng",
+      "B": "Khả năng học sử dụng",
+      "C": "Khả năng sửa lỗi",
+      "D": "Khả năng giao tiếp/vận hành cùng các gói phần mềm và thiết bị máy tính khác"
+    },
+    "answer": "D",
+    "explanation": "Interoperability liên quan đến khả năng hoạt động cùng hệ thống/phần mềm/thiết bị khác."
+  },
+  {
+    "id": 68,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Interoperability'?",
+    "options": {
+      "A": "Khả năng học sử dụng",
+      "B": "Khả năng thay đổi chức năng",
+      "C": "Khả năng sửa lỗi",
+      "D": "Khả năng giao tiếp/vận hành cùng các gói phần mềm và thiết bị máy tính khác"
+    },
+    "answer": "D",
+    "explanation": "Interoperability liên quan đến khả năng hoạt động cùng hệ thống/phần mềm/thiết bị khác."
+  },
+  {
+    "id": 69,
+    "question": "Một sinh viên cần ghi nhớ 'Interoperability'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Khả năng học sử dụng",
+      "B": "Khả năng giao tiếp/vận hành cùng các gói phần mềm và thiết bị máy tính khác",
+      "C": "Khả năng thay đổi chức năng",
+      "D": "Khả năng sửa lỗi"
+    },
+    "answer": "B",
+    "explanation": "Interoperability liên quan đến khả năng hoạt động cùng hệ thống/phần mềm/thiết bị khác."
+  },
+  {
+    "id": 70,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Evans & Marciniak?",
+    "options": {
+      "A": "5 yếu tố",
+      "B": "15 yếu tố",
+      "C": "10 yếu tố",
+      "D": "Mô hình Evans & Marciniak (1987) có 12 yếu tố chất lượng"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu ghi Evans & Marciniak (1987) có 12 yếu tố, chia thành 3 nhóm."
+  },
+  {
+    "id": 71,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Evans & Marciniak'?",
+    "options": {
+      "A": "5 yếu tố",
+      "B": "15 yếu tố",
+      "C": "10 yếu tố",
+      "D": "Mô hình Evans & Marciniak (1987) có 12 yếu tố chất lượng"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu ghi Evans & Marciniak (1987) có 12 yếu tố, chia thành 3 nhóm."
+  },
+  {
+    "id": 72,
+    "question": "Một sinh viên cần ghi nhớ 'Evans & Marciniak'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Mô hình Evans & Marciniak (1987) có 12 yếu tố chất lượng",
+      "B": "10 yếu tố",
+      "C": "5 yếu tố",
+      "D": "15 yếu tố"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu ghi Evans & Marciniak (1987) có 12 yếu tố, chia thành 3 nhóm."
+  },
+  {
+    "id": 73,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Deutsch & Willis?",
+    "options": {
+      "A": "12 yếu tố",
+      "B": "18 yếu tố",
+      "C": "Mô hình Deutsch & Willis (1988) có 15 yếu tố chất lượng",
+      "D": "5 yếu tố"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu ghi Deutsch & Willis (1988) có 15 yếu tố, chia thành 4 nhóm."
+  },
+  {
+    "id": 74,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Deutsch & Willis'?",
+    "options": {
+      "A": "12 yếu tố",
+      "B": "18 yếu tố",
+      "C": "5 yếu tố",
+      "D": "Mô hình Deutsch & Willis (1988) có 15 yếu tố chất lượng"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu ghi Deutsch & Willis (1988) có 15 yếu tố, chia thành 4 nhóm."
+  },
+  {
+    "id": 75,
+    "question": "Một sinh viên cần ghi nhớ 'Deutsch & Willis'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "18 yếu tố",
+      "B": "Mô hình Deutsch & Willis (1988) có 15 yếu tố chất lượng",
+      "C": "5 yếu tố",
+      "D": "12 yếu tố"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu ghi Deutsch & Willis (1988) có 15 yếu tố, chia thành 4 nhóm."
+  },
+  {
+    "id": 76,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Alternative quality models?",
+    "options": {
+      "A": "Cả hai chỉ giữ nguyên 5 yếu tố Product Operation",
+      "B": "Cả hai loại bỏ Correctness",
+      "C": "Evans & Marciniak và Deutsch & Willis không có Testability và bổ sung các yếu tố mới so với McCall",
+      "D": "Cả hai đều chỉ có 3 yếu tố"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu nêu hai mô hình thay thế không có Testability và bổ sung các yếu tố như Verifiability, Expandability."
+  },
+  {
+    "id": 77,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Alternative quality models'?",
+    "options": {
+      "A": "Cả hai chỉ giữ nguyên 5 yếu tố Product Operation",
+      "B": "Cả hai loại bỏ Correctness",
+      "C": "Evans & Marciniak và Deutsch & Willis không có Testability và bổ sung các yếu tố mới so với McCall",
+      "D": "Cả hai đều chỉ có 3 yếu tố"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu nêu hai mô hình thay thế không có Testability và bổ sung các yếu tố như Verifiability, Expandability."
+  },
+  {
+    "id": 78,
+    "question": "Một sinh viên cần ghi nhớ 'Alternative quality models'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Evans & Marciniak và Deutsch & Willis không có Testability và bổ sung các yếu tố mới so với McCall",
+      "B": "Cả hai loại bỏ Correctness",
+      "C": "Cả hai chỉ giữ nguyên 5 yếu tố Product Operation",
+      "D": "Cả hai đều chỉ có 3 yếu tố"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu nêu hai mô hình thay thế không có Testability và bổ sung các yếu tố như Verifiability, Expandability."
+  },
+  {
+    "id": 79,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Deutsch & Willis additions?",
+    "options": {
+      "A": "Chỉ Correctness",
+      "B": "Safety, Manageability và Survivability là các yếu tố được Deutsch & Willis bổ sung",
+      "C": "Chỉ Portability",
+      "D": "Chỉ Testability"
+    },
+    "answer": "B",
+    "explanation": "Ngoài Verifiability và Expandability, Deutsch & Willis còn có Safety, Manageability và Survivability."
+  },
+  {
+    "id": 80,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Deutsch & Willis additions'?",
+    "options": {
+      "A": "Safety, Manageability và Survivability là các yếu tố được Deutsch & Willis bổ sung",
+      "B": "Chỉ Correctness",
+      "C": "Chỉ Portability",
+      "D": "Chỉ Testability"
+    },
+    "answer": "A",
+    "explanation": "Ngoài Verifiability và Expandability, Deutsch & Willis còn có Safety, Manageability và Survivability."
+  },
+  {
+    "id": 81,
+    "question": "Một sinh viên cần ghi nhớ 'Deutsch & Willis additions'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ Portability",
+      "B": "Chỉ Testability",
+      "C": "Chỉ Correctness",
+      "D": "Safety, Manageability và Survivability là các yếu tố được Deutsch & Willis bổ sung"
+    },
+    "answer": "D",
+    "explanation": "Ngoài Verifiability và Expandability, Deutsch & Willis còn có Safety, Manageability và Survivability."
+  },
+  {
+    "id": 82,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: SQA Architecture?",
+    "options": {
+      "A": "Có 6 nhóm thành phần lớn",
+      "B": "3 nhóm",
+      "C": "8 nhóm",
+      "D": "4 nhóm"
+    },
+    "answer": "A",
+    "explanation": "SQA Architecture trong tài liệu gồm 6 nhóm."
+  },
+  {
+    "id": 83,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'SQA Architecture'?",
+    "options": {
+      "A": "8 nhóm",
+      "B": "Có 6 nhóm thành phần lớn",
+      "C": "3 nhóm",
+      "D": "4 nhóm"
+    },
+    "answer": "B",
+    "explanation": "SQA Architecture trong tài liệu gồm 6 nhóm."
+  },
+  {
+    "id": 84,
+    "question": "Một sinh viên cần ghi nhớ 'SQA Architecture'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "3 nhóm",
+      "B": "8 nhóm",
+      "C": "4 nhóm",
+      "D": "Có 6 nhóm thành phần lớn"
+    },
+    "answer": "D",
+    "explanation": "SQA Architecture trong tài liệu gồm 6 nhóm."
+  },
+  {
+    "id": 85,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Pre-project SQA?",
+    "options": {
+      "A": "Software Maintenance và External Participants",
+      "B": "Contract Review và Development & Quality Plan",
+      "C": "Project Progress Control và Metrics",
+      "D": "Review và Testing"
+    },
+    "answer": "B",
+    "explanation": "Pre-project có 2 thành phần chính."
+  },
+  {
+    "id": 86,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Pre-project SQA'?",
+    "options": {
+      "A": "Project Progress Control và Metrics",
+      "B": "Contract Review và Development & Quality Plan",
+      "C": "Review và Testing",
+      "D": "Software Maintenance và External Participants"
+    },
+    "answer": "B",
+    "explanation": "Pre-project có 2 thành phần chính."
+  },
+  {
+    "id": 87,
+    "question": "Một sinh viên cần ghi nhớ 'Pre-project SQA'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Project Progress Control và Metrics",
+      "B": "Contract Review và Development & Quality Plan",
+      "C": "Review và Testing",
+      "D": "Software Maintenance và External Participants"
+    },
+    "answer": "B",
+    "explanation": "Pre-project có 2 thành phần chính."
+  },
+  {
+    "id": 88,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Contract Review?",
+    "options": {
+      "A": "Rà soát Proposal Draft và Contract Drafts",
+      "B": "Chỉ chạy acceptance test",
+      "C": "Chỉ rà soát source code",
+      "D": "Chỉ đo metrics"
+    },
+    "answer": "A",
+    "explanation": "Contract Review phải bao gồm review dự thảo đề xuất và dự thảo hợp đồng."
+  },
+  {
+    "id": 89,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Contract Review'?",
+    "options": {
+      "A": "Chỉ đo metrics",
+      "B": "Chỉ chạy acceptance test",
+      "C": "Chỉ rà soát source code",
+      "D": "Rà soát Proposal Draft và Contract Drafts"
+    },
+    "answer": "D",
+    "explanation": "Contract Review phải bao gồm review dự thảo đề xuất và dự thảo hợp đồng."
+  },
+  {
+    "id": 90,
+    "question": "Một sinh viên cần ghi nhớ 'Contract Review'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Rà soát Proposal Draft và Contract Drafts",
+      "B": "Chỉ rà soát source code",
+      "C": "Chỉ chạy acceptance test",
+      "D": "Chỉ đo metrics"
+    },
+    "answer": "A",
+    "explanation": "Contract Review phải bao gồm review dự thảo đề xuất và dự thảo hợp đồng."
+  },
+  {
+    "id": 91,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Proposal Draft review?",
+    "options": {
+      "A": "Rà soát sau khi đóng dự án",
+      "B": "Rà soát bản dự thảo cuối cùng trước khi gửi cho khách hàng tiềm năng",
+      "C": "Rà soát sau khi ký hợp đồng",
+      "D": "Rà soát sau khi hệ thống triển khai"
+    },
+    "answer": "B",
+    "explanation": "Proposal Draft được review trước khi gửi cho khách hàng tiềm năng."
+  },
+  {
+    "id": 92,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Proposal Draft review'?",
+    "options": {
+      "A": "Rà soát sau khi đóng dự án",
+      "B": "Rà soát sau khi hệ thống triển khai",
+      "C": "Rà soát sau khi ký hợp đồng",
+      "D": "Rà soát bản dự thảo cuối cùng trước khi gửi cho khách hàng tiềm năng"
+    },
+    "answer": "D",
+    "explanation": "Proposal Draft được review trước khi gửi cho khách hàng tiềm năng."
+  },
+  {
+    "id": 93,
+    "question": "Một sinh viên cần ghi nhớ 'Proposal Draft review'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Rà soát bản dự thảo cuối cùng trước khi gửi cho khách hàng tiềm năng",
+      "B": "Rà soát sau khi ký hợp đồng",
+      "C": "Rà soát sau khi hệ thống triển khai",
+      "D": "Rà soát sau khi đóng dự án"
+    },
+    "answer": "A",
+    "explanation": "Proposal Draft được review trước khi gửi cho khách hàng tiềm năng."
+  },
+  {
+    "id": 94,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Contract Draft review?",
+    "options": {
+      "A": "Sau khi khách hàng nghiệm thu",
+      "B": "Rà soát bản dự thảo hợp đồng trước khi ký kết",
+      "C": "Sau khi chạy regression",
+      "D": "Sau khi triển khai production"
+    },
+    "answer": "B",
+    "explanation": "Contract Draft review diễn ra trước khi ký hợp đồng."
+  },
+  {
+    "id": 95,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Contract Draft review'?",
+    "options": {
+      "A": "Sau khi triển khai production",
+      "B": "Rà soát bản dự thảo hợp đồng trước khi ký kết",
+      "C": "Sau khi khách hàng nghiệm thu",
+      "D": "Sau khi chạy regression"
+    },
+    "answer": "B",
+    "explanation": "Contract Draft review diễn ra trước khi ký hợp đồng."
+  },
+  {
+    "id": 96,
+    "question": "Một sinh viên cần ghi nhớ 'Contract Draft review'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Sau khi khách hàng nghiệm thu",
+      "B": "Rà soát bản dự thảo hợp đồng trước khi ký kết",
+      "C": "Sau khi chạy regression",
+      "D": "Sau khi triển khai production"
+    },
+    "answer": "B",
+    "explanation": "Contract Draft review diễn ra trước khi ký hợp đồng."
+  },
+  {
+    "id": 97,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Proposal review goals?",
+    "options": {
+      "A": "Chỉ viết test case",
+      "B": "Chỉ kiểm tra UI",
+      "C": "Làm rõ yêu cầu, rà soát phương án, xác định rủi ro, ước tính nguồn lực/tiến độ và đánh giá năng lực công ty",
+      "D": "Chỉ kiểm tra database"
+    },
+    "answer": "C",
+    "explanation": "Đây là các mục tiêu chính được liệt kê cho Proposal Draft review."
+  },
+  {
+    "id": 98,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Proposal review goals'?",
+    "options": {
+      "A": "Chỉ kiểm tra UI",
+      "B": "Chỉ viết test case",
+      "C": "Làm rõ yêu cầu, rà soát phương án, xác định rủi ro, ước tính nguồn lực/tiến độ và đánh giá năng lực công ty",
+      "D": "Chỉ kiểm tra database"
+    },
+    "answer": "C",
+    "explanation": "Đây là các mục tiêu chính được liệt kê cho Proposal Draft review."
+  },
+  {
+    "id": 99,
+    "question": "Một sinh viên cần ghi nhớ 'Proposal review goals'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ viết test case",
+      "B": "Chỉ kiểm tra database",
+      "C": "Làm rõ yêu cầu, rà soát phương án, xác định rủi ro, ước tính nguồn lực/tiến độ và đánh giá năng lực công ty",
+      "D": "Chỉ kiểm tra UI"
+    },
+    "answer": "C",
+    "explanation": "Đây là các mục tiêu chính được liệt kê cho Proposal Draft review."
+  },
+  {
+    "id": 100,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Development & Quality Plan?",
+    "options": {
+      "A": "Chỉ kế hoạch triển khai server",
+      "B": "Lập kế hoạch phát triển và chất lượng, gồm mục tiêu chất lượng, đánh giá, test, acceptance test và configuration management",
+      "C": "Chỉ kế hoạch tuyển dụng",
+      "D": "Chỉ kế hoạch marketing"
+    },
+    "answer": "B",
+    "explanation": "Development & Quality Plan là thành phần tiền dự án quan trọng."
+  },
+  {
+    "id": 101,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Development & Quality Plan'?",
+    "options": {
+      "A": "Chỉ kế hoạch tuyển dụng",
+      "B": "Lập kế hoạch phát triển và chất lượng, gồm mục tiêu chất lượng, đánh giá, test, acceptance test và configuration management",
+      "C": "Chỉ kế hoạch marketing",
+      "D": "Chỉ kế hoạch triển khai server"
+    },
+    "answer": "B",
+    "explanation": "Development & Quality Plan là thành phần tiền dự án quan trọng."
+  },
+  {
+    "id": 102,
+    "question": "Một sinh viên cần ghi nhớ 'Development & Quality Plan'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Lập kế hoạch phát triển và chất lượng, gồm mục tiêu chất lượng, đánh giá, test, acceptance test và configuration management",
+      "B": "Chỉ kế hoạch tuyển dụng",
+      "C": "Chỉ kế hoạch triển khai server",
+      "D": "Chỉ kế hoạch marketing"
+    },
+    "answer": "A",
+    "explanation": "Development & Quality Plan là thành phần tiền dự án quan trọng."
+  },
+  {
+    "id": 103,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Quality Infrastructure?",
+    "options": {
+      "A": "Procedures, Support Devices, Training Instructions, Preventive Actions, Configuration Management, Document Control",
+      "B": "Project Progress Control, Metrics, Costs",
+      "C": "Quality Management Standards, Project Process Standards",
+      "D": "Management, SQA Unit, Committees"
+    },
+    "answer": "A",
+    "explanation": "Đây là các thành phần của Quality Infrastructure."
+  },
+  {
+    "id": 104,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Quality Infrastructure'?",
+    "options": {
+      "A": "Procedures, Support Devices, Training Instructions, Preventive Actions, Configuration Management, Document Control",
+      "B": "Quality Management Standards, Project Process Standards",
+      "C": "Management, SQA Unit, Committees",
+      "D": "Project Progress Control, Metrics, Costs"
+    },
+    "answer": "A",
+    "explanation": "Đây là các thành phần của Quality Infrastructure."
+  },
+  {
+    "id": 105,
+    "question": "Một sinh viên cần ghi nhớ 'Quality Infrastructure'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Management, SQA Unit, Committees",
+      "B": "Procedures, Support Devices, Training Instructions, Preventive Actions, Configuration Management, Document Control",
+      "C": "Project Progress Control, Metrics, Costs",
+      "D": "Quality Management Standards, Project Process Standards"
+    },
+    "answer": "B",
+    "explanation": "Đây là các thành phần của Quality Infrastructure."
+  },
+  {
+    "id": 106,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Quality Management?",
+    "options": {
+      "A": "Contract Review, Development Plan",
+      "B": "Project Progress Control, SW Quality Metrics, SW Quality Costs",
+      "C": "Management, SQA Unit, SQA Forums",
+      "D": "Procedures, Support Devices, Document Control"
+    },
+    "answer": "B",
+    "explanation": "Đây là 3 thành phần của Quality Management."
+  },
+  {
+    "id": 107,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Quality Management'?",
+    "options": {
+      "A": "Project Progress Control, SW Quality Metrics, SW Quality Costs",
+      "B": "Management, SQA Unit, SQA Forums",
+      "C": "Contract Review, Development Plan",
+      "D": "Procedures, Support Devices, Document Control"
+    },
+    "answer": "A",
+    "explanation": "Đây là 3 thành phần của Quality Management."
+  },
+  {
+    "id": 108,
+    "question": "Một sinh viên cần ghi nhớ 'Quality Management'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Procedures, Support Devices, Document Control",
+      "B": "Management, SQA Unit, SQA Forums",
+      "C": "Project Progress Control, SW Quality Metrics, SW Quality Costs",
+      "D": "Contract Review, Development Plan"
+    },
+    "answer": "C",
+    "explanation": "Đây là 3 thành phần của Quality Management."
+  },
+  {
+    "id": 109,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Standards?",
+    "options": {
+      "A": "Quality Management Standards và Project Process Standards",
+      "B": "Procedures và Document Control",
+      "C": "Project Progress Control và Metrics",
+      "D": "Contract Review và Quality Plan"
+    },
+    "answer": "A",
+    "explanation": "Nhóm Standards gồm 2 loại standards được nêu trong tài liệu."
+  },
+  {
+    "id": 110,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Standards'?",
+    "options": {
+      "A": "Procedures và Document Control",
+      "B": "Quality Management Standards và Project Process Standards",
+      "C": "Contract Review và Quality Plan",
+      "D": "Project Progress Control và Metrics"
+    },
+    "answer": "B",
+    "explanation": "Nhóm Standards gồm 2 loại standards được nêu trong tài liệu."
+  },
+  {
+    "id": 111,
+    "question": "Một sinh viên cần ghi nhớ 'Standards'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Project Progress Control và Metrics",
+      "B": "Contract Review và Quality Plan",
+      "C": "Quality Management Standards và Project Process Standards",
+      "D": "Procedures và Document Control"
+    },
+    "answer": "C",
+    "explanation": "Nhóm Standards gồm 2 loại standards được nêu trong tài liệu."
+  },
+  {
+    "id": 112,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Organizational Base – Human?",
+    "options": {
+      "A": "Portability, Reusability, Interoperability",
+      "B": "Management, SQA Unit, SQA Trustees, SQA Committees, SQA Forums",
+      "C": "Correctness, Reliability, Efficiency",
+      "D": "Test Plan, Test Case, Test Suite"
+    },
+    "answer": "B",
+    "explanation": "Đây là các thành phần tổ chức – con người trong SQA Architecture."
+  },
+  {
+    "id": 113,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Organizational Base – Human'?",
+    "options": {
+      "A": "Portability, Reusability, Interoperability",
+      "B": "Correctness, Reliability, Efficiency",
+      "C": "Test Plan, Test Case, Test Suite",
+      "D": "Management, SQA Unit, SQA Trustees, SQA Committees, SQA Forums"
+    },
+    "answer": "D",
+    "explanation": "Đây là các thành phần tổ chức – con người trong SQA Architecture."
+  },
+  {
+    "id": 114,
+    "question": "Một sinh viên cần ghi nhớ 'Organizational Base – Human'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Correctness, Reliability, Efficiency",
+      "B": "Test Plan, Test Case, Test Suite",
+      "C": "Management, SQA Unit, SQA Trustees, SQA Committees, SQA Forums",
+      "D": "Portability, Reusability, Interoperability"
+    },
+    "answer": "C",
+    "explanation": "Đây là các thành phần tổ chức – con người trong SQA Architecture."
+  },
+  {
+    "id": 115,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing history 1960s–1980s?",
+    "options": {
+      "A": "Must have",
+      "B": "Testing được xem là Nice to have",
+      "C": "Strategic asset",
+      "D": "Should have"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu mô tả 1960s–1980s là Nice to have."
+  },
+  {
+    "id": 116,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing history 1960s–1980s'?",
+    "options": {
+      "A": "Must have",
+      "B": "Strategic asset",
+      "C": "Testing được xem là Nice to have",
+      "D": "Should have"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu mô tả 1960s–1980s là Nice to have."
+  },
+  {
+    "id": 117,
+    "question": "Một sinh viên cần ghi nhớ 'Testing history 1960s–1980s'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Must have",
+      "B": "Testing được xem là Nice to have",
+      "C": "Strategic asset",
+      "D": "Should have"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu mô tả 1960s–1980s là Nice to have."
+  },
+  {
+    "id": 118,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing history 1990s?",
+    "options": {
+      "A": "Testing được xem là Should have",
+      "B": "Không cần thiết",
+      "C": "Nice to have",
+      "D": "Must have"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu mô tả 1990s là Should have."
+  },
+  {
+    "id": 119,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing history 1990s'?",
+    "options": {
+      "A": "Testing được xem là Should have",
+      "B": "Must have",
+      "C": "Không cần thiết",
+      "D": "Nice to have"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu mô tả 1990s là Should have."
+  },
+  {
+    "id": 120,
+    "question": "Một sinh viên cần ghi nhớ 'Testing history 1990s'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Testing được xem là Should have",
+      "B": "Must have",
+      "C": "Nice to have",
+      "D": "Không cần thiết"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu mô tả 1990s là Should have."
+  },
+  {
+    "id": 121,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing history 2000+?",
+    "options": {
+      "A": "Không cần tester",
+      "B": "Nice to have",
+      "C": "Should have",
+      "D": "Testing được xem là Must have"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu mô tả 2000+ là Must have."
+  },
+  {
+    "id": 122,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing history 2000+'?",
+    "options": {
+      "A": "Testing được xem là Must have",
+      "B": "Không cần tester",
+      "C": "Should have",
+      "D": "Nice to have"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu mô tả 2000+ là Must have."
+  },
+  {
+    "id": 123,
+    "question": "Một sinh viên cần ghi nhớ 'Testing history 2000+'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Không cần tester",
+      "B": "Should have",
+      "C": "Testing được xem là Must have",
+      "D": "Nice to have"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu mô tả 2000+ là Must have."
+  },
+  {
+    "id": 124,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing definition?",
+    "options": {
+      "A": "Chỉ chạy code sau khi hoàn thành",
+      "B": "Chỉ automated testing",
+      "C": "Process xuyên suốt vòng đời, gồm static và dynamic, planning, preparation và evaluation sản phẩm/work products",
+      "D": "Chỉ debugging"
+    },
+    "answer": "C",
+    "explanation": "Testing trong tài liệu không chỉ là chạy test case mà là một process xuyên suốt vòng đời."
+  },
+  {
+    "id": 125,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing definition'?",
+    "options": {
+      "A": "Chỉ debugging",
+      "B": "Chỉ automated testing",
+      "C": "Process xuyên suốt vòng đời, gồm static và dynamic, planning, preparation và evaluation sản phẩm/work products",
+      "D": "Chỉ chạy code sau khi hoàn thành"
+    },
+    "answer": "C",
+    "explanation": "Testing trong tài liệu không chỉ là chạy test case mà là một process xuyên suốt vòng đời."
+  },
+  {
+    "id": 126,
+    "question": "Một sinh viên cần ghi nhớ 'Testing definition'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ debugging",
+      "B": "Chỉ chạy code sau khi hoàn thành",
+      "C": "Chỉ automated testing",
+      "D": "Process xuyên suốt vòng đời, gồm static và dynamic, planning, preparation và evaluation sản phẩm/work products"
+    },
+    "answer": "D",
+    "explanation": "Testing trong tài liệu không chỉ là chạy test case mà là một process xuyên suốt vòng đời."
+  },
+  {
+    "id": 127,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing is not debugging?",
+    "options": {
+      "A": "Testing chỉ là review hợp đồng",
+      "B": "Debugging là tìm nguyên nhân lỗi và sửa code; testing chủ yếu phát hiện/đánh giá",
+      "C": "Debugging là viết requirement",
+      "D": "Testing chính là sửa code"
+    },
+    "answer": "B",
+    "explanation": "Testing và debugging có mục tiêu khác nhau."
+  },
+  {
+    "id": 128,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing is not debugging'?",
+    "options": {
+      "A": "Testing chỉ là review hợp đồng",
+      "B": "Debugging là viết requirement",
+      "C": "Testing chính là sửa code",
+      "D": "Debugging là tìm nguyên nhân lỗi và sửa code; testing chủ yếu phát hiện/đánh giá"
+    },
+    "answer": "D",
+    "explanation": "Testing và debugging có mục tiêu khác nhau."
+  },
+  {
+    "id": 129,
+    "question": "Một sinh viên cần ghi nhớ 'Testing is not debugging'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Debugging là viết requirement",
+      "B": "Testing chính là sửa code",
+      "C": "Debugging là tìm nguyên nhân lỗi và sửa code; testing chủ yếu phát hiện/đánh giá",
+      "D": "Testing chỉ là review hợp đồng"
+    },
+    "answer": "C",
+    "explanation": "Testing và debugging có mục tiêu khác nhau."
+  },
+  {
+    "id": 130,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing objective 1?",
+    "options": {
+      "A": "Phát hiện lỗi",
+      "B": "Chỉ viết code",
+      "C": "Chỉ ký hợp đồng",
+      "D": "Chỉ đào tạo"
+    },
+    "answer": "A",
+    "explanation": "Một mục tiêu trực tiếp của testing là detect defects."
+  },
+  {
+    "id": 131,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing objective 1'?",
+    "options": {
+      "A": "Chỉ ký hợp đồng",
+      "B": "Phát hiện lỗi",
+      "C": "Chỉ đào tạo",
+      "D": "Chỉ viết code"
+    },
+    "answer": "B",
+    "explanation": "Một mục tiêu trực tiếp của testing là detect defects."
+  },
+  {
+    "id": 132,
+    "question": "Một sinh viên cần ghi nhớ 'Testing objective 1'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ viết code",
+      "B": "Phát hiện lỗi",
+      "C": "Chỉ ký hợp đồng",
+      "D": "Chỉ đào tạo"
+    },
+    "answer": "B",
+    "explanation": "Một mục tiêu trực tiếp của testing là detect defects."
+  },
+  {
+    "id": 133,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing objective 2?",
+    "options": {
+      "A": "Chỉ review hợp đồng",
+      "B": "Xác định sản phẩm đáp ứng các yêu cầu đã chỉ định",
+      "C": "Chỉ đo nhân lực",
+      "D": "Chỉ đo ngân sách"
+    },
+    "answer": "B",
+    "explanation": "Testing đánh giá mức độ đáp ứng yêu cầu specified."
+  },
+  {
+    "id": 134,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing objective 2'?",
+    "options": {
+      "A": "Xác định sản phẩm đáp ứng các yêu cầu đã chỉ định",
+      "B": "Chỉ review hợp đồng",
+      "C": "Chỉ đo ngân sách",
+      "D": "Chỉ đo nhân lực"
+    },
+    "answer": "A",
+    "explanation": "Testing đánh giá mức độ đáp ứng yêu cầu specified."
+  },
+  {
+    "id": 135,
+    "question": "Một sinh viên cần ghi nhớ 'Testing objective 2'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Xác định sản phẩm đáp ứng các yêu cầu đã chỉ định",
+      "B": "Chỉ đo nhân lực",
+      "C": "Chỉ đo ngân sách",
+      "D": "Chỉ review hợp đồng"
+    },
+    "answer": "A",
+    "explanation": "Testing đánh giá mức độ đáp ứng yêu cầu specified."
+  },
+  {
+    "id": 136,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing objective 3?",
+    "options": {
+      "A": "Chứng minh sản phẩm phù hợp với mục đích sử dụng (fit for purpose)",
+      "B": "Chỉ chứng minh có database",
+      "C": "Chỉ chứng minh có tài liệu",
+      "D": "Chỉ chứng minh code ngắn"
+    },
+    "answer": "A",
+    "explanation": "Fit for purpose là một mục tiêu của testing được tài liệu nêu."
+  },
+  {
+    "id": 137,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing objective 3'?",
+    "options": {
+      "A": "Chỉ chứng minh code ngắn",
+      "B": "Chứng minh sản phẩm phù hợp với mục đích sử dụng (fit for purpose)",
+      "C": "Chỉ chứng minh có database",
+      "D": "Chỉ chứng minh có tài liệu"
+    },
+    "answer": "B",
+    "explanation": "Fit for purpose là một mục tiêu của testing được tài liệu nêu."
+  },
+  {
+    "id": 138,
+    "question": "Một sinh viên cần ghi nhớ 'Testing objective 3'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ chứng minh code ngắn",
+      "B": "Chỉ chứng minh có database",
+      "C": "Chỉ chứng minh có tài liệu",
+      "D": "Chứng minh sản phẩm phù hợp với mục đích sử dụng (fit for purpose)"
+    },
+    "answer": "D",
+    "explanation": "Fit for purpose là một mục tiêu của testing được tài liệu nêu."
+  },
+  {
+    "id": 139,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Principle P1?",
+    "options": {
+      "A": "Testing shows presence of defects: testing có thể cho thấy lỗi tồn tại nhưng không chứng minh không còn lỗi",
+      "B": "Testing luôn exhaustive",
+      "C": "Testing thay thế debugging",
+      "D": "Testing chứng minh phần mềm không có lỗi"
+    },
+    "answer": "A",
+    "explanation": "P1 nhấn mạnh testing chứng minh presence, không chứng minh absence của defects."
+  },
+  {
+    "id": 140,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Principle P1'?",
+    "options": {
+      "A": "Testing shows presence of defects: testing có thể cho thấy lỗi tồn tại nhưng không chứng minh không còn lỗi",
+      "B": "Testing chứng minh phần mềm không có lỗi",
+      "C": "Testing luôn exhaustive",
+      "D": "Testing thay thế debugging"
+    },
+    "answer": "A",
+    "explanation": "P1 nhấn mạnh testing chứng minh presence, không chứng minh absence của defects."
+  },
+  {
+    "id": 141,
+    "question": "Một sinh viên cần ghi nhớ 'Principle P1'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Testing chứng minh phần mềm không có lỗi",
+      "B": "Testing luôn exhaustive",
+      "C": "Testing shows presence of defects: testing có thể cho thấy lỗi tồn tại nhưng không chứng minh không còn lỗi",
+      "D": "Testing thay thế debugging"
+    },
+    "answer": "C",
+    "explanation": "P1 nhấn mạnh testing chứng minh presence, không chứng minh absence của defects."
+  },
+  {
+    "id": 142,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Principle P2?",
+    "options": {
+      "A": "Chỉ test một input",
+      "B": "Có thể test mọi tổ hợp",
+      "C": "Không cần risk analysis",
+      "D": "Exhaustive testing is impossible, nên ưu tiên dựa trên risk và priority"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu minh họa số tổ hợp rất lớn nên exhaustive testing không khả thi."
+  },
+  {
+    "id": 143,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Principle P2'?",
+    "options": {
+      "A": "Chỉ test một input",
+      "B": "Không cần risk analysis",
+      "C": "Có thể test mọi tổ hợp",
+      "D": "Exhaustive testing is impossible, nên ưu tiên dựa trên risk và priority"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu minh họa số tổ hợp rất lớn nên exhaustive testing không khả thi."
+  },
+  {
+    "id": 144,
+    "question": "Một sinh viên cần ghi nhớ 'Principle P2'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Có thể test mọi tổ hợp",
+      "B": "Exhaustive testing is impossible, nên ưu tiên dựa trên risk và priority",
+      "C": "Chỉ test một input",
+      "D": "Không cần risk analysis"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu minh họa số tổ hợp rất lớn nên exhaustive testing không khả thi."
+  },
+  {
+    "id": 145,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Principle P3?",
+    "options": {
+      "A": "Early testing: bắt đầu testing càng sớm càng tốt",
+      "B": "Chỉ test sau code",
+      "C": "Chỉ test khi khách hàng yêu cầu",
+      "D": "Chỉ test sau deployment"
+    },
+    "answer": "A",
+    "explanation": "Early testing giúp phát hiện lỗi sớm và giảm chi phí sửa."
+  },
+  {
+    "id": 146,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Principle P3'?",
+    "options": {
+      "A": "Chỉ test khi khách hàng yêu cầu",
+      "B": "Early testing: bắt đầu testing càng sớm càng tốt",
+      "C": "Chỉ test sau deployment",
+      "D": "Chỉ test sau code"
+    },
+    "answer": "B",
+    "explanation": "Early testing giúp phát hiện lỗi sớm và giảm chi phí sửa."
+  },
+  {
+    "id": 147,
+    "question": "Một sinh viên cần ghi nhớ 'Principle P3'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ test khi khách hàng yêu cầu",
+      "B": "Early testing: bắt đầu testing càng sớm càng tốt",
+      "C": "Chỉ test sau code",
+      "D": "Chỉ test sau deployment"
+    },
+    "answer": "B",
+    "explanation": "Early testing giúp phát hiện lỗi sớm và giảm chi phí sửa."
+  },
+  {
+    "id": 148,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Principle P4?",
+    "options": {
+      "A": "Lỗi phân bố đều",
+      "B": "Defect clustering: phần lớn lỗi thường tập trung ở một số ít module",
+      "C": "Lỗi chỉ ở UI",
+      "D": "Lỗi chỉ ở database"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu nêu quy tắc 80–20 như ví dụ minh họa cho clustering."
+  },
+  {
+    "id": 149,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Principle P4'?",
+    "options": {
+      "A": "Lỗi chỉ ở database",
+      "B": "Lỗi phân bố đều",
+      "C": "Defect clustering: phần lớn lỗi thường tập trung ở một số ít module",
+      "D": "Lỗi chỉ ở UI"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu nêu quy tắc 80–20 như ví dụ minh họa cho clustering."
+  },
+  {
+    "id": 150,
+    "question": "Một sinh viên cần ghi nhớ 'Principle P4'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Defect clustering: phần lớn lỗi thường tập trung ở một số ít module",
+      "B": "Lỗi phân bố đều",
+      "C": "Lỗi chỉ ở UI",
+      "D": "Lỗi chỉ ở database"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu nêu quy tắc 80–20 như ví dụ minh họa cho clustering."
+  },
+  {
+    "id": 151,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Principle P5?",
+    "options": {
+      "A": "Không cần cập nhật test",
+      "B": "Pesticide paradox: lặp lại cùng test suite nhiều lần sẽ dần khó phát hiện lỗi mới",
+      "C": "Chỉ áp dụng cho hardware",
+      "D": "Lặp lại luôn tìm thêm lỗi mới"
+    },
+    "answer": "B",
+    "explanation": "Cần rà soát, sửa đổi và bổ sung test case."
+  },
+  {
+    "id": 152,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Principle P5'?",
+    "options": {
+      "A": "Chỉ áp dụng cho hardware",
+      "B": "Không cần cập nhật test",
+      "C": "Pesticide paradox: lặp lại cùng test suite nhiều lần sẽ dần khó phát hiện lỗi mới",
+      "D": "Lặp lại luôn tìm thêm lỗi mới"
+    },
+    "answer": "C",
+    "explanation": "Cần rà soát, sửa đổi và bổ sung test case."
+  },
+  {
+    "id": 153,
+    "question": "Một sinh viên cần ghi nhớ 'Principle P5'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Không cần cập nhật test",
+      "B": "Lặp lại luôn tìm thêm lỗi mới",
+      "C": "Pesticide paradox: lặp lại cùng test suite nhiều lần sẽ dần khó phát hiện lỗi mới",
+      "D": "Chỉ áp dụng cho hardware"
+    },
+    "answer": "C",
+    "explanation": "Cần rà soát, sửa đổi và bổ sung test case."
+  },
+  {
+    "id": 154,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Principle P6?",
+    "options": {
+      "A": "Chỉ web mới cần testing",
+      "B": "Testing is context dependent: cách test phải phù hợp với sản phẩm, mục đích và rủi ro",
+      "C": "Chỉ safety-critical mới cần test",
+      "D": "Mọi hệ thống dùng cùng một test strategy"
+    },
+    "answer": "B",
+    "explanation": "Testing phụ thuộc context của sản phẩm."
+  },
+  {
+    "id": 155,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Principle P6'?",
+    "options": {
+      "A": "Testing is context dependent: cách test phải phù hợp với sản phẩm, mục đích và rủi ro",
+      "B": "Mọi hệ thống dùng cùng một test strategy",
+      "C": "Chỉ web mới cần testing",
+      "D": "Chỉ safety-critical mới cần test"
+    },
+    "answer": "A",
+    "explanation": "Testing phụ thuộc context của sản phẩm."
+  },
+  {
+    "id": 156,
+    "question": "Một sinh viên cần ghi nhớ 'Principle P6'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Mọi hệ thống dùng cùng một test strategy",
+      "B": "Chỉ safety-critical mới cần test",
+      "C": "Testing is context dependent: cách test phải phù hợp với sản phẩm, mục đích và rủi ro",
+      "D": "Chỉ web mới cần testing"
+    },
+    "answer": "C",
+    "explanation": "Testing phụ thuộc context của sản phẩm."
+  },
+  {
+    "id": 157,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Principle P7?",
+    "options": {
+      "A": "Không cần validation",
+      "B": "Không tìm thấy lỗi nghĩa là chắc chắn thành công",
+      "C": "Chỉ cần sửa bug là đủ",
+      "D": "Absence-of-errors fallacy: không còn lỗi được phát hiện không có nghĩa sản phẩm phù hợp nhu cầu"
+    },
+    "answer": "D",
+    "explanation": "Phần mềm có thể ít lỗi nhưng vẫn không có giá trị nếu không đáp ứng nhu cầu/kỳ vọng."
+  },
+  {
+    "id": 158,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Principle P7'?",
+    "options": {
+      "A": "Không cần validation",
+      "B": "Chỉ cần sửa bug là đủ",
+      "C": "Absence-of-errors fallacy: không còn lỗi được phát hiện không có nghĩa sản phẩm phù hợp nhu cầu",
+      "D": "Không tìm thấy lỗi nghĩa là chắc chắn thành công"
+    },
+    "answer": "C",
+    "explanation": "Phần mềm có thể ít lỗi nhưng vẫn không có giá trị nếu không đáp ứng nhu cầu/kỳ vọng."
+  },
+  {
+    "id": 159,
+    "question": "Một sinh viên cần ghi nhớ 'Principle P7'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Absence-of-errors fallacy: không còn lỗi được phát hiện không có nghĩa sản phẩm phù hợp nhu cầu",
+      "B": "Không tìm thấy lỗi nghĩa là chắc chắn thành công",
+      "C": "Chỉ cần sửa bug là đủ",
+      "D": "Không cần validation"
+    },
+    "answer": "A",
+    "explanation": "Phần mềm có thể ít lỗi nhưng vẫn không có giá trị nếu không đáp ứng nhu cầu/kỳ vọng."
+  },
+  {
+    "id": 160,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Independent testing?",
+    "options": {
+      "A": "Độc lập không ảnh hưởng gì",
+      "B": "Độc lập luôn miễn phí",
+      "C": "Mức độ độc lập cao giúp tránh author bias và có thể phát hiện lỗi/thất bại hiệu quả hơn, nhưng tăng chi phí/thời gian phối hợp",
+      "D": "Độc lập luôn làm chất lượng thấp hơn"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu nêu cả lợi ích và trade-off của independent testing."
+  },
+  {
+    "id": 161,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Independent testing'?",
+    "options": {
+      "A": "Độc lập luôn làm chất lượng thấp hơn",
+      "B": "Độc lập luôn miễn phí",
+      "C": "Độc lập không ảnh hưởng gì",
+      "D": "Mức độ độc lập cao giúp tránh author bias và có thể phát hiện lỗi/thất bại hiệu quả hơn, nhưng tăng chi phí/thời gian phối hợp"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu nêu cả lợi ích và trade-off của independent testing."
+  },
+  {
+    "id": 162,
+    "question": "Một sinh viên cần ghi nhớ 'Independent testing'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Mức độ độc lập cao giúp tránh author bias và có thể phát hiện lỗi/thất bại hiệu quả hơn, nhưng tăng chi phí/thời gian phối hợp",
+      "B": "Độc lập luôn làm chất lượng thấp hơn",
+      "C": "Độc lập luôn miễn phí",
+      "D": "Độc lập không ảnh hưởng gì"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu nêu cả lợi ích và trade-off của independent testing."
+  },
+  {
+    "id": 163,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Independent level high?",
+    "options": {
+      "A": "Test case do cùng nhóm thiết kế",
+      "B": "Test case do công cụ tự động sinh ra được mô tả là mức độ độc lập cao nhất trong các ví dụ",
+      "C": "Test case do trưởng nhóm viết",
+      "D": "Test case do chính tác giả thiết kế"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu ghi automated-generated test case là mức độ độc lập cao nhất trong các ví dụ được liệt kê."
+  },
+  {
+    "id": 164,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Independent level high'?",
+    "options": {
+      "A": "Test case do cùng nhóm thiết kế",
+      "B": "Test case do trưởng nhóm viết",
+      "C": "Test case do công cụ tự động sinh ra được mô tả là mức độ độc lập cao nhất trong các ví dụ",
+      "D": "Test case do chính tác giả thiết kế"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu ghi automated-generated test case là mức độ độc lập cao nhất trong các ví dụ được liệt kê."
+  },
+  {
+    "id": 165,
+    "question": "Một sinh viên cần ghi nhớ 'Independent level high'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Test case do cùng nhóm thiết kế",
+      "B": "Test case do chính tác giả thiết kế",
+      "C": "Test case do công cụ tự động sinh ra được mô tả là mức độ độc lập cao nhất trong các ví dụ",
+      "D": "Test case do trưởng nhóm viết"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu ghi automated-generated test case là mức độ độc lập cao nhất trong các ví dụ được liệt kê."
+  },
+  {
+    "id": 166,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Lifecycle models?",
+    "options": {
+      "A": "McCall, ISO và IEEE",
+      "B": "Scrum, Kanban và XP",
+      "C": "MVC, MVP và MVVM",
+      "D": "Waterfall, V-model và Iterative development model"
+    },
+    "answer": "D",
+    "explanation": "Chương 2 xem xét việc tích hợp hoạt động chất lượng vào ba mô hình này."
+  },
+  {
+    "id": 167,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Lifecycle models'?",
+    "options": {
+      "A": "MVC, MVP và MVVM",
+      "B": "Waterfall, V-model và Iterative development model",
+      "C": "Scrum, Kanban và XP",
+      "D": "McCall, ISO và IEEE"
+    },
+    "answer": "B",
+    "explanation": "Chương 2 xem xét việc tích hợp hoạt động chất lượng vào ba mô hình này."
+  },
+  {
+    "id": 168,
+    "question": "Một sinh viên cần ghi nhớ 'Lifecycle models'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "MVC, MVP và MVVM",
+      "B": "Waterfall, V-model và Iterative development model",
+      "C": "Scrum, Kanban và XP",
+      "D": "McCall, ISO và IEEE"
+    },
+    "answer": "B",
+    "explanation": "Chương 2 xem xét việc tích hợp hoạt động chất lượng vào ba mô hình này."
+  },
+  {
+    "id": 169,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Good testing lifecycle?",
+    "options": {
+      "A": "Chỉ test cuối dự án",
+      "B": "Không cần test tương ứng",
+      "C": "Chỉ test khi có bug",
+      "D": "Mỗi hoạt động phát triển nên có một hoạt động kiểm thử tương ứng"
+    },
+    "answer": "D",
+    "explanation": "Đây là một đặc điểm của việc kiểm thử tốt trong mô hình vòng đời."
+  },
+  {
+    "id": 170,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Good testing lifecycle'?",
+    "options": {
+      "A": "Không cần test tương ứng",
+      "B": "Mỗi hoạt động phát triển nên có một hoạt động kiểm thử tương ứng",
+      "C": "Chỉ test cuối dự án",
+      "D": "Chỉ test khi có bug"
+    },
+    "answer": "B",
+    "explanation": "Đây là một đặc điểm của việc kiểm thử tốt trong mô hình vòng đời."
+  },
+  {
+    "id": 171,
+    "question": "Một sinh viên cần ghi nhớ 'Good testing lifecycle'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ test cuối dự án",
+      "B": "Không cần test tương ứng",
+      "C": "Mỗi hoạt động phát triển nên có một hoạt động kiểm thử tương ứng",
+      "D": "Chỉ test khi có bug"
+    },
+    "answer": "C",
+    "explanation": "Đây là một đặc điểm của việc kiểm thử tốt trong mô hình vòng đời."
+  },
+  {
+    "id": 172,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Test analysis/design timing?",
+    "options": {
+      "A": "Đợi code xong mới nghĩ đến test",
+      "B": "Chỉ làm sau deployment",
+      "C": "Chỉ làm sau acceptance",
+      "D": "Phân tích và thiết kế test cho một test level nên bắt đầu ngay trong giai đoạn phát triển tương ứng"
+    },
+    "answer": "D",
+    "explanation": "Điều này áp dụng nguyên tắc Early testing."
+  },
+  {
+    "id": 173,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Test analysis/design timing'?",
+    "options": {
+      "A": "Chỉ làm sau acceptance",
+      "B": "Chỉ làm sau deployment",
+      "C": "Đợi code xong mới nghĩ đến test",
+      "D": "Phân tích và thiết kế test cho một test level nên bắt đầu ngay trong giai đoạn phát triển tương ứng"
+    },
+    "answer": "D",
+    "explanation": "Điều này áp dụng nguyên tắc Early testing."
+  },
+  {
+    "id": 174,
+    "question": "Một sinh viên cần ghi nhớ 'Test analysis/design timing'. Đáp án nào là chính xác?",
+    "options": {
+      "A": "Chỉ làm sau acceptance",
+      "B": "Đợi code xong mới nghĩ đến test",
+      "C": "Phân tích và thiết kế test cho một test level nên bắt đầu ngay trong giai đoạn phát triển tương ứng",
+      "D": "Chỉ làm sau deployment"
+    },
+    "answer": "C",
+    "explanation": "Điều này áp dụng nguyên tắc Early testing."
+  },
+  {
+    "id": 175,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Tester participation?",
+    "options": {
+      "A": "Chỉ tham gia khi có bug",
+      "B": "Tester nên tham gia review tài liệu ngay khi có bản nháp đầu tiên",
+      "C": "Không tham gia review",
+      "D": "Chỉ tham gia sau release"
+    },
+    "answer": "B",
+    "explanation": "Tester tham gia sớm giúp phát hiện vấn đề ngay từ tài liệu."
+  },
+  {
+    "id": 176,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Tester participation'?",
+    "options": {
+      "A": "Không tham gia review",
+      "B": "Chỉ tham gia khi có bug",
+      "C": "Tester nên tham gia review tài liệu ngay khi có bản nháp đầu tiên",
+      "D": "Chỉ tham gia sau release"
+    },
+    "answer": "C",
+    "explanation": "Tester tham gia sớm giúp phát hiện vấn đề ngay từ tài liệu."
+  },
+  {
+    "id": 177,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Review definition?",
+    "options": {
+      "A": "Chỉ là debugging",
+      "B": "Chỉ là chạy test",
+      "C": "Chỉ là ký hợp đồng",
+      "D": "Quy trình/cuộc họp trình bày work product cho người liên quan để nhận góp ý hoặc phê duyệt"
+    },
+    "answer": "D",
+    "explanation": "Đây là định nghĩa Review theo IEEE trong tài liệu."
+  },
+  {
+    "id": 178,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Review definition'?",
+    "options": {
+      "A": "Chỉ là chạy test",
+      "B": "Chỉ là debugging",
+      "C": "Chỉ là ký hợp đồng",
+      "D": "Quy trình/cuộc họp trình bày work product cho người liên quan để nhận góp ý hoặc phê duyệt"
+    },
+    "answer": "D",
+    "explanation": "Đây là định nghĩa Review theo IEEE trong tài liệu."
+  },
+  {
+    "id": 179,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Review direct goal?",
+    "options": {
+      "A": "Tạo tài khoản người dùng",
+      "B": "Giảm dung lượng database",
+      "C": "Tăng tốc CPU",
+      "D": "Phát hiện lỗi phân tích và thiết kế"
+    },
+    "answer": "D",
+    "explanation": "Mục tiêu trực tiếp được tài liệu nêu là phát hiện lỗi analysis và design."
+  },
+  {
+    "id": 180,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Review direct goal'?",
+    "options": {
+      "A": "Tăng tốc CPU",
+      "B": "Phát hiện lỗi phân tích và thiết kế",
+      "C": "Tạo tài khoản người dùng",
+      "D": "Giảm dung lượng database"
+    },
+    "answer": "B",
+    "explanation": "Mục tiêu trực tiếp được tài liệu nêu là phát hiện lỗi analysis và design."
+  },
+  {
+    "id": 181,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Reviewable artifacts?",
+    "options": {
+      "A": "Chỉ requirements",
+      "B": "Chỉ test case",
+      "C": "Chỉ source code",
+      "D": "Bất cứ thứ gì được viết ra đều có thể review, như requirements, design, code, schedule, test plan/case/report, user manual, training documents"
+    },
+    "answer": "D",
+    "explanation": "Phạm vi review rất rộng, không giới hạn ở code."
+  },
+  {
+    "id": 182,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Reviewable artifacts'?",
+    "options": {
+      "A": "Chỉ test case",
+      "B": "Chỉ requirements",
+      "C": "Bất cứ thứ gì được viết ra đều có thể review, như requirements, design, code, schedule, test plan/case/report, user manual, training documents",
+      "D": "Chỉ source code"
+    },
+    "answer": "C",
+    "explanation": "Phạm vi review rất rộng, không giới hạn ở code."
+  },
+  {
+    "id": 183,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Review inputs?",
+    "options": {
+      "A": "Chỉ source code",
+      "B": "Mục tiêu review, tài liệu cần review, checklist và report template",
+      "C": "Chỉ metrics",
+      "D": "Chỉ change request"
+    },
+    "answer": "B",
+    "explanation": "Đây là các đầu vào của một buổi review."
+  },
+  {
+    "id": 184,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Review inputs'?",
+    "options": {
+      "A": "Chỉ source code",
+      "B": "Chỉ change request",
+      "C": "Chỉ metrics",
+      "D": "Mục tiêu review, tài liệu cần review, checklist và report template"
+    },
+    "answer": "D",
+    "explanation": "Đây là các đầu vào của một buổi review."
+  },
+  {
+    "id": 185,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Review deliverables?",
+    "options": {
+      "A": "Chỉ ngân sách",
+      "B": "Chỉnh sửa sản phẩm, change request, đề xuất cải tiến quy trình và metrics",
+      "C": "Chỉ source code mới",
+      "D": "Chỉ requirement mới"
+    },
+    "answer": "B",
+    "explanation": "Đây là các đầu ra/deliverables được tài liệu liệt kê."
+  },
+  {
+    "id": 186,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Review deliverables'?",
+    "options": {
+      "A": "Chỉ requirement mới",
+      "B": "Chỉnh sửa sản phẩm, change request, đề xuất cải tiến quy trình và metrics",
+      "C": "Chỉ ngân sách",
+      "D": "Chỉ source code mới"
+    },
+    "answer": "B",
+    "explanation": "Đây là các đầu ra/deliverables được tài liệu liệt kê."
+  },
+  {
+    "id": 187,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Walkthrough?",
+    "options": {
+      "A": "Review không chính thức, do tác giả chủ trì và hướng tới trao đổi, phản hồi, đồng thuận",
+      "B": "Review không có tác giả",
+      "C": "Review chính thức nhất do moderator độc lập chủ trì",
+      "D": "Review chỉ dành cho quản lý"
+    },
+    "answer": "A",
+    "explanation": "Walkthrough là informal và author-led."
+  },
+  {
+    "id": 188,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Walkthrough'?",
+    "options": {
+      "A": "Review không có tác giả",
+      "B": "Review chỉ dành cho quản lý",
+      "C": "Review không chính thức, do tác giả chủ trì và hướng tới trao đổi, phản hồi, đồng thuận",
+      "D": "Review chính thức nhất do moderator độc lập chủ trì"
+    },
+    "answer": "C",
+    "explanation": "Walkthrough là informal và author-led."
+  },
+  {
+    "id": 189,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Inspection?",
+    "options": {
+      "A": "Review chính thức nhất, có moderator/reader/recorder và mục tiêu tìm lỗi có hệ thống",
+      "B": "Chỉ chạy automated test",
+      "C": "Informal do author chủ trì",
+      "D": "Chỉ thảo luận kỹ thuật không quản lý"
+    },
+    "answer": "A",
+    "explanation": "Inspection là prescribed, systematic và có vai trò rõ ràng."
+  },
+  {
+    "id": 190,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Inspection'?",
+    "options": {
+      "A": "Informal do author chủ trì",
+      "B": "Review chính thức nhất, có moderator/reader/recorder và mục tiêu tìm lỗi có hệ thống",
+      "C": "Chỉ thảo luận kỹ thuật không quản lý",
+      "D": "Chỉ chạy automated test"
+    },
+    "answer": "B",
+    "explanation": "Inspection là prescribed, systematic và có vai trò rõ ràng."
+  },
+  {
+    "id": 191,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Inspection objective?",
+    "options": {
+      "A": "Sửa code ngay trong cuộc họp",
+      "B": "Ký hợp đồng",
+      "C": "Triển khai production",
+      "D": "Tìm vấn đề và những gì còn thiếu, không phải sửa ngay tại chỗ"
+    },
+    "answer": "D",
+    "explanation": "Inspection tập trung phát hiện vấn đề và cải tiến quy trình."
+  },
+  {
+    "id": 192,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Inspection objective'?",
+    "options": {
+      "A": "Triển khai production",
+      "B": "Tìm vấn đề và những gì còn thiếu, không phải sửa ngay tại chỗ",
+      "C": "Ký hợp đồng",
+      "D": "Sửa code ngay trong cuộc họp"
+    },
+    "answer": "B",
+    "explanation": "Inspection tập trung phát hiện vấn đề và cải tiến quy trình."
+  },
+  {
+    "id": 193,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Technical review?",
+    "options": {
+      "A": "Do author chủ trì và không có chuyên gia",
+      "B": "Tập trung đạt đồng thuận về nội dung kỹ thuật, có đồng nghiệp/chuyên gia kỹ thuật và không có quản lý",
+      "C": "Chỉ dành cho khách hàng",
+      "D": "Tập trung ngân sách"
+    },
+    "answer": "B",
+    "explanation": "Technical/Peer review là technical-focused và no management participation."
+  },
+  {
+    "id": 194,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Technical review'?",
+    "options": {
+      "A": "Tập trung ngân sách",
+      "B": "Tập trung đạt đồng thuận về nội dung kỹ thuật, có đồng nghiệp/chuyên gia kỹ thuật và không có quản lý",
+      "C": "Do author chủ trì và không có chuyên gia",
+      "D": "Chỉ dành cho khách hàng"
+    },
+    "answer": "B",
+    "explanation": "Technical/Peer review là technical-focused và no management participation."
+  },
+  {
+    "id": 195,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Verification?",
+    "options": {
+      "A": "Chỉ kiểm tra giao diện",
+      "B": "Kiểm tra sản phẩm có được xây dựng đúng theo đặc tả/yêu cầu đã đặt ra",
+      "C": "Chỉ kiểm tra tốc độ",
+      "D": "Kiểm tra có phù hợp nhu cầu thực tế hay không"
+    },
+    "answer": "B",
+    "explanation": "Verification trả lời câu hỏi sản phẩm có được xây dựng đúng theo specification không."
+  },
+  {
+    "id": 196,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Verification'?",
+    "options": {
+      "A": "Kiểm tra sản phẩm có được xây dựng đúng theo đặc tả/yêu cầu đã đặt ra",
+      "B": "Chỉ kiểm tra tốc độ",
+      "C": "Chỉ kiểm tra giao diện",
+      "D": "Kiểm tra có phù hợp nhu cầu thực tế hay không"
+    },
+    "answer": "A",
+    "explanation": "Verification trả lời câu hỏi sản phẩm có được xây dựng đúng theo specification không."
+  },
+  {
+    "id": 197,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Validation?",
+    "options": {
+      "A": "Chỉ kiểm tra syntax",
+      "B": "Chỉ kiểm tra đúng coding standard",
+      "C": "Kiểm tra sản phẩm có phù hợp nhu cầu và mục đích sử dụng thực tế hay không",
+      "D": "Chỉ kiểm tra tài liệu"
+    },
+    "answer": "C",
+    "explanation": "Validation trả lời sản phẩm có đúng nhu cầu/fit for purpose không."
+  },
+  {
+    "id": 198,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Validation'?",
+    "options": {
+      "A": "Chỉ kiểm tra đúng coding standard",
+      "B": "Kiểm tra sản phẩm có phù hợp nhu cầu và mục đích sử dụng thực tế hay không",
+      "C": "Chỉ kiểm tra tài liệu",
+      "D": "Chỉ kiểm tra syntax"
+    },
+    "answer": "B",
+    "explanation": "Validation trả lời sản phẩm có đúng nhu cầu/fit for purpose không."
+  },
+  {
+    "id": 199,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Static testing?",
+    "options": {
+      "A": "Luôn phải chạy code",
+      "B": "Chỉ chạy performance test",
+      "C": "Chỉ test production",
+      "D": "Kiểm thử không chạy code, dựa trên work products/tài liệu"
+    },
+    "answer": "D",
+    "explanation": "Ví dụ: feasibility review và requirements review."
+  },
+  {
+    "id": 200,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Static testing'?",
+    "options": {
+      "A": "Chỉ chạy performance test",
+      "B": "Kiểm thử không chạy code, dựa trên work products/tài liệu",
+      "C": "Luôn phải chạy code",
+      "D": "Chỉ test production"
+    },
+    "answer": "B",
+    "explanation": "Ví dụ: feasibility review và requirements review."
+  },
+  {
+    "id": 201,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Dynamic testing?",
+    "options": {
+      "A": "Kiểm thử cần thực thi code",
+      "B": "Chỉ đọc tài liệu",
+      "C": "Chỉ review hợp đồng",
+      "D": "Không cần code"
+    },
+    "answer": "A",
+    "explanation": "Unit testing và integration testing là ví dụ dynamic testing."
+  },
+  {
+    "id": 202,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Dynamic testing'?",
+    "options": {
+      "A": "Chỉ đọc tài liệu",
+      "B": "Chỉ review hợp đồng",
+      "C": "Không cần code",
+      "D": "Kiểm thử cần thực thi code"
+    },
+    "answer": "D",
+    "explanation": "Unit testing và integration testing là ví dụ dynamic testing."
+  },
+  {
+    "id": 203,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Test levels?",
+    "options": {
+      "A": "Correctness, Reliability, Efficiency, Integrity",
+      "B": "Walkthrough, Inspection, Technical",
+      "C": "Component, Integration, System và Acceptance",
+      "D": "QA, QC, SQA"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu chia test levels thành bốn mức chính."
+  },
+  {
+    "id": 204,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Test levels'?",
+    "options": {
+      "A": "Correctness, Reliability, Efficiency, Integrity",
+      "B": "Component, Integration, System và Acceptance",
+      "C": "QA, QC, SQA",
+      "D": "Walkthrough, Inspection, Technical"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu chia test levels thành bốn mức chính."
+  },
+  {
+    "id": 205,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Component testing?",
+    "options": {
+      "A": "Chỉ kiểm thử hợp đồng",
+      "B": "Chỉ kiểm thử khách hàng",
+      "C": "Tập trung kiểm thử từng component riêng lẻ",
+      "D": "Chỉ kiểm thử toàn hệ thống"
+    },
+    "answer": "C",
+    "explanation": "Component testing là mức thấp nhất trong bốn test level được nêu."
+  },
+  {
+    "id": 206,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Component testing'?",
+    "options": {
+      "A": "Chỉ kiểm thử toàn hệ thống",
+      "B": "Chỉ kiểm thử hợp đồng",
+      "C": "Tập trung kiểm thử từng component riêng lẻ",
+      "D": "Chỉ kiểm thử khách hàng"
+    },
+    "answer": "C",
+    "explanation": "Component testing là mức thấp nhất trong bốn test level được nêu."
+  },
+  {
+    "id": 207,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Integration testing?",
+    "options": {
+      "A": "Chỉ kiểm tra người dùng",
+      "B": "Chỉ kiểm tra từng component độc lập",
+      "C": "Chỉ kiểm tra tài liệu",
+      "D": "Tập trung kiểm tra sự tương tác và tích hợp giữa các component/hệ thống thành phần"
+    },
+    "answer": "D",
+    "explanation": "Integration testing tập trung vào interaction/integration."
+  },
+  {
+    "id": 208,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Integration testing'?",
+    "options": {
+      "A": "Chỉ kiểm tra từng component độc lập",
+      "B": "Chỉ kiểm tra người dùng",
+      "C": "Chỉ kiểm tra tài liệu",
+      "D": "Tập trung kiểm tra sự tương tác và tích hợp giữa các component/hệ thống thành phần"
+    },
+    "answer": "D",
+    "explanation": "Integration testing tập trung vào interaction/integration."
+  },
+  {
+    "id": 209,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: System testing?",
+    "options": {
+      "A": "Chỉ kiểm tra source code",
+      "B": "Chỉ kiểm tra hợp đồng",
+      "C": "Chỉ kiểm tra một function nhỏ",
+      "D": "Đánh giá hệ thống hoàn chỉnh theo yêu cầu hệ thống"
+    },
+    "answer": "D",
+    "explanation": "System testing xem xét hệ thống ở mức toàn diện."
+  },
+  {
+    "id": 210,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'System testing'?",
+    "options": {
+      "A": "Chỉ kiểm tra source code",
+      "B": "Đánh giá hệ thống hoàn chỉnh theo yêu cầu hệ thống",
+      "C": "Chỉ kiểm tra một function nhỏ",
+      "D": "Chỉ kiểm tra hợp đồng"
+    },
+    "answer": "B",
+    "explanation": "System testing xem xét hệ thống ở mức toàn diện."
+  },
+  {
+    "id": 211,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Acceptance testing?",
+    "options": {
+      "A": "Chỉ kiểm tra một component",
+      "B": "Chỉ kiểm tra syntax",
+      "C": "Xác nhận hệ thống phù hợp nhu cầu sử dụng và tiêu chí chấp nhận của khách hàng/người dùng",
+      "D": "Chỉ kiểm tra coding style"
+    },
+    "answer": "C",
+    "explanation": "Acceptance testing thường gắn với validation và fit for use."
+  },
+  {
+    "id": 212,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Acceptance testing'?",
+    "options": {
+      "A": "Chỉ kiểm tra coding style",
+      "B": "Xác nhận hệ thống phù hợp nhu cầu sử dụng và tiêu chí chấp nhận của khách hàng/người dùng",
+      "C": "Chỉ kiểm tra một component",
+      "D": "Chỉ kiểm tra syntax"
+    },
+    "answer": "B",
+    "explanation": "Acceptance testing thường gắn với validation và fit for use."
+  },
+  {
+    "id": 213,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Functional testing?",
+    "options": {
+      "A": "Kiểm tra 'cái gì' hệ thống làm, dựa trên requirements, functional specification hoặc use case",
+      "B": "Chỉ kiểm tra khả năng chuyển OS",
+      "C": "Chỉ đo response time",
+      "D": "Chỉ kiểm tra code path"
+    },
+    "answer": "A",
+    "explanation": "Functional testing tập trung vào chức năng hệ thống cung cấp."
+  },
+  {
+    "id": 214,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Functional testing'?",
+    "options": {
+      "A": "Kiểm tra 'cái gì' hệ thống làm, dựa trên requirements, functional specification hoặc use case",
+      "B": "Chỉ đo response time",
+      "C": "Chỉ kiểm tra khả năng chuyển OS",
+      "D": "Chỉ kiểm tra code path"
+    },
+    "answer": "A",
+    "explanation": "Functional testing tập trung vào chức năng hệ thống cung cấp."
+  },
+  {
+    "id": 215,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Functional approaches?",
+    "options": {
+      "A": "Static và dynamic",
+      "B": "White-box và glass-box",
+      "C": "Requirements-based và business process-based",
+      "D": "Sequential và tree"
+    },
+    "answer": "C",
+    "explanation": "Hai cách tiếp cận functional testing được nêu trong tài liệu."
+  },
+  {
+    "id": 216,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Functional approaches'?",
+    "options": {
+      "A": "Requirements-based và business process-based",
+      "B": "Static và dynamic",
+      "C": "White-box và glass-box",
+      "D": "Sequential và tree"
+    },
+    "answer": "A",
+    "explanation": "Hai cách tiếp cận functional testing được nêu trong tài liệu."
+  },
+  {
+    "id": 217,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Non-functional testing?",
+    "options": {
+      "A": "Chỉ kiểm tra chức năng",
+      "B": "Kiểm tra hệ thống hoạt động tốt đến đâu bằng các thước đo như response time",
+      "C": "Chỉ kiểm tra source code",
+      "D": "Chỉ review tài liệu"
+    },
+    "answer": "B",
+    "explanation": "Ví dụ: performance, load, stress, usability, maintainability, reliability, portability."
+  },
+  {
+    "id": 218,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Non-functional testing'?",
+    "options": {
+      "A": "Chỉ kiểm tra source code",
+      "B": "Chỉ kiểm tra chức năng",
+      "C": "Kiểm tra hệ thống hoạt động tốt đến đâu bằng các thước đo như response time",
+      "D": "Chỉ review tài liệu"
+    },
+    "answer": "C",
+    "explanation": "Ví dụ: performance, load, stress, usability, maintainability, reliability, portability."
+  },
+  {
+    "id": 219,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Structural testing?",
+    "options": {
+      "A": "Black-box testing",
+      "B": "Contract testing",
+      "C": "Còn gọi white-box/glass-box testing",
+      "D": "Acceptance-only testing"
+    },
+    "answer": "C",
+    "explanation": "Structural testing thường áp dụng nhiều ở component và integration."
+  },
+  {
+    "id": 220,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Structural testing'?",
+    "options": {
+      "A": "Black-box testing",
+      "B": "Contract testing",
+      "C": "Còn gọi white-box/glass-box testing",
+      "D": "Acceptance-only testing"
+    },
+    "answer": "C",
+    "explanation": "Structural testing thường áp dụng nhiều ở component và integration."
+  },
+  {
+    "id": 221,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Structural levels?",
+    "options": {
+      "A": "Thường áp dụng nhiều nhất ở component và integration",
+      "B": "Chỉ maintenance",
+      "C": "Chỉ contract review",
+      "D": "Chỉ acceptance"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu ghi structural testing cũng có thể áp dụng ở system/acceptance trong một số trường hợp."
+  },
+  {
+    "id": 222,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Structural levels'?",
+    "options": {
+      "A": "Chỉ maintenance",
+      "B": "Thường áp dụng nhiều nhất ở component và integration",
+      "C": "Chỉ acceptance",
+      "D": "Chỉ contract review"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu ghi structural testing cũng có thể áp dụng ở system/acceptance trong một số trường hợp."
+  },
+  {
+    "id": 223,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Testing related to changes?",
+    "options": {
+      "A": "Gồm Confirmation testing (re-testing) và Regression testing",
+      "B": "Chỉ Verification và Validation",
+      "C": "Chỉ Functional và Non-functional",
+      "D": "Chỉ Walkthrough và Inspection"
+    },
+    "answer": "A",
+    "explanation": "Đây là hai kỹ thuật của testing related to changes."
+  },
+  {
+    "id": 224,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Testing related to changes'?",
+    "options": {
+      "A": "Gồm Confirmation testing (re-testing) và Regression testing",
+      "B": "Chỉ Verification và Validation",
+      "C": "Chỉ Functional và Non-functional",
+      "D": "Chỉ Walkthrough và Inspection"
+    },
+    "answer": "A",
+    "explanation": "Đây là hai kỹ thuật của testing related to changes."
+  },
+  {
+    "id": 225,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Confirmation testing?",
+    "options": {
+      "A": "Chỉ test module khác",
+      "B": "Chạy lại chính xác test đã fail trước đó sau khi sửa lỗi để xác nhận lỗi đã được khắc phục",
+      "C": "Chạy tất cả test đã từng pass",
+      "D": "Chỉ review tài liệu"
+    },
+    "answer": "B",
+    "explanation": "Confirmation/re-testing tập trung vào defect đã được sửa."
+  },
+  {
+    "id": 226,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Confirmation testing'?",
+    "options": {
+      "A": "Chỉ test module khác",
+      "B": "Chỉ review tài liệu",
+      "C": "Chạy tất cả test đã từng pass",
+      "D": "Chạy lại chính xác test đã fail trước đó sau khi sửa lỗi để xác nhận lỗi đã được khắc phục"
+    },
+    "answer": "D",
+    "explanation": "Confirmation/re-testing tập trung vào defect đã được sửa."
+  },
+  {
+    "id": 227,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Regression testing?",
+    "options": {
+      "A": "Chỉ test requirement mới",
+      "B": "Chạy lại các test đã thực thi trước đó để đảm bảo thay đổi không gây lỗi mới ở nơi khác",
+      "C": "Chỉ review code",
+      "D": "Chỉ chạy test đã fail"
+    },
+    "answer": "B",
+    "explanation": "Regression có thể bao gồm các test đã pass trước đó."
+  },
+  {
+    "id": 228,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Regression testing'?",
+    "options": {
+      "A": "Chỉ test requirement mới",
+      "B": "Chỉ chạy test đã fail",
+      "C": "Chỉ review code",
+      "D": "Chạy lại các test đã thực thi trước đó để đảm bảo thay đổi không gây lỗi mới ở nơi khác"
+    },
+    "answer": "D",
+    "explanation": "Regression có thể bao gồm các test đã pass trước đó."
+  },
+  {
+    "id": 229,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Regression triggers?",
+    "options": {
+      "A": "Chỉ trước khi viết code",
+      "B": "Chỉ khi không có thay đổi",
+      "C": "Thực hiện khi phần mềm hoặc môi trường thay đổi, kể cả nâng cấp DBMS",
+      "D": "Chỉ khi đổi logo"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu nêu software change, environment change và emergency patch là các trường hợp."
+  },
+  {
+    "id": 230,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Regression triggers'?",
+    "options": {
+      "A": "Chỉ trước khi viết code",
+      "B": "Thực hiện khi phần mềm hoặc môi trường thay đổi, kể cả nâng cấp DBMS",
+      "C": "Chỉ khi không có thay đổi",
+      "D": "Chỉ khi đổi logo"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu nêu software change, environment change và emergency patch là các trường hợp."
+  },
+  {
+    "id": 231,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Test basis?",
+    "options": {
+      "A": "Chỉ test case",
+      "B": "Chỉ test result",
+      "C": "Tất cả tài liệu từ đó có thể suy ra yêu cầu của component/hệ thống",
+      "D": "Chỉ bug report"
+    },
+    "answer": "C",
+    "explanation": "Ví dụ test basis: requirements, architecture, design, interface."
+  },
+  {
+    "id": 232,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Test basis'?",
+    "options": {
+      "A": "Chỉ bug report",
+      "B": "Chỉ test case",
+      "C": "Chỉ test result",
+      "D": "Tất cả tài liệu từ đó có thể suy ra yêu cầu của component/hệ thống"
+    },
+    "answer": "D",
+    "explanation": "Ví dụ test basis: requirements, architecture, design, interface."
+  },
+  {
+    "id": 233,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Test condition?",
+    "options": {
+      "A": "Một hạng mục hoặc sự kiện có thể được xác minh bằng một hoặc nhiều test case",
+      "B": "Một ngân sách",
+      "C": "Một nhóm nhân sự",
+      "D": "Một hợp đồng"
+    },
+    "answer": "A",
+    "explanation": "Test condition có thể là function, transaction hoặc quality attribute."
+  },
+  {
+    "id": 234,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Test condition'?",
+    "options": {
+      "A": "Một hợp đồng",
+      "B": "Một hạng mục hoặc sự kiện có thể được xác minh bằng một hoặc nhiều test case",
+      "C": "Một ngân sách",
+      "D": "Một nhóm nhân sự"
+    },
+    "answer": "B",
+    "explanation": "Test condition có thể là function, transaction hoặc quality attribute."
+  },
+  {
+    "id": 235,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Test case?",
+    "options": {
+      "A": "Chỉ input",
+      "B": "Chỉ bug report",
+      "C": "Chỉ expected result",
+      "D": "Tập hợp input, precondition, expected result và postcondition cho mục tiêu/điều kiện test cụ thể"
+    },
+    "answer": "D",
+    "explanation": "Test case chứa các thành phần cần thiết để thực hiện một test cụ thể."
+  },
+  {
+    "id": 236,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Test case'?",
+    "options": {
+      "A": "Chỉ expected result",
+      "B": "Chỉ input",
+      "C": "Chỉ bug report",
+      "D": "Tập hợp input, precondition, expected result và postcondition cho mục tiêu/điều kiện test cụ thể"
+    },
+    "answer": "D",
+    "explanation": "Test case chứa các thành phần cần thiết để thực hiện một test cụ thể."
+  },
+  {
+    "id": 237,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Test suite?",
+    "options": {
+      "A": "Một requirement duy nhất",
+      "B": "Một test case duy nhất",
+      "C": "Tập hợp nhiều test case cho component/hệ thống đang được test",
+      "D": "Một bug duy nhất"
+    },
+    "answer": "C",
+    "explanation": "Test suite gồm nhiều test case; postcondition của test này có thể làm precondition cho test tiếp theo."
+  },
+  {
+    "id": 238,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Test suite'?",
+    "options": {
+      "A": "Một requirement duy nhất",
+      "B": "Một test case duy nhất",
+      "C": "Tập hợp nhiều test case cho component/hệ thống đang được test",
+      "D": "Một bug duy nhất"
+    },
+    "answer": "C",
+    "explanation": "Test suite gồm nhiều test case; postcondition của test này có thể làm precondition cho test tiếp theo."
+  },
+  {
+    "id": 239,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Acceptance UAT?",
+    "options": {
+      "A": "User Acceptance Test xác minh fitness for use với người dùng nghiệp vụ",
+      "B": "Chỉ database admin thực hiện",
+      "C": "Chỉ developer thực hiện",
+      "D": "Chỉ tester tự động thực hiện"
+    },
+    "answer": "A",
+    "explanation": "Khách hàng/người dùng nên trực tiếp thực hiện hoặc tham gia sát sao."
+  },
+  {
+    "id": 240,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Acceptance UAT'?",
+    "options": {
+      "A": "Chỉ database admin thực hiện",
+      "B": "User Acceptance Test xác minh fitness for use với người dùng nghiệp vụ",
+      "C": "Chỉ tester tự động thực hiện",
+      "D": "Chỉ developer thực hiện"
+    },
+    "answer": "B",
+    "explanation": "Khách hàng/người dùng nên trực tiếp thực hiện hoặc tham gia sát sao."
+  },
+  {
+    "id": 241,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Operational acceptance?",
+    "options": {
+      "A": "Chỉ do developer frontend thực hiện",
+      "B": "Chỉ do customer marketing thực hiện",
+      "C": "Xác nhận hệ thống đáp ứng yêu cầu vận hành, thường do system administrator thực hiện",
+      "D": "Chỉ do designer thực hiện"
+    },
+    "answer": "C",
+    "explanation": "Có thể gồm backup/restore, disaster recovery, user management, maintenance và data migration."
+  },
+  {
+    "id": 242,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Operational acceptance'?",
+    "options": {
+      "A": "Xác nhận hệ thống đáp ứng yêu cầu vận hành, thường do system administrator thực hiện",
+      "B": "Chỉ do developer frontend thực hiện",
+      "C": "Chỉ do customer marketing thực hiện",
+      "D": "Chỉ do designer thực hiện"
+    },
+    "answer": "A",
+    "explanation": "Có thể gồm backup/restore, disaster recovery, user management, maintenance và data migration."
+  },
+  {
+    "id": 243,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Contract/regulation acceptance?",
+    "options": {
+      "A": "Chỉ test UI",
+      "B": "Chỉ test source code",
+      "C": "Chỉ test performance",
+      "D": "Test theo tiêu chí chấp nhận trong hợp đồng và/hoặc các quy định pháp lý, an toàn phải tuân thủ"
+    },
+    "answer": "D",
+    "explanation": "Contract acceptance dựa trên hợp đồng; regulation acceptance dựa trên compliance."
+  },
+  {
+    "id": 244,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Contract/regulation acceptance'?",
+    "options": {
+      "A": "Chỉ test performance",
+      "B": "Chỉ test source code",
+      "C": "Test theo tiêu chí chấp nhận trong hợp đồng và/hoặc các quy định pháp lý, an toàn phải tuân thủ",
+      "D": "Chỉ test UI"
+    },
+    "answer": "C",
+    "explanation": "Contract acceptance dựa trên hợp đồng; regulation acceptance dựa trên compliance."
+  },
+  {
+    "id": 245,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Alpha test?",
+    "options": {
+      "A": "Chỉ do công cụ tự động",
+      "B": "Mô phỏng hoặc test thực tế tại địa điểm của nhà phát triển, mời người dùng tiềm năng và thành viên nội bộ",
+      "C": "Tại địa điểm khách hàng",
+      "D": "Chỉ sau khi sản phẩm bị loại"
+    },
+    "answer": "B",
+    "explanation": "Alpha test được tài liệu mô tả như trên."
+  },
+  {
+    "id": 246,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Alpha test'?",
+    "options": {
+      "A": "Chỉ do công cụ tự động",
+      "B": "Chỉ sau khi sản phẩm bị loại",
+      "C": "Tại địa điểm khách hàng",
+      "D": "Mô phỏng hoặc test thực tế tại địa điểm của nhà phát triển, mời người dùng tiềm năng và thành viên nội bộ"
+    },
+    "answer": "D",
+    "explanation": "Alpha test được tài liệu mô tả như trên."
+  },
+  {
+    "id": 247,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Beta test?",
+    "options": {
+      "A": "Tại địa điểm nhà phát triển",
+      "B": "Chỉ do developer thực hiện",
+      "C": "Chỉ trong phòng lab nội bộ",
+      "D": "Field testing do khách hàng/khách hàng tiềm năng thực hiện tại địa điểm của chính họ"
+    },
+    "answer": "D",
+    "explanation": "Beta test được thực hiện ở phía khách hàng/khách hàng tiềm năng."
+  },
+  {
+    "id": 248,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Beta test'?",
+    "options": {
+      "A": "Chỉ trong phòng lab nội bộ",
+      "B": "Chỉ do developer thực hiện",
+      "C": "Tại địa điểm nhà phát triển",
+      "D": "Field testing do khách hàng/khách hàng tiềm năng thực hiện tại địa điểm của chính họ"
+    },
+    "answer": "D",
+    "explanation": "Beta test được thực hiện ở phía khách hàng/khách hàng tiềm năng."
+  },
+  {
+    "id": 249,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintenance types?",
+    "options": {
+      "A": "Static, Dynamic, Regression",
+      "B": "Alpha, Beta, UAT",
+      "C": "Corrective, Adaptive và Functionality improvement maintenance",
+      "D": "Functional, Structural, Contract"
+    },
+    "answer": "C",
+    "explanation": "Đây là ba loại bảo trì được tài liệu nêu."
+  },
+  {
+    "id": 250,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintenance types'?",
+    "options": {
+      "A": "Alpha, Beta, UAT",
+      "B": "Functional, Structural, Contract",
+      "C": "Static, Dynamic, Regression",
+      "D": "Corrective, Adaptive và Functionality improvement maintenance"
+    },
+    "answer": "D",
+    "explanation": "Đây là ba loại bảo trì được tài liệu nêu."
+  },
+  {
+    "id": 251,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Corrective maintenance?",
+    "options": {
+      "A": "Điều chỉnh theo môi trường mới",
+      "B": "Mở rộng chức năng tương lai",
+      "C": "Sửa lỗi phần mềm và các dịch vụ hỗ trợ người dùng",
+      "D": "Chuyển sang OS khác"
+    },
+    "answer": "C",
+    "explanation": "Corrective maintenance phục vụ việc sửa lỗi."
+  },
+  {
+    "id": 252,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Corrective maintenance'?",
+    "options": {
+      "A": "Mở rộng chức năng tương lai",
+      "B": "Điều chỉnh theo môi trường mới",
+      "C": "Sửa lỗi phần mềm và các dịch vụ hỗ trợ người dùng",
+      "D": "Chuyển sang OS khác"
+    },
+    "answer": "C",
+    "explanation": "Corrective maintenance phục vụ việc sửa lỗi."
+  },
+  {
+    "id": 253,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Adaptive maintenance?",
+    "options": {
+      "A": "Chỉ thêm log",
+      "B": "Chỉ sửa bug",
+      "C": "Điều chỉnh gói phần mềm theo yêu cầu khách hàng mới và điều kiện môi trường thay đổi",
+      "D": "Chỉ viết test case"
+    },
+    "answer": "C",
+    "explanation": "Adaptive maintenance đáp ứng thay đổi từ môi trường hoặc khách hàng."
+  },
+  {
+    "id": 254,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Adaptive maintenance'?",
+    "options": {
+      "A": "Chỉ viết test case",
+      "B": "Chỉ sửa bug",
+      "C": "Điều chỉnh gói phần mềm theo yêu cầu khách hàng mới và điều kiện môi trường thay đổi",
+      "D": "Chỉ thêm log"
+    },
+    "answer": "C",
+    "explanation": "Adaptive maintenance đáp ứng thay đổi từ môi trường hoặc khách hàng."
+  },
+  {
+    "id": 255,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Functionality improvement maintenance?",
+    "options": {
+      "A": "Chỉ là acceptance testing",
+      "B": "Kết hợp corrective và adaptive",
+      "C": "Kết hợp perfective và preventive maintenance",
+      "D": "Chỉ là regression testing"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu mô tả functionality improvement maintenance là sự kết hợp này."
+  },
+  {
+    "id": 256,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Functionality improvement maintenance'?",
+    "options": {
+      "A": "Kết hợp corrective và adaptive",
+      "B": "Chỉ là regression testing",
+      "C": "Kết hợp perfective và preventive maintenance",
+      "D": "Chỉ là acceptance testing"
+    },
+    "answer": "C",
+    "explanation": "Tài liệu mô tả functionality improvement maintenance là sự kết hợp này."
+  },
+  {
+    "id": 257,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintenance quality foundation 1?",
+    "options": {
+      "A": "Chỉ nhân sự",
+      "B": "Chỉ marketing",
+      "C": "Chất lượng của software package",
+      "D": "Chỉ ngân sách"
+    },
+    "answer": "C",
+    "explanation": "Một trong hai nền tảng của bảo trì chất lượng cao là chất lượng gói phần mềm."
+  },
+  {
+    "id": 258,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintenance quality foundation 1'?",
+    "options": {
+      "A": "Chỉ ngân sách",
+      "B": "Chỉ marketing",
+      "C": "Chất lượng của software package",
+      "D": "Chỉ nhân sự"
+    },
+    "answer": "C",
+    "explanation": "Một trong hai nền tảng của bảo trì chất lượng cao là chất lượng gói phần mềm."
+  },
+  {
+    "id": 259,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintenance quality foundation 2?",
+    "options": {
+      "A": "Chỉ database schema",
+      "B": "Chỉ test plan",
+      "C": "Maintenance policy",
+      "D": "Chỉ UI guideline"
+    },
+    "answer": "C",
+    "explanation": "Nền tảng thứ hai là chính sách bảo trì."
+  },
+  {
+    "id": 260,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintenance quality foundation 2'?",
+    "options": {
+      "A": "Maintenance policy",
+      "B": "Chỉ database schema",
+      "C": "Chỉ UI guideline",
+      "D": "Chỉ test plan"
+    },
+    "answer": "A",
+    "explanation": "Nền tảng thứ hai là chính sách bảo trì."
+  },
+  {
+    "id": 261,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintenance McCall factors?",
+    "options": {
+      "A": "Chỉ Integrity",
+      "B": "Correctness, Reliability, Maintainability, Flexibility, Testability, Portability, Interoperability có tác động trực tiếp trong bối cảnh bảo trì",
+      "C": "Chỉ Efficiency",
+      "D": "Chỉ Usability"
+    },
+    "answer": "B",
+    "explanation": "Tài liệu nhóm các yếu tố McCall liên quan trực tiếp đến maintenance theo các Product Operation/Revision/Transition."
+  },
+  {
+    "id": 262,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintenance McCall factors'?",
+    "options": {
+      "A": "Correctness, Reliability, Maintainability, Flexibility, Testability, Portability, Interoperability có tác động trực tiếp trong bối cảnh bảo trì",
+      "B": "Chỉ Usability",
+      "C": "Chỉ Efficiency",
+      "D": "Chỉ Integrity"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu nhóm các yếu tố McCall liên quan trực tiếp đến maintenance theo các Product Operation/Revision/Transition."
+  },
+  {
+    "id": 263,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Sequential version policy?",
+    "options": {
+      "A": "Chỉ dùng beta",
+      "B": "Không phát hành phiên bản mới",
+      "C": "Mỗi khách hàng một nhánh riêng",
+      "D": "Chỉ một phiên bản duy nhất cung cấp cho toàn bộ khách hàng; phiên bản mới thay thế phiên bản hiện tại"
+    },
+    "answer": "D",
+    "explanation": "Sequential version policy duy trì một version chung."
+  },
+  {
+    "id": 264,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Sequential version policy'?",
+    "options": {
+      "A": "Chỉ dùng beta",
+      "B": "Không phát hành phiên bản mới",
+      "C": "Chỉ một phiên bản duy nhất cung cấp cho toàn bộ khách hàng; phiên bản mới thay thế phiên bản hiện tại",
+      "D": "Mỗi khách hàng một nhánh riêng"
+    },
+    "answer": "C",
+    "explanation": "Sequential version policy duy trì một version chung."
+  },
+  {
+    "id": 265,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Tree version policy?",
+    "options": {
+      "A": "Một version cho tất cả",
+      "B": "Phát triển phiên bản chuyên biệt cho một nhóm khách hàng hoặc một khách hàng lớn",
+      "C": "Chỉ dùng cho test case",
+      "D": "Không cho phép thay đổi"
+    },
+    "answer": "B",
+    "explanation": "Tree version policy cho phép các nhánh phiên bản chuyên biệt."
+  },
+  {
+    "id": 266,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Tree version policy'?",
+    "options": {
+      "A": "Phát triển phiên bản chuyên biệt cho một nhóm khách hàng hoặc một khách hàng lớn",
+      "B": "Một version cho tất cả",
+      "C": "Không cho phép thay đổi",
+      "D": "Chỉ dùng cho test case"
+    },
+    "answer": "A",
+    "explanation": "Tree version policy cho phép các nhánh phiên bản chuyên biệt."
+  },
+  {
+    "id": 267,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Change policy?",
+    "options": {
+      "A": "Chỉ là deployment script",
+      "B": "Phương pháp xem xét từng yêu cầu thay đổi và tiêu chí phê duyệt yêu cầu đó",
+      "C": "Chỉ là test suite",
+      "D": "Chỉ là coding guideline"
+    },
+    "answer": "B",
+    "explanation": "Change policy kiểm soát cách yêu cầu thay đổi được xem xét và phê duyệt."
+  },
+  {
+    "id": 268,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Change policy'?",
+    "options": {
+      "A": "Chỉ là test suite",
+      "B": "Phương pháp xem xét từng yêu cầu thay đổi và tiêu chí phê duyệt yêu cầu đó",
+      "C": "Chỉ là coding guideline",
+      "D": "Chỉ là deployment script"
+    },
+    "answer": "B",
+    "explanation": "Change policy kiểm soát cách yêu cầu thay đổi được xem xét và phê duyệt."
+  },
+  {
+    "id": 269,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintenance contract review?",
+    "options": {
+      "A": "Chỉ acceptance reviews",
+      "B": "Chỉ source-code reviews",
+      "C": "Gồm proposal draft reviews và contract draft reviews",
+      "D": "Chỉ regression reviews"
+    },
+    "answer": "C",
+    "explanation": "Đây là hai hoạt động của maintenance contract review."
+  },
+  {
+    "id": 270,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintenance contract review'?",
+    "options": {
+      "A": "Chỉ regression reviews",
+      "B": "Chỉ acceptance reviews",
+      "C": "Chỉ source-code reviews",
+      "D": "Gồm proposal draft reviews và contract draft reviews"
+    },
+    "answer": "D",
+    "explanation": "Đây là hai hoạt động của maintenance contract review."
+  },
+  {
+    "id": 271,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintenance contract goals?",
+    "options": {
+      "A": "Chỉ tạo database",
+      "B": "Chỉ sửa lỗi",
+      "C": "Làm rõ yêu cầu, xem xét phương án cung cấp dịch vụ, ước tính nguồn lực/chi phí và dịch vụ của subcontractor/customer",
+      "D": "Chỉ test UI"
+    },
+    "answer": "C",
+    "explanation": "Các mục tiêu này được nêu trong phần pre-maintenance quality components."
+  },
+  {
+    "id": 272,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintenance contract goals'?",
+    "options": {
+      "A": "Chỉ test UI",
+      "B": "Chỉ tạo database",
+      "C": "Làm rõ yêu cầu, xem xét phương án cung cấp dịch vụ, ước tính nguồn lực/chi phí và dịch vụ của subcontractor/customer",
+      "D": "Chỉ sửa lỗi"
+    },
+    "answer": "C",
+    "explanation": "Các mục tiêu này được nêu trong phần pre-maintenance quality components."
+  },
+  {
+    "id": 273,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: Maintenance plan?",
+    "options": {
+      "A": "Chỉ danh sách developer",
+      "B": "Chỉ danh sách test case",
+      "C": "Chuẩn bị cho tất cả khách hàng, gồm dịch vụ, tổ chức đội bảo trì, hạ tầng, rủi ro, thủ tục/kiểm soát và ngân sách",
+      "D": "Chỉ danh sách bug"
+    },
+    "answer": "C",
+    "explanation": "Maintenance plan nên được chuẩn bị cho khách hàng bên ngoài và nội bộ."
+  },
+  {
+    "id": 274,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'Maintenance plan'?",
+    "options": {
+      "A": "Chỉ danh sách test case",
+      "B": "Chuẩn bị cho tất cả khách hàng, gồm dịch vụ, tổ chức đội bảo trì, hạ tầng, rủi ro, thủ tục/kiểm soát và ngân sách",
+      "C": "Chỉ danh sách bug",
+      "D": "Chỉ danh sách developer"
+    },
+    "answer": "B",
+    "explanation": "Maintenance plan nên được chuẩn bị cho khách hàng bên ngoài và nội bộ."
+  },
+  {
+    "id": 275,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External participant types?",
+    "options": {
+      "A": "Subcontractors/outsourcing, COTS/reusable-module suppliers và chính khách hàng",
+      "B": "Chỉ developer frontend",
+      "C": "Chỉ database administrator",
+      "D": "Chỉ tester nội bộ"
+    },
+    "answer": "A",
+    "explanation": "Tài liệu nêu ba loại external participants này."
+  },
+  {
+    "id": 276,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External participant types'?",
+    "options": {
+      "A": "Chỉ database administrator",
+      "B": "Chỉ tester nội bộ",
+      "C": "Chỉ developer frontend",
+      "D": "Subcontractors/outsourcing, COTS/reusable-module suppliers và chính khách hàng"
+    },
+    "answer": "D",
+    "explanation": "Tài liệu nêu ba loại external participants này."
+  },
+  {
+    "id": 277,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External benefit contractor?",
+    "options": {
+      "A": "Tăng mọi rủi ro",
+      "B": "Luôn mất bí mật",
+      "C": "Luôn làm dự án chậm",
+      "D": "Giảm ngân sách, rút ngắn tiến độ, khắc phục thiếu nhân sự chuyên môn và có chuyên môn chuyên biệt"
+    },
+    "answer": "D",
+    "explanation": "Đây là lợi ích đối với contractor khi dùng bên ngoài."
+  },
+  {
+    "id": 278,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External benefit contractor'?",
+    "options": {
+      "A": "Luôn mất bí mật",
+      "B": "Tăng mọi rủi ro",
+      "C": "Luôn làm dự án chậm",
+      "D": "Giảm ngân sách, rút ngắn tiến độ, khắc phục thiếu nhân sự chuyên môn và có chuyên môn chuyên biệt"
+    },
+    "answer": "D",
+    "explanation": "Đây là lợi ích đối với contractor khi dùng bên ngoài."
+  },
+  {
+    "id": 279,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External benefit customer?",
+    "options": {
+      "A": "Giảm chi phí dự án, bảo vệ bí mật thương mại và tạo việc làm cho bộ phận phát triển nội bộ",
+      "B": "Chỉ tăng số bug",
+      "C": "Chỉ tăng chi phí",
+      "D": "Chỉ làm mất quyền kiểm soát"
+    },
+    "answer": "A",
+    "explanation": "Đây là lợi ích đối với customer được tài liệu liệt kê."
+  },
+  {
+    "id": 280,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External benefit customer'?",
+    "options": {
+      "A": "Chỉ tăng chi phí",
+      "B": "Chỉ làm mất quyền kiểm soát",
+      "C": "Chỉ tăng số bug",
+      "D": "Giảm chi phí dự án, bảo vệ bí mật thương mại và tạo việc làm cho bộ phận phát triển nội bộ"
+    },
+    "answer": "D",
+    "explanation": "Đây là lợi ích đối với customer được tài liệu liệt kê."
+  },
+  {
+    "id": 281,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External risk delay?",
+    "options": {
+      "A": "Phần do bên ngoài phụ trách bị trễ có thể làm cả dự án trễ theo",
+      "B": "Chỉ ảnh hưởng UI",
+      "C": "Luôn làm dự án sớm hơn",
+      "D": "Không ảnh hưởng tiến độ"
+    },
+    "answer": "A",
+    "explanation": "Phụ thuộc tiến độ của external participant tạo rủi ro cho toàn dự án."
+  },
+  {
+    "id": 282,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External risk delay'?",
+    "options": {
+      "A": "Luôn làm dự án sớm hơn",
+      "B": "Phần do bên ngoài phụ trách bị trễ có thể làm cả dự án trễ theo",
+      "C": "Chỉ ảnh hưởng UI",
+      "D": "Không ảnh hưởng tiến độ"
+    },
+    "answer": "B",
+    "explanation": "Phụ thuộc tiến độ của external participant tạo rủi ro cho toàn dự án."
+  },
+  {
+    "id": 283,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External risk quality?",
+    "options": {
+      "A": "Chỉ ảnh hưởng ngân sách",
+      "B": "Luôn tốt hơn nội bộ",
+      "C": "Chất lượng phần do bên ngoài cung cấp có thể thấp, nhiều lỗi hoặc coding/tài liệu không theo chuẩn",
+      "D": "Không thể có lỗi"
+    },
+    "answer": "C",
+    "explanation": "Chất lượng thấp có thể gây khó khăn cho test và maintenance."
+  },
+  {
+    "id": 284,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External risk quality'?",
+    "options": {
+      "A": "Không thể có lỗi",
+      "B": "Luôn tốt hơn nội bộ",
+      "C": "Chỉ ảnh hưởng ngân sách",
+      "D": "Chất lượng phần do bên ngoài cung cấp có thể thấp, nhiều lỗi hoặc coding/tài liệu không theo chuẩn"
+    },
+    "answer": "D",
+    "explanation": "Chất lượng thấp có thể gây khó khăn cho test và maintenance."
+  },
+  {
+    "id": 285,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External risk control?",
+    "options": {
+      "A": "Chỉ ảnh hưởng database",
+      "B": "Không cần communication",
+      "C": "Có thể mất kiểm soát phát triển do giao tiếp với đội bên ngoài bị gián đoạn",
+      "D": "Luôn tăng kiểm soát"
+    },
+    "answer": "C",
+    "explanation": "Mất kiểm soát tiến độ là một rủi ro được nêu."
+  },
+  {
+    "id": 286,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External risk control'?",
+    "options": {
+      "A": "Luôn tăng kiểm soát",
+      "B": "Không cần communication",
+      "C": "Chỉ ảnh hưởng database",
+      "D": "Có thể mất kiểm soát phát triển do giao tiếp với đội bên ngoài bị gián đoạn"
+    },
+    "answer": "D",
+    "explanation": "Mất kiểm soát tiến độ là một rủi ro được nêu."
+  },
+  {
+    "id": 287,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External SQA tool 1?",
+    "options": {
+      "A": "Chỉ UI testing",
+      "B": "Requirements documents reviews",
+      "C": "Chỉ marketing review",
+      "D": "Chỉ payroll review"
+    },
+    "answer": "B",
+    "explanation": "Review requirements giúp đảm bảo danh sách yêu cầu chính xác và đầy đủ."
+  },
+  {
+    "id": 288,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External SQA tool 1'?",
+    "options": {
+      "A": "Requirements documents reviews",
+      "B": "Chỉ payroll review",
+      "C": "Chỉ marketing review",
+      "D": "Chỉ UI testing"
+    },
+    "answer": "A",
+    "explanation": "Review requirements giúp đảm bảo danh sách yêu cầu chính xác và đầy đủ."
+  },
+  {
+    "id": 289,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External SQA tool 2?",
+    "options": {
+      "A": "Project co-ordination and joint control committee",
+      "B": "Chỉ unit test",
+      "C": "Chỉ code formatter",
+      "D": "Chỉ database migration"
+    },
+    "answer": "A",
+    "explanation": "Có thể thành lập ban điều phối và kiểm soát chung giữa các bên."
+  },
+  {
+    "id": 290,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External SQA tool 2'?",
+    "options": {
+      "A": "Project co-ordination and joint control committee",
+      "B": "Chỉ database migration",
+      "C": "Chỉ unit test",
+      "D": "Chỉ code formatter"
+    },
+    "answer": "A",
+    "explanation": "Có thể thành lập ban điều phối và kiểm soát chung giữa các bên."
+  },
+  {
+    "id": 291,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External SQA tool 3?",
+    "options": {
+      "A": "Tham gia design review với tư cách thành viên đầy đủ",
+      "B": "Không được tham gia review",
+      "C": "Chỉ tham gia sau release",
+      "D": "Chỉ tham gia marketing"
+    },
+    "answer": "A",
+    "explanation": "Nhà thầu bên ngoài có thể tham gia design review đầy đủ."
+  },
+  {
+    "id": 292,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External SQA tool 3'?",
+    "options": {
+      "A": "Tham gia design review với tư cách thành viên đầy đủ",
+      "B": "Chỉ tham gia sau release",
+      "C": "Không được tham gia review",
+      "D": "Chỉ tham gia marketing"
+    },
+    "answer": "A",
+    "explanation": "Nhà thầu bên ngoài có thể tham gia design review đầy đủ."
+  },
+  {
+    "id": 293,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External SQA tool 4?",
+    "options": {
+      "A": "Chỉ tuyển nhân sự",
+      "B": "Tham gia kiểm thử: review kế hoạch/thiết kế test, review kết quả, theo dõi sửa lỗi và regression testing",
+      "C": "Chỉ ký hợp đồng",
+      "D": "Chỉ viết tài liệu marketing"
+    },
+    "answer": "B",
+    "explanation": "Testing participation là một công cụ SQA quan trọng với external participants."
+  },
+  {
+    "id": 294,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External SQA tool 4'?",
+    "options": {
+      "A": "Tham gia kiểm thử: review kế hoạch/thiết kế test, review kết quả, theo dõi sửa lỗi và regression testing",
+      "B": "Chỉ ký hợp đồng",
+      "C": "Chỉ tuyển nhân sự",
+      "D": "Chỉ viết tài liệu marketing"
+    },
+    "answer": "A",
+    "explanation": "Testing participation là một công cụ SQA quan trọng với external participants."
+  },
+  {
+    "id": 295,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External SQA tool 5?",
+    "options": {
+      "A": "Chứng nhận trưởng nhóm và nhân sự bên ngoài",
+      "B": "Chỉ chứng nhận database",
+      "C": "Chỉ chứng nhận khách hàng",
+      "D": "Chỉ chứng nhận UI"
+    },
+    "answer": "A",
+    "explanation": "Certification giúp đảm bảo năng lực chuyên môn của đội dự án."
+  },
+  {
+    "id": 296,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External SQA tool 5'?",
+    "options": {
+      "A": "Chỉ chứng nhận database",
+      "B": "Chỉ chứng nhận khách hàng",
+      "C": "Chỉ chứng nhận UI",
+      "D": "Chứng nhận trưởng nhóm và nhân sự bên ngoài"
+    },
+    "answer": "D",
+    "explanation": "Certification giúp đảm bảo năng lực chuyên môn của đội dự án."
+  },
+  {
+    "id": 297,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External SQA tool 6?",
+    "options": {
+      "A": "Chỉ test case",
+      "B": "Chỉ source code",
+      "C": "Chỉ bug report",
+      "D": "Progress reports"
+    },
+    "answer": "D",
+    "explanation": "Progress reports giúp theo dõi nguồn lực và ngân sách."
+  },
+  {
+    "id": 298,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External SQA tool 6'?",
+    "options": {
+      "A": "Chỉ source code",
+      "B": "Progress reports",
+      "C": "Chỉ bug report",
+      "D": "Chỉ test case"
+    },
+    "answer": "B",
+    "explanation": "Progress reports giúp theo dõi nguồn lực và ngân sách."
+  },
+  {
+    "id": 299,
+    "question": "Theo tài liệu, khái niệm nào được mô tả đúng nhất là: External SQA tool 7?",
+    "options": {
+      "A": "Chỉ review logo",
+      "B": "Rà soát deliverables và acceptance tests",
+      "C": "Chỉ review quảng cáo",
+      "D": "Chỉ review CV"
+    },
+    "answer": "B",
+    "explanation": "Đây là một công cụ SQA đối với bên tham gia bên ngoài."
+  },
+  {
+    "id": 300,
+    "question": "Trong các lựa chọn sau, lựa chọn nào phù hợp nhất với 'External SQA tool 7'?",
+    "options": {
+      "A": "Chỉ review quảng cáo",
+      "B": "Chỉ review CV",
+      "C": "Rà soát deliverables và acceptance tests",
+      "D": "Chỉ review logo"
+    },
+    "answer": "C",
+    "explanation": "Đây là một công cụ SQA đối với bên tham gia bên ngoài."
   }
 ]
