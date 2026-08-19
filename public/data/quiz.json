@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "question": "Theo chuẩn ISO/IEC/IEEE Std. 90003:2014, sản phẩm phần mềm (Software product) được định nghĩa là gì?",
     "options": {
       "A": "Chỉ là tập hợp các chương trình máy tính (code)",
@@ -11,6 +12,7 @@
     "explanation": "Theo ISO/IEC/IEEE Std. 90003:2014, sản phẩm phần mềm không chỉ là code mà còn bao gồm các thủ tục (procedures), tài liệu (documentation) và dữ liệu (data) liên quan."
   },
   {
+    "id": 2,
     "question": "Slide liệt kê bao nhiêu nguyên nhân chính dẫn đến lỗi (defect) trong phần mềm?",
     "options": {
       "A": "5 nguyên nhân",
@@ -22,6 +24,7 @@
     "explanation": "Tài liệu liệt kê 9 nguyên nhân chính gây ra lỗi phần mềm, từ yêu cầu sai đến lỗi tài liệu."
   },
   {
+    "id": 3,
     "question": "Trong 9 nguyên nhân gây lỗi phần mềm, nguyên nhân nào liên quan đến việc cố ý làm sai lệch so với yêu cầu đã đặt ra?",
     "options": {
       "A": "Lỗi trong thiết kế logic",
@@ -33,6 +36,7 @@
     "explanation": "Tài liệu liệt kê đây là một trong 9 nguyên nhân gây lỗi phần mềm: việc cố ý đi lệch khỏi yêu cầu, thường do áp lực thời gian."
   },
   {
+    "id": 4,
     "question": "Nguyên nhân gây lỗi phần mềm nào liên quan đến việc giao tiếp giữa khách hàng và người phát triển?",
     "options": {
       "A": "Giao tiếp giữa khách hàng và người phát triển bị hiểu lầm, thiếu thông tin",
@@ -44,6 +48,7 @@
     "explanation": "Đây là một trong 9 nguyên nhân gây lỗi phần mềm được liệt kê trong tài liệu."
   },
   {
+    "id": 5,
     "question": "Theo tài liệu, việc bản thân quy trình kiểm thử có thiếu sót được xem là gì?",
     "options": {
       "A": "Một hệ quả của lỗi thiết kế",
@@ -55,6 +60,7 @@
     "explanation": "Tài liệu liệt kê \"shortcomings of the testing process\" (thiếu sót của quy trình kiểm thử) là một trong 9 nguyên nhân gây lỗi phần mềm."
   },
   {
+    "id": 6,
     "question": "Trong 4 tình huống về requirement-design-build mà tài liệu minh họa, trường hợp nào được xem là lý tưởng?",
     "options": {
       "A": "Yêu cầu đúng, thiết kế đúng, nhưng có sai sót khi build",
@@ -66,6 +72,7 @@
     "explanation": "Đây là trường hợp lý tưởng được tài liệu mô tả, khi cả ba giai đoạn requirement, design, build đều đúng."
   },
   {
+    "id": 7,
     "question": "Trong trường hợp yêu cầu đúng, thiết kế đúng nhưng có sai sót khi build, sản phẩm gặp loại lỗi nào?",
     "options": {
       "A": "Design flaws",
@@ -77,6 +84,7 @@
     "explanation": "Tài liệu chỉ ra rằng khi requirement và design đều đúng nhưng chỉ sai ở bước build, đây là lỗi có thể sửa được (correctable defects) vì nền tảng requirement/design vẫn đúng."
   },
   {
+    "id": 8,
     "question": "Trường hợp nào theo tài liệu là nghiêm trọng nhất vì có thể bị ẩn khỏi cả đội IT lẫn tester?",
     "options": {
       "A": "Sai sót khi build dù requirement và design đúng",
@@ -88,6 +96,7 @@
     "explanation": "Tài liệu nêu rõ khi requirement đã sai ngay từ đầu, dù design và build đều thực hiện đúng theo yêu cầu sai đó, sản phẩm vẫn là 'wrong product delivered' và loại lỗi này khó nhận ra vì mọi bước đều 'đúng theo yêu cầu'."
   },
   {
+    "id": 9,
     "question": "Theo tài liệu, chi phí phát hiện và sửa lỗi biến đổi như thế nào qua các giai đoạn Requirements → Design → Build → Test → Live use?",
     "options": {
       "A": "Giảm dần qua các giai đoạn",
@@ -99,6 +108,7 @@
     "explanation": "Tài liệu nêu chi phí sửa lỗi tăng dần qua các giai đoạn, lỗi phát hiện càng muộn thì chi phí sửa càng lớn, đây là lập luận kinh tế cho việc đầu tư SQA và kiểm thử sớm."
   },
   {
+    "id": 10,
     "question": "Theo IEEE Std. 730-2014, chất lượng phần mềm (Software Quality) phụ thuộc vào yếu tố nào ngoài việc đáp ứng yêu cầu đã thiết lập?",
     "options": {
       "A": "Số dòng code của phần mềm",
@@ -110,6 +120,7 @@
     "explanation": "Theo IEEE Std. 730-2014, chất lượng phần mềm không chỉ là đáp ứng đúng yêu cầu mà còn phụ thuộc vào việc bản thân yêu cầu có phản ánh đúng nhu cầu thực sự của stakeholders hay không."
   },
   {
+    "id": 11,
     "question": "Theo IEEE Std. 730-2014, SQA (Software Quality Assurance) là gì?",
     "options": {
       "A": "Một cá nhân chịu trách nhiệm kiểm tra sản phẩm cuối cùng",
@@ -121,6 +132,7 @@
     "explanation": "Đây là định nghĩa SQA theo IEEE Std. 730-2014 được nêu trong tài liệu."
   },
   {
+    "id": 12,
     "question": "Một đặc điểm chính của chức năng SQA đối với dự án là gì?",
     "options": {
       "A": "Tính linh hoạt (flexibility)",
@@ -132,6 +144,7 @@
     "explanation": "Tài liệu nêu rõ một đặc điểm chính của SQA là tính khách quan của chức năng SQA đối với dự án."
   },
   {
+    "id": 13,
     "question": "Chức năng SQA có thể độc lập về mặt tổ chức với dự án theo nghĩa nào?",
     "options": {
       "A": "Không chịu áp lực về kỹ thuật, quản lý hay tài chính từ chính dự án đó",
@@ -143,6 +156,7 @@
     "explanation": "Tài liệu nêu SQA có thể độc lập về mặt tổ chức với dự án, nghĩa là không chịu áp lực kỹ thuật, quản lý hay tài chính từ chính dự án."
   },
   {
+    "id": 14,
     "question": "Theo bảng so sánh trong tài liệu, QA (Quality Assurance) tập trung vào điều gì?",
     "options": {
       "A": "Sản phẩm (Product focused)",
@@ -154,6 +168,7 @@
     "explanation": "Bảng so sánh trong tài liệu chỉ rõ QA tập trung vào Quy trình (Process focused), trong khi QC tập trung vào Sản phẩm (Product focused)."
   },
   {
+    "id": 15,
     "question": "Theo bảng so sánh trong tài liệu, QC (Quality Control) tập trung vào điều gì?",
     "options": {
       "A": "Quy trình phát triển",
@@ -165,6 +180,7 @@
     "explanation": "Theo bảng so sánh, QC tập trung vào Sản phẩm (Product focused), khác với QA tập trung vào Quy trình."
   },
   {
+    "id": 16,
     "question": "QA được định hướng theo cách nào theo bảng so sánh trong tài liệu?",
     "options": {
       "A": "Phòng ngừa (Prevention oriented)",
@@ -176,6 +192,7 @@
     "explanation": "Tài liệu nêu QA định hướng phòng ngừa (Prevention oriented), tức làm đúng quy trình để phòng lỗi từ gốc."
   },
   {
+    "id": 17,
     "question": "QC được định hướng theo cách nào theo bảng so sánh trong tài liệu?",
     "options": {
       "A": "Phòng ngừa (Prevention oriented)",
@@ -187,6 +204,7 @@
     "explanation": "Tài liệu nêu QC định hướng phát hiện (Detection oriented), tức kiểm tra sản phẩm để bắt lỗi trước khi giao."
   },
   {
+    "id": 18,
     "question": "Theo tài liệu, hoạt động điển hình của QA gồm những gì?",
     "options": {
       "A": "Review và Testing",
@@ -198,6 +216,7 @@
     "explanation": "Bảng so sánh trong tài liệu liệt kê hoạt động điển hình của QA gồm: xác định & triển khai quy trình, kiểm toán (audit), đào tạo (training)."
   },
   {
+    "id": 19,
     "question": "Theo tài liệu, hoạt động điển hình của QC gồm những gì?",
     "options": {
       "A": "Xác định & triển khai quy trình",
@@ -209,6 +228,7 @@
     "explanation": "Bảng so sánh trong tài liệu liệt kê hoạt động điển hình của QC là Review và Testing; testing thuộc về QC nhưng thường đặt trong hệ thống SQA tổng thể."
   },
   {
+    "id": 20,
     "question": "Phạm vi hoạt động của QA theo tài liệu liên quan đến điều gì?",
     "options": {
       "A": "Chỉ liên quan đến một sản phẩm cụ thể",
@@ -220,6 +240,7 @@
     "explanation": "Theo bảng so sánh, phạm vi (scope) của QA liên quan đến tất cả các sản phẩm được tạo ra bởi một quy trình, còn QC liên quan đến sản phẩm cụ thể."
   },
   {
+    "id": 21,
     "question": "Ba mục tiêu của SQA theo tài liệu bao gồm mục tiêu nào liên quan đến tiến độ và ngân sách?",
     "options": {
       "A": "Đảm bảo, với mức độ tin cậy chấp nhận được, sự tuân thủ các yêu cầu quản lý về tiến độ và ngân sách",
@@ -231,6 +252,7 @@
     "explanation": "Đây là một trong ba mục tiêu của SQA được nêu trong tài liệu, liên quan đến scheduling và budgets."
   },
   {
+    "id": 22,
     "question": "Mục tiêu thứ ba của SQA theo tài liệu là gì?",
     "options": {
       "A": "Đảm bảo tuân thủ yêu cầu kỹ thuật - chức năng",
@@ -242,6 +264,7 @@
     "explanation": "Đây là mục tiêu thứ ba trong ba mục tiêu của SQA được nêu trong tài liệu."
   },
   {
+    "id": 23,
     "question": "Theo tài liệu, nguyên nhân chính khiến khách hàng không hài lòng dù phần mềm chạy đúng chức năng là gì?",
     "options": {
       "A": "Giao diện phần mềm không đẹp",
@@ -253,6 +276,7 @@
     "explanation": "Tài liệu nêu rõ nguyên nhân chính là thiếu các yêu cầu rõ ràng về các khía cạnh khác ngoài chức năng chính, như maintenance, reliability, reusability, training."
   },
   {
+    "id": 24,
     "question": "Mô hình McCall's Triangle of Quality chia các yếu tố chất lượng phần mềm thành mấy nhóm lớn?",
     "options": {
       "A": "2 nhóm",
@@ -264,6 +288,7 @@
     "explanation": "Mô hình McCall chia các yếu tố chất lượng thành 3 nhóm lớn: Product Operation, Product Revision, Product Transition."
   },
   {
+    "id": 25,
     "question": "Nhóm Product Operation trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Chất lượng khi phần mềm đang được sử dụng/vận hành hằng ngày",
@@ -275,6 +300,7 @@
     "explanation": "Theo tài liệu, nhóm Product Operation liên quan đến chất lượng phần mềm khi đang vận hành hằng ngày."
   },
   {
+    "id": 26,
     "question": "Nhóm Product Revision trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Chất lượng khi phần mềm đang vận hành",
@@ -286,6 +312,7 @@
     "explanation": "Theo tài liệu, nhóm Product Revision liên quan đến mức độ dễ dàng khi cần sửa lỗi, thay đổi hoặc kiểm thử lại phần mềm."
   },
   {
+    "id": 27,
     "question": "Nhóm Product Transition trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Khả năng thích ứng khi chuyển sang môi trường/hệ thống khác",
@@ -297,6 +324,7 @@
     "explanation": "Theo tài liệu, nhóm Product Transition liên quan đến khả năng thích ứng của phần mềm khi chuyển sang môi trường hoặc hệ thống khác."
   },
   {
+    "id": 28,
     "question": "Nhóm Product Operation trong mô hình McCall gồm những yếu tố nào?",
     "options": {
       "A": "Maintainability, Flexibility, Testability",
@@ -308,6 +336,7 @@
     "explanation": "Theo tài liệu, nhóm Product Operation gồm 5 yếu tố: Correctness, Reliability, Efficiency, Integrity, Usability."
   },
   {
+    "id": 29,
     "question": "Nhóm Product Revision trong mô hình McCall gồm những yếu tố nào?",
     "options": {
       "A": "Correctness, Reliability, Efficiency",
@@ -319,6 +348,7 @@
     "explanation": "Theo tài liệu, nhóm Product Revision gồm 3 yếu tố: Maintainability, Flexibility, Testability."
   },
   {
+    "id": 30,
     "question": "Nhóm Product Transition trong mô hình McCall gồm những yếu tố nào?",
     "options": {
       "A": "Portability, Reusability, Interoperability",
@@ -330,6 +360,7 @@
     "explanation": "Theo tài liệu, nhóm Product Transition gồm 3 yếu tố: Portability, Reusability, Interoperability."
   },
   {
+    "id": 31,
     "question": "Yếu tố Correctness (Tính đúng đắn) trong mô hình McCall được định nghĩa như thế nào?",
     "options": {
       "A": "Xác định mức tỷ lệ lỗi tối đa được phép xảy ra",
@@ -341,6 +372,7 @@
     "explanation": "Theo tài liệu, Correctness liên quan đến độ chính xác, đầy đủ của đầu ra, cùng tính cập nhật và sẵn sàng của thông tin."
   },
   {
+    "id": 32,
     "question": "Yếu tố Reliability (Độ tin cậy) trong mô hình McCall được định nghĩa như thế nào?",
     "options": {
       "A": "Khả năng dễ học, dễ thực hiện tác vụ",
@@ -352,6 +384,7 @@
     "explanation": "Theo tài liệu, Reliability xác định mức tỷ lệ lỗi tối đa được phép xảy ra."
   },
   {
+    "id": 33,
     "question": "Yếu tố Efficiency (Hiệu quả) trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Bảo mật hệ thống, kiểm soát quyền truy cập",
@@ -363,6 +396,7 @@
     "explanation": "Theo tài liệu, Efficiency liên quan đến tài nguyên cần thiết để phần mềm thực hiện các chức năng của nó."
   },
   {
+    "id": 34,
     "question": "Yếu tố Integrity trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Bảo mật hệ thống, kiểm soát quyền truy cập (access rights)",
@@ -374,6 +408,7 @@
     "explanation": "Theo tài liệu, Integrity liên quan đến bảo mật hệ thống và kiểm soát quyền truy cập."
   },
   {
+    "id": 35,
     "question": "Yếu tố Usability (Tính khả dụng) trong mô hình McCall được định nghĩa như thế nào?",
     "options": {
       "A": "Khả năng dễ học, dễ thực hiện các tác vụ cần thiết",
@@ -385,6 +420,7 @@
     "explanation": "Theo tài liệu, Usability là khả năng dễ học và dễ thực hiện các tác vụ cần thiết."
   },
   {
+    "id": 36,
     "question": "Yếu tố Maintainability (Khả năng bảo trì) trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Lỗi có thể được sửa dễ dàng khi phát sinh; dễ thêm chức năng mới; dễ chỉnh sửa chức năng hiện có",
@@ -396,6 +432,7 @@
     "explanation": "Theo tài liệu, Maintainability liên quan đến việc dễ sửa lỗi, dễ thêm và chỉnh sửa chức năng."
   },
   {
+    "id": 37,
     "question": "Yếu tố Flexibility (Tính linh hoạt) trong mô hình McCall được định nghĩa như thế nào?",
     "options": {
       "A": "Mức độ thích ứng của sản phẩm với khách hàng mới, tác vụ mới",
@@ -407,6 +444,7 @@
     "explanation": "Theo tài liệu, Flexibility là mức độ thích ứng của sản phẩm với khách hàng mới, tác vụ mới, v.v."
   },
   {
+    "id": 38,
     "question": "Yếu tố Testability (Khả năng kiểm thử được) trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Mức độ thích ứng với khách hàng mới",
@@ -418,6 +456,7 @@
     "explanation": "Theo tài liệu, Testability là khả năng phần mềm hỗ trợ tốt cho việc kiểm thử, ví dụ có log file, cơ chế tự chẩn đoán (automatic diagnostics)."
   },
   {
+    "id": 39,
     "question": "Yếu tố Portability (Khả năng tương thích) trong mô hình McCall được định nghĩa như thế nào?",
     "options": {
       "A": "Khả năng thích ứng với môi trường khác (phần cứng, phần mềm khác)",
@@ -429,6 +468,7 @@
     "explanation": "Theo tài liệu, Portability là khả năng thích ứng của phần mềm với môi trường phần cứng, phần mềm khác."
   },
   {
+    "id": 40,
     "question": "Yếu tố Reusability (Khả năng tái sử dụng) trong mô hình McCall liên quan đến điều gì?",
     "options": {
       "A": "Khả năng thích ứng với môi trường khác",
@@ -440,6 +480,7 @@
     "explanation": "Theo tài liệu, Reusability là khả năng sử dụng lại các thành phần phần mềm cho các dự án khác."
   },
   {
+    "id": 41,
     "question": "Yếu tố Interoperability (Khả năng tương tác) trong mô hình McCall được định nghĩa như thế nào?",
     "options": {
       "A": "Khả năng giao tiếp/kết nối với các thành phần hoặc hệ thống khác",
@@ -451,6 +492,7 @@
     "explanation": "Theo tài liệu, Interoperability là khả năng giao tiếp và kết nối với các thành phần hoặc hệ thống khác."
   },
   {
+    "id": 42,
     "question": "Theo bảng lịch sử phát triển testing trong tài liệu, giai đoạn 1960s–1980s được gọi là gì?",
     "options": {
       "A": "\"Must have\"",
@@ -462,6 +504,7 @@
     "explanation": "Theo tài liệu, giai đoạn 1960s–1980s được gọi là \"Nice to have\", đặc trưng bởi black-box testing, system testing, chỉ đảm bảo không có lỗi rõ ràng."
   },
   {
+    "id": 43,
     "question": "Trong giai đoạn 1960s–1980s (\"Nice to have\"), đặc điểm testing như thế nào?",
     "options": {
       "A": "Black-box testing, system testing, functional testing, tester part-time",
@@ -473,6 +516,7 @@
     "explanation": "Theo tài liệu, giai đoạn này đặc trưng bởi black-box testing, system testing, functional testing, chỉ đảm bảo 'no obvious broken', và tester chỉ làm việc part-time."
   },
   {
+    "id": 44,
     "question": "Giai đoạn 1990s trong lịch sử phát triển testing được gọi là gì?",
     "options": {
       "A": "\"Nice to have\"",
@@ -484,6 +528,7 @@
     "explanation": "Theo tài liệu, giai đoạn 1990s được gọi là \"Should have\", đặc trưng bởi black/grey-box testing và tester độc lập."
   },
   {
+    "id": 45,
     "question": "Đặc điểm testing trong giai đoạn 1990s (\"Should have\") theo tài liệu là gì?",
     "options": {
       "A": "Black/grey-box testing, System/Integration testing, Functional testing, tester độc lập",
@@ -495,6 +540,7 @@
     "explanation": "Theo tài liệu, giai đoạn 1990s có black/grey-box testing, System/Integration testing, Functional testing, và tester độc lập, đảm bảo yêu cầu được đáp ứng."
   },
   {
+    "id": 46,
     "question": "Giai đoạn 2000+ trong lịch sử phát triển testing được gọi là gì?",
     "options": {
       "A": "\"Nice to have\"",
@@ -506,6 +552,7 @@
     "explanation": "Theo tài liệu, giai đoạn 2000+ được gọi là \"Must have\", với black/grey/white-box testing, system-system testing, non-functional testing, và tester chuyên nghiệp."
   },
   {
+    "id": 47,
     "question": "Xu hướng chung của testing qua các giai đoạn lịch sử theo tài liệu là gì?",
     "options": {
       "A": "Testing dần chuyển từ 'việc phụ' sang 'tài sản chiến lược' của tổ chức",
@@ -517,6 +564,7 @@
     "explanation": "Tài liệu nêu xu hướng chung là testing chuyển từ 'việc phụ, làm khi có thời gian' (constraint) sang 'tài sản chiến lược' (asset) của tổ chức, gắn liền với chuyên nghiệp hóa nghề tester."
   },
   {
+    "id": 48,
     "question": "Theo định nghĩa ISTQB, Testing là gì?",
     "options": {
       "A": "Một hành động đơn lẻ nhằm tìm lỗi trong code",
@@ -528,6 +576,7 @@
     "explanation": "Theo định nghĩa ISTQB, Testing là một quy trình gồm tất cả các hoạt động trong vòng đời phát triển, cả tĩnh và động, nhằm xác định yêu cầu được đáp ứng, chứng minh fit for purpose, và phát hiện lỗi."
   },
   {
+    "id": 49,
     "question": "Trong định nghĩa ISTQB về testing, cụm từ 'process' có nghĩa là gì?",
     "options": {
       "A": "Một hành động đơn lẻ",
@@ -539,6 +588,7 @@
     "explanation": "Theo phân tích trong tài liệu, 'process' nghĩa là testing là một quy trình gồm chuỗi các hoạt động, không phải một hành động đơn lẻ."
   },
   {
+    "id": 50,
     "question": "Trong định nghĩa ISTQB về testing, cụm từ 'all life cycle activities' có nghĩa là gì?",
     "options": {
       "A": "Kiểm thử chỉ diễn ra ở giai đoạn cuối dự án",
@@ -550,6 +600,7 @@
     "explanation": "Theo tài liệu, 'all life cycle activities' nghĩa là kiểm thử diễn ra xuyên suốt toàn bộ vòng đời phát triển, không chỉ ở giai đoạn cuối."
   },
   {
+    "id": 51,
     "question": "Trong định nghĩa ISTQB về testing, cụm từ 'static and dynamic' có nghĩa là gì?",
     "options": {
       "A": "Kiểm thử chỉ chạy code",
@@ -561,6 +612,7 @@
     "explanation": "Theo tài liệu, 'static and dynamic' nghĩa là testing gồm cả kiểm thử tĩnh (không chạy code, như review) và kiểm thử động (chạy code thực tế)."
   },
   {
+    "id": 52,
     "question": "Trong định nghĩa ISTQB về testing, 'planning' có nghĩa là gì?",
     "options": {
       "A": "Lập kế hoạch để quản lý hoạt động kiểm thử",
@@ -572,6 +624,7 @@
     "explanation": "Theo tài liệu, 'planning' trong định nghĩa ISTQB là lập kế hoạch để quản lý hoạt động kiểm thử."
   },
   {
+    "id": 53,
     "question": "Trong định nghĩa ISTQB về testing, 'preparation' có nghĩa là gì?",
     "options": {
       "A": "Đo lường kết quả test",
@@ -583,6 +636,7 @@
     "explanation": "Theo tài liệu, 'preparation' nghĩa là lựa chọn điều kiện kiểm thử và thiết kế test case."
   },
   {
+    "id": 54,
     "question": "Trong định nghĩa ISTQB về testing, 'evaluation' có nghĩa là gì?",
     "options": {
       "A": "Kiểm tra kết quả, đánh giá tiêu chí hoàn thành đối với các related work products như code, tài liệu yêu cầu, thiết kế, sổ tay hướng dẫn",
@@ -594,6 +648,7 @@
     "explanation": "Theo tài liệu, 'evaluation' nghĩa là kiểm tra kết quả, đánh giá tiêu chí hoàn thành liên quan đến các related work products."
   },
   {
+    "id": 55,
     "question": "Trong định nghĩa ISTQB về testing, cụm từ 'demonstrate (fit for purpose)' có nghĩa là gì?",
     "options": {
       "A": "Kiểm tra xem phần mềm có làm đúng những gì người dùng kỳ vọng một cách hợp lý hay không",
@@ -605,6 +660,7 @@
     "explanation": "Theo tài liệu, 'demonstrate (fit for purpose)' nghĩa là xem phần mềm có làm đúng những gì người dùng kỳ vọng hợp lý hay không."
   },
   {
+    "id": 56,
     "question": "Trong định nghĩa ISTQB về testing, 'detect defects' liên quan đến điều gì?",
     "options": {
       "A": "Chỉ đơn thuần tìm ra lỗi mà không phân tích thêm",
@@ -616,6 +672,7 @@
     "explanation": "Theo tài liệu, 'detect defects' kết hợp phân tích nguyên nhân gốc rễ để cải tiến quy trình phát triển, giảm lỗi trong tương lai."
   },
   {
+    "id": 57,
     "question": "Theo tài liệu, Testing KHÔNG PHẢI là điều gì trong các lựa chọn sau?",
     "options": {
       "A": "Một kỳ thi cuối kỳ (final exam)",
@@ -627,6 +684,7 @@
     "explanation": "Testing LÀ một quy trình gồm nhiều hoạt động (theo định nghĩa ISTQB), còn các phương án A, B, D đều thuộc danh sách 'Testing KHÔNG PHẢI là...' trong tài liệu."
   },
   {
+    "id": 58,
     "question": "Theo tài liệu, điểm khác biệt quan trọng giữa Testing và Debugging là gì?",
     "options": {
       "A": "Testing = phát hiện lỗi; Debugging = tìm nguyên nhân và sửa lỗi",
@@ -638,6 +696,7 @@
     "explanation": "Tài liệu phân biệt rõ: Testing là để phát hiện lỗi, còn Debugging là quá trình lập trình viên tìm nguyên nhân gây lỗi trong code và sửa lỗi đó."
   },
   {
+    "id": 59,
     "question": "Tài liệu liệt kê bao nhiêu nguyên tắc kiểm thử (Testing Principles)?",
     "options": {
       "A": "5 nguyên tắc",
@@ -649,6 +708,7 @@
     "explanation": "Theo tài liệu, có 7 nguyên tắc kiểm thử (Testing Principles) được liệt kê."
   },
   {
+    "id": 60,
     "question": "Nguyên tắc kiểm thử 'Testing shows presence of defects' có ý nghĩa gì?",
     "options": {
       "A": "Kiểm thử chỉ có thể chứng minh có lỗi tồn tại, không thể chứng minh phần mềm không còn lỗi nào",
@@ -660,6 +720,7 @@
     "explanation": "Nguyên tắc P1 (Testing shows presence of defects) nêu rằng kiểm thử chỉ có thể chứng minh có lỗi tồn tại, không chứng minh được phần mềm không còn lỗi nào."
   },
   {
+    "id": 61,
     "question": "Nguyên tắc kiểm thử 'Exhaustive testing is impossible' có ý nghĩa gì?",
     "options": {
       "A": "Kiểm thử mọi tổ hợp input/precondition là bất khả thi trừ các trường hợp rất đơn giản",
@@ -671,6 +732,7 @@
     "explanation": "Nguyên tắc P2 nêu việc kiểm thử mọi tổ hợp input/precondition là bất khả thi trừ các trường hợp rất đơn giản, cần dựa vào phân tích rủi ro và ưu tiên."
   },
   {
+    "id": 62,
     "question": "Trong ví dụ minh họa nguyên tắc 'Exhaustive testing is impossible', với 10 trường input mỗi trường 5 giá trị có thể, số tổ hợp là bao nhiêu?",
     "options": {
       "A": "50",
@@ -682,6 +744,7 @@
     "explanation": "Tài liệu tính ví dụ: 10 trường input, mỗi trường 5 giá trị có thể → 5^10 = 9.765.625 tổ hợp, minh họa việc kiểm thử toàn bộ là bất khả thi."
   },
   {
+    "id": 63,
     "question": "Nguyên tắc kiểm thử 'Early testing' có ý nghĩa gì?",
     "options": {
       "A": "Hoạt động kiểm thử nên bắt đầu càng sớm càng tốt trong vòng đời phát triển, gắn với mục tiêu rõ ràng",
@@ -693,6 +756,7 @@
     "explanation": "Nguyên tắc P3 (Early testing) nêu hoạt động kiểm thử nên bắt đầu càng sớm càng tốt, vì lỗi phát hiện càng muộn thì chi phí sửa càng cao."
   },
   {
+    "id": 64,
     "question": "Nguyên tắc kiểm thử 'Defect clustering' có ý nghĩa gì?",
     "options": {
       "A": "Lỗi phân bố đều trên tất cả các module",
@@ -704,6 +768,7 @@
     "explanation": "Nguyên tắc P4 (Defect clustering) nêu phần lớn lỗi thường tập trung ở một số ít module ('hot spots')."
   },
   {
+    "id": 65,
     "question": "Theo nguyên tắc Defect clustering, quy tắc 80-20 có nghĩa là gì?",
     "options": {
       "A": "80% lỗi nằm trong khoảng 20% số module",
@@ -715,6 +780,7 @@
     "explanation": "Theo tài liệu, quy tắc 80-20 trong Defect clustering nghĩa là khoảng 80% lỗi nằm trong khoảng 20% số module."
   },
   {
+    "id": 66,
     "question": "Nguyên tắc kiểm thử 'The pesticide paradox' có ý nghĩa gì?",
     "options": {
       "A": "Nếu lặp lại đúng một bộ test case nhiều lần, dần dần bộ test đó sẽ không còn phát hiện được lỗi mới nào nữa",
@@ -726,6 +792,7 @@
     "explanation": "Nguyên tắc P5 (The pesticide paradox) nêu nếu lặp lại đúng một bộ test case nhiều lần, bộ test đó sẽ dần không còn phát hiện lỗi mới, giống côn trùng 'lờn thuốc'."
   },
   {
+    "id": 67,
     "question": "Theo nguyên tắc The pesticide paradox, để tránh hiện tượng 'lờn thuốc', tester cần làm gì?",
     "options": {
       "A": "Giữ nguyên bộ test case ban đầu mãi mãi",
@@ -737,6 +804,7 @@
     "explanation": "Tài liệu nêu cần thường xuyên rà soát, sửa đổi và bổ sung test case mới để tránh pesticide paradox."
   },
   {
+    "id": 68,
     "question": "Nguyên tắc kiểm thử 'Testing is context dependent' có ý nghĩa gì?",
     "options": {
       "A": "Không nên áp dụng cùng một cách kiểm thử cho mọi sản phẩm, vì mỗi loại phần mềm có yêu cầu, chức năng, mục đích khác nhau",
@@ -748,6 +816,7 @@
     "explanation": "Nguyên tắc P6 nêu không nên áp dụng cùng cách kiểm thử cho mọi sản phẩm vì mỗi loại phần mềm có yêu cầu, chức năng, mục đích khác nhau."
   },
   {
+    "id": 69,
     "question": "Theo nguyên tắc Testing is context dependent, ví dụ nào minh họa cho nguyên tắc này?",
     "options": {
       "A": "Phần mềm an toàn (safety-critical) phải được kiểm thử khác hẳn so với một trang thương mại điện tử",
@@ -759,6 +828,7 @@
     "explanation": "Tài liệu đưa ví dụ phần mềm safety-critical phải kiểm thử khác hẳn so với trang thương mại điện tử vì mức độ rủi ro khác nhau."
   },
   {
+    "id": 70,
     "question": "Nguyên tắc kiểm thử 'Absence of errors fallacy' có ý nghĩa gì?",
     "options": {
       "A": "Việc tìm và sửa hết lỗi không có nghĩa là hệ thống sẽ được người dùng chấp nhận, nếu hệ thống không thực sự đáp ứng đúng nhu cầu và kỳ vọng của họ",
@@ -770,6 +840,7 @@
     "explanation": "Nguyên tắc P7 (Absence of errors fallacy) nêu việc sửa hết lỗi không đảm bảo hệ thống được chấp nhận nếu nó không đáp ứng đúng nhu cầu thực tế của người dùng."
   },
   {
+    "id": 71,
     "question": "Theo nguyên tắc Absence of errors fallacy, tester nên có thái độ như thế nào khi không tìm thấy lỗi?",
     "options": {
       "A": "Kết luận phần mềm hoàn toàn không có lỗi",
@@ -781,6 +852,7 @@
     "explanation": "Tài liệu nêu tester nên luôn giả định rằng phần mềm vẫn còn lỗi tiềm ẩn, không tìm thấy lỗi khi test khác với kết luận phần mềm hoàn toàn không có lỗi."
   },
   {
+    "id": 72,
     "question": "Theo thống kê được nêu trong tài liệu, một người thường tự tìm ra được khoảng bao nhiêu % lỗi do chính mình gây ra?",
     "options": {
       "A": "10%–20%",
@@ -792,6 +864,7 @@
     "explanation": "Tài liệu nêu thống kê cho thấy một người thường chỉ tự tìm ra được khoảng 30%–50% lỗi do chính mình gây ra."
   },
   {
+    "id": 73,
     "question": "Vì sao kiểm thử độc lập (Independent Testing) thường hiệu quả hơn khi không do chính người tạo ra sản phẩm thực hiện?",
     "options": {
       "A": "Vì tư duy khi xây dựng (tìm cách giải quyết vấn đề) khác hẳn tư duy khi kiểm thử/review (chủ động tìm lỗi)",
@@ -803,6 +876,7 @@
     "explanation": "Tài liệu nêu lý do là tư duy khi xây dựng sản phẩm khác hẳn tư duy khi kiểm thử/review, dẫn đến hiệu quả phát hiện lỗi cao hơn khi độc lập."
   },
   {
+    "id": 74,
     "question": "Trong các mức độ độc lập khi kiểm thử (từ thấp đến cao), mức thấp nhất là gì?",
     "options": {
       "A": "Test case do người thuộc tổ chức khác thiết kế",
@@ -814,6 +888,7 @@
     "explanation": "Mức độ độc lập thấp nhất theo tài liệu là 'Không độc lập': test case do chính người viết code thiết kế."
   },
   {
+    "id": 75,
     "question": "Trong các mức độ độc lập khi kiểm thử, mức nào có độ độc lập cao nhất?",
     "options": {
       "A": "Test case do người khác trong cùng nhóm thiết kế",
@@ -825,6 +900,7 @@
     "explanation": "Theo tài liệu, mức độ độc lập cao nhất là test case do công cụ tự động sinh ra, dù chất lượng test có thể thấp hơn."
   },
   {
+    "id": 76,
     "question": "Việc thuê ngoài kiểm thử (outsourced testing) tương ứng với mức độ độc lập nào trong các mức độ độc lập khi kiểm thử?",
     "options": {
       "A": "Test case do chính người viết code thiết kế",
@@ -836,6 +912,7 @@
     "explanation": "Theo tài liệu, ví dụ về test case do người thuộc tổ chức khác thiết kế là outsourced testing (thuê ngoài kiểm thử)."
   },
   {
+    "id": 77,
     "question": "Theo tài liệu, mức độ độc lập càng cao thường mang lại lợi ích gì?",
     "options": {
       "A": "Giúp tránh được thiên kiến của tác giả (author bias) và phát hiện lỗi/thất bại hiệu quả hơn",
@@ -847,6 +924,7 @@
     "explanation": "Tài liệu nêu mức độ độc lập càng cao giúp tránh thiên kiến của tác giả và phát hiện lỗi hiệu quả hơn, nhưng cũng cần cân nhắc chi phí và thời gian phối hợp tăng theo."
   },
   {
+    "id": 78,
     "question": "Trong bảng ví dụ ánh xạ yêu cầu vào yếu tố chất lượng McCall, yêu cầu 'Xác suất hệ thống Super-Lab ở trạng thái lỗi trong giờ cao điểm phải dưới 0,5%' tương ứng với yếu tố nào?",
     "options": {
       "A": "Reliability",
@@ -858,6 +936,7 @@
     "explanation": "Yêu cầu về xác suất hệ thống gặp lỗi/failure trong điều kiện xác định tương ứng với yếu tố Reliability (Độ tin cậy)."
   },
   {
+    "id": 79,
     "question": "Trong bảng ví dụ McCall, yêu cầu hệ thống 'Super-Lab' cho phép chuyển trực tiếp kết quả xét nghiệm vào hồ sơ bệnh nhân được quản lý bởi phần mềm 'MD-File' tương ứng với yếu tố nào?",
     "options": {
       "A": "Correctness",
@@ -869,6 +948,7 @@
     "explanation": "Khả năng giao tiếp và trao đổi dữ liệu với phần mềm/hệ thống khác (MD-File) tương ứng với yếu tố Interoperability."
   },
   {
+    "id": 80,
     "question": "Trong bảng ví dụ McCall, yêu cầu về mô-đun tạo báo cáo chi tiết kết quả xét nghiệm với thời gian và độ chính xác cụ thể tương ứng với yếu tố nào?",
     "options": {
       "A": "Correctness",
@@ -880,6 +960,7 @@
     "explanation": "Yêu cầu liên quan đến accuracy và completeness của kết quả đầu ra tương ứng với yếu tố Correctness."
   },
   {
+    "id": 81,
     "question": "Trong bảng ví dụ McCall, yêu cầu 'phần mềm Super-Lab được phát triển cho phòng thí nghiệm bệnh viện có thể thích nghi sau này để dùng cho phòng thí nghiệm tư nhân' tương ứng với yếu tố nào?",
     "options": {
       "A": "Portability",
@@ -891,6 +972,7 @@
     "explanation": "Khả năng phần mềm thích nghi hoặc thay đổi để phù hợp với khách hàng, nhiệm vụ hoặc hoàn cảnh sử dụng mới tương ứng với yếu tố Flexibility."
   },
   {
+    "id": 82,
     "question": "Trong bảng ví dụ McCall, yêu cầu về việc đào tạo kỹ thuật viên phòng thí nghiệm không quá 3 ngày để đạt cấp độ sử dụng nhất định tương ứng với yếu tố nào?",
     "options": {
       "A": "Usability",
@@ -902,6 +984,7 @@
     "explanation": "Yêu cầu liên quan đến khả năng người dùng học và sử dụng phần mềm để thực hiện công việc dễ dàng tương ứng với yếu tố Usability."
   },
   {
+    "id": 83,
     "question": "Trong bảng ví dụ McCall, yêu cầu hệ thống 'Super-Lab' ghi lại nhật ký người dùng và báo cáo các lần truy cập trái phép vào thông tin y tế tương ứng với yếu tố nào?",
     "options": {
       "A": "Reliability",
@@ -913,6 +996,7 @@
     "explanation": "Yêu cầu liên quan đến bảo mật hệ thống và quyền truy cập tương ứng với yếu tố Integrity."
   },
   {
+    "id": 84,
     "question": "Trong bảng ví dụ McCall, yêu cầu 'tài liệu phần mềm phải rõ ràng, có khả năng tự mô tả và có mức độ nhất quán cao' tương ứng với yếu tố nào?",
     "options": {
       "A": "Maintainability",
@@ -924,6 +1008,7 @@
     "explanation": "Yêu cầu về tài liệu rõ ràng, tự mô tả giúp phần mềm dễ được sửa chữa, thay đổi hoặc bảo trì, tương ứng với yếu tố Maintainability."
   },
   {
+    "id": 85,
     "question": "Trong bảng ví dụ McCall, yêu cầu hệ thống phải phục vụ được số lượng máy trạm/máy chủ cụ thể với tài nguyên phù hợp tương ứng với yếu tố nào?",
     "options": {
       "A": "Efficiency",
@@ -935,6 +1020,7 @@
     "explanation": "Yêu cầu về khả năng phần mềm thực hiện chức năng với nguồn tài nguyên phù hợp tương ứng với yếu tố Efficiency."
   },
   {
+    "id": 86,
     "question": "Trong bảng ví dụ McCall, yêu cầu gói phần mềm 'Super-Lab' phát triển cho Linux phải tương thích với ứng dụng trong môi trường Windows NT tương ứng với yếu tố nào?",
     "options": {
       "A": "Interoperability",
@@ -946,6 +1032,7 @@
     "explanation": "Khả năng phần mềm thích nghi/chạy được trong môi trường phần cứng hoặc phần mềm khác tương ứng với yếu tố Portability."
   },
   {
+    "id": 87,
     "question": "Mô hình chất lượng Evans & Marciniak (1987) gồm bao nhiêu yếu tố, chia thành mấy nhóm?",
     "options": {
       "A": "11 yếu tố, 3 nhóm",
@@ -957,6 +1044,7 @@
     "explanation": "Theo tài liệu, mô hình Evans & Marciniak (1987) gồm 12 yếu tố, chia thành 3 nhóm."
   },
   {
+    "id": 88,
     "question": "Mô hình chất lượng Deutsch & Willis (1988) gồm bao nhiêu yếu tố, chia thành mấy nhóm?",
     "options": {
       "A": "12 yếu tố, 3 nhóm",
@@ -968,6 +1056,7 @@
     "explanation": "Theo tài liệu, mô hình Deutsch & Willis (1988) gồm 15 yếu tố, chia thành 4 nhóm."
   },
   {
+    "id": 89,
     "question": "Cả hai mô hình Evans & Marciniak và Deutsch & Willis đều KHÔNG có yếu tố nào so với McCall?",
     "options": {
       "A": "Testability",
@@ -979,6 +1068,7 @@
     "explanation": "Tài liệu nêu rõ cả hai mô hình đều KHÔNG có yếu tố Testability so với McCall."
   },
   {
+    "id": 90,
     "question": "So với McCall, hai mô hình Evans & Marciniak và Deutsch & Willis bổ sung thêm bao nhiêu yếu tố mới?",
     "options": {
       "A": "3 yếu tố mới",
@@ -990,6 +1080,7 @@
     "explanation": "Tài liệu nêu cả hai mô hình bổ sung thêm 5 yếu tố mới: Verifiability, Expandability, Safety, Manageability, Survivability."
   },
   {
+    "id": 91,
     "question": "Yếu tố Verifiability (khả năng kiểm chứng) trong các mô hình chất lượng thay thế được định nghĩa như thế nào?",
     "options": {
       "A": "Loại bỏ các điều kiện gây nguy hiểm cho người vận hành",
@@ -1001,6 +1092,7 @@
     "explanation": "Theo tài liệu, Verifiability là các tính năng thiết kế và lập trình cho phép kiểm chứng hiệu quả thiết kế và lập trình."
   },
   {
+    "id": 92,
     "question": "Yếu tố Expandability (khả năng mở rộng) trong các mô hình chất lượng thay thế được định nghĩa như thế nào?",
     "options": {
       "A": "Loại bỏ các điều kiện nguy hiểm",
@@ -1012,6 +1104,7 @@
     "explanation": "Theo tài liệu, Expandability là các nỗ lực tương lai nhằm cải thiện dịch vụ hoặc bổ sung ứng dụng mới."
   },
   {
+    "id": 93,
     "question": "Yếu tố Safety (tính an toàn) chỉ xuất hiện trong mô hình chất lượng nào?",
     "options": {
       "A": "McCall",
@@ -1023,6 +1116,7 @@
     "explanation": "Theo tài liệu, yếu tố Safety chỉ xuất hiện thêm trong mô hình Deutsch & Willis, không có ở McCall hay Evans & Marciniak."
   },
   {
+    "id": 94,
     "question": "Yếu tố Manageability (khả năng quản lý) trong mô hình Deutsch & Willis được định nghĩa như thế nào?",
     "options": {
       "A": "Loại bỏ điều kiện nguy hiểm cho người vận hành",
@@ -1034,6 +1128,7 @@
     "explanation": "Theo tài liệu, Manageability là các công cụ quản trị hỗ trợ việc sửa đổi phần mềm, chỉ có ở mô hình Deutsch & Willis."
   },
   {
+    "id": 95,
     "question": "Yếu tố Survivability (khả năng duy trì hoạt động) trong mô hình Deutsch & Willis liên quan đến điều gì?",
     "options": {
       "A": "Tính liên tục của dịch vụ",
@@ -1045,6 +1140,7 @@
     "explanation": "Theo tài liệu, Survivability liên quan đến tính liên tục của dịch vụ, chỉ có ở mô hình Deutsch & Willis."
   },
   {
+    "id": 96,
     "question": "Sơ đồ kiến trúc SQA (SQA Architecture) trong tài liệu gồm bao nhiêu nhóm thành phần lớn?",
     "options": {
       "A": "4 nhóm",
@@ -1056,6 +1152,7 @@
     "explanation": "Theo tài liệu, sơ đồ kiến trúc SQA gồm 6 nhóm thành phần lớn."
   },
   {
+    "id": 97,
     "question": "Nhóm 'Pre-project SQA components' trong kiến trúc SQA gồm những nội dung chính nào?",
     "options": {
       "A": "Formal Design Reviews, Peer Reviews, Software Testing",
@@ -1067,6 +1164,7 @@
     "explanation": "Theo tài liệu, nhóm Pre-project SQA components gồm Contract review và Development & Quality Plan."
   },
   {
+    "id": 98,
     "question": "Nhóm 'Project Life Cycle SQA components' trong kiến trúc SQA gồm những nội dung chính nào?",
     "options": {
       "A": "Contract review, Development & Quality Plan",
@@ -1078,6 +1176,7 @@
     "explanation": "Theo tài liệu, nhóm Project Life Cycle SQA components gồm Formal Design Reviews, Peer Reviews, Experts Opinion, Software Testing, Software Maintenance, SQA of External Participants."
   },
   {
+    "id": 99,
     "question": "Nhóm 'Quality Infrastructure components' trong kiến trúc SQA gồm những nội dung chính nào?",
     "options": {
       "A": "Procedures, Support Devices, Training Instructions, Preventive Actions, Configuration Management, Document Control",
@@ -1089,6 +1188,7 @@
     "explanation": "Theo tài liệu, nhóm Quality Infrastructure components gồm Procedures, Support Devices, Training Instructions, Preventive Actions, Configuration Management, Document Control."
   },
   {
+    "id": 100,
     "question": "Nhóm 'Quality Management components' trong kiến trúc SQA gồm những nội dung chính nào?",
     "options": {
       "A": "Project Progress Control, SW Quality Metrics, SW Quality Costs",
@@ -1100,6 +1200,7 @@
     "explanation": "Theo tài liệu, nhóm Quality Management components gồm Project Progress Control, SW Quality Metrics, SW Quality Costs."
   },
   {
+    "id": 101,
     "question": "Nhóm 'Standards' trong kiến trúc SQA gồm những nội dung chính nào?",
     "options": {
       "A": "Procedures, Support Devices",
@@ -1111,6 +1212,7 @@
     "explanation": "Theo tài liệu, nhóm Standards gồm Quality Management Standards và Project Process Standards."
   },
   {
+    "id": 102,
     "question": "Nhóm 'Organizational Base — Human components' trong kiến trúc SQA gồm những nội dung chính nào?",
     "options": {
       "A": "Project Progress Control, SW Quality Metrics",
@@ -1122,6 +1224,7 @@
     "explanation": "Theo tài liệu, nhóm Organizational Base — Human components gồm Management, SQA Unit, SQA Trustees, SQA Committees, SQA Forums."
   },
   {
+    "id": 103,
     "question": "Giai đoạn tiền dự án (Pre-project) gồm bao nhiêu thành phần chính?",
     "options": {
       "A": "1 thành phần",
@@ -1133,6 +1236,7 @@
     "explanation": "Theo tài liệu, có 2 thành phần trong giai đoạn tiền dự án: Contract review và Development & Quality Plan."
   },
   {
+    "id": 104,
     "question": "Contract review (rà soát hợp đồng) gồm việc rà soát chi tiết những gì?",
     "options": {
       "A": "Chỉ Proposal Draft",
@@ -1144,6 +1248,7 @@
     "explanation": "Theo tài liệu, Contract review phải bao gồm việc rà soát chi tiết Proposal Draft (dự thảo đề xuất) và Contract drafts (dự thảo hợp đồng)."
   },
   {
+    "id": 105,
     "question": "Giai đoạn 1 của Contract review là gì?",
     "options": {
       "A": "Review Contract Drafts, rà soát bản dự thảo hợp đồng trước khi ký kết",
@@ -1155,6 +1260,7 @@
     "explanation": "Giai đoạn 1 của Contract review là Review Proposal Draft, rà soát bản dự thảo cuối cùng trước khi gửi cho khách hàng tiềm năng."
   },
   {
+    "id": 106,
     "question": "Giai đoạn 2 của Contract review là gì?",
     "options": {
       "A": "Review Proposal Draft",
@@ -1166,6 +1272,7 @@
     "explanation": "Giai đoạn 2 của Contract review là Review Contract Drafts, rà soát bản dự thảo hợp đồng trước khi ký kết."
   },
   {
+    "id": 107,
     "question": "Mục tiêu nào KHÔNG thuộc việc rà soát chi tiết Proposal Draft theo tài liệu?",
     "options": {
       "A": "Xác định các rủi ro phát triển",
@@ -1177,6 +1284,7 @@
     "explanation": "Ghi lại nhật ký người dùng không thuộc mục tiêu của Proposal Draft review, đây là một chi tiết không có trong tài liệu (là hoạt động của hệ thống, không phải mục tiêu review)."
   },
   {
+    "id": 108,
     "question": "Một trong các mục tiêu của việc rà soát Proposal Draft là gì?",
     "options": {
       "A": "Xác định và bảo vệ quyền sở hữu trí tuệ",
@@ -1188,6 +1296,7 @@
     "explanation": "Đây là một trong các mục tiêu rà soát Proposal Draft: xác định và bảo vệ quyền sở hữu trí tuệ."
   },
   {
+    "id": 109,
     "question": "Mục tiêu của việc rà soát Contract drafts theo tài liệu gồm những gì?",
     "options": {
       "A": "Không còn vấn đề nào chưa được làm rõ; tất cả thỏa thuận phải được ghi chép đầy đủ và chính xác trong hợp đồng",
@@ -1199,6 +1308,7 @@
     "explanation": "Theo tài liệu, mục tiêu Contract drafts review gồm: không còn vấn đề chưa rõ, và mọi thỏa thuận phải được ghi chép đầy đủ, chính xác."
   },
   {
+    "id": 110,
     "question": "Development & Quality Plan có bao nhiêu mục tiêu chính theo tài liệu?",
     "options": {
       "A": "3 mục tiêu",
@@ -1210,6 +1320,7 @@
     "explanation": "Theo tài liệu, Development & Quality Plan có 5 mục tiêu chính."
   },
   {
+    "id": 111,
     "question": "Một trong các mục tiêu của Development & Quality Plan là gì?",
     "options": {
       "A": "Lập lịch các hoạt động phát triển, ước tính nguồn nhân lực và ngân sách cần thiết",
@@ -1221,6 +1332,7 @@
     "explanation": "Đây là mục tiêu đầu tiên của Development & Quality Plan theo tài liệu."
   },
   {
+    "id": 112,
     "question": "Development & Quality Plan có bao nhiêu thành phần (components) theo tài liệu?",
     "options": {
       "A": "5 thành phần",
@@ -1232,6 +1344,7 @@
     "explanation": "Theo tài liệu, Development & Quality Plan có 11 thành phần."
   },
   {
+    "id": 113,
     "question": "Development & Quality Plan có bao nhiêu yếu tố (elements) theo tài liệu?",
     "options": {
       "A": "3 yếu tố",
@@ -1243,6 +1356,7 @@
     "explanation": "Theo tài liệu, Development & Quality Plan có 5 yếu tố: mục tiêu chất lượng, các hoạt động đánh giá đã lên kế hoạch, các bài kiểm thử phần mềm đã lên kế hoạch, các bài kiểm thử chấp nhận cho phần mềm phát triển bên ngoài, kế hoạch quản lý cấu hình."
   },
   {
+    "id": 114,
     "question": "Yếu tố 1 trong 5 yếu tố của Development & Quality Plan là gì?",
     "options": {
       "A": "Kế hoạch quản lý cấu hình",
@@ -1254,6 +1368,7 @@
     "explanation": "Yếu tố 1 trong 5 yếu tố của Development & Quality Plan là Mục tiêu chất lượng."
   },
   {
+    "id": 115,
     "question": "Khi lựa chọn mục tiêu chất lượng trong Development & Quality Plan, tài liệu phân biệt hai loại chỉ số nào?",
     "options": {
       "A": "Chỉ số ngắn hạn và dài hạn",
@@ -1265,6 +1380,7 @@
     "explanation": "Theo tài liệu, khi lựa chọn mục tiêu chất lượng cần cân nhắc các chỉ số định lượng (đánh giá khách quan hơn) và các chỉ số định tính."
   },
   {
+    "id": 116,
     "question": "Yếu tố cuối cùng (yếu tố 5) trong 5 yếu tố của Development & Quality Plan là gì?",
     "options": {
       "A": "Mục tiêu chất lượng",
@@ -1276,6 +1392,7 @@
     "explanation": "Yếu tố 5 trong Development & Quality Plan là Kế hoạch quản lý cấu hình (Configuration Management Plan)."
   },
   {
+    "id": 117,
     "question": "Chương 2 xem xét cách các hoạt động chất lượng được lồng ghép vào những mô hình phát triển phần mềm phổ biến nào?",
     "options": {
       "A": "Waterfall model, V-model, Iterative development model",
@@ -1287,6 +1404,7 @@
     "explanation": "Theo tài liệu, Chương 2 xem xét cách các hoạt động chất lượng (review, testing) được lồng ghép vào Waterfall model, V-model, và Iterative development model."
   },
   {
+    "id": 118,
     "question": "Đặc điểm của việc kiểm thử tốt trong một mô hình vòng đời là gì?",
     "options": {
       "A": "Chỉ kiểm thử sau khi toàn bộ hệ thống hoàn thành",
@@ -1298,6 +1416,7 @@
     "explanation": "Tài liệu nêu đặc điểm quan trọng của việc kiểm thử tốt là với mỗi hoạt động phát triển, luôn có một hoạt động kiểm thử tương ứng."
   },
   {
+    "id": 119,
     "question": "Theo tài liệu, việc phân tích và thiết kế test cho một mức kiểm thử nhất định nên bắt đầu khi nào?",
     "options": {
       "A": "Sau khi toàn bộ dự án hoàn thành",
@@ -1309,6 +1428,7 @@
     "explanation": "Tài liệu nêu việc phân tích và thiết kế test nên bắt đầu ngay trong giai đoạn phát triển tương ứng, đây là ứng dụng của nguyên tắc Early testing."
   },
   {
+    "id": 120,
     "question": "Theo tài liệu, tester nên tham gia review tài liệu vào thời điểm nào?",
     "options": {
       "A": "Chỉ khi tài liệu đã được phê duyệt hoàn tất",
@@ -1320,6 +1440,7 @@
     "explanation": "Tài liệu nêu tester nên tham gia review tài liệu ngay khi có bản nháp đầu tiên, phù hợp với nguyên tắc Early testing."
   },
   {
+    "id": 121,
     "question": "Theo định nghĩa IEEE, Review là gì?",
     "options": {
       "A": "Một quy trình hoặc cuộc họp trong đó một work product được trình bày cho các bên liên quan để nhận góp ý hoặc phê duyệt",
@@ -1331,6 +1452,7 @@
     "explanation": "Theo định nghĩa IEEE trong tài liệu, Review là một quy trình hoặc cuộc họp trong đó work product được trình bày cho các bên liên quan để nhận góp ý hoặc phê duyệt."
   },
   {
+    "id": 122,
     "question": "Mục tiêu trực tiếp (Direct) của Review theo tài liệu gồm những gì?",
     "options": {
       "A": "Trao đổi kiến thức chuyên môn giữa các thành viên",
@@ -1342,6 +1464,7 @@
     "explanation": "Theo tài liệu, mục tiêu trực tiếp của Review gồm: phát hiện lỗi phân tích/thiết kế, nhận diện rủi ro mới, phát hiện sai lệch so với template, và phê duyệt sản phẩm."
   },
   {
+    "id": 123,
     "question": "Mục tiêu gián tiếp (Indirect) của Review theo tài liệu gồm những gì?",
     "options": {
       "A": "Phê duyệt sản phẩm phân tích hoặc thiết kế",
@@ -1353,6 +1476,7 @@
     "explanation": "Theo tài liệu, mục tiêu gián tiếp của Review gồm trao đổi kiến thức chuyên môn và ghi lại lỗi làm cơ sở cho hành động khắc phục tương lai."
   },
   {
+    "id": 124,
     "question": "Lợi ích nào KHÔNG được tài liệu liệt kê là lợi ích của Review?",
     "options": {
       "A": "Phản hồi sớm về các vấn đề chất lượng",
@@ -1364,6 +1488,7 @@
     "explanation": "Tăng gấp đôi số lượng tester không phải lợi ích của Review được nêu trong tài liệu; các lợi ích thực sự gồm phản hồi sớm, nâng cao năng suất, giảm thời gian kiểm thử, cải thiện chất lượng với chi phí thấp, và là kênh giao tiếp."
   },
   {
+    "id": 125,
     "question": "Theo tài liệu, Review có thể được thực hiện trên loại tài liệu nào?",
     "options": {
       "A": "Chỉ code nguồn",
@@ -1375,6 +1500,7 @@
     "explanation": "Tài liệu nêu về nguyên tắc, bất cứ thứ gì được viết ra đều có thể review."
   },
   {
+    "id": 126,
     "question": "Theo bảng đầu vào/đầu ra của một buổi Review, đâu là một trong các đầu vào (inputs)?",
     "options": {
       "A": "Các chỉnh sửa trên sản phẩm được review",
@@ -1386,6 +1512,7 @@
     "explanation": "Theo bảng trong tài liệu, đầu vào của buổi review gồm mục tiêu buổi review, tài liệu cần review, checklist sử dụng, và mẫu báo cáo."
   },
   {
+    "id": 127,
     "question": "Theo bảng đầu vào/đầu ra của một buổi Review, đâu là một trong các đầu ra (deliverables)?",
     "options": {
       "A": "Checklist sử dụng",
@@ -1397,6 +1524,7 @@
     "explanation": "Theo bảng trong tài liệu, đầu ra của buổi review gồm các chỉnh sửa trên sản phẩm, yêu cầu thay đổi, đề xuất cải tiến quy trình, và các số liệu đo lường."
   },
   {
+    "id": 128,
     "question": "Tài liệu phân biệt bao nhiêu loại Review chính, theo mức độ trang trọng tăng dần?",
     "options": {
       "A": "2 loại",
@@ -1408,6 +1536,7 @@
     "explanation": "Tài liệu phân biệt 3 loại Review chính theo mức độ trang trọng tăng dần: Walkthrough, Inspection, Technical review/Peer review."
   },
   {
+    "id": 129,
     "question": "Walkthrough là loại review có đặc điểm gì?",
     "options": {
       "A": "Là buổi họp không chính thức (informal), do chính tác giả (author) chủ trì",
@@ -1419,6 +1548,7 @@
     "explanation": "Theo tài liệu, Walkthrough là buổi họp không chính thức, do chính tác giả chủ trì, trình bày sản phẩm cho đồng nghiệp và xin góp ý."
   },
   {
+    "id": 130,
     "question": "Mục tiêu của Walkthrough theo tài liệu là gì?",
     "options": {
       "A": "Tìm lỗi có hệ thống với vai trò phân định rõ ràng",
@@ -1430,6 +1560,7 @@
     "explanation": "Theo tài liệu, mục tiêu Walkthrough là giới thiệu tài liệu, giúp người nghe làm quen, thu thập phản hồi, và đạt được sự đồng thuận."
   },
   {
+    "id": 131,
     "question": "Walkthrough đặc biệt hữu ích trong trường hợp nào theo tài liệu?",
     "options": {
       "A": "Khi có người ngoài lĩnh vực phần mềm tham gia, hoặc dùng cho tài liệu cấp cao",
@@ -1441,6 +1572,7 @@
     "explanation": "Tài liệu nêu Walkthrough đặc biệt hữu ích khi có người ngoài lĩnh vực phần mềm tham gia, hoặc dùng cho các tài liệu cấp cao (high-level documents)."
   },
   {
+    "id": 132,
     "question": "Inspection là loại review có đặc điểm gì?",
     "options": {
       "A": "Là buổi họp không chính thức do tác giả chủ trì",
@@ -1452,6 +1584,7 @@
     "explanation": "Theo tài liệu, Inspection là loại review chính thức nhất, có quy trình chặt chẽ và hệ thống (prescribed and systematic), với các vai trò rõ ràng."
   },
   {
+    "id": 133,
     "question": "Trong Inspection, các vai trò được phân định gồm những gì?",
     "options": {
       "A": "Tác giả, khách hàng, quản lý",
@@ -1463,6 +1596,7 @@
     "explanation": "Theo tài liệu, các vai trò trong Inspection gồm moderator, reader, và recorder."
   },
   {
+    "id": 134,
     "question": "Ai thường chủ trì buổi Inspection theo tài liệu?",
     "options": {
       "A": "Chính tác giả của tài liệu",
@@ -1474,6 +1608,7 @@
     "explanation": "Theo tài liệu, Inspection thường do một moderator được đào tạo bài bản chủ trì, không phải chính tác giả."
   },
   {
+    "id": 135,
     "question": "Trong Inspection, lỗi phát hiện được ghi vào đâu và kết quả buổi Inspection cần có gì?",
     "options": {
       "A": "Ghi vào email cá nhân, không cần báo cáo",
@@ -1485,6 +1620,7 @@
     "explanation": "Theo tài liệu, lỗi phát hiện trong Inspection được ghi vào logging list, và kết quả buổi inspection phải có báo cáo bằng văn bản."
   },
   {
+    "id": 136,
     "question": "Mục tiêu của Inspection theo tài liệu là gì?",
     "options": {
       "A": "Sửa lỗi ngay tại chỗ",
@@ -1496,6 +1632,7 @@
     "explanation": "Theo tài liệu, mục tiêu Inspection là tìm ra vấn đề (không sửa tại chỗ), giúp tác giả nâng cao chất lượng, đào tạo nhân viên mới, và rút kinh nghiệm cải tiến quy trình."
   },
   {
+    "id": 137,
     "question": "Technical review / Peer review có đặc điểm gì theo tài liệu?",
     "options": {
       "A": "Là buổi họp thảo luận tập trung vào đạt được sự đồng thuận về nội dung kỹ thuật, KHÔNG có sự tham gia của quản lý",
@@ -1507,6 +1644,7 @@
     "explanation": "Theo tài liệu, Technical review/Peer review là buổi họp tập trung vào đồng thuận kỹ thuật, có sự tham gia của đồng nghiệp và chuyên gia kỹ thuật nhưng không có quản lý tham gia."
   },
   {
+    "id": 138,
     "question": "Ai tham gia Technical review / Peer review theo tài liệu?",
     "options": {
       "A": "Chỉ có quản lý dự án",
@@ -1518,6 +1656,7 @@
     "explanation": "Theo tài liệu, Technical review có sự tham gia của đồng nghiệp và các chuyên gia kỹ thuật như kiến trúc sư, chief designer, key users."
   },
   {
+    "id": 139,
     "question": "Mục tiêu của Technical review theo tài liệu là gì?",
     "options": {
       "A": "Đánh giá giá trị các khái niệm kỹ thuật và phương án thay thế; thiết lập tính nhất quán; đảm bảo khái niệm kỹ thuật được sử dụng đúng",
@@ -1529,6 +1668,7 @@
     "explanation": "Theo tài liệu, mục tiêu Technical review là đánh giá giá trị các khái niệm kỹ thuật, thiết lập tính nhất quán, và đảm bảo khái niệm kỹ thuật được sử dụng đúng."
   },
   {
+    "id": 140,
     "question": "Mục tiêu của kiểm thử (Testing) theo Chương 2 của tài liệu gồm những gì?",
     "options": {
       "A": "Chỉ để tìm ra người viết code sai",
@@ -1540,6 +1680,7 @@
     "explanation": "Theo tài liệu, mục tiêu kiểm thử gồm: phát hiện lỗi (to detect defects), xác định sản phẩm đáp ứng yêu cầu, và chứng minh phù hợp mục đích sử dụng (fit for purpose)."
   },
   {
+    "id": 141,
     "question": "Quy trình kiểm thử cơ bản (Fundamental Test Process) gồm mấy giai đoạn nối tiếp nhau?",
     "options": {
       "A": "3 giai đoạn",
@@ -1551,6 +1692,7 @@
     "explanation": "Theo tài liệu, Fundamental Test Process gồm 5 giai đoạn nối tiếp nhau, có thể lặp lại và chồng lấn trong thực tế."
   },
   {
+    "id": 142,
     "question": "Giai đoạn 1 của Fundamental Test Process là gì?",
     "options": {
       "A": "Test analysis and design",
@@ -1562,6 +1704,7 @@
     "explanation": "Giai đoạn 1 của Fundamental Test Process là Planning and Control — lập kế hoạch và kiểm soát kiểm thử."
   },
   {
+    "id": 143,
     "question": "Giai đoạn 2 của Fundamental Test Process là gì?",
     "options": {
       "A": "Test planning and control",
@@ -1573,6 +1716,7 @@
     "explanation": "Giai đoạn 2 của Fundamental Test Process là Analysis and Design — phân tích và thiết kế test."
   },
   {
+    "id": 144,
     "question": "Giai đoạn 3 của Fundamental Test Process là gì?",
     "options": {
       "A": "Test planning and control",
@@ -1584,6 +1728,7 @@
     "explanation": "Giai đoạn 3 của Fundamental Test Process là Implementation and Execution — triển khai và thực thi test."
   },
   {
+    "id": 145,
     "question": "Giai đoạn 4 của Fundamental Test Process là gì?",
     "options": {
       "A": "Reporting and Evaluating Criteria — báo cáo và đánh giá tiêu chí hoàn thành",
@@ -1595,6 +1740,7 @@
     "explanation": "Giai đoạn 4 của Fundamental Test Process là Reporting and Evaluating Criteria — báo cáo và đánh giá tiêu chí hoàn thành."
   },
   {
+    "id": 146,
     "question": "Giai đoạn 5 (cuối cùng) của Fundamental Test Process là gì?",
     "options": {
       "A": "Test planning and control",
@@ -1606,6 +1752,7 @@
     "explanation": "Giai đoạn 5, giai đoạn cuối cùng của Fundamental Test Process là Test Closure Activities — kết thúc kiểm thử."
   },
   {
+    "id": 147,
     "question": "Test planning (lập kế hoạch) trong giai đoạn 1 gồm bao nhiêu công việc chính theo tài liệu?",
     "options": {
       "A": "3 công việc",
@@ -1617,6 +1764,7 @@
     "explanation": "Theo tài liệu, Test planning gồm 5 công việc chính."
   },
   {
+    "id": 148,
     "question": "Một trong các công việc chính của Test planning là gì?",
     "options": {
       "A": "Xác định phạm vi, rủi ro và mục tiêu của việc kiểm thử",
@@ -1628,6 +1776,7 @@
     "explanation": "Đây là công việc đầu tiên trong 5 công việc chính của Test planning theo tài liệu."
   },
   {
+    "id": 149,
     "question": "Test planning bao gồm việc xác định tiêu chí nào để biết khi nào kiểm thử được coi là hoàn thành?",
     "options": {
       "A": "Entry criteria",
@@ -1639,6 +1788,7 @@
     "explanation": "Theo tài liệu, một công việc của Test planning là xác định tiêu chí thoát (exit criteria) để biết khi nào việc kiểm thử được coi là hoàn thành."
   },
   {
+    "id": 150,
     "question": "Test control (kiểm soát) là hoạt động như thế nào theo tài liệu?",
     "options": {
       "A": "Chỉ diễn ra một lần vào cuối dự án",
@@ -1650,6 +1800,7 @@
     "explanation": "Theo tài liệu, Test control là hoạt động diễn ra liên tục để theo dõi tình trạng và đưa ra hành động khắc phục khi cần."
   },
   {
+    "id": 151,
     "question": "Test control gồm bao nhiêu công việc chính theo tài liệu?",
     "options": {
       "A": "3 công việc",
@@ -1661,6 +1812,7 @@
     "explanation": "Theo tài liệu, Test control gồm 5 công việc chính."
   },
   {
+    "id": 152,
     "question": "Một trong các công việc chính của Test control là gì?",
     "options": {
       "A": "Đo lường và phân tích kết quả review và testing",
@@ -1672,6 +1824,7 @@
     "explanation": "Đây là một trong 5 công việc chính của Test control theo tài liệu."
   },
   {
+    "id": 153,
     "question": "Trong Test control, các quyết định nào có thể được đưa ra?",
     "options": {
       "A": "Chỉ có thể quyết định dừng test",
@@ -1683,6 +1836,7 @@
     "explanation": "Theo tài liệu, Test control bao gồm việc ra quyết định: tiếp tục test, dừng test, cho phát hành phần mềm hay giữ lại để làm thêm."
   },
   {
+    "id": 154,
     "question": "Giai đoạn Test analysis and design (Giai đoạn 2) làm gì theo tài liệu?",
     "options": {
       "A": "Biến các mục tiêu kiểm thử tổng quát thành các điều kiện test và test case cụ thể, có thể thực thi được",
@@ -1694,6 +1848,7 @@
     "explanation": "Theo tài liệu, giai đoạn Test analysis and design biến các mục tiêu kiểm thử tổng quát thành các test condition và test case cụ thể."
   },
   {
+    "id": 155,
     "question": "Giai đoạn Test analysis and design gồm bao nhiêu công việc chính theo tài liệu?",
     "options": {
       "A": "3 công việc",
@@ -1705,6 +1860,7 @@
     "explanation": "Theo tài liệu, giai đoạn Test analysis and design gồm 5 công việc chính."
   },
   {
+    "id": 156,
     "question": "Trong Test analysis and design, việc rà soát cơ sở kiểm thử (test basis) như yêu cầu, kiến trúc, thiết kế, giao diện được thực hiện để làm gì?",
     "options": {
       "A": "Để xem xét đặc tả của phần mềm cần test, có thể bắt đầu thiết kế black-box test ngay cả trước khi code tồn tại",
@@ -1716,6 +1872,7 @@
     "explanation": "Theo tài liệu, việc rà soát test basis giúp xem xét đặc tả phần mềm và có thể bắt đầu thiết kế một số loại test (black-box) trước khi code tồn tại."
   },
   {
+    "id": 157,
     "question": "Trong Test analysis and design, việc đánh giá 'testability' của test basis nghĩa là gì?",
     "options": {
       "A": "Đánh giá khả năng kiểm thử được của test basis và đối tượng test",
@@ -1727,6 +1884,7 @@
     "explanation": "Theo tài liệu, đánh giá testability là đánh giá khả năng kiểm thử được của test basis và đối tượng test."
   },
   {
+    "id": 158,
     "question": "Ví dụ trong tài liệu về một yêu cầu KHÔNG thể kiểm thử được là gì?",
     "options": {
       "A": "'Phần mềm cần phản hồi trong 5 giây khi có 20 người dùng đăng nhập'",
@@ -1738,6 +1896,7 @@
     "explanation": "Tài liệu đưa ví dụ yêu cầu 'phần mềm cần phản hồi đủ nhanh' là KHÔNG thể kiểm thử được vì mơ hồ, khác với yêu cầu cụ thể 'phản hồi trong 5 giây'."
   },
   {
+    "id": 159,
     "question": "Trong Test analysis and design, việc xác định và ưu tiên các test conditions dựa trên điều gì?",
     "options": {
       "A": "Phân tích các hạng mục test, đặc tả, hành vi và cấu trúc",
@@ -1749,6 +1908,7 @@
     "explanation": "Theo tài liệu, việc xác định và ưu tiên test conditions dựa trên phân tích các hạng mục test, đặc tả, hành vi và cấu trúc."
   },
   {
+    "id": 160,
     "question": "Trong Test analysis and design, công việc thiết kế thiết lập môi trường test bao gồm những gì?",
     "options": {
       "A": "Chỉ xác định phần cứng cần thiết",
@@ -1760,6 +1920,7 @@
     "explanation": "Theo tài liệu, thiết kế thiết lập môi trường test bao gồm xác định hạ tầng/công cụ cần thiết, kể cả các công cụ không thuộc IT."
   },
   {
+    "id": 161,
     "question": "Giai đoạn Test implementation and execution (Giai đoạn 3) gồm bao nhiêu công việc chính theo tài liệu?",
     "options": {
       "A": "5 công việc",
@@ -1771,6 +1932,7 @@
     "explanation": "Theo tài liệu, giai đoạn Test implementation and execution gồm 9 công việc chính."
   },
   {
+    "id": 162,
     "question": "Trong giai đoạn Test implementation and execution, test suite được tạo ra để làm gì?",
     "options": {
       "A": "Để thực thi hiệu quả, là tập hợp logic các test case cùng hoạt động với nhau",
@@ -1782,6 +1944,7 @@
     "explanation": "Theo tài liệu, test suite được tạo từ các test case để thực thi hiệu quả, là tập hợp logic các test case hoạt động cùng nhau."
   },
   {
+    "id": 163,
     "question": "Trong giai đoạn Test implementation and execution, việc xác minh môi trường test được thực hiện như thế nào?",
     "options": {
       "A": "Không cần xác minh môi trường test",
@@ -1793,6 +1956,7 @@
     "explanation": "Theo tài liệu, việc xác minh môi trường test có thể thực hiện bằng cách chạy thử một số test cụ thể để kiểm tra."
   },
   {
+    "id": 164,
     "question": "Trong giai đoạn Test implementation and execution, khi có sai lệch giữa kết quả thực tế và mong đợi, tester cần làm gì?",
     "options": {
       "A": "Bỏ qua sai lệch nếu nhỏ",
@@ -1804,6 +1968,7 @@
     "explanation": "Theo tài liệu, khi có sai lệch, tester cần báo cáo dưới dạng incident kèm đầy đủ thông tin và phân tích nguyên nhân."
   },
   {
+    "id": 165,
     "question": "Trong giai đoạn Test implementation and execution, việc chạy lại test đã fail trước đó để xác nhận đã sửa được gọi là gì?",
     "options": {
       "A": "Regression testing",
@@ -1815,6 +1980,7 @@
     "explanation": "Theo tài liệu, việc chạy lại chính xác test đã fail trước đó để xác nhận lỗi đã được khắc phục là confirmation testing (re-testing)."
   },
   {
+    "id": 166,
     "question": "Trong giai đoạn Test implementation and execution, việc chạy các test để đảm bảo không có lỗi mới phát sinh ở vùng không thay đổi được gọi là gì?",
     "options": {
       "A": "Confirmation testing",
@@ -1826,6 +1992,7 @@
     "explanation": "Theo tài liệu, việc chạy các test để đảm bảo không có lỗi mới phát sinh ở vùng không thay đổi hoặc việc sửa lỗi không kéo theo lỗi khác được gọi là regression testing."
   },
   {
+    "id": 167,
     "question": "Giai đoạn Evaluating exit criteria and reporting (Giai đoạn 4) làm gì theo tài liệu?",
     "options": {
       "A": "Đánh giá kết quả thực thi test so với mục tiêu đã đề ra, để biết đã kiểm thử 'đủ' hay chưa",
@@ -1837,6 +2004,7 @@
     "explanation": "Theo tài liệu, giai đoạn Evaluating exit criteria and reporting là hoạt động đánh giá kết quả thực thi test so với mục tiêu để biết đã kiểm thử đủ hay chưa."
   },
   {
+    "id": 168,
     "question": "Giai đoạn Evaluating exit criteria and reporting gồm bao nhiêu công việc chính theo tài liệu?",
     "options": {
       "A": "2 công việc",
@@ -1848,6 +2016,7 @@
     "explanation": "Theo tài liệu, giai đoạn Evaluating exit criteria and reporting gồm 3 công việc chính."
   },
   {
+    "id": 169,
     "question": "Trong giai đoạn Evaluating exit criteria and reporting, một trong các công việc chính là gì?",
     "options": {
       "A": "Viết báo cáo tổng kết kiểm thử (test summary report) cho các bên liên quan",
@@ -1859,6 +2028,7 @@
     "explanation": "Đây là một trong 3 công việc chính của giai đoạn Evaluating exit criteria and reporting theo tài liệu."
   },
   {
+    "id": 170,
     "question": "Giai đoạn Test closure activities (Giai đoạn 5) thường được thực hiện khi nào theo tài liệu?",
     "options": {
       "A": "Chỉ khi dự án bị hủy",
@@ -1870,6 +2040,7 @@
     "explanation": "Theo tài liệu, Test closure activities thường thực hiện khi phần mềm đã bàn giao, đã thu thập đủ thông tin, dự án bị hủy, hoặc đạt milestone cụ thể."
   },
   {
+    "id": 171,
     "question": "Giai đoạn Test closure activities gồm bao nhiêu công việc chính theo tài liệu?",
     "options": {
       "A": "2 công việc",
@@ -1881,6 +2052,7 @@
     "explanation": "Theo tài liệu, giai đoạn Test closure activities gồm 4 công việc chính."
   },
   {
+    "id": 172,
     "question": "Trong giai đoạn Test closure activities, testware cần được xử lý như thế nào?",
     "options": {
       "A": "Xóa bỏ ngay sau khi dự án kết thúc",
@@ -1892,6 +2064,7 @@
     "explanation": "Theo tài liệu, một công việc của Test closure activities là hoàn thiện và lưu trữ testware để tái sử dụng, sau đó bàn giao cho bộ phận bảo trì."
   },
   {
+    "id": 173,
     "question": "Trong giai đoạn Test closure activities, việc phân tích bài học kinh nghiệm nhằm mục đích gì?",
     "options": {
       "A": "Đưa vào cải tiến quy trình kiểm thử cho các dự án/phiên bản tương lai",
@@ -1903,6 +2076,7 @@
     "explanation": "Theo tài liệu, việc phân tích bài học kinh nghiệm nhằm đưa vào cải tiến quy trình kiểm thử cho các dự án/phiên bản tương lai."
   },
   {
+    "id": 174,
     "question": "Tài liệu chia kiểm thử thành bao nhiêu mức (Test Levels)?",
     "options": {
       "A": "3 mức",
@@ -1914,6 +2088,7 @@
     "explanation": "Theo tài liệu, có 4 mức kiểm thử (Test Levels): Component test, Integration test, System test, Acceptance test."
   },
   {
+    "id": 175,
     "question": "Component test (Unit test) kiểm tra đối tượng nào theo tài liệu?",
     "options": {
       "A": "Sự tương tác giữa các thành phần của hệ thống",
@@ -1925,6 +2100,7 @@
     "explanation": "Theo tài liệu, Component test (Unit test) kiểm tra từng thành phần phần mềm riêng lẻ được test riêng biệt."
   },
   {
+    "id": 176,
     "question": "Ai thường thực hiện Component test theo tài liệu?",
     "options": {
       "A": "Khách hàng",
@@ -1936,6 +2112,7 @@
     "explanation": "Theo tài liệu, Component test thường do đội phát triển thực hiện sau khi code xong, trước khi integration test."
   },
   {
+    "id": 177,
     "question": "Cơ sở kiểm thử (test basis) của Component test là gì?",
     "options": {
       "A": "Yêu cầu người dùng, use case",
@@ -1947,6 +2124,7 @@
     "explanation": "Theo bảng trong tài liệu, cơ sở kiểm thử của Component test là yêu cầu của component, thiết kế chi tiết, và code."
   },
   {
+    "id": 178,
     "question": "Integration test kiểm tra điều gì theo tài liệu?",
     "options": {
       "A": "Giao diện (interface) giữa các thành phần, sự tương tác giữa các phần của hệ thống hoặc giữa các hệ thống",
@@ -1958,6 +2136,7 @@
     "explanation": "Theo tài liệu, Integration test kiểm tra giao diện và sự tương tác giữa các thành phần của hệ thống hoặc giữa các hệ thống."
   },
   {
+    "id": 179,
     "question": "Integration test gồm những loại nào theo tài liệu?",
     "options": {
       "A": "Component integration test và system integration test",
@@ -1969,6 +2148,7 @@
     "explanation": "Theo tài liệu, Integration test gồm component integration test (giữa các thành phần phần mềm) và system integration test (giữa các hệ thống khác nhau)."
   },
   {
+    "id": 180,
     "question": "System test kiểm tra điều gì theo tài liệu?",
     "options": {
       "A": "Một hệ thống đã được tích hợp hoàn chỉnh để xác minh hệ thống đáp ứng đúng yêu cầu đã chỉ định, cả chức năng lẫn phi chức năng",
@@ -1980,6 +2160,7 @@
     "explanation": "Theo tài liệu, System test kiểm tra hệ thống đã tích hợp hoàn chỉnh, xác minh đáp ứng đúng yêu cầu cả chức năng lẫn phi chức năng."
   },
   {
+    "id": 181,
     "question": "Ai thường thực hiện System test theo tài liệu?",
     "options": {
       "A": "Đội phát triển",
@@ -1991,6 +2172,7 @@
     "explanation": "Theo tài liệu, System test thường do một đội độc lập (third party) hoặc business analyst thực hiện."
   },
   {
+    "id": 182,
     "question": "Acceptance test tập trung vào điều gì theo tài liệu?",
     "options": {
       "A": "Tìm lỗi là trọng tâm chính",
@@ -2002,6 +2184,7 @@
     "explanation": "Theo tài liệu, Acceptance test thường tập trung vào kiểm thử xác nhận (validation), tìm lỗi không phải trọng tâm chính."
   },
   {
+    "id": 183,
     "question": "Ai thường thực hiện Acceptance test theo tài liệu?",
     "options": {
       "A": "Đội phát triển",
@@ -2013,6 +2196,7 @@
     "explanation": "Theo tài liệu, Acceptance test thường do khách hàng hoặc đội test độc lập thực hiện."
   },
   {
+    "id": 184,
     "question": "Trong chiến lược Integration test Big-bang, các thành phần được tích hợp như thế nào?",
     "options": {
       "A": "Tất cả các thành phần/hệ thống đã test được tích hợp cùng lúc, sau đó test toàn bộ như một khối thống nhất",
@@ -2024,6 +2208,7 @@
     "explanation": "Theo tài liệu, chiến lược Big-bang tích hợp tất cả các thành phần cùng lúc rồi test toàn bộ như một khối thống nhất."
   },
   {
+    "id": 185,
     "question": "Ưu điểm của chiến lược Big-bang theo tài liệu là gì?",
     "options": {
       "A": "Lỗi được phát hiện sớm trong tập hợp nhỏ hơn",
@@ -2035,6 +2220,7 @@
     "explanation": "Theo tài liệu, ưu điểm của Big-bang là chỉ bắt đầu integration test khi mọi thứ hoàn thiện, không cần mô phỏng bằng stub/driver."
   },
   {
+    "id": 186,
     "question": "Nhược điểm của chiến lược Big-bang theo tài liệu là gì?",
     "options": {
       "A": "Tốn thời gian, khó xác định nguyên nhân gây lỗi; re-test sau khi sửa cũng phức tạp hơn",
@@ -2046,6 +2232,7 @@
     "explanation": "Theo tài liệu, nhược điểm của Big-bang là tốn thời gian, khó xác định nguyên nhân gây lỗi, và re-test phức tạp hơn."
   },
   {
+    "id": 187,
     "question": "Trong chiến lược Integration test Incremental, các thành phần được tích hợp như thế nào?",
     "options": {
       "A": "Tất cả thành phần được tích hợp cùng lúc",
@@ -2057,6 +2244,7 @@
     "explanation": "Theo tài liệu, chiến lược Incremental tích hợp các thành phần lần lượt từng cái một, sau mỗi bước lại thực hiện test (Baseline 0, Baseline 1...)."
   },
   {
+    "id": 188,
     "question": "Ưu điểm của chiến lược Incremental theo tài liệu là gì?",
     "options": {
       "A": "Không cần mô phỏng stub/driver",
@@ -2068,6 +2256,7 @@
     "explanation": "Theo tài liệu, ưu điểm của Incremental là lỗi được phát hiện sớm trong tập hợp nhỏ hơn, dễ xác định nguyên nhân."
   },
   {
+    "id": 189,
     "question": "Nhược điểm của chiến lược Incremental theo tài liệu là gì?",
     "options": {
       "A": "Khó xác định nguyên nhân gây lỗi",
@@ -2079,6 +2268,7 @@
     "explanation": "Theo tài liệu, nhược điểm của Incremental là tốn thời gian phát triển stub và driver phục vụ test."
   },
   {
+    "id": 190,
     "question": "Stub trong test tích hợp Incremental là gì?",
     "options": {
       "A": "Thành phần gọi tới component đang được test",
@@ -2090,6 +2280,7 @@
     "explanation": "Theo tài liệu, Stub là thành phần giả thay thế cho component được gọi tới khi component đó chưa sẵn sàng."
   },
   {
+    "id": 191,
     "question": "Driver trong test tích hợp Incremental là gì?",
     "options": {
       "A": "Thành phần gọi tới component đang được test, dùng khi component gọi (phía trên) chưa sẵn sàng",
@@ -2101,6 +2292,7 @@
     "explanation": "Theo tài liệu, Driver là thành phần gọi tới component đang được test, dùng khi component gọi (phía trên) chưa sẵn sàng."
   },
   {
+    "id": 192,
     "question": "Tài liệu liệt kê bao nhiêu phương pháp tích hợp Incremental?",
     "options": {
       "A": "2 phương pháp",
@@ -2112,6 +2304,7 @@
     "explanation": "Theo tài liệu, có 3 phương pháp tích hợp incremental: Top-down, Bottom-up, Functional incremental."
   },
   {
+    "id": 193,
     "question": "Phương pháp tích hợp Top-down có ưu điểm gì theo tài liệu?",
     "options": {
       "A": "Kiểm thử cấu trúc điều khiển quan trọng trước và nhiều nhất, có thể demo hệ thống sớm",
@@ -2123,6 +2316,7 @@
     "explanation": "Theo tài liệu, ưu điểm của Top-down là kiểm thử cấu trúc điều khiển quan trọng trước, có thể demo hệ thống sớm (menu hoạt động)."
   },
   {
+    "id": 194,
     "question": "Phương pháp tích hợp Top-down có nhược điểm gì theo tài liệu?",
     "options": {
       "A": "Cần stub, chi tiết bị để lại sau cùng",
@@ -2134,6 +2328,7 @@
     "explanation": "Theo tài liệu, nhược điểm của Top-down là cần stub và các chi tiết bị để lại sau cùng."
   },
   {
+    "id": 195,
     "question": "Phương pháp tích hợp Bottom-up có ưu điểm gì theo tài liệu?",
     "options": {
       "A": "Có thể demo hệ thống sớm",
@@ -2145,6 +2340,7 @@
     "explanation": "Theo tài liệu, ưu điểm của Bottom-up là các mức thấp nhất được test kỹ và trước tiên."
   },
   {
+    "id": 196,
     "question": "Phương pháp tích hợp Bottom-up có nhược điểm gì theo tài liệu?",
     "options": {
       "A": "Không có hệ thống hoạt động hoàn chỉnh cho đến baseline cuối cùng, cần cả driver lẫn stub, vấn đề điều khiển lớn phát hiện sau cùng",
@@ -2156,6 +2352,7 @@
     "explanation": "Theo tài liệu, nhược điểm của Bottom-up gồm không có hệ thống hoàn chỉnh cho đến baseline cuối, cần cả driver và stub."
   },
   {
+    "id": 197,
     "question": "Phương pháp tích hợp Functional incremental thực hiện theo cơ sở nào?",
     "options": {
       "A": "Theo cấu trúc kiến trúc từ trên xuống",
@@ -2167,6 +2364,7 @@
     "explanation": "Theo tài liệu, Functional incremental tích hợp và test dựa trên các chức năng, theo tài liệu đặc tả chức năng."
   },
   {
+    "id": 198,
     "question": "User acceptance test theo tài liệu xác minh điều gì?",
     "options": {
       "A": "Mức độ phù hợp sử dụng (fitness for use) của hệ thống với người dùng nghiệp vụ",
@@ -2178,6 +2376,7 @@
     "explanation": "Theo tài liệu, User acceptance test xác minh mức độ phù hợp sử dụng của hệ thống với người dùng nghiệp vụ."
   },
   {
+    "id": 199,
     "question": "Operational acceptance test (production acceptance test) theo tài liệu do ai thực hiện và kiểm tra gì?",
     "options": {
       "A": "Do khách hàng thực hiện, kiểm tra tiêu chí hợp đồng",
@@ -2189,6 +2388,7 @@
     "explanation": "Theo tài liệu, Operational acceptance test thường do quản trị viên hệ thống thực hiện, kiểm tra các yêu cầu vận hành như backup/restore, khôi phục sau thảm họa, quản lý người dùng."
   },
   {
+    "id": 200,
     "question": "Contract / regulation acceptance test theo tài liệu kiểm tra dựa trên tiêu chí nào?",
     "options": {
       "A": "Tiêu chí chấp nhận trong hợp đồng và các thay đổi đã thống nhất; hoặc theo quy định pháp lý, an toàn phải tuân thủ",
@@ -2200,6 +2400,7 @@
     "explanation": "Theo tài liệu, Contract/regulation acceptance test kiểm tra theo tiêu chí chấp nhận trong hợp đồng hoặc theo quy định pháp lý cần tuân thủ."
   },
   {
+    "id": 201,
     "question": "Alpha test và Beta test theo tài liệu dùng cho loại phần mềm nào?",
     "options": {
       "A": "Phần mềm nội bộ doanh nghiệp",
@@ -2211,6 +2412,7 @@
     "explanation": "Theo tài liệu, Alpha test và Beta test dùng cho phần mềm phát triển cho thị trường đại chúng (COTS - Commercial Off-The-Shelf)."
   },
   {
+    "id": 202,
     "question": "Alpha test được thực hiện ở đâu và bởi ai theo tài liệu?",
     "options": {
       "A": "Tại địa điểm của khách hàng, do khách hàng thực hiện",
@@ -2222,6 +2424,7 @@
     "explanation": "Theo tài liệu, Alpha test là mô phỏng hoặc test thực tế được thực hiện tại địa điểm nhà phát triển, mời người dùng tiềm năng và thành viên nội bộ dùng thử."
   },
   {
+    "id": 203,
     "question": "Beta test (field testing) được thực hiện ở đâu và bởi ai theo tài liệu?",
     "options": {
       "A": "Tại địa điểm nhà phát triển, do nhân viên nội bộ thực hiện",
@@ -2233,6 +2436,7 @@
     "explanation": "Theo tài liệu, Beta test (field testing) do khách hàng/khách hàng tiềm năng thực hiện tại địa điểm của chính họ."
   },
   {
+    "id": 204,
     "question": "Tài liệu nêu có bao nhiêu loại kiểm thử chính (Test Types)?",
     "options": {
       "A": "3 loại",
@@ -2244,6 +2448,7 @@
     "explanation": "Theo tài liệu, có 4 loại kiểm thử chính (Test Types): Functional test, Non-functional test, Structural test, Testing related to changes."
   },
   {
+    "id": 205,
     "question": "Functional test tập trung vào điều gì theo tài liệu?",
     "options": {
       "A": "'Cái gì' hệ thống làm — các chức năng thường được mô tả trong tài liệu",
@@ -2255,6 +2460,7 @@
     "explanation": "Theo tài liệu, Functional test tập trung vào 'cái gì' hệ thống làm, tức các chức năng."
   },
   {
+    "id": 206,
     "question": "Functional test có hai cách tiếp cận nào theo tài liệu?",
     "options": {
       "A": "Requirements-based và business process-based",
@@ -2266,6 +2472,7 @@
     "explanation": "Theo tài liệu, Functional test có hai cách tiếp cận: requirements-based (dựa trên đặc tả yêu cầu) và business process-based (dựa trên kịch bản/quy trình nghiệp vụ)."
   },
   {
+    "id": 207,
     "question": "Non-functional test tập trung vào điều gì theo tài liệu?",
     "options": {
       "A": "'Cái gì' hệ thống làm",
@@ -2277,6 +2484,7 @@
     "explanation": "Theo tài liệu, Non-functional test tập trung vào 'hệ thống hoạt động tốt đến đâu', đo trên một thang đo như thời gian phản hồi."
   },
   {
+    "id": 208,
     "question": "Non-functional test theo tài liệu bao gồm những loại nào?",
     "options": {
       "A": "Performance testing, load testing, stress testing, usability testing, maintainability testing, reliability testing, portability testing",
@@ -2288,6 +2496,7 @@
     "explanation": "Theo tài liệu, Non-functional test bao gồm performance testing, load testing, stress testing, usability testing, maintainability testing, reliability testing, portability testing."
   },
   {
+    "id": 209,
     "question": "Structural test còn được gọi là gì theo tài liệu?",
     "options": {
       "A": "'Black-box testing'",
@@ -2299,6 +2508,7 @@
     "explanation": "Theo tài liệu, Structural test còn gọi là 'white-box' hoặc 'glass-box' testing."
   },
   {
+    "id": 210,
     "question": "Structural test thường được áp dụng nhiều nhất ở mức nào theo tài liệu?",
     "options": {
       "A": "Chỉ ở mức acceptance",
@@ -2310,6 +2520,7 @@
     "explanation": "Theo tài liệu, Structural test thường áp dụng nhiều nhất ở mức component và integration, nhưng cũng có thể áp dụng ở mức system/acceptance."
   },
   {
+    "id": 211,
     "question": "Testing related to changes (Kiểm thử liên quan đến thay đổi) gồm mấy kỹ thuật theo tài liệu?",
     "options": {
       "A": "1 kỹ thuật",
@@ -2321,6 +2532,7 @@
     "explanation": "Theo tài liệu, Testing related to changes gồm 2 kỹ thuật: Confirmation testing (re-testing) và Regression testing."
   },
   {
+    "id": 212,
     "question": "Theo bảng phân biệt trong tài liệu, mục đích của Confirmation testing (Re-testing) là gì?",
     "options": {
       "A": "Chạy lại các test case đã từng thực thi trước đó để đảm bảo thay đổi không phát sinh lỗi mới ở nơi khác",
@@ -2332,6 +2544,7 @@
     "explanation": "Theo bảng so sánh, mục đích Confirmation testing là chạy lại chính xác test đã fail trước đó để xác nhận lỗi đã được khắc phục."
   },
   {
+    "id": 213,
     "question": "Theo bảng phân biệt trong tài liệu, mục đích của Regression testing là gì?",
     "options": {
       "A": "Chỉ chạy lại test đã fail trước đó",
@@ -2343,6 +2556,7 @@
     "explanation": "Theo bảng so sánh, mục đích Regression testing là chạy lại các test case đã thực thi trước đó (kể cả đã pass) để đảm bảo không phát sinh lỗi mới."
   },
   {
+    "id": 214,
     "question": "Yêu cầu của Confirmation testing theo bảng so sánh trong tài liệu là gì?",
     "options": {
       "A": "Thực hiện bất kỳ lúc nào không cần điều kiện",
@@ -2354,6 +2568,7 @@
     "explanation": "Theo bảng so sánh, yêu cầu Confirmation testing là phải lặp lại chính xác cùng môi trường, input và precondition như lần test trước."
   },
   {
+    "id": 215,
     "question": "Regression testing được thực hiện khi nào theo tài liệu?",
     "options": {
       "A": "Chỉ khi có yêu cầu từ khách hàng",
@@ -2365,6 +2580,7 @@
     "explanation": "Theo tài liệu, Regression testing thực hiện khi phần mềm thay đổi, môi trường thay đổi (VD nâng cấp DBMS), hoặc cho các bản vá khẩn cấp."
   },
   {
+    "id": 216,
     "question": "Test basis theo tài liệu được định nghĩa như thế nào?",
     "options": {
       "A": "Một tập hợp giá trị đầu vào và kết quả mong đợi",
@@ -2376,6 +2592,7 @@
     "explanation": "Theo tài liệu, Test basis là tất cả tài liệu mà từ đó có thể suy ra được yêu cầu của thành phần hay hệ thống."
   },
   {
+    "id": 217,
     "question": "Test condition theo tài liệu được định nghĩa như thế nào?",
     "options": {
       "A": "Tất cả tài liệu để suy ra yêu cầu",
@@ -2387,6 +2604,7 @@
     "explanation": "Theo tài liệu, Test condition là một hạng mục hay sự kiện của thành phần/hệ thống có thể được xác minh bằng một hoặc nhiều test case."
   },
   {
+    "id": 218,
     "question": "Test case theo tài liệu được định nghĩa như thế nào?",
     "options": {
       "A": "Tất cả tài liệu suy ra yêu cầu hệ thống",
@@ -2398,6 +2616,7 @@
     "explanation": "Theo tài liệu, Test case là tập hợp giá trị đầu vào, điều kiện tiền đề, kết quả mong đợi và điều kiện hậu đề cho một mục tiêu test cụ thể."
   },
   {
+    "id": 219,
     "question": "Test suite theo tài liệu được định nghĩa như thế nào?",
     "options": {
       "A": "Một hạng mục có thể xác minh bằng test case",
@@ -2409,6 +2628,7 @@
     "explanation": "Theo tài liệu, Test suite là tập hợp nhiều test case cho một thành phần/hệ thống, trong đó postcondition của test này làm precondition cho test tiếp theo."
   },
   {
+    "id": 220,
     "question": "Verification (Thẩm định/Xác minh) theo tài liệu trả lời câu hỏi nào?",
     "options": {
       "A": "'Sản phẩm có phù hợp với mục đích sử dụng không?'",
@@ -2420,6 +2640,7 @@
     "explanation": "Theo tài liệu, Verification kiểm tra sản phẩm có đáp ứng đúng yêu cầu đã đặt ra hay không, trả lời câu hỏi 'Sản phẩm có được xây dựng đúng theo đặc tả không?'."
   },
   {
+    "id": 221,
     "question": "Validation (Xác nhận giá trị sử dụng) theo tài liệu trả lời câu hỏi nào?",
     "options": {
       "A": "'Sản phẩm có được xây dựng đúng theo đặc tả không?'",
@@ -2431,6 +2652,7 @@
     "explanation": "Theo tài liệu, Validation kiểm tra sản phẩm có đáp ứng đúng nhu cầu thực tế của người dùng, trả lời câu hỏi 'Sản phẩm có phù hợp với mục đích sử dụng không?'."
   },
   {
+    "id": 222,
     "question": "Static testing (Kiểm thử tĩnh) theo tài liệu có đặc điểm gì?",
     "options": {
       "A": "Cần thực thi code để tiến hành test",
@@ -2442,6 +2664,7 @@
     "explanation": "Theo tài liệu, Static testing không chạy code, thực hiện dựa trên tài liệu phần mềm; hầu hết kỹ thuật verification là static testing."
   },
   {
+    "id": 223,
     "question": "Dynamic testing (Kiểm thử động) theo tài liệu có đặc điểm gì?",
     "options": {
       "A": "Không cần chạy code",
@@ -2453,6 +2676,7 @@
     "explanation": "Theo tài liệu, Dynamic testing cần thực thi code; hầu hết test mang tính validation là dynamic testing, ví dụ unit testing, integration testing."
   },
   {
+    "id": 224,
     "question": "Theo mẹo ghi nhớ trong tài liệu, Verification tương đồng với khái niệm nào?",
     "options": {
       "A": "Dynamic testing",
@@ -2464,6 +2688,7 @@
     "explanation": "Theo mẹo ghi nhớ trong tài liệu, Verification tương đồng với Static testing vì đều kiểm tra 'đúng đặc tả' mà không cần chạy code."
   },
   {
+    "id": 225,
     "question": "Theo mẹo ghi nhớ trong tài liệu, Validation tương đồng với khái niệm nào?",
     "options": {
       "A": "Static testing",
@@ -2475,6 +2700,7 @@
     "explanation": "Theo mẹo ghi nhớ trong tài liệu, Validation tương đồng với Dynamic testing vì đều kiểm tra 'đúng nhu cầu thực tế' bằng cách chạy hệ thống thật."
   },
   {
+    "id": 226,
     "question": "Tài liệu liệt kê bao nhiêu loại bảo trì phần mềm (Software Maintenance)?",
     "options": {
       "A": "2 loại",
@@ -2486,6 +2712,7 @@
     "explanation": "Theo tài liệu, có 3 loại bảo trì phần mềm: Corrective, Adaptive, Functionality improvement maintenance."
   },
   {
+    "id": 227,
     "question": "Corrective maintenance (Bảo trì sửa lỗi) phục vụ điều gì theo tài liệu?",
     "options": {
       "A": "Điều chỉnh gói phần mềm theo yêu cầu của khách hàng mới",
@@ -2497,6 +2724,7 @@
     "explanation": "Theo tài liệu, Corrective maintenance phục vụ việc sửa lỗi phần mềm và các dịch vụ hỗ trợ người dùng."
   },
   {
+    "id": 228,
     "question": "Adaptive maintenance (Bảo trì thích ứng) theo tài liệu là gì?",
     "options": {
       "A": "Sửa lỗi phần mềm",
@@ -2508,6 +2736,7 @@
     "explanation": "Theo tài liệu, Adaptive maintenance điều chỉnh gói phần mềm theo yêu cầu khách hàng mới và điều kiện môi trường thay đổi."
   },
   {
+    "id": 229,
     "question": "Functionality improvement maintenance (Bảo trì cải tiến chức năng) theo tài liệu kết hợp giữa những loại nào?",
     "options": {
       "A": "Corrective và Adaptive maintenance",
@@ -2519,6 +2748,7 @@
     "explanation": "Theo tài liệu, Functionality improvement maintenance kết hợp giữa bảo trì hoàn thiện (perfective) và bảo trì phòng ngừa (preventive)."
   },
   {
+    "id": 230,
     "question": "Tài liệu liệt kê mấy nền tảng của bảo trì chất lượng cao?",
     "options": {
       "A": "1 nền tảng",
@@ -2530,6 +2760,7 @@
     "explanation": "Theo tài liệu, có 2 nền tảng của bảo trì chất lượng cao: Software package quality và Maintenance policy."
   },
   {
+    "id": 231,
     "question": "Theo tài liệu, việc làm cho code dễ đọc và dễ bảo trì quan trọng như thế nào so với việc làm cho nó chạy đúng?",
     "options": {
       "A": "Kém quan trọng hơn nhiều",
@@ -2541,6 +2772,7 @@
     "explanation": "Theo tài liệu, việc làm code dễ đọc dễ bảo trì quan trọng ngang bằng hoặc hơn cả việc chạy đúng, vì code không bảo trì được coi như 'it's scrap'."
   },
   {
+    "id": 232,
     "question": "Theo mô hình McCall, nhóm yếu tố nào có tác động trực tiếp đến khả năng bảo trì thuộc nhóm Product Operation?",
     "options": {
       "A": "Maintainability, Flexibility",
@@ -2552,6 +2784,7 @@
     "explanation": "Theo tài liệu, trong bối cảnh bảo trì, nhóm Product Operation có tác động trực tiếp gồm Correctness và Reliability."
   },
   {
+    "id": 233,
     "question": "Theo mô hình McCall trong bối cảnh bảo trì, nhóm Product Revision gồm những yếu tố nào có tác động trực tiếp đến khả năng bảo trì?",
     "options": {
       "A": "Correctness, Reliability",
@@ -2563,6 +2796,7 @@
     "explanation": "Theo tài liệu, trong bối cảnh bảo trì, nhóm Product Revision gồm Maintainability, Flexibility, Testability."
   },
   {
+    "id": 234,
     "question": "Theo mô hình McCall trong bối cảnh bảo trì, nhóm Product Transition gồm những yếu tố nào có tác động trực tiếp đến khả năng bảo trì?",
     "options": {
       "A": "Correctness, Reliability",
@@ -2574,6 +2808,7 @@
     "explanation": "Theo tài liệu, trong bối cảnh bảo trì, nhóm Product Transition gồm Portability và Interoperability."
   },
   {
+    "id": 235,
     "question": "Trong bối cảnh bảo trì, Correctness được diễn giải gồm mấy khía cạnh theo tài liệu?",
     "options": {
       "A": "2 khía cạnh",
@@ -2585,6 +2820,7 @@
     "explanation": "Theo tài liệu, trong bối cảnh bảo trì Correctness gồm 3 khía cạnh: tính đúng đắn của đầu ra, tính đúng đắn của tài liệu, trình độ viết code."
   },
   {
+    "id": 236,
     "question": "Trong bối cảnh bảo trì, Reliability được diễn giải như thế nào theo tài liệu?",
     "options": {
       "A": "Tần suất hệ thống gặp sự cố cũng như thời gian phục hồi",
@@ -2596,6 +2832,7 @@
     "explanation": "Theo tài liệu, trong bối cảnh bảo trì, Reliability là tần suất hệ thống gặp sự cố cũng như thời gian phục hồi."
   },
   {
+    "id": 237,
     "question": "Trong bối cảnh bảo trì, Maintainability đạt được nhờ điều gì theo tài liệu?",
     "options": {
       "A": "Tuân thủ các yêu cầu về cấu trúc/phong cách phần mềm, và triển khai đầy đủ tài liệu dành cho lập trình viên",
@@ -2607,6 +2844,7 @@
     "explanation": "Theo tài liệu, Maintainability trong bối cảnh bảo trì đạt được nhờ tuân thủ yêu cầu cấu trúc/phong cách phần mềm và tài liệu đầy đủ cho lập trình viên."
   },
   {
+    "id": 238,
     "question": "Trong bối cảnh bảo trì, Flexibility tạo thêm điều gì theo tài liệu?",
     "options": {
       "A": "Không gian cho việc cải tiến chức năng trong tương lai",
@@ -2618,6 +2856,7 @@
     "explanation": "Theo tài liệu, Flexibility trong bối cảnh bảo trì tạo thêm không gian cho việc cải tiến chức năng trong tương lai."
   },
   {
+    "id": 239,
     "question": "Trong bối cảnh bảo trì, Testability bao gồm điều gì theo tài liệu?",
     "options": {
       "A": "Chỉ khả năng thích nghi môi trường",
@@ -2629,6 +2868,7 @@
     "explanation": "Theo tài liệu, Testability trong bối cảnh bảo trì bao gồm cơ chế tự chẩn đoán hệ thống và chẩn đoán lỗi."
   },
   {
+    "id": 240,
     "question": "Trong bối cảnh bảo trì, Portability là khả năng gì theo tài liệu?",
     "options": {
       "A": "Khả năng áp dụng phần mềm trên các môi trường phần cứng và hệ điều hành khác nhau, kể cả các hoạt động hỗ trợ việc áp dụng đó",
@@ -2640,6 +2880,7 @@
     "explanation": "Theo tài liệu, Portability trong bối cảnh bảo trì là khả năng áp dụng phần mềm trên các môi trường phần cứng, hệ điều hành khác nhau."
   },
   {
+    "id": 241,
     "question": "Trong bối cảnh bảo trì, Interoperability là khả năng gì theo tài liệu?",
     "options": {
       "A": "Khả năng vận hành cùng các gói phần mềm và thiết bị máy tính khác",
@@ -2651,6 +2892,7 @@
     "explanation": "Theo tài liệu, Interoperability trong bối cảnh bảo trì là khả năng vận hành cùng các gói phần mềm và thiết bị máy tính khác."
   },
   {
+    "id": 242,
     "question": "Nền tảng thứ 2 của bảo trì chất lượng cao (Maintenance policy) gồm những chính sách nào theo tài liệu?",
     "options": {
       "A": "Chỉ có Sequential version policy",
@@ -2662,6 +2904,7 @@
     "explanation": "Theo tài liệu, Maintenance policy gồm 3 chính sách: Sequential version policy, Tree version policy, Change policy."
   },
   {
+    "id": 243,
     "question": "Sequential version policy theo tài liệu là gì?",
     "options": {
       "A": "Phát triển một phiên bản chuyên biệt cho một nhóm khách hàng",
@@ -2673,6 +2916,7 @@
     "explanation": "Theo tài liệu, Sequential version policy chỉ cung cấp MỘT phiên bản duy nhất cho toàn bộ khách hàng, phiên bản mới thay thế phiên bản cũ."
   },
   {
+    "id": 244,
     "question": "Tree version policy theo tài liệu là gì?",
     "options": {
       "A": "Chỉ một phiên bản duy nhất cho tất cả khách hàng",
@@ -2684,6 +2928,7 @@
     "explanation": "Theo tài liệu, Tree version policy phát triển một phiên bản chuyên biệt, nhắm riêng cho một nhóm khách hàng hoặc một khách hàng lớn."
   },
   {
+    "id": 245,
     "question": "Change policy (Chính sách thay đổi) theo tài liệu là gì?",
     "options": {
       "A": "Một phiên bản duy nhất cho tất cả khách hàng",
@@ -2695,6 +2940,7 @@
     "explanation": "Theo tài liệu, Change policy là phương pháp xem xét từng yêu cầu thay đổi và các tiêu chí phê duyệt yêu cầu đó."
   },
   {
+    "id": 246,
     "question": "Maintenance contract review theo tài liệu gồm mấy hoạt động?",
     "options": {
       "A": "1 hoạt động",
@@ -2706,6 +2952,7 @@
     "explanation": "Theo tài liệu, Maintenance contract review gồm 2 hoạt động: rà soát bản nháp đề xuất (proposal draft reviews) và rà soát bản nháp hợp đồng (contract draft reviews)."
   },
   {
+    "id": 247,
     "question": "Maintenance plan construction theo tài liệu nên được chuẩn bị cho đối tượng nào?",
     "options": {
       "A": "Chỉ khách hàng bên ngoài",
@@ -2717,6 +2964,7 @@
     "explanation": "Theo tài liệu, Maintenance plan construction nên được chuẩn bị cho tất cả khách hàng, cả bên ngoài lẫn nội bộ."
   },
   {
+    "id": 248,
     "question": "Kế hoạch bảo trì (Maintenance plan) theo tài liệu gồm những nội dung nào?",
     "options": {
       "A": "Chỉ danh sách dịch vụ bảo trì đã ký hợp đồng",
