@@ -1,4150 +1,722 @@
 [
   {
     "id": 1,
-    "question": "Ở Phương đông, dân tộc được hình thành trên cơ sở nào?",
+    "question": "Theo ISO/IEC/IEEE Std. 90003:2014, Software product (sản phẩm phần mềm) được hiểu là gì?",
     "options": {
-      "A": "Một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế đã đạt tới một mức độ nhất định",
-      "B": "Là quá trình phát triển lâu dài của xã hội loài người, trải qua các hình thức cộng đồng từ thấp đến cao, bao gồm: thị tộc, bộ lạc, bộ tộc, dân tộc",
-      "C": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi",
-      "D": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế tuy đã đạt tới một mức độ nhất định song nhìn chung còn kém phát triển và ở trạng thái phân tán"
+      "A": "Chỉ bao gồm mã nguồn và chương trình thực thi",
+      "B": "Tập hợp các chương trình máy tính, thủ tục, và có thể kèm tài liệu và dữ liệu liên quan",
+      "C": "Chỉ bao gồm tài liệu yêu cầu và tài liệu thiết kế",
+      "D": "Chỉ bao gồm chương trình máy tính và cơ sở dữ liệu"
     },
-    "answer": "D"
+    "answer": "Tập hợp các chương trình máy tính, thủ tục, và có thể kèm tài liệu và dữ liệu liên quan",
+    "explanation": "Tài liệu định nghĩa Software product không chỉ là code mà còn bao gồm các chương trình, procedures và có thể có documentation và data liên quan."
   },
   {
     "id": 2,
-    "question": "Hiện nay lực lượng chủ yếu của tiến trình lịch sử quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội là:",
+    "question": "Theo tài liệu, phát biểu nào đúng nhất về phạm vi của Software product?",
     "options": {
-      "A": "Công nhân các nước xã hội chủ nghĩa.",
-      "B": "Liên minh công nông.",
-      "C": "Giai cấp công nhân.",
-      "D": "Tầng lớp trí thức."
+      "A": "Software product chỉ là source code",
+      "B": "Software product chỉ là chương trình đã biên dịch",
+      "C": "Software product bao gồm code, tài liệu, quy trình vận hành và dữ liệu liên quan",
+      "D": "Software product chỉ là dữ liệu do người dùng tạo ra"
     },
-    "answer": "C"
+    "answer": "Software product bao gồm code, tài liệu, quy trình vận hành và dữ liệu liên quan",
+    "explanation": "Tài liệu nhấn mạnh rằng phần mềm không chỉ là code; chất lượng cần được xem xét đối với toàn bộ các thành phần liên quan của sản phẩm."
   },
   {
     "id": 3,
-    "question": "Chọn từ thích hợp điền vào chỗ trống trong câu nói của Mác-Ăngghen “Sự sụp đổ của giai cấp tư sản và thắng lợi của giai cấp vô sản đều…………như nhau”",
+    "question": "Theo tài liệu, có bao nhiêu nguyên nhân chính được liệt kê dẫn đến lỗi (defect) trong phần mềm?",
     "options": {
-      "A": "Đồng thời.",
-      "B": "Công bằng.",
-      "C": "Tất yếu.",
-      "D": "Diễn ra."
+      "A": "5",
+      "B": "7",
+      "C": "8",
+      "D": "9"
     },
-    "answer": "C"
+    "answer": "9",
+    "explanation": "Tài liệu liệt kê 9 nguyên nhân chính, từ yêu cầu sai hoặc thiếu, giao tiếp kém, lỗi thiết kế và coding cho đến lỗi quy trình kiểm thử và tài liệu."
   },
   {
     "id": 4,
-    "question": "Sự biến đổi cơ cấu xã hội-giai cấp ở Việt Nam trong thời kì quá độ lên chủ nghĩa xã hội ngoài tính đặc thù còn mang đặc điểm gì khác?",
+    "question": "Nguyên nhân nào sau đây được tài liệu liệt kê là nguyên nhân gây lỗi phần mềm?",
     "options": {
-      "A": "Tính khách quan.",
-      "B": "Tính quy luật phổ biến.",
-      "C": "Tính quy luật chung.",
-      "D": "Tính đa dạng, phong phú."
+      "A": "Lỗi trong thiết kế logic",
+      "B": "Luôn sử dụng kiểm thử tự động",
+      "C": "Sử dụng mô hình Agile",
+      "D": "Có quá nhiều tài liệu"
     },
-    "answer": "A"
+    "answer": "Lỗi trong thiết kế logic",
+    "explanation": "Logical design errors là một trong 9 nguyên nhân gây lỗi phần mềm được liệt kê trong tài liệu."
   },
   {
     "id": 5,
-    "question": "Từ thực tiễn cách mạng chỉ ra, giai cấp công nhân phải giác ngộ cách mạng, phải kiên quyết đấu tranh giành lấy chính quyền từ tay giai cấp tư sản khi có thời cơ cách mạng vì",
+    "question": "Trường hợp nào tạo ra correctable defects theo tài liệu?",
     "options": {
-      "A": "Là mục tiêu cao cả.",
-      "B": "Là yêu cầu bức thiết.",
-      "C": "Là nội dung cách mạng.",
-      "D": "Chủ nghĩa tư bản không tự sụp đổ."
+      "A": "Requirement sai ngay từ đầu",
+      "B": "Requirement và design đúng nhưng xảy ra sai sót khi build",
+      "C": "Requirement đúng nhưng design sai",
+      "D": "Requirement, design và build đều đúng"
     },
-    "answer": "D"
+    "answer": "Requirement và design đúng nhưng xảy ra sai sót khi build",
+    "explanation": "Khi requirement và design đúng nhưng có mistakes made in build, sản phẩm có bug/correctable defects vì phần yêu cầu và thiết kế vẫn đúng."
   },
   {
     "id": 6,
-    "question": "Lý thuyết phân kỳ hình thái kinh tế-xã hội cộng sản chủ nghĩa lần đầu tiên được đề cập trong tác phẩm nào?",
+    "question": "Nếu requirement ngay từ đầu đã sai nhưng design và build đều được thực hiện đúng theo requirement đó thì kết quả là gì?",
     "options": {
-      "A": "Tuyên ngôn của Đảng cộng sản.",
-      "B": "Nội chiến ở Pháp.",
-      "C": "Bộ tư bản.",
-      "D": "Phê phán Cương lĩnh Gôta."
+      "A": "Sản phẩm chắc chắn đúng vì design và build đúng",
+      "B": "Chỉ phát sinh lỗi coding",
+      "C": "Sản phẩm cuối cùng vẫn là wrong product delivered",
+      "D": "Chỉ phát sinh lỗi kiểm thử"
     },
-    "answer": "D"
+    "answer": "Sản phẩm cuối cùng vẫn là wrong product delivered",
+    "explanation": "Nếu requirement sai, việc design và build đúng theo requirement sai vẫn tạo ra sản phẩm sai. Loại lỗi này có thể bị che khuất vì mọi bước đều được thực hiện đúng theo yêu cầu sai."
   },
   {
     "id": 7,
-    "question": "Theo NEP (chính sách kinh tế mới) của V.I Lênin trong thời kì quá độ về kinh tế cần coi trọng các quan hệ kinh tế:",
+    "question": "Theo tài liệu, thứ tự các giai đoạn mà chi phí phát hiện và sửa lỗi tăng dần là gì?",
     "options": {
-      "A": "Tiểu thủ công nghiệp.",
-      "B": "Hàng hóa – Tiền tệ.",
-      "C": "Nông nghiệp.",
-      "D": "Công nghiệp."
+      "A": "Test → Build → Design → Requirements → Live use",
+      "B": "Requirements → Design → Build → Test → Live use",
+      "C": "Build → Requirements → Test → Design → Live use",
+      "D": "Design → Requirements → Build → Live use → Test"
     },
-    "answer": "B"
+    "answer": "Requirements → Design → Build → Test → Live use",
+    "explanation": "Tài liệu trình bày chi phí sửa lỗi tăng dần từ Requirements đến Design, Build, Test và cao nhất khi hệ thống đã Live use."
   },
   {
     "id": 8,
-    "question": "Phạm trù nào được coi là cơ bản nhất, là xuất phát điểm của chủ nghĩa xã hội khoa học?",
+    "question": "Tại sao việc phát hiện lỗi càng sớm càng quan trọng?",
     "options": {
-      "A": "Giai cấp công nhân.",
-      "B": "Chuyên chính vô sản.",
-      "C": "Xã hội chủ nghĩa.",
-      "D": "Sứ mệnh lịch sử của giai cấp công nhân."
+      "A": "Vì lỗi sớm luôn dễ nhìn thấy hơn",
+      "B": "Vì lỗi phát hiện càng muộn thì chi phí sửa càng lớn",
+      "C": "Vì testing chỉ được phép thực hiện ở đầu dự án",
+      "D": "Vì lỗi ở giai đoạn requirement không thể sửa"
     },
-    "answer": "C"
+    "answer": "Vì lỗi phát hiện càng muộn thì chi phí sửa càng lớn",
+    "explanation": "Chi phí sửa lỗi tăng theo thời gian và mức độ lỗi lan sang các giai đoạn sau. Đây là cơ sở kinh tế cho việc đầu tư vào SQA và kiểm thử sớm."
   },
   {
     "id": 9,
-    "question": "Nguyên nhân của xu hướng phát triển cơ cấu xã hội-giai cấp ở Việt Nam trong thời kì quá độ mang tính đa dạng và thống nhất là do:",
+    "question": "Theo IEEE Std. 730-2014 trong tài liệu, Software Quality phụ thuộc vào yếu tố nào?",
     "options": {
-      "A": "Nền văn hóa đa dạng và thống nhất.",
-      "B": "Trình độ phát triển không đều giữa các giai cấp.",
-      "C": "Nền kinh tế nhiều thành phần.",
-      "D": "Đoàn kết dân tộc và đoàn kết toàn dân."
+      "A": "Chỉ mức độ đáp ứng các yêu cầu kỹ thuật",
+      "B": "Chỉ số lượng lỗi được phát hiện",
+      "C": "Mức độ đáp ứng yêu cầu và mức độ các yêu cầu phản ánh đúng nhu cầu, mong muốn và kỳ vọng của stakeholders",
+      "D": "Chỉ mức độ hài lòng của lập trình viên"
     },
-    "answer": "C"
+    "answer": "Mức độ đáp ứng yêu cầu và mức độ các yêu cầu phản ánh đúng nhu cầu, mong muốn và kỳ vọng của stakeholders",
+    "explanation": "Tài liệu nhấn mạnh đáp ứng đúng yêu cầu chưa đủ. Bản thân yêu cầu cũng phải phản ánh chính xác nhu cầu, mong muốn và kỳ vọng thực tế của stakeholders."
   },
   {
     "id": 10,
-    "question": "Quan hệ nào của gia đình được coi là mối quan hệ tự nhiên, là yếu tố mạnh mẽ nhất gắn kết các thành viên trong gia đình với nhau?",
+    "question": "Theo IEEE Std. 730-2014, Software Quality Assurance (SQA) là gì?",
     "options": {
-      "A": "Quan hệ huyết thống.",
-      "B": "Quan hệ nuôi dưỡng.",
-      "C": "Quan hệ quần tụ trong một không gian sinh tồn.",
-      "D": "Quan hệ hôn nhân."
+      "A": "Tập hợp hoạt động chỉ dùng để tìm bug trong code",
+      "B": "Tập hợp hoạt động xác định và đánh giá tính phù hợp của các quy trình phần mềm, cung cấp bằng chứng rằng quy trình phù hợp và tạo ra sản phẩm có chất lượng phù hợp mục đích",
+      "C": "Một phương pháp sửa lỗi sau khi triển khai",
+      "D": "Một công cụ tự động hóa kiểm thử"
     },
-    "answer": "A"
+    "answer": "Tập hợp hoạt động xác định và đánh giá tính phù hợp của các quy trình phần mềm, cung cấp bằng chứng rằng quy trình phù hợp và tạo ra sản phẩm có chất lượng phù hợp mục đích",
+    "explanation": "Đây là định nghĩa SQA theo IEEE Std. 730-2014 được trình bày trong tài liệu. SQA tập trung vào sự phù hợp của software processes và bằng chứng về chất lượng sản phẩm tạo ra."
   },
   {
     "id": 11,
-    "question": "Chủ nghĩa xã hội từng bước tiến tới thực hiện mục tiêu cao cả nhất, biến con người từ vương quốc của tất yếu sang:",
+    "question": "Đặc điểm quan trọng của chức năng SQA theo tài liệu là gì?",
     "options": {
-      "A": "Vương quốc của hòa bình.",
-      "B": "Vương quốc của tự do.",
-      "C": "Vương quốc của dân chủ.",
-      "D": "Vương quốc hạnh phúc."
+      "A": "Luôn do chính lập trình viên thực hiện",
+      "B": "Có tính khách quan (objectivity) đối với dự án",
+      "C": "Chỉ quan tâm đến ngân sách",
+      "D": "Không cần độc lập với dự án"
     },
-    "answer": "B"
+    "answer": "Có tính khách quan (objectivity) đối với dự án",
+    "explanation": "Tài liệu nhấn mạnh objectivity của chức năng SQA. SQA cũng có thể độc lập về mặt tổ chức để tránh áp lực kỹ thuật, quản lý hoặc tài chính từ dự án."
   },
   {
     "id": 12,
-    "question": "Tập đoàn người lao động trực tiếp hay gián tiếp vận hành những công cụ sản xuất có tính chất công nghiệp ngày càng hiện đại là:",
+    "question": "Điểm khác biệt cốt lõi giữa QA và QC theo tài liệu là gì?",
     "options": {
-      "A": "Người lao động có kỹ thuật.",
-      "B": "Người lao động có tri thức.",
-      "C": "Giai cấp công nhân.",
-      "D": "Người lao động trực tiếp."
+      "A": "QA tập trung sản phẩm, QC tập trung quy trình",
+      "B": "QA phát hiện lỗi, QC phòng ngừa lỗi",
+      "C": "QA tập trung vào quy trình và phòng ngừa; QC tập trung vào sản phẩm và phát hiện lỗi",
+      "D": "QA và QC hoàn toàn giống nhau"
     },
-    "answer": "C"
+    "answer": "QA tập trung vào quy trình và phòng ngừa; QC tập trung vào sản phẩm và phát hiện lỗi",
+    "explanation": "QA là Process focused và Prevention oriented, còn QC là Product focused và Detection oriented. Đây là điểm phân biệt quan trọng trong tài liệu."
   },
   {
     "id": 13,
-    "question": "Nội dung nào quan trọng nhất trong các nội dung liên minh công - nông - trí thức?",
+    "question": "Hoạt động nào sau đây thuộc QC theo bảng so sánh trong tài liệu?",
     "options": {
-      "A": "Chính trị.",
-      "B": "Kinh tế.",
-      "C": "Tư tưởng.",
-      "D": "Văn hoá - xã hội."
+      "A": "Xác định và triển khai quy trình",
+      "B": "Kiểm toán",
+      "C": "Đào tạo",
+      "D": "Review và Testing"
     },
-    "answer": "B"
+    "answer": "Review và Testing",
+    "explanation": "Theo tài liệu, các hoạt động điển hình của QC là Review và Testing, tập trung phát hiện lỗi trong sản phẩm."
   },
   {
     "id": 14,
-    "question": "Nhà nước pháp quyền XHCN quản lý mọi mặt của đời sống xã hội chủ yếu bằng gì?",
+    "question": "Hoạt động nào sau đây thuộc QA theo tài liệu?",
     "options": {
-      "A": "Đường lối, chính sách.",
-      "B": "Hiến pháp, pháp luật.",
-      "C": "Tuyên truyền, giáo dục.",
-      "D": "Cả ba đều đúng."
+      "A": "Testing",
+      "B": "Review sản phẩm",
+      "C": "Xác định và triển khai quy trình, kiểm toán và đào tạo",
+      "D": "So sánh Actual Result với Expected Result"
     },
-    "answer": "B"
+    "answer": "Xác định và triển khai quy trình, kiểm toán và đào tạo",
+    "explanation": "QA tập trung vào quy trình và phòng ngừa lỗi. Các hoạt động điển hình được tài liệu nêu gồm xác định và triển khai quy trình, auditing và training."
   },
   {
     "id": 15,
-    "question": "Phương hướng phát huy dân chủ XHCN trong Văn kiện Đại hội XIII của Đảng?",
+    "question": "Ba mục tiêu chính của SQA theo tài liệu là gì?",
     "options": {
-      "A": "Tiếp tục cụ thể hoá, hoàn thiện thể chế thực hành dân chủ, bảo đảm tất cả quyền lực nhà nước thuộc về nhân dân.",
-      "B": "Đảng và Nhà nước ban hành đường lối, chủ trương, chính sách, pháp luật tạo nền tảng chính trị, pháp lý, tôn trọng, bảo đảm, bảo vệ quyền làm chủ của nhân dân.",
-      "C": "Xử lý kịp thời, nghiêm minh những tổ chức, cá nhân lợi dụng dân chủ, gây rối nội bộ, làm mất ổn định chính trị - xã hội.",
-      "D": "Cả A, B và C."
+      "A": "Tăng doanh thu, giảm nhân sự, tăng tốc độ code",
+      "B": "Đảm bảo tuân thủ yêu cầu kỹ thuật/chức năng; tuân thủ tiến độ/ngân sách; khởi xướng và quản lý cải tiến",
+      "C": "Tìm bug, sửa bug, triển khai phần mềm",
+      "D": "Viết code, viết test, triển khai hệ thống"
     },
-    "answer": "D"
+    "answer": "Đảm bảo tuân thủ yêu cầu kỹ thuật/chức năng; tuân thủ tiến độ/ngân sách; khởi xướng và quản lý cải tiến",
+    "explanation": "Ba mục tiêu gồm tuân thủ functional/technical requirements, tuân thủ scheduling/budgets và quản lý các hoạt động cải tiến hiệu quả phát triển phần mềm cũng như SQA."
   },
   {
     "id": 16,
-    "question": "Giai cấp công nhân VN ra đời vào thời kỳ nào?",
+    "question": "Vì sao cần định nghĩa toàn diện các yêu cầu chất lượng?",
     "options": {
-      "A": "Thực dân Pháp bắt đầu xâm lược nước ta.",
-      "B": "Thực dân Pháp khai thác thuộc địa lần thứ nhất.",
-      "C": "Khi triều đình nhà Nguyễn sụp đổ.",
-      "D": "Khi CMT8 thành công."
+      "A": "Vì chức năng phần mềm luôn không quan trọng",
+      "B": "Vì khách hàng có thể không hài lòng dù chức năng chạy đúng nếu maintenance, reliability, reusability hoặc các khía cạnh khác kém",
+      "C": "Vì chỉ cần yêu cầu phi chức năng",
+      "D": "Vì mọi phần mềm đều phải có cùng một yêu cầu chất lượng"
     },
-    "answer": "B"
+    "answer": "Vì khách hàng có thể không hài lòng dù chức năng chạy đúng nếu maintenance, reliability, reusability hoặc các khía cạnh khác kém",
+    "explanation": "Tài liệu chỉ ra rằng phần mềm chạy đúng chức năng chưa đảm bảo khách hàng hài lòng. Các yêu cầu chất lượng phải bao quát nhiều khía cạnh trong suốt vòng đời."
   },
   {
     "id": 17,
-    "question": "Chế độ dân chủ XHCN là chế độ dân chủ:",
-    "options": {
-      "A": "Cho tuyệt đại đa số nhân dân lao động.",
-      "B": "Của giai cấp nông dân.",
-      "C": "Của giai cấp công nhân.",
-      "D": "Của tiểu tư sản và tri thức."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 18,
-    "question": "Hệ giá trị mới được xây dựng: công bằng, dân chủ, tự do, bình đẳng thuộc nội dung nào trong sứ mệnh lịch sử của giai cấp công nhân?",
-    "options": {
-      "A": "Nội dung kinh tế.",
-      "B": "Nội dung chính trị- xã hội.",
-      "C": "Nội dung văn hoá tư tưởng.",
-      "D": "Nội dung xây dựng đạo đức mới."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 19,
-    "question": "Nhà nước tư sản ngày càng can thiệp sâu vào kinh tế có tác động thế nào đến vấn đề khủng hoảng trong nền kinh tế tư bản chủ nghĩa?",
-    "options": {
-      "A": "Giải quyết tốt.",
-      "B": "Khắc phục được.",
-      "C": "Tác động tích cực.",
-      "D": "Không giải quyết được."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 20,
-    "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết các tôn giáo là một vấn đề:",
-    "options": {
-      "A": "Nguyên tắc.",
-      "B": "Ưu tiên.",
-      "C": "Phải thực hiện.",
-      "D": "Cần thiết."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 21,
-    "question": "Về bản chất, tôn giáo là một hiện tượng xã hội phản ánh điều gì của con người trước tiên và xã hội?",
-    "options": {
-      "A": "Bế tắc, bất lực.",
-      "B": "Hoàn toàn bất lực.",
-      "C": "Lo lắng, sợ hãi.",
-      "D": "Hoàn toàn phụ thuộc."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 22,
-    "question": "Chỉ ra đâu là phương pháp nghiên cứu của CNXH-KH?",
-    "options": {
-      "A": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử.",
-      "B": "Kết hợp phương pháp logic và lịch sử.",
-      "C": "Khảo sát, so sánh và phân tích về chính trị- xã hội.",
-      "D": "Cả A, B, C đều đúng."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 23,
-    "question": "Chủ nghĩa Mác- Lê nin là hệ tư tưởng của giai cấp, tầng lớp nào?",
-    "options": {
-      "A": "Nhân dân lao động.",
-      "B": "Tầng lớp tri thức.",
-      "C": "Giai cấp công nhân.",
-      "D": "Giai cấp nông dân."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 24,
-    "question": "Giai cấp công nhân thông qua con đường nào để giải phóng mình và giải phóng nhân dân lao động?",
-    "options": {
-      "A": "Biểu tình, bãi công.",
-      "B": "Đấu tranh nghị viện.",
-      "C": "Cách mạng xã hội chủ nghĩa.",
-      "D": "Đấu tranh kinh tế."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 25,
-    "question": "Động lực chủ yếu phát triển nước ta trong giai đoạn mới xây dựng hệ thống chính trị là gì?",
-    "options": {
-      "A": "Xóa bỏ cơ chế tập trung quan liêu, bao cấp.",
-      "B": "Phát huy nội lực, tận dụng sức mạnh ngoại lực.",
-      "C": "Đổi mới chính trị kết hợp đổi mới kinh tế.",
-      "D": "Đại đoàn kết toàn dân."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 26,
-    "question": "Mâu thuẫn đối kháng giữa các giai cấp là do yếu tố nào?",
-    "options": {
-      "A": "Sự khác nhau về tư tưởng, lối sống.",
-      "B": "Sự khác nhau giữa giàu và nghèo.",
-      "C": "Sự khác nhau về mức thu nhập.",
-      "D": "Sự đối lập về lợi ích cơ bản - lợi ích kinh tế."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 27,
-    "question": "Theo chủ nghĩa Mác - Lênin, tín ngưỡng là gì?",
-    "options": {
-      "A": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người.",
-      "B": "Hệ thống niềm tin vào lực lượng có tính thần thánh.",
-      "C": "Hệ thống niềm tin vào lực lượng có tính thần thánh cầu mong sự che chở, giúp đỡ.",
-      "D": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người trước các sự vật, hiện tượng, lực lượng có tính thần thánh, linh thiêng để cầu mong sự che chở, giúp đỡ."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 28,
-    "question": "Trong phương thức sản xuất tư bản chủ nghĩa, mâu thuẫn giữa lực lượng sản xuất với quan hệ sản xuất bộc lộ qua cuộc khủng hoảng kinh tế lần thứ nhất vào năm…?",
-    "options": {
-      "A": "1824.",
-      "B": "1826.",
-      "C": "1827.",
-      "D": "1825."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 29,
-    "question": "Đặc trưng bản chất của dân chủ xã hội chủ nghĩa là bảo đảm mọi quyền lực đều thuộc về lực lượng nào?",
-    "options": {
-      "A": "Giai cấp công nhân",
-      "B": "Nhân dân",
-      "C": "Nhà nước",
-      "D": "Đảng Cộng sản"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 30,
-    "question": "Nhà nước đầu tiên thực hiện quyền lực thực sự của nhân dân là sau cuộc cách mạng nào?",
-    "options": {
-      "A": "Cách mạng Pháp",
-      "B": "Cách mạng Tháng Mười Nga",
-      "C": "Cách mạng Mỹ",
-      "D": "Cách mạng Anh"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 31,
-    "question": "Đặc trưng của nền văn hóa xã hội chủ nghĩa là nền văn hoá có tính nhân dân rộng rãi và tính:",
-    "options": {
-      "A": "Quốc tế",
-      "B": "Giai cấp",
-      "C": "Dân tộc",
-      "D": "Hiện đại"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 32,
-    "question": "Một trong những phương thức để thực hiện được những nội dung chính yếu của nền văn hoá xã hội chủ nghĩa là không ngừng tăng cường sự lãnh đạo và quản lý của:",
-    "options": {
-      "A": "Nhà nước và nhân dân",
-      "B": "Đảng và Nhà nước",
-      "C": "Giai cấp công nhân",
-      "D": "Các tổ chức xã hội"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 33,
-    "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết các tôn giáo là một vấn đề:",
-    "options": {
-      "A": "Nguyên tắc",
-      "B": "Ưu tiên",
-      "C": "Tự nguyện",
-      "D": "Tạm thời"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 34,
-    "question": "Dân tộc VN là một quốc gia đa dân tộc bao gồm:",
-    "options": {
-      "A": "52 dân tộc",
-      "B": "53 dân tộc",
-      "C": "54 dân tộc",
-      "D": "55 dân tộc"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 35,
-    "question": "Cơ cấu xã hội của xã hội chủ nghĩa được đặc trưng bởi 2 giai cấp cơ bản đối lập nhau về lợi ích là:",
-    "options": {
-      "A": "Giai cấp công nhân và giai cấp nông dân",
-      "B": "Giai cấp tư sản và giai cấp vô sản",
-      "C": "Giai cấp công nhân và tầng lớp trí thức",
-      "D": "Giai cấp nông dân và giai cấp tư sản"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 36,
-    "question": "Chủ nghĩa Mác – Lênin đã chỉ ra những công cụ nhận thức và cải tạo thế giới cho lực lượng nào?",
-    "options": {
-      "A": "Giai cấp nông dân",
-      "B": "Giai cấp tư sản",
-      "C": "Giai cấp công nhân",
-      "D": "Tầng lớp trí thức"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 37,
-    "question": "Cách mạng xã hội chủ nghĩa do giai cấp, tầng lớp nào lãnh đạo?",
-    "options": {
-      "A": "Giai cấp nông dân",
-      "B": "Tầng lớp trí thức",
-      "C": "Giai cấp công nhân",
-      "D": "Giai cấp tư sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 38,
-    "question": "Đâu không phải là cơ sở chế độ hôn nhân tự nguyện trong thời kỳ quá độ lên chủ nghĩa xã hội?",
-    "options": {
-      "A": "Tình yêu chân chính",
-      "B": "Tự nguyện kết hôn",
-      "C": "Hôn nhân chỉ cần đảm bảo về mặt pháp lý",
-      "D": "Sự bình đẳng giữa vợ và chồng"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 39,
-    "question": "Sự ra đời của chế độ dân chủ xã hội chủ nghĩa được thiết lập cho:",
-    "options": {
-      "A": "Giai cấp công nhân và nhân dân lao động",
-      "B": "Giai cấp tư sản",
-      "C": "Giai cấp nông dân בלבד",
-      "D": "Tầng lớp trí thức"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 40,
-    "question": "Thời kỳ quá độ lên chủ nghĩa xã hội trên phạm vi cả nước bắt đầu từ khi nào?",
-    "options": {
-      "A": "1945",
-      "B": "1954",
-      "C": "1975",
-      "D": "1986"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 41,
-    "question": "Lao động trong nền sản xuất đại công nghiệp với hệ thống sản xuất dây chuyền đã hình thành đặc điểm nào ở giai cấp công nhân?",
-    "options": {
-      "A": "Tính cá nhân",
-      "B": "Tính tổ chức, kỷ luật",
-      "C": "Tính tự phát",
-      "D": "Tính phân tán"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 42,
-    "question": "Để sứ mệnh lịch sử của giai cấp công nhân từ khả năng thành hiện thực phải thông qua nhân tố chủ quan, trong đó nhân tố quyết định là:",
-    "options": {
-      "A": "Tăng số lượng công nhân",
-      "B": "Phát triển kinh tế",
-      "C": "Thành lập Đảng Cộng sản",
-      "D": "Liên minh với giai cấp tư sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 43,
-    "question": "Theo nghĩa hẹp, cách mạng xã hội chủ nghĩa là cách mạng chính trị, kết thúc bằng việc công nhân, nhân dân lao động giành được chính quyền và xây dựng:",
-    "options": {
-      "A": "Chủ nghĩa tư bản",
-      "B": "Xã hội phong kiến",
-      "C": "Chủ nghĩa xã hội",
-      "D": "Nhà nước tư sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 44,
-    "question": "Nhà nước tư sản ngày càng can thiệp sâu vào kinh tế có tác động thế nào đến vấn đề khủng hoảng trong nền kinh tế tư bản chủ nghĩa?",
-    "options": {
-      "A": "Giải quyết hoàn toàn khủng hoảng",
-      "B": "Khắc phục triệt để khủng hoảng",
-      "C": "Làm mất hoàn toàn mâu thuẫn kinh tế",
-      "D": "Không giải quyết được"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 45,
-    "question": "Chủ nghĩa xã hội từng bước tiến tới thực hiện mục tiêu cao cả nhất, biến con người từ vương quốc của tất yếu sang:",
-    "options": {
-      "A": "Vương quốc dân chủ",
-      "B": "Vương quốc tự do",
-      "C": "Vương quốc bình đẳng",
-      "D": "Vương quốc hạnh phúc"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 46,
-    "question": "Theo Lênin, nguyên tắc cao nhất của chuyên chính vô sản là duy trì khối liên minh giữa giai cấp công nhân và lực lượng nào để giai cấp công nhân có thể giữ được vai trò lãnh đạo và giữ chính quyền nhà nước?",
-    "options": {
-      "A": "Giai cấp tư sản",
-      "B": "Tầng lớp trí thức",
-      "C": "Giai cấp nông dân",
-      "D": "Tiểu tư sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 47,
-    "question": "Từ mâu thuẫn trong kinh tế của chủ nghĩa tư bản biểu hiện thành mâu thuẫn giữa giai cấp công nhân với giai cấp tư sản ngày càng trở nên quyết liệt trên lĩnh vực:",
-    "options": {
-      "A": "Văn hóa",
-      "B": "Chính trị – xã hội",
-      "C": "Tôn giáo",
-      "D": "Giáo dục"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 48,
-    "question": "Khi Đảng cộng sản ra đời, toàn bộ hoạt động của Đảng đều hướng vào vấn đề trung tâm của cách mạng là:",
-    "options": {
-      "A": "Phát triển kinh tế tư bản",
-      "B": "Cải cách giáo dục",
-      "C": "Lật đổ nhà nước của giai cấp tư sản",
-      "D": "Xây dựng nhà nước phong kiến"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 49,
-    "question": "Về chính trị, trong thời kỳ quá độ, kết cấu giai cấp xã hội đa dạng gồm giai cấp công nhân, nông dân, tầng lớp trí thức và:",
-    "options": {
-      "A": "Một bộ phận giai cấp tư sản, những người sản xuất nhỏ và những tầng lớp lao động khác",
-      "B": "Chỉ có giai cấp tư sản",
-      "C": "Chỉ có tầng lớp trí thức",
-      "D": "Chỉ có người lao động trong công nghiệp"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 50,
-    "question": "Nội dung cơ bản về tư tưởng – văn hoá của thời kỳ quá độ là xây dựng nền văn hoá mới xã hội chủ nghĩa, cần phải tiếp thu giá trị tinh hoa của:",
-    "options": {
-      "A": "Văn hóa phương Tây",
-      "B": "Văn hóa phương Đông",
-      "C": "Văn hoá nhân loại",
-      "D": "Văn hóa truyền thống"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 51,
-    "question": "Theo C. Mác và Ph. Ăngghen đến xã hội chủ nghĩa thì quan hệ sản xuất xã hội chủ nghĩa mới được xác lập đầy đủ. Lúc đó, tư liệu sản xuất tồn tại dưới hình thức sở hữu toàn dân và hình thức sở hữu nào?",
-    "options": {
-      "A": "Sở hữu tư nhân",
-      "B": "Sở hữu tập thể",
-      "C": "Sở hữu cá nhân",
-      "D": "Sở hữu tư bản"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 52,
-    "question": "Dân chủ và thực hiện dân chủ là nhu cầu như thế nào của con người?",
-    "options": {
-      "A": "Chủ quan",
-      "B": "Tạm thời",
-      "C": "Khách quan",
-      "D": "Ngẫu nhiên"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 53,
-    "question": "Về dân chủ, một trong ba quan niệm cơ bản của Chủ nghĩa Mác-Lênin là dân chủ với tư cách một phạm trù chính trị gắn với một kiểu nhà nước và một giai cấp cầm quyền thì sẽ:",
-    "options": {
-      "A": "Có dân chủ phi giai cấp",
-      "B": "Không có dân chủ phi giai cấp",
-      "C": "Không liên quan đến giai cấp",
-      "D": "Chỉ tồn tại trong xã hội tư bản"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 54,
-    "question": "V. I. Lênin cho rằng, chế độ dân chủ là một hình thức nhà nước. Cho nên, chế độ dân chủ là việc thi hành có tổ chức, có hệ thống. Nhằm:",
-    "options": {
-      "A": "Cưỡng bức đối với con người",
-      "B": "Xóa bỏ mọi hình thức nhà nước",
-      "C": "Phát triển kinh tế tư bản",
-      "D": "Xây dựng xã hội phong kiến"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 55,
-    "question": "Cơ sở kinh tế của nền dân chủ xã hội chủ nghĩa là gì?",
-    "options": {
-      "A": "Sở hữu tư nhân",
-      "B": "Sở hữu toàn dân",
-      "C": "Sở hữu tư bản",
-      "D": "Sở hữu cá nhân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 56,
-    "question": "Trên cơ sở của sự kết hợp hài hoà lợi ích cá nhân, lợi ích tập thể, lợi ích của toàn xã hội, nền dân chủ xã hội chủ nghĩa có đặc trưng là động viên:",
-    "options": {
-      "A": "Một bộ phận giai cấp công nhân",
-      "B": "Các nhà tư bản",
-      "C": "Mọi tiềm năng của nhân dân",
-      "D": "Tầng lớp trí thức בלבד"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 57,
-    "question": "Nền dân chủ xã hội chủ nghĩa là một nền dân chủ rộng rãi nhất trong lịch sử, nhưng phải đảm bảo:",
-    "options": {
-      "A": "Là nền dân chủ không có giai cấp",
-      "B": "Là nền dân chủ mang tính giai cấp",
-      "C": "Là nền dân chủ của giai cấp tư sản",
-      "D": "Là nền dân chủ phi chính trị"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 58,
-    "question": "Xây dựng nền dân chủ xã hội chủ nghĩa là tất yếu vì dân chủ là yếu tố nào của quá trình xây dựng chủ nghĩa xã hội?",
-    "options": {
-      "A": "Thành tố",
-      "B": "Trở ngại",
-      "C": "Kết quả cuối cùng",
-      "D": "Yếu tố phụ"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 59,
-    "question": "Nhà nước xã hội chủ nghĩa là một tổ chức chính trị dựa trên cơ sở kinh tế:",
-    "options": {
-      "A": "Tư bản chủ nghĩa",
-      "B": "Phong kiến",
-      "C": "Xã hội chủ nghĩa",
-      "D": "Tiểu sản xuất"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 60,
-    "question": "Một trong năm chức năng cơ bản của nhà nước xã hội chủ nghĩa có đặc trưng về nguyên tắc khác hẳn với nhà nước tư sản là vì lợi ích của:",
-    "options": {
-      "A": "Giai cấp tư sản",
-      "B": "Một bộ phận nhân dân",
-      "C": "Tuyệt đại đa số nhân dân",
-      "D": "Các nhà tư bản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 61,
-    "question": "Một trong năm chức năng cơ bản của nhà nước xã hội chủ nghĩa, theo V. I. Lênin, là chuyên chính vô sản không phải chỉ là bạo lực đối với bọn bóc lột, và cũng không phải chủ yếu là bạo lực mà mặt cơ bản của nó là:",
-    "options": {
-      "A": "Tăng cường quân sự",
-      "B": "Tổ chức, xây dựng xã hội mới",
-      "C": "Đấu tranh kinh tế",
-      "D": "Phát triển tư bản tư nhân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 62,
-    "question": "Chức năng, nhiệm vụ của nhà nước xã hội chủ nghĩa biểu hiện tập trung ở việc quản lý xã hội trên tất cả các lĩnh vực bằng:",
-    "options": {
-      "A": "Hiến pháp và pháp luật",
-      "B": "Phong tục và tập quán",
-      "C": "Tuyên truyền בלבד",
-      "D": "Các tổ chức kinh tế"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 63,
-    "question": "Trong thời kỳ quá độ còn có các giai cấp, tầng lớp trung gian khác, họ thường dao động, nên tất yếu cần có nhân tố nào nhằm bảo đảm sự lãnh đạo của giai cấp công nhân đối với toàn xã hội?",
-    "options": {
-      "A": "Liên minh công nhân – nông dân – trí thức",
-      "B": "Liên minh công nhân – tư sản",
-      "C": "Liên minh nông dân – tư sản",
-      "D": "Liên minh các nhà tư bản"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 64,
-    "question": "Để mở rộng dân chủ kiên quyết đấu tranh chống lại mọi hành vi đi ngược lại những chuẩn mực dân chủ, đòi hỏi phải có một thiết chế phù hợp đó là:",
-    "options": {
-      "A": "Dân chủ đi liền với chuyên chính",
-      "B": "Dân chủ tách khỏi pháp luật",
-      "C": "Dân chủ không cần nhà nước",
-      "D": "Dân chủ chỉ dựa vào kinh tế"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 65,
-    "question": "Căn cứ vào lĩnh vực tác động của quyền lực nhà nước xã hội chủ nghĩa thì nhà nước có chức năng nào?",
-    "options": {
-      "A": "Chức năng kinh tế",
-      "B": "Chức năng chính trị",
-      "C": "Chức năng văn hóa",
-      "D": "Chức năng giáo dục"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 66,
-    "question": "Theo giáo trình chủ nghĩa xã hội khoa học, lĩnh vực nào không phải đặc điểm của thời kỳ quá độ lên chủ nghĩa xã hội?",
-    "options": {
-      "A": "Lĩnh vực kinh tế",
-      "B": "Lĩnh vực chính trị",
-      "C": "Lĩnh vực tư tưởng – văn hóa",
-      "D": "Lĩnh vực đối ngoại"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 67,
-    "question": "Căn cứ vào phạm vi tác động của quyền lực nhà nước xã hội chủ nghĩa thì nhà nước có chức năng nào?",
-    "options": {
-      "A": "Chức năng đối ngoại",
-      "B": "Chức năng đối nội",
-      "C": "Chức năng kinh tế",
-      "D": "Chức năng văn hóa"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 68,
-    "question": "Đâu là những điều kiện chủ quan để giai cấp công nhân thực hiện sứ mệnh lịch sử của mình?",
-    "options": {
-      "A": "Đảng cộng sản ra đời và thực hiện vai trò lãnh đạo",
-      "B": "Sự trưởng thành của giai cấp công nhân cả về số lượng và chất lượng",
-      "C": "Xây dựng khối liên minh giai cấp với nông dân và các giai cấp lao động khác",
-      "D": "Cả A, B, C đều đúng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 69,
-    "question": "Hệ giá trị mới được xây dựng: công bằng, dân chủ, tự do, bình đẳng thuộc nội dung nào trong sứ mệnh lịch sử của giai cấp công nhân?",
-    "options": {
-      "A": "Nội dung kinh tế",
-      "B": "Nội dung chính trị - xã hội",
-      "C": "Nội dung văn hoá tư tưởng",
-      "D": "Nội dung quân sự"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 70,
-    "question": "Đâu là yếu tố cơ bản để giai cấp công nhân Việt Nam gắn bó mật thiết với các tầng lớp nhân dân trong xã hội?",
-    "options": {
-      "A": "Khác biệt về nghề nghiệp",
-      "B": "Thống nhất cao về lợi ích",
-      "C": "Khác biệt về thu nhập",
-      "D": "Cùng một trình độ học vấn"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 71,
-    "question": "Đâu là những biến đổi của giai cấp công nhân VN từ sau đổi mới năm 1986?",
-    "options": {
-      "A": "Tăng nhanh về số lượng và chất lượng",
-      "B": "Đi đầu trong sự nghiệp công nghiệp hoá, hiện đại hoá đất nước",
-      "C": "Đa dạng về cơ cấu nghề nghiệp",
-      "D": "Cả A, B, C đều đúng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 72,
-    "question": "Điểm then chốt để thực hiện thành công sứ mệnh lịch sử của giai cấp công nhân VN là gì?",
-    "options": {
-      "A": "Tăng số lượng công nhân",
-      "B": "Xây dựng Đảng trong sạch, vững mạnh để thực hiện tốt vai trò lãnh đạo",
-      "C": "Phát triển kinh tế tư nhân",
-      "D": "Giảm vai trò của Đảng"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 73,
-    "question": "Để tạo nên mối liên hệ quốc gia và quốc tế mở rộng, xoá bỏ sự biệt lập, thúc đẩy các dân tộc xích lại gần nhau, có một xu hướng phát triển là các dân tộc:",
-    "options": {
-      "A": "Tách biệt nhau",
-      "B": "Liên hiệp lại",
-      "C": "Cạnh tranh với nhau",
-      "D": "Khép kín với nhau"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 74,
-    "question": "Ý thức tôn giáo là niềm tin của một bộ phận nhân dân, là yếu tố bền vững nhất trong đời sống tinh thần là nguyên nhân gì của sự tồn tại tôn giáo?",
-    "options": {
-      "A": "Kinh tế",
-      "B": "Chính trị",
-      "C": "Tâm lý",
-      "D": "Nhận thức"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 75,
-    "question": "Giải quyết vấn đề tôn giáo trong chủ nghĩa xã hội cần dựa trên nguyên tắc là khắc phục dần những tiêu cực của tôn giáo phải gắn liền với quá trình cải tạo xã hội cũ và xây dựng:",
-    "options": {
-      "A": "Xã hội mới",
-      "B": "Xã hội tư bản",
-      "C": "Xã hội phong kiến",
-      "D": "Nhà nước tư sản"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 76,
-    "question": "Một nguyên tắc giải quyết vấn đề tôn giáo trong chủ nghĩa xã hội là cần phân biệt rõ mặt:",
-    "options": {
-      "A": "Kinh tế và văn hóa",
-      "B": "Chính trị và tư tưởng",
-      "C": "Xã hội và giáo dục",
-      "D": "Pháp luật và kinh tế"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 77,
-    "question": "Tình hình CNTB thế giới đầu thế kỷ XX là:",
-    "options": {
-      "A": "Chủ nghĩa tư bản chuyển sang giai đoạn chủ nghĩa đế quốc",
-      "B": "Chủ nghĩa tư bản bị xóa bỏ hoàn toàn",
-      "C": "Chủ nghĩa tư bản chuyển sang chế độ phong kiến",
-      "D": "Chủ nghĩa tư bản không còn phát triển"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 78,
-    "question": "Chủ nghĩa xã hội khoa học nghiên cứu những quy luật chuyển biến xã hội từ:",
-    "options": {
-      "A": "Chủ nghĩa phong kiến sang chủ nghĩa tư bản",
-      "B": "Chủ nghĩa tư bản sang chủ nghĩa xã hội",
-      "C": "Chủ nghĩa xã hội sang chủ nghĩa tư bản",
-      "D": "Xã hội nguyên thủy sang xã hội phong kiến"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 79,
-    "question": "Nguyên nhân sâu xa của cách mạng xã hội chủ nghĩa là gì?",
-    "options": {
-      "A": "Do mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất",
-      "B": "Do sự khác biệt về văn hóa",
-      "C": "Do mâu thuẫn giữa các tôn giáo",
-      "D": "Do sự khác biệt về trình độ học vấn"
-    },
-    "answer": "A"
-  },
-
-  {
-    "id": 80,
-    "question": "Giai cấp công nhân thông qua con đường nào để giải phóng mình và giải phóng nhân dân lao động?",
-    "options": {
-      "A": "Đấu tranh kinh tế",
-      "B": "Đấu tranh nghị trường",
-      "C": "Cách mạng xã hội chủ nghĩa",
-      "D": "Cải cách xã hội"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 81,
-    "question": "Nhiệm vụ cơ bản đầu tiên của cách mạng xã hội chủ nghĩa là gì?",
-    "options": {
-      "A": "Phát triển kinh tế",
-      "B": "Xây dựng nền văn hóa mới",
-      "C": "Giai cấp công nhân giành lấy chính quyền",
-      "D": "Xóa bỏ mọi hình thức nhà nước"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 82,
-    "question": "Giai cấp công nhân là người lao động gắn với nền sản xuất:",
-    "options": {
-      "A": "Nông nghiệp",
-      "B": "Thủ công nghiệp",
-      "C": "Đại công nghiệp",
-      "D": "Tiểu thủ công nghiệp"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 83,
-    "question": "Học thuyết Mác-lênin đã làm sáng tỏ vai trò lịch sử toàn thế giới của lực lượng nào?",
-    "options": {
-      "A": "Giai cấp nông dân",
-      "B": "Giai cấp tư sản",
-      "C": "Giai cấp công nhân",
-      "D": "Tầng lớp trí thức"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 84,
-    "question": "Mục đích học tập môn Chủ nghĩa xã hội khoa học nhằm giúp sinh viên:",
-    "options": {
-      "A": "Nhận thức về chính trị - xã hội",
-      "B": "Kỹ năng nghiên cứu khoa học",
-      "C": "Niềm tin vào lý tưởng cách mạng",
-      "D": "Cả A, B, C đều đúng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 85,
-    "question": "Chủ nghĩa xã hội khoa học ra đời trên cơ sở của tiền đề nào?",
-    "options": {
-      "A": "Kinh tế - xã hội",
-      "B": "Khoa học tự nhiên",
-      "C": "Tư tưởng, lý luận",
-      "D": "Cả A, B, C đều đúng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 86,
-    "question": "Phát kiến vĩ đại nào của Các Mác và Ăngghen là cơ sở hình thành chủ nghĩa xã hội khoa học?",
-    "options": {
-      "A": "Chủ nghĩa duy vật lịch sử",
-      "B": "Học thuyết về giá trị thặng dư",
-      "C": "Học thuyết về sứ mệnh lịch sử của giai cấp công nhân",
-      "D": "Cả A, B, C đều đúng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 87,
-    "question": "Đối tượng nghiên cứu của chủ nghĩa xã hội khoa học là gì?",
-    "options": {
-      "A": "Sứ mệnh lịch sử của giai cấp công nhân",
-      "B": "Sự thay thế tất yếu chủ nghĩa tư bản bằng chủ nghĩa xã hội",
-      "C": "Con đường cải tạo và xây dựng chủ nghĩa xã hội và chủ nghĩa cộng sản",
-      "D": "Cả A, B, C đều đúng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 88,
-    "question": "Chỉ ra đâu là phương pháp nghiên cứu của chủ nghĩa xã hội khoa học?",
-    "options": {
-      "A": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử",
-      "B": "Kết hợp phương pháp logic và lịch sử",
-      "C": "Khảo sát, so sánh và phân tích về chính trị - xã hội",
-      "D": "Cả A, B, C đều đúng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 89,
-    "question": "Một trong những cống hiến vĩ đại của C.Mác là xây dựng học thuyết nào?",
-    "options": {
-      "A": "Học thuyết giá trị",
-      "B": "Học thuyết về sứ mệnh lịch sử của giai cấp công nhân",
-      "C": "Học thuyết nhà nước pháp quyền",
-      "D": "Học thuyết dân chủ tư sản"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 90,
-    "question": "Tập đoàn người lao động trực tiếp hay gián tiếp vận hành những công cụ sản xuất có tính chất công nghiệp ngày càng hiện đại là:",
-    "options": {
-      "A": "Giai cấp nông dân",
-      "B": "Tầng lớp trí thức",
-      "C": "Giai cấp công nhân",
-      "D": "Giai cấp tư sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 91,
-    "question": "Theo C.Mác, đặc điểm nào cho thấy giai cấp công nhân là giai cấp vô sản?",
-    "options": {
-      "A": "Có nhiều tư liệu sản xuất",
-      "B": "Không có tư liệu sản xuất",
-      "C": "Có quyền sở hữu tư bản",
-      "D": "Làm chủ các nhà máy tư bản"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 92,
-    "question": "Theo C.Mác, công nhân tức là giai cấp chỉ có thể sống với điều kiện là kiếm được việc làm và chỉ kiếm được việc làm nếu họ:",
-    "options": {
-      "A": "Làm tăng tư bản",
-      "B": "Sở hữu tư liệu sản xuất",
-      "C": "Làm chủ doanh nghiệp",
-      "D": "Không tham gia sản xuất"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 93,
-    "question": "Về địa vị trong các nước đi theo con đường xã hội chủ nghĩa, về cơ bản giai cấp công nhân cùng với nhân dân lao động đã trở thành những người làm chủ về:",
-    "options": {
-      "A": "Tư liệu sản xuất chủ yếu",
-      "B": "Các doanh nghiệp tư nhân",
-      "C": "Tư bản tài chính",
-      "D": "Thị trường chứng khoán"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 94,
-    "question": "Xét về phương thức lao động, công nhân trong thế kỷ XIX khác gì so với công nhân hiện nay?",
-    "options": {
-      "A": "Chủ yếu là lao động trí óc",
-      "B": "Chủ yếu là lao động cơ khí",
-      "C": "Chủ yếu là lao động thủ công",
-      "D": "Chủ yếu là lao động nông nghiệp"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 95,
-    "question": "Hiện nay trong các nước tư bản phát triển, tuyệt đại bộ phận tư liệu sản xuất nằm trong tay ai?",
-    "options": {
-      "A": "Giai cấp công nhân",
-      "B": "Giai cấp nông dân",
-      "C": "Các nhà tư bản lớn",
-      "D": "Nhà nước xã hội chủ nghĩa"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 96,
-    "question": "Hiện nay, lực lượng chủ yếu của tiến trình lịch sử quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội là:",
-    "options": {
-      "A": "Tầng lớp trí thức",
-      "B": "Giai cấp nông dân",
-      "C": "Giai cấp công nhân",
-      "D": "Giai cấp tư sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 97,
-    "question": "V.L.Lênin cho rằng, điểm yếu chủ yếu trong học thuyết Mác là ở chỗ nó làm sáng tỏ vai trò lịch sử thế giới của giai cấp vô sản là:",
-    "options": {
-      "A": "Xây dựng xã hội chủ nghĩa",
-      "B": "Phát triển chủ nghĩa tư bản",
-      "C": "Bảo vệ chế độ phong kiến",
-      "D": "Xây dựng nhà nước tư sản"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 98,
-    "question": "Theo C.Mác, bước một thực hiện sứ mệnh của giai cấp công nhân là họ chiếm lấy chính quyền, biến những tư liệu sản xuất thành của ai?",
-    "options": {
-      "A": "Giai cấp tư sản",
-      "B": "Công nhân và nông dân",
-      "C": "Các nhà tư bản lớn",
-      "D": "Tầng lớp quý tộc"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 99,
-    "question": "Nhờ có yếu tố nào mà giai cấp công nhân có khả năng đoàn kết với giai cấp khác để thực hiện sứ mệnh lịch sử của mình?",
-    "options": {
-      "A": "Khác biệt về lợi ích",
-      "B": "Lợi ích cơ bản thống nhất",
-      "C": "Cùng trình độ học vấn",
-      "D": "Cùng nghề nghiệp"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 100,
-    "question": "Giai cấp công nhân là giai cấp tiên tiến cách mạng vì:",
-    "options": {
-      "A": "Đại biểu cho phương thức sản xuất tiên tiến",
-      "B": "Có nhiều tài sản nhất",
-      "C": "Chiếm số lượng đông nhất",
-      "D": "Có quyền lực kinh tế lớn nhất"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 101,
-    "question": "Trong xây dựng xã hội chủ nghĩa, giai cấp công nhân có đặc điểm thế nào mà họ kiên định, kiên quyết đấu tranh chống chế độ áp bức bóc lột, xoá bỏ chế độ tư hữu?",
-    "options": {
-      "A": "Tính tổ chức cao",
-      "B": "Tính triệt để cách mạng",
-      "C": "Tính tự phát",
-      "D": "Tính bảo thủ"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 102,
-    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là các dân tộc:",
-    "options": {
-      "A": "Hoàn toàn bình đẳng",
-      "B": "Có quyền thống trị",
-      "C": "Phải tách biệt nhau",
-      "D": "Không có quyền bình đẳng"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 103,
-    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là các dân tộc có quyền:",
-    "options": {
-      "A": "Thống trị",
-      "B": "Tự quyết",
-      "C": "Tách biệt hoàn toàn",
-      "D": "Xâm lược"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 104,
-    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là liên hiệp giai cấp công nhân với:",
-    "options": {
-      "A": "Giai cấp tư sản",
-      "B": "Tầng lớp quý tộc",
-      "C": "Tất cả các dân tộc",
-      "D": "Chỉ các nước xã hội chủ nghĩa"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 105,
-    "question": "Về bản chất, tôn giáo là một hiện tượng xã hội phản ánh điều gì của con người trước thiên nhiên và xã hội?",
-    "options": {
-      "A": "Sự giàu có và phát triển",
-      "B": "Bế tắc, bất lực",
-      "C": "Sự thống trị thiên nhiên",
-      "D": "Khả năng kiểm soát xã hội"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 106,
-    "question": "Còn nhiều hiện tượng mà khoa học chưa lí giải được, trình độ dân trí chưa cao khiến cho một số người tìm sự an ủi, che chở từ thần linh là nguyên nhân gì của sự tồn tại tôn giáo?",
-    "options": {
-      "A": "Kinh tế",
-      "B": "Chính trị",
-      "C": "Nhận thức",
-      "D": "Địa lý"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 107,
-    "question": "Đặc trưng bản chất của dân chủ xã hội chủ nghĩa là bảo đảm mọi quyền lực đều thuộc về lực lượng nào?",
-    "options": {
-      "A": "Giai cấp công nhân",
-      "B": "Đảng Cộng sản",
-      "C": "Nhà nước",
-      "D": "Nhân dân"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 108,
-    "question": "Chủ nghĩa Mác-lênin là hệ tư tưởng của giai cấp, tầng lớp nào?",
-    "options": {
-      "A": "Giai cấp nông dân",
-      "B": "Giai cấp công nhân",
-      "C": "Tầng lớp trí thức",
-      "D": "Giai cấp tư sản"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 109,
-    "question": "Đối tượng nghiên cứu của CNXH khoa học là gì?",
-    "options": {
-      "A": "Là quy luật kinh tế của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội XHCN",
-      "B": "Là quy luật xã hội của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội TBCN",
-      "C": "Là những quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội TBCN",
-      "D": "Là những quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển hình thái kinh tế - xã hội cộng sản chủ nghĩa"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 110,
-    "question": "Trong phương thức sản xuất TBCN, mâu thuẫn trong lĩnh vực kinh tế là mâu thuẫn giữa...",
-    "options": {
-      "A": "Lực lượng sản xuất mang tính xã hội với quan hệ sản xuất mang tính xã hội TBCN",
-      "B": "Lực lượng sản xuất mang tính cá nhân với quan hệ sản xuất mang tính xã hội TBCN",
-      "C": "Lực lượng sản xuất mang tính cá nhân với quan hệ sản xuất mang tính tư nhân TBCN",
-      "D": "Lực lượng sản xuất mang tính xã hội với quan hệ sản xuất mang tính tư nhân TBCN"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 111,
-    "question": "Những yếu tố tư tưởng CNXH được xuất hiện từ khi nào?",
-    "options": {
-      "A": "Khi chế độ TBCN ra đời",
-      "B": "Khi xuất hiện GCCN",
-      "C": "Ngay từ thời cộng sản nguyên thủy",
-      "D": "Sự xuất hiện chế độ tư hữu, xuất hiện giai cấp thống trị và bóc lột"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 112,
-    "question": "Trong phương thức sản xuất TBCN, mâu thuẫn giữa lực lượng sản xuất với quan hệ sản xuất bộc lộ qua cuộc khủng hoảng kinh tế lần thứ nhất vào năm...?",
-    "options": {
-      "A": "1824",
-      "B": "1827",
-      "C": "1826",
-      "D": "1825"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 113,
-    "question": "Chọn phương án đúng nhất: Chủ nghĩa Mác - Lênin được cấu thành từ ba bộ phận lý luận cơ bản nào?",
-    "options": {
-      "A": "Kinh tế chính trị học, CNXH khoa học, triết học Mác - Lênin",
-      "B": "CNXH khoa học, kinh tế chính trị cổ điển Anh, triết học cổ điển Đức",
-      "C": "CNXH không tưởng, triết học Mác - Lênin, kinh tế chính trị Mác - Lênin",
-      "D": "Triết học Mác - Lênin, kinh tế chính trị Mác - Lênin, CNXH khoa học"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 114,
-    "question": "Ai đã đưa ra quan niệm: “CNXH là sự phản kháng và đấu tranh chống sự bóc lột người lao động, một cuộc đấu tranh nhằm hoàn toàn xoá bỏ sự bóc lột”?",
-    "options": {
-      "A": "S.Phuriê",
-      "B": "C.Mác",
-      "C": "Ph.Ăngghen",
-      "D": "V.I.Lênin"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 115,
-    "question": "Phong trào đấu tranh của giai cấp vô sản vào những năm 30, 40 của thế kỷ XIX chứng tỏ rằng...",
-    "options": {
-      "A": "Giai cấp tư sản là một lực lượng chính trị độc lập",
-      "B": "Phong trào vô sản là một lực lượng chính trị - xã hội độc lập",
-      "C": "Giai cấp vô sản cần liên minh với địa chủ, phong kiến chống tư sản",
-      "D": "Giai cấp vô sản là một lực lượng chính trị - xã hội độc lập"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 116,
-    "question": "Những nhà tư tưởng tiêu biểu của CNXH không tưởng phê phán đầu thế kỷ XIX?",
-    "options": {
-      "A": "Grắccơ Babớp, Xanh Ximông, Sáclơ Phuriê",
-      "B": "Xanh Ximông, Sáclơ Phuriê, G.Mably",
-      "C": "Xanh Ximông, Giăng Mêliê, Rôbớt",
-      "D": "Xanh Ximông, Sáclơ Phuriê, Rôbớt Ôoen"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 117,
-    "question": "Phạm trù nào được coi là cơ bản nhất, là xuất phát điểm của CNXH khoa học?",
-    "options": {
-      "A": "GCCN",
-      "B": "Chuyên chính vô sản",
-      "C": "XHCN",
-      "D": "Sứ mệnh lịch sử của GCCN"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 118,
-    "question": "Tác phẩm nào được Lênin đánh giá là: “Tác phẩm chủ yếu và cơ bản trình bày CNXH khoa học”?",
-    "options": {
-      "A": "Chống Đuyrinh",
-      "B": "Hệ tư tưởng Đức",
-      "C": "Phê phán cương lĩnh Gôta",
-      "D": "Tư bản"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 119,
-    "question": "Lần đầu tiên Ph.Ăngghen nói: “Chủ nghĩa Mác được cấu thành bởi ba bộ phận” trong tác phẩm nào?",
-    "options": {
-      "A": "Sự phát triển của CNXH từ không tưởng đến khoa học",
-      "B": "Tình cảnh GCCN Anh",
-      "C": "Tuyên ngôn của ĐCS",
-      "D": "Chống Đuyrinh"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 120,
-    "question": "Từ khi ra đời (1848) đến nay, CNXH khoa học phát triển qua mấy giai đoạn chủ yếu?",
+    "question": "Mô hình McCall chia các Software Quality Factors thành bao nhiêu nhóm lớn?",
     "options": {
       "A": "2",
       "B": "3",
       "C": "4",
       "D": "5"
     },
-    "answer": "B"
+    "answer": "3",
+    "explanation": "McCall's Triangle of Quality trong tài liệu chia các quality factors thành Product Operation, Product Revision và Product Transition."
   },
   {
-    "id": 121,
-    "question": "Lý thuyết phân kỳ hình thái kinh tế - xã hội cộng sản chủ nghĩa lần đầu tiên được đề cập trong tác phẩm nào?",
+    "id": 18,
+    "question": "Nhóm nào thuộc Product Operation trong mô hình McCall?",
     "options": {
-      "A": "Nội chiến ở Pháp",
-      "B": "Bộ tư bản",
-      "C": "Phê phán Cương lĩnh Gôta",
-      "D": "Tuyên ngôn của ĐCS"
+      "A": "Maintainability, Flexibility, Testability",
+      "B": "Portability, Reusability, Interoperability",
+      "C": "Correctness, Reliability, Efficiency, Integrity, Usability",
+      "D": "Safety, Manageability, Survivability"
     },
-    "answer": "D"
+    "answer": "Correctness, Reliability, Efficiency, Integrity, Usability",
+    "explanation": "Product Operation gồm 5 yếu tố: Correctness, Reliability, Efficiency, Integrity và Usability."
   },
   {
-    "id": 122,
-    "question": "Công lao lớn nhất của V.I.Lênin là gì?",
+    "id": 19,
+    "question": "Nhóm Product Revision trong mô hình McCall gồm những yếu tố nào?",
     "options": {
-      "A": "Nghiên cứu về Đảng kiểu mới của GCCN",
-      "B": "Nghiên cứu về cách mạng dân chủ tư sản kiểu mới",
-      "C": "Đấu tranh chống lại các trào lưu phi mácxít",
-      "D": "Làm cho lý luận CNXH trở thành hiện thực"
+      "A": "Correctness, Reliability, Efficiency",
+      "B": "Maintainability, Flexibility, Testability",
+      "C": "Portability, Reusability, Interoperability",
+      "D": "Verifiability, Safety, Survivability"
     },
-    "answer": "D"
+    "answer": "Maintainability, Flexibility, Testability",
+    "explanation": "Product Revision tập trung vào mức độ dễ dàng sửa lỗi, thay đổi hoặc kiểm thử lại và gồm Maintainability, Flexibility và Testability."
   },
   {
-    "id": 123,
-    "question": "Tác phẩm đầu tiên mà C.Mác và Ph.Ăngghen viết chung là tác phẩm nào?",
+    "id": 20,
+    "question": "Nhóm Product Transition gồm những yếu tố nào?",
     "options": {
-      "A": "Hệ tư tưởng Đức",
-      "B": "Tuyên ngôn ĐCS",
-      "C": "Tình cảnh GCCN Anh",
-      "D": "Gia đình thần thánh"
+      "A": "Portability, Reusability, Interoperability",
+      "B": "Correctness, Integrity, Usability",
+      "C": "Maintainability, Flexibility, Testability",
+      "D": "Reliability, Efficiency, Safety"
     },
-    "answer": "D"
+    "answer": "Portability, Reusability, Interoperability",
+    "explanation": "Product Transition phản ánh khả năng thích ứng khi chuyển sang môi trường hoặc hệ thống khác và gồm Portability, Reusability, Interoperability."
   },
   {
-    "id": 124,
-    "question": "Quốc tế cộng sản là tên gọi khác của tổ chức nào dưới đây?",
+    "id": 21,
+    "question": "Quality Factor nào liên quan đến độ chính xác và đầy đủ của đầu ra yêu cầu?",
     "options": {
-      "A": "Quốc tế I",
-      "B": "Quốc tế II",
-      "C": "Hội liên hiệp công nhân quốc tế",
-      "D": "Quốc tế III"
+      "A": "Correctness",
+      "B": "Reliability",
+      "C": "Efficiency",
+      "D": "Usability"
     },
-    "answer": "D"
+    "answer": "Correctness",
+    "explanation": "Correctness liên quan đến việc phần mềm cung cấp đầu ra chính xác, đầy đủ theo yêu cầu; thông tin cũng cần được cập nhật và sẵn sàng."
   },
   {
-    "id": 125,
-    "question": "Bản chất GCCN của ĐCS Việt Nam được thể hiện ở:",
+    "id": 22,
+    "question": "Một yêu cầu quy định xác suất hệ thống ở trạng thái lỗi trong giờ cao điểm phải dưới 0,5% thuộc Quality Factor nào?",
     "options": {
-      "A": "Trình độ đảng viên trong Đảng",
-      "B": "Số lượng đảng viên trong Đảng",
-      "C": "Nền tảng lý luận, mục tiêu, đường lối, nguyên tắc tổ chức của Đảng",
-      "D": "Khả năng lãnh đạo"
+      "A": "Efficiency",
+      "B": "Reliability",
+      "C": "Correctness",
+      "D": "Integrity"
     },
-    "answer": "C"
+    "answer": "Reliability",
+    "explanation": "Ví dụ Super-Lab trong tài liệu gắn yêu cầu về xác suất hệ thống ở trạng thái lỗi và failure rate với Reliability."
   },
   {
-    "id": 126,
-    "question": "So với GCCN truyền thống ở thế kỷ XIX, GCCN hiện nay vừa có những điểm tương đồng vừa có những điểm khác biệt nào?",
+    "id": 23,
+    "question": "Quality Factor nào liên quan đến tài nguyên cần thiết để phần mềm thực hiện các chức năng?",
     "options": {
-      "A": "Là lực lượng sản xuất hàng đầu của xã hội hiện đại.",
-      "B": "Được đào tạo chuẩn mực và thường xuyên được đào tạo lại, đáp ứng sự thay đổi nhanh chóng của công nghệ trong nền sản xuất.",
-      "C": "Gắn liền với cách mạng và khoa học công nghệ hiện đại, với sự phát triển kinh tế tri thức.",
-      "D": "Là lực lượng sản xuất hàng đầu của xã hội hiện đại; gắn liền với cách mạng và khoa học công nghệ hiện đại, với sự phát triển kinh tế tri thức."
+      "A": "Efficiency",
+      "B": "Flexibility",
+      "C": "Integrity",
+      "D": "Portability"
     },
-    "answer": "D"
+    "answer": "Efficiency",
+    "explanation": "Efficiency là khả năng phần mềm thực hiện các chức năng với nguồn tài nguyên cần thiết và phù hợp."
   },
   {
-    "id": 127,
-    "question": "Khái niệm: “Chuyên chính của giai cấp vô sản” được sử dụng lần đầu tiên trong tác phẩm nào?",
+    "id": 24,
+    "question": "Một hệ thống ghi log chi tiết và báo cáo các lần truy cập trái phép vào dữ liệu y tế. Trong mô hình McCall của tài liệu, yếu tố phù hợp nhất là gì?",
     "options": {
-      "A": "Hệ tư tưởng Đức",
-      "B": "Nội chiến ở Pháp",
-      "C": "Tuyên ngôn của ĐCS",
-      "D": "Những nguyên lý của chủ nghĩa cộng sản"
+      "A": "Usability",
+      "B": "Integrity",
+      "C": "Flexibility",
+      "D": "Reusability"
     },
-    "answer": "C"
+    "answer": "Integrity",
+    "explanation": "Trong tài liệu, Integrity liên quan đến bảo mật hệ thống và kiểm soát quyền truy cập (access rights)."
   },
   {
-    "id": 128,
-    "question": "Việc phát hiện ra sự phân chia xã hội thành giai cấp và đấu tranh giai cấp là công lao của ai?",
+    "id": 25,
+    "question": "Khả năng người dùng dễ học và dễ thực hiện các tác vụ cần thiết thuộc Quality Factor nào?",
     "options": {
-      "A": "Các nhà sử học tư sản trước Mác",
-      "B": "V.I.Lênin",
-      "C": "C.Mác",
-      "D": "Ph.Ăngghen"
+      "A": "Usability",
+      "B": "Maintainability",
+      "C": "Interoperability",
+      "D": "Reliability"
     },
-    "answer": "A"
+    "answer": "Usability",
+    "explanation": "Usability phản ánh khả năng người dùng học và sử dụng phần mềm để thực hiện công việc cần thiết một cách dễ dàng."
   },
   {
-    "id": 129,
-    "question": "Điều kiện quan trọng không thể thiếu để thực hiện sứ mệnh lịch sử của GCCN:",
+    "id": 26,
+    "question": "Một phần mềm có log file và cơ chế tự chẩn đoán để hỗ trợ kiểm thử. Đây là ví dụ của Quality Factor nào?",
     "options": {
-      "A": "Liên minh công - nông - trí thức dưới sự lãnh đạo của ĐCS",
-      "B": "Sự liên minh giữa GCCN với quần chúng nhân dân do GCCN lãnh đạo",
-      "C": "Sự liên minh giữa GCCN với giai cấp nông dân và các tầng lớp lao động do GCCN lãnh đạo",
-      "D": "Sự liên minh giữa GCCN với giai cấp nông dân thông qua đội tiền phong của GCCN"
+      "A": "Flexibility",
+      "B": "Testability",
+      "C": "Portability",
+      "D": "Efficiency"
     },
-    "answer": "A"
+    "answer": "Testability",
+    "explanation": "Testability là khả năng phần mềm hỗ trợ tốt cho việc kiểm thử, ví dụ thông qua log file hoặc cơ chế automatic diagnostics."
   },
   {
-    "id": 130,
-    "question": "ĐCS mang bản chất của giai cấp:",
+    "id": 27,
+    "question": "Khả năng phần mềm thích ứng với khách hàng mới hoặc tác vụ mới thuộc yếu tố nào?",
     "options": {
-      "A": "GCCN và dân tộc.",
-      "B": "GCCN và nhân dân lao động.",
-      "C": "GCCN và giai cấp nông dân.",
-      "D": "GCCN"
+      "A": "Maintainability",
+      "B": "Flexibility",
+      "C": "Correctness",
+      "D": "Integrity"
     },
-    "answer": "D"
+    "answer": "Flexibility",
+    "explanation": "Flexibility là mức độ sản phẩm có thể thích ứng với khách hàng mới, tác vụ mới hoặc hoàn cảnh sử dụng mới."
   },
   {
-    "id": 131,
-    "question": "Tác giả nào là người đầu tiên đưa ra khái niệm cách mạng dân chủ tư sản kiểu mới?",
+    "id": 28,
+    "question": "Khả năng sử dụng lại các thành phần phần mềm cho những dự án khác thuộc yếu tố nào?",
     "options": {
-      "A": "C.Mác",
-      "B": "C.Mác và Ph.Ăngghen",
-      "C": "Ph.Ăngghen",
-      "D": "V.I.Lênin"
+      "A": "Reusability",
+      "B": "Portability",
+      "C": "Usability",
+      "D": "Testability"
     },
-    "answer": "D"
+    "answer": "Reusability",
+    "explanation": "Reusability là khả năng sử dụng lại các thành phần phần mềm cho các dự án khác."
   },
   {
-    "id": 132,
-    "question": "Sứ mệnh lịch sử thế giới của GCCN là:",
+    "id": 29,
+    "question": "Một hệ thống có khả năng giao tiếp và trao đổi dữ liệu với phần mềm khác. Quality Factor nào phù hợp nhất?",
     "options": {
-      "A": "Xoá bỏ chế độ tư hữu",
-      "B": "Xoá bỏ chế độ TBCN",
-      "C": "Xoá bỏ nhà nước của giai cấp tư sản và xây dựng thành công CNXH và chủ nghĩa cộng sản",
-      "D": "Xoá bỏ chế độ tư hữu về tư liệu sản xuất"
+      "A": "Portability",
+      "B": "Interoperability",
+      "C": "Maintainability",
+      "D": "Efficiency"
     },
-    "answer": "C"
+    "answer": "Interoperability",
+    "explanation": "Interoperability là khả năng phần mềm giao tiếp hoặc kết nối với các thành phần hay hệ thống khác."
   },
   {
-    "id": 133,
-    "question": "Xét về phương thức lao động, phương thức sản xuất, GCCN mang thuộc tính cơ bản:",
+    "id": 30,
+    "question": "Một phần mềm chạy trên Linux nhưng phải tương thích với các ứng dụng trong môi trường Windows NT. Đây là ví dụ của yếu tố nào?",
     "options": {
-      "A": "Là giai cấp trực tiếp hay gián tiếp vận hành máy móc có tính chất công nghiệp ngày càng hiện đại",
-      "B": "Có số lượng đông nhất trong dân cư.",
-      "C": "Là giai cấp tạo ra của cải vật chất làm giàu cho xã hội.",
-      "D": "Là giai cấp cấp tiến"
+      "A": "Portability",
+      "B": "Integrity",
+      "C": "Correctness",
+      "D": "Testability"
     },
-    "answer": "A"
+    "answer": "Portability",
+    "explanation": "Tài liệu dùng ví dụ phần mềm phát triển cho Linux phải tương thích với môi trường Windows NT để minh họa cho Portability."
   },
   {
-    "id": 134,
-    "question": "Luận điểm của Hồ Chí Minh về ĐCS Việt Nam là gì?",
+    "id": 31,
+    "question": "Theo tài liệu, mô hình Evans & Marciniak (1987) có bao nhiêu yếu tố chất lượng?",
     "options": {
-      "A": "Trong đảng, GCCN trở thành tự giác - hiểu rõ và biết thực hiện sứ mệnh lịch sử",
-      "B": "Đảng của GCCN, kiên định mục tiêu độc lập dân tộc và chủ nghĩa xã hội, kiên định chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh",
-      "C": "Trong đảng, quyền lợi của GCCN và nhân dân lao động và của dân tộc là một",
-      "D": "Đảng của GCCN, đồng thời là Đảng của dân tộc Việt Nam vừa khẳng định bản chất GCCN của Đảng theo chủ nghĩa Mác - Lênin, vừa thể hiện được nét đặc thù của Đảng ta"
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "15"
     },
-    "answer": "D"
+    "answer": "12",
+    "explanation": "Evans & Marciniak (1987) được tài liệu mô tả có 12 yếu tố, chia thành 3 nhóm."
   },
   {
-    "id": 135,
-    "question": "Cống hiến vĩ đại của C.Mác mà nhờ đó CNXH từ không tưởng trở thành khoa học là:",
+    "id": 32,
+    "question": "Theo tài liệu, Deutsch & Willis (1988) có bao nhiêu yếu tố chất lượng?",
     "options": {
-      "A": "Chỉ ra sự cần thiết phải thay thế chủ nghĩa tư bản bằng chủ nghĩa xã hội.",
-      "B": "Lên án mạnh mẽ chủ nghĩa tư bản, bóc lột GCCN làm thuê.",
-      "C": "Phản ánh đúng khát vọng của nhân dân lao động bị áp bức.",
-      "D": "Phát hiện ra GCCN là lực lượng xã hội có thể thủ tiêu chủ nghĩa tư bản, xây dựng chủ nghĩa xã hội"
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "18"
     },
-    "answer": "D"
+    "answer": "15",
+    "explanation": "Deutsch & Willis (1988) được tài liệu mô tả có 15 yếu tố, chia thành 4 nhóm."
   },
   {
-    "id": 136,
-    "question": "Nội dung kinh tế sứ mệnh lịch sử của GCCN Việt Nam hiện nay",
+    "id": 33,
+    "question": "Điểm nào đúng về Evans & Marciniak và Deutsch & Willis so với McCall theo tài liệu?",
     "options": {
-      "A": "Lực lượng đi đầu trong sự nghiệp CNH - HĐH đất nước",
-      "B": "Thực hiện khối liên minh Công - Nông - Trí thức để tạo ra những động lực phát triển nông nghiệp - nông thôn và nông dân ở nước ta theo hướng phát triển bền vững, chủ động hội nhập quốc tế",
-      "C": "Là nguồn nhân lực chủ yếu tham gia phát triển nền kinh tế thị trường, định hướng XHCN",
-      "D": "Cả A, B, C"
+      "A": "Cả hai đều có Testability nhưng McCall không có",
+      "B": "Cả hai đều không có Testability và bổ sung các yếu tố mới so với McCall",
+      "C": "Cả hai đều không có Portability",
+      "D": "Cả hai chỉ có 5 yếu tố"
     },
-    "answer": "D"
+    "answer": "Cả hai đều không có Testability và bổ sung các yếu tố mới so với McCall",
+    "explanation": "Tài liệu nêu cả hai mô hình không có Testability và bổ sung Verifiability, Expandability; Deutsch & Willis còn có Safety, Manageability và Survivability."
   },
   {
-    "id": 137,
-    "question": "Để thực hiện sứ mệnh lịch sử của mình GCCN phải liên minh với các giai tầng xã hội nào?",
+    "id": 34,
+    "question": "Yếu tố nào được cả Evans & Marciniak và Deutsch & Willis bổ sung theo tài liệu?",
     "options": {
-      "A": "Thực hiện khối liên minh công - nông - trí thức và cấp công tư sản",
-      "B": "Thực hiện khối liên minh công - nông - trí thức; hệ thống tổ chức công đoàn",
-      "C": "Thực hiện khối liên minh công - nông - trí thức",
-      "D": "Thực hiện khối liên minh công - nông"
+      "A": "Verifiability",
+      "B": "Safety",
+      "C": "Manageability",
+      "D": "Survivability"
     },
-    "answer": "C"
+    "answer": "Verifiability",
+    "explanation": "Verifiability và Expandability xuất hiện ở cả hai mô hình. Safety, Manageability và Survivability thuộc phần bổ sung của Deutsch & Willis."
   },
   {
-    "id": 138,
-    "question": "Phạm trù nào được coi là cơ bản nhất, là xuất phát điểm của CNXH khoa học?",
+    "id": 35,
+    "question": "Trong mô hình Deutsch & Willis, yếu tố nào sau đây được bổ sung?",
     "options": {
-      "A": "GCCN",
-      "B": "Chuyên chính vô sản",
-      "C": "XHCN",
-      "D": "Sứ mệnh lịch sử của GCCN"
+      "A": "Testability",
+      "B": "Correctness",
+      "C": "Safety",
+      "D": "Usability"
     },
-    "answer": "D"
+    "answer": "Safety",
+    "explanation": "Theo tài liệu, Deutsch & Willis bổ sung Safety, Manageability và Survivability, bên cạnh Verifiability và Expandability."
   },
   {
-    "id": 139,
-    "question": "V.I.Lênin khái quát quy luật hình thành chính Đảng của GCCN bằng công thức:",
+    "id": 36,
+    "question": "SQA Architecture trong tài liệu gồm bao nhiêu nhóm thành phần lớn?",
     "options": {
-      "A": "Lý luận Mác – Lênin + Phong trào công nhân -> ĐCS.",
-      "B": "Lý luận Mác + Phong trào công nhân + Phong trào yêu nước -> ĐCS.",
-      "C": "Lý luận Mác – Lênin + Phong trào công nhân + Phong trào yêu nước -> ĐCS.",
-      "D": "Lý luận Mác + Phong trào công nhân -> ĐCS"
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
     },
-    "answer": "D"
+    "answer": "6",
+    "explanation": "Kiến trúc SQA được tài liệu chia thành 6 nhóm: Pre-project, Project Life Cycle, Quality Infrastructure, Quality Management, Standards và Organizational Base – Human."
   },
   {
-    "id": 140,
-    "question": "Những yếu tố tư tưởng XHCN được xuất hiện từ khi nào?",
+    "id": 37,
+    "question": "Thành phần nào thuộc Pre-project SQA components?",
     "options": {
-      "A": "Sự xuất hiện của GCCN.",
-      "B": "Chế độ TBCN ra đời.",
-      "C": "Xuất hiện chế độ tư hữu, xuất hiện giai cấp thống trị và bóc lột",
-      "D": "Ngay từ thời cộng sản nguyên thuỷ."
+      "A": "Contract Review và Development & Quality Plan",
+      "B": "Software Testing và Software Maintenance",
+      "C": "Project Progress Control và SW Quality Metrics",
+      "D": "Management và SQA Forums"
     },
-    "answer": "C"
+    "answer": "Contract Review và Development & Quality Plan",
+    "explanation": "Pre-project SQA components có 2 thành phần chính là Contract Review và Development & Quality Plan."
   },
   {
-    "id": 141,
-    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Xét về phương thức lao động, công nhân trong thế kỷ XIX chủ yếu là lao động cơ khí, lao động chân tay, thì nay đã xuất hiện một bộ phận công nhân của những ngành..................... ở trình độ phát triển cao, do vậy công nhân có trình độ tri thức ngày càng cao”.",
+    "id": 38,
+    "question": "Thành phần nào thuộc Project Life Cycle SQA components?",
     "options": {
-      "A": "Công nghệ thông tin",
-      "B": "Ứng dụng công nghệ",
-      "C": "Ứng dụng công nghệ thông tin",
-      "D": "Công nghệ hiện đại"
+      "A": "Formal Design Reviews, Peer Reviews, Experts Opinion, Software Testing, Software Maintenance, SQA of External Participants",
+      "B": "Contract Review và Development & Quality Plan",
+      "C": "Project Progress Control và SW Quality Costs",
+      "D": "Management, SQA Unit, SQA Trustees"
     },
-    "answer": "B"
+    "answer": "Formal Design Reviews, Peer Reviews, Experts Opinion, Software Testing, Software Maintenance, SQA of External Participants",
+    "explanation": "Đây là toàn bộ nhóm thành phần Project Life Cycle được liệt kê trong kiến trúc SQA của tài liệu."
   },
   {
-    "id": 142,
-    "question": "Đặc trưng nào được coi là đặc trưng cơ bản nhất của GCCN nói chung?",
+    "id": 39,
+    "question": "Nhóm nào chứa Procedures, Support Devices, Training Instructions, Preventive Actions, Configuration Management và Document Control?",
     "options": {
-      "A": "Họ lao động trong nền công nghiệp có trình độ công nghệ và kỹ thuật hiện đại",
-      "B": "Bị giai cấp tư sản bóc lột",
-      "C": "Không có tư liệu sản xuất, phải bán sức lao động",
-      "D": "Là sản phẩm của nền đại công nghiệp"
+      "A": "Quality Management components",
+      "B": "Quality Infrastructure components",
+      "C": "Standards",
+      "D": "Organizational Base – Human components"
     },
-    "answer": "A"
+    "answer": "Quality Infrastructure components",
+    "explanation": "Các thành phần được nêu đều thuộc Quality Infrastructure, tức cơ sở hạ tầng chất lượng."
   },
   {
-    "id": 143,
-    "question": "Nội dung văn hóa - xã hội trong việc thực hiện Sứ mệnh lịch sử của GCCN ngày nay so với thế kỷ XIX là gì?",
+    "id": 40,
+    "question": "Project Progress Control, Software Quality Metrics và Software Quality Costs thuộc nhóm nào?",
     "options": {
-      "A": "Tiên phong về trí tuệ, gương mẫu trong cuộc sống, đi đầu trong xây dựng một nền văn hóa tiến bộ.",
-      "B": "Lãnh đạo hoặc đi đầu trong xây dựng một nền văn hóa tiến bộ vì công bằng, bình đẳng và quyền con người.",
-      "C": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng.",
-      "D": "Vẫn là lực lượng giữ vai trò sáng tạo văn hóa cho xã hội, quyết định sự tồn tại của xã hội."
+      "A": "Quality Management components",
+      "B": "Project Life Cycle SQA components",
+      "C": "Pre-project SQA components",
+      "D": "Quality Infrastructure components"
     },
-    "answer": "B"
+    "answer": "Quality Management components",
+    "explanation": "Quality Management components gồm Project Progress Control, SW Quality Metrics và SW Quality Costs."
   },
   {
-    "id": 144,
-    "question": "Những biến đổi và khác biệt của GCCN hiện đại là gì?",
+    "id": 41,
+    "question": "Quality Management Standards và Project Process Standards thuộc nhóm nào trong SQA Architecture?",
     "options": {
-      "A": "Xu hướng trí tuệ hoá GCCN (công nhân tri thức); tham gia vào sở hữu (trung lưu hóa); ít hơn về số lượng",
-      "B": "Xu hướng trí tuệ hoá GCCN (công nhân tri thức); tham gia vào sở hữu (trung lưu hóa)",
-      "C": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng; xu hướng trí tuệ hoá GCCN (công nhân tri thức); ít hơn về số lượng",
-      "D": "Đi đầu trong đấu tranh, tiên phong về trí tuệ, gương mẫu trong cuộc sống"
+      "A": "Quality Infrastructure",
+      "B": "Standards",
+      "C": "Pre-project",
+      "D": "Organizational Base – Human"
     },
-    "answer": "B"
+    "answer": "Standards",
+    "explanation": "Nhóm Standards trong kiến trúc SQA gồm Quality Management Standards và Project Process Standards."
   },
   {
-    "id": 145,
-    "question": "Nội dung chính trị trong việc thực hiện Sứ mệnh lịch sử của GCCN ngày nay so với thế kỷ XIX là gì?",
+    "id": 42,
+    "question": "Management, SQA Unit, SQA Trustees, SQA Committees và SQA Forums thuộc nhóm nào?",
     "options": {
-      "A": "Đi đầu trong đấu tranh, tiên phong về trí tuệ, gương mẫu trong cuộc sống",
-      "B": "Vẫn là lực lượng giữ vai trò sản xuất vật chất chủ yếu cho xã hội, quyết định sự tồn tại của xã hội",
-      "C": "Ở các nước TBCN GCCN đi đầu trong các cuộc đấu tranh chống áp bức, bất công, áp đặt của chủ nghĩa đế quốc; chống nghèo đói, ô nhiễm môi trường.",
-      "D": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng; có cuộc sống đầy đủ hơn"
+      "A": "Quality Management",
+      "B": "Project Life Cycle",
+      "C": "Organizational Base – Human components",
+      "D": "Quality Infrastructure"
     },
-    "answer": "C"
+    "answer": "Organizational Base – Human components",
+    "explanation": "Đây là các thành phần cơ sở tổ chức – con người trong SQA Architecture."
   },
   {
-    "id": 146,
-    "question": "Theo C.Mác: GCCN là giai cấp của những người công nhân và người lao động phải …….. để đổi lấy tiền lương và họ không phải là chủ sở hữu của phương tiện sản xuất.",
+    "id": 43,
+    "question": "Contract Review trong Pre-project SQA phải bao gồm việc rà soát những tài liệu nào?",
     "options": {
-      "A": "Bán sức lao động",
-      "B": "Làm việc",
-      "C": "Làm thuê",
-      "D": "Lao động"
+      "A": "Test Case và Test Suite",
+      "B": "Proposal Draft và Contract Drafts",
+      "C": "Source Code và Database",
+      "D": "Test Summary Report và Incident Report"
     },
-    "answer": "A"
+    "answer": "Proposal Draft và Contract Drafts",
+    "explanation": "Contract Review gồm hai giai đoạn: review Proposal Draft trước khi gửi khách hàng tiềm năng và review Contract Drafts trước khi ký hợp đồng."
   },
   {
-    "id": 147,
-    "question": "GCCN Việt Nam ra đời trước giai cấp tư sản vào đầu thế kỷ nào?",
+    "id": 44,
+    "question": "Mục tiêu nào sau đây thuộc rà soát Proposal Draft?",
     "options": {
-      "A": "XIX",
-      "B": "XXI",
-      "C": "XVIII",
-      "D": "XX"
+      "A": "Xác định các rủi ro phát triển",
+      "B": "Chỉ kiểm tra source code",
+      "C": "Chỉ kiểm tra kết quả test",
+      "D": "Chỉ xác định lỗi giao diện"
     },
-    "answer": "D"
+    "answer": "Xác định các rủi ro phát triển",
+    "explanation": "Một trong các mục tiêu của Proposal Draft review là xác định các rủi ro phát triển. Ngoài ra còn có làm rõ yêu cầu, rà soát phương án, nguồn lực, tiến độ và năng lực các bên."
   },
   {
-    "id": 148,
-    "question": "Đặc trưng nào được coi là đặc trưng cơ bản nhất của GCCN nói chung?",
+    "id": 45,
+    "question": "Mục tiêu nào thuộc Contract Draft review?",
     "options": {
-      "A": "Là sản phẩm của nền đại công nghiệp",
-      "B": "Bị giai cấp tư sản bóc lột",
-      "C": "Họ lao động trong nền công nghiệp có trình độ công nghệ và kỹ thuật hiện đại",
-      "D": "Không có tư liệu sản xuất, phải bán sức lao động"
+      "A": "Tạo test suite",
+      "B": "Đảm bảo tất cả thỏa thuận giữa khách hàng và công ty được ghi chép đầy đủ và chính xác trong hợp đồng và phụ lục",
+      "C": "Chạy regression testing",
+      "D": "Thiết kế database"
     },
-    "answer": "C"
+    "answer": "Đảm bảo tất cả thỏa thuận giữa khách hàng và công ty được ghi chép đầy đủ và chính xác trong hợp đồng và phụ lục",
+    "explanation": "Contract Draft review nhằm đảm bảo không còn vấn đề chưa làm rõ và mọi thỏa thuận đạt được đều được ghi chép đầy đủ, chính xác."
   },
   {
-    "id": 149,
-    "question": "Điểm biến đổi và khác biệt của GCCN hiện đại so với GCCN ở thế kỷ XIX là:",
+    "id": 46,
+    "question": "Mục tiêu nào sau đây thuộc Development & Quality Plan?",
     "options": {
-      "A": "Xu hướng “trí tuệ hóa” tăng nhanh và “trung lưu hóa” gia tăng.",
-      "B": "GCCN hiện nay vẫn đang là lực lượng sản xuất hàng đầu của xã hội hiện đại.",
-      "C": "Ở các nước TBCN hiện nay, công nhân vẫn bị giai cấp tư sản và chủ nghĩa tư bản bóc lột giá trị thặng dư.",
-      "D": "Phong trào cộng sản và công nhân ở nhiều nước vẫn luôn là lực lượng đi đầu trong các cuộc đấu tranh vì hòa bình, hợp tác và phát triển..."
+      "A": "Lập lịch hoạt động phát triển và ước tính nhân lực, ngân sách",
+      "B": "Chỉ sửa bug sau triển khai",
+      "C": "Chỉ tạo test case",
+      "D": "Chỉ lựa chọn ngôn ngữ lập trình"
     },
-    "answer": "A"
+    "answer": "Lập lịch hoạt động phát triển và ước tính nhân lực, ngân sách",
+    "explanation": "Development & Quality Plan có mục tiêu lập lịch phát triển, ước tính nguồn nhân lực và ngân sách, giải quyết rủi ro, thực hiện SQA và cung cấp dữ liệu cho quản lý."
   },
   {
-    "id": 150,
-    "question": "Theo C.Mác và Ph.Ăngghen đặc điểm nổi bật của GCCN là gì?",
+    "id": 47,
+    "question": "Yếu tố nào sau đây KHÔNG thuộc 5 yếu tố của Development & Quality Plan được tài liệu liệt kê?",
     "options": {
-      "A": "Là giai cấp đại diện cho lực lượng sản xuất tiên tiến",
-      "B": "GCCN là một tập đoàn xã hội ổn định, hình thành và phát triển cùng với quá trình phát triển của nền công nghiệp hiện đại",
-      "C": "GCCN là sản phẩm của bản thân nền đại công nghiệp, là chủ thể của quá trình sản xuất vật chất hiện đại.",
-      "D": "Lao động bằng phương thức công nghiệp với đặc trưng công cụ lao động là máy móc, tạo ra năng suất lao động cao, quá trình lao động mang tính chất xã hội hóa"
+      "A": "Mục tiêu chất lượng",
+      "B": "Các bài kiểm thử phần mềm đã lên kế hoạch",
+      "C": "Kế hoạch quản lý cấu hình",
+      "D": "Chính sách tuyển dụng nhân viên sau khi dự án kết thúc"
     },
-    "answer": "D"
+    "answer": "Chính sách tuyển dụng nhân viên sau khi dự án kết thúc",
+    "explanation": "Năm yếu tố gồm Quality objectives, planned evaluation activities, planned software tests, planned acceptance tests cho phần mềm phát triển bên ngoài và configuration management plan."
   },
   {
-    "id": 151,
-    "question": "Nội dung kinh tế trong việc thực hiện Sứ mệnh lịch sử của GCCN ngày nay so với thế kỷ XIX là gì?",
+    "id": 48,
+    "question": "Theo lịch sử testing trong tài liệu, giai đoạn 1960s–1980s được mô tả như thế nào?",
     "options": {
-      "A": "Đi đầu trong đấu tranh, tiên phong về trí tuệ, gương mẫu trong cuộc sống",
-      "B": "Giác ngộ giai cấp tạo sự thống nhất về tư tưởng; có cuộc sống đầy đủ hơn",
-      "C": "Là lực lượng sản xuất hàng đầu của xã hội hiện đại",
-      "D": "Vẫn là lực lượng giữ vai trò sản xuất vật chất chủ yếu cho xã hội, quyết định sự tồn tại của xã hội"
+      "A": "Testing là Must have",
+      "B": "Testing là Should have",
+      "C": "Testing là Nice to have",
+      "D": "Testing là Strategic asset"
     },
-    "answer": "D"
+    "answer": "Testing là Nice to have",
+    "explanation": "Tài liệu chia lịch sử thành 1960s–1980s: Nice to have; 1990s: Should have; 2000+: Must have."
   },
   {
-    "id": 152,
-    "question": "Chọn phương án đúng điền vào chỗ trống: “GCCN là giai cấp… và có tinh thần…”",
+    "id": 49,
+    "question": "Đặc điểm testing trong giai đoạn 2000+ theo tài liệu là gì?",
     "options": {
-      "A": "Tiên phong dân chủ/ dân chủ triệt để nhất.",
-      "B": "Tiên phong cách mạng/ cách mạng triệt để nhất",
-      "C": "Tiên phong cách mạng/ dân chủ triệt để nhất.",
-      "D": "Tiên phong dân chủ/ cách mạng triệt để nhất."
+      "A": "Chỉ black-box và tester part-time",
+      "B": "Black/grey/white-box, system-system, non-functional testing và tester chuyên nghiệp",
+      "C": "Chỉ functional testing",
+      "D": "Không có tester độc lập"
     },
-    "answer": "B"
+    "answer": "Black/grey/white-box, system-system, non-functional testing và tester chuyên nghiệp",
+    "explanation": "Tài liệu mô tả giai đoạn 2000+ là Must have, có black/grey/white-box, system-system testing, non-functional testing, đáp ứng yêu cầu và Fit-for-Use, tester chuyên nghiệp."
   },
   {
-    "id": 153,
-    "question": "Xét trong quan hệ sản xuất TBCN, GCCN có vị trí:",
+    "id": 50,
+    "question": "Theo định nghĩa Testing trong tài liệu, Testing bao gồm những hoạt động nào?",
     "options": {
-      "A": "Là giai cấp nghèo khổ nhất, không có tài sản.",
-      "B": "Là giai cấp lạc hậu nhất.",
-      "C": "Là giai cấp có số lượng đông trong dân cư, luôn đi đầu trong cuộc đấu tranh chống giai cấp tư sản.",
-      "D": "Là giai cấp không có tư liệu sản xuất, đi làm thuê cho các nhà tư bản, bị tư bản bóc lột giá trị thặng dư"
+      "A": "Chỉ dynamic testing sau khi code hoàn thành",
+      "B": "Tất cả hoạt động trong vòng đời phát triển, cả static và dynamic, liên quan đến planning, preparation và evaluation sản phẩm cùng work products",
+      "C": "Chỉ debugging",
+      "D": "Chỉ chạy test case tự động"
     },
-    "answer": "D"
+    "answer": "Tất cả hoạt động trong vòng đời phát triển, cả static và dynamic, liên quan đến planning, preparation và evaluation sản phẩm cùng work products",
+    "explanation": "Tài liệu định nghĩa Testing là một process xuyên suốt vòng đời, bao gồm static và dynamic, planning, preparation, evaluation, xác định đáp ứng yêu cầu, fit for purpose và detect defects."
   },
   {
-    "id": 154,
-    "question": "Trong các đặc điểm sứ mệnh lịch sử của GCCN, GCCN là giai cấp triệt để cách mạng vì sao?",
+    "id": 51,
+    "question": "Theo tài liệu, Testing KHÔNG phải là hoạt động nào?",
     "options": {
-      "A": "Là giai cấp thực hiện xoá bỏ mọi chế độ tư hữu",
-      "B": "Xoá bỏ chủ nghĩa tư bản và xây dựng chủ nghĩa xã hội",
-      "C": "Là giai cấp cùng khổ nhất trong xã hội",
-      "D": "Là giai cấp không có tư liệu sản xuất"
+      "A": "Phát hiện lỗi",
+      "B": "Đánh giá sản phẩm",
+      "C": "Debugging và sửa lỗi",
+      "D": "Kiểm tra sản phẩm đáp ứng yêu cầu"
     },
-    "answer": "A"
+    "answer": "Debugging và sửa lỗi",
+    "explanation": "Testing nhằm phát hiện lỗi. Debugging là quá trình lập trình viên tìm nguyên nhân gây lỗi trong code và sửa lỗi, khác với mục tiêu của testing."
   },
   {
-    "id": 155,
-    "question": "Chọn phương án đúng điền vào chỗ trống: “GCCN có những… thống nhất với… của đại đa số quần chúng nhân dân lao động”",
+    "id": 52,
+    "question": "Nguyên tắc Testing shows presence of defects có ý nghĩa gì?",
     "options": {
-      "A": "Lợi ích chung/ lợi ích cụ thể.",
-      "B": "Lợi ích chung/ lợi ích",
-      "C": "Lợi ích cơ bản/ lợi ích",
-      "D": "Lợi ích cơ bản/ lợi ích cụ thể"
+      "A": "Nếu không tìm thấy lỗi thì chắc chắn phần mềm không có lỗi",
+      "B": "Testing có thể chứng minh phần mềm hoàn toàn không có lỗi",
+      "C": "Testing chỉ có thể chứng minh sự tồn tại của lỗi, không thể chứng minh không còn lỗi",
+      "D": "Testing không thể phát hiện bất kỳ lỗi nào"
     },
-    "answer": "C"
+    "answer": "Testing chỉ có thể chứng minh sự tồn tại của lỗi, không thể chứng minh không còn lỗi",
+    "explanation": "Theo nguyên tắc P1, testing có thể chứng minh defects tồn tại nhưng không thể chứng minh phần mềm hoàn toàn không còn defects."
   },
   {
-    "id": 156,
-    "question": "Một trong những đặc điểm sứ mệnh lịch sử của GCCN:",
+    "id": 53,
+    "question": "Nguyên tắc Exhaustive testing is impossible nói lên điều gì?",
     "options": {
-      "A": "Là sự nghiệp cách mạng của quần chúng và mang lại lợi ích cho thiểu số",
-      "B": "Là sự nghiệp cách mạng của quần chúng và mang lại lợi ích cho đông đảo quần chúng",
-      "C": "Là sự nghiệp cách mạng của bản thân GCCN cùng với đông đảo quần chúng và mang lại lợi ích cho đa số",
-      "D": "Là sự nghiệp cách mạng của GCCN và chỉ mang lại lợi ích cho chính bản thân GCCN"
+      "A": "Mọi phần mềm đều có thể kiểm thử toàn bộ",
+      "B": "Không thể kiểm thử mọi tổ hợp input/precondition trừ các trường hợp rất đơn giản",
+      "C": "Không cần phân tích rủi ro khi kiểm thử",
+      "D": "Chỉ cần kiểm thử một trường hợp đại diện"
     },
-    "answer": "C"
+    "answer": "Không thể kiểm thử mọi tổ hợp input/precondition trừ các trường hợp rất đơn giản",
+    "explanation": "Tài liệu minh họa với 10 trường input, mỗi trường có 5 giá trị tạo thành 5^10 = 9.765.625 tổ hợp. Vì vậy cần ưu tiên test dựa trên risk và priority."
   },
   {
-    "id": 157,
-    "question": "Chọn phương án đúng nhất: Theo C.Mác và Ph.Ăngghen những điều kiện quy định sứ mệnh lịch sử của GCCN thì điều kiện khách quan để GCCN thực hiện sứ mệnh lịch sử là gì?",
+    "id": 54,
+    "question": "Theo ví dụ trong tài liệu, 10 trường input với mỗi trường có 5 giá trị tạo ra bao nhiêu tổ hợp?",
     "options": {
-      "A": "Do địa vị kinh tế của GCCN; do địa vị chính trị - xã hội của GCCN; do nhu cầu giải quyết mâu thuẫn trong chủ nghĩa tư bản",
-      "B": "ĐCS; sự phát triển của bản thân GCCN",
-      "C": "Sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác do GCCN thông qua đội tiên phong của nó là ĐCS lãnh đạo",
-      "D": "Do sự phát triển của bản thân GCCN cả về số lượng và chất lượng"
+      "A": "50",
+      "B": "500",
+      "C": "976.562,5",
+      "D": "9.765.625"
     },
-    "answer": "A"
+    "answer": "9.765.625",
+    "explanation": "Tài liệu tính 5^10 = 9.765.625 tổ hợp, minh họa vì sao exhaustive testing là không khả thi."
   },
   {
-    "id": 158,
-    "question": "Yếu tố nào giữ vai trò quyết định nhất đối với tính cách mạng triệt để nhất của GCCN?",
+    "id": 55,
+    "question": "Tiêu chí nào sau đây phù hợp với việc ưu tiên kiểm thử dựa trên rủi ro?",
     "options": {
-      "A": "Bị bóc lột nặng nề nhất trong chủ nghĩa tư bản.",
-      "B": "Đại diện cho xã hội tương lai",
-      "C": "Nghèo khổ nhất trong chủ nghĩa tư bản.",
-      "D": "Bị bóc lột nặng nề nhất."
+      "A": "Chỉ kiểm thử những phần ít quan trọng nhất",
+      "B": "Kiểm thử nơi lỗi có thể gây hậu quả nghiêm trọng nhất",
+      "C": "Luôn kiểm thử module đầu tiên trước",
+      "D": "Chỉ kiểm thử các phần ít thay đổi"
     },
-    "answer": "B"
+    "answer": "Kiểm thử nơi lỗi có thể gây hậu quả nghiêm trọng nhất",
+    "explanation": "Tài liệu đưa ra nhiều tiêu chí ưu tiên dựa trên risk, trong đó có kiểm thử nơi lỗi gây hậu quả nghiêm trọng nhất, nơi sự cố dễ nhận thấy, nơi có khả năng lỗi cao và khu vực phức tạp hoặc quan trọng về kỹ thuật."
   },
   {
-    "id": 159,
-    "question": "Sứ mệnh lịch sử của GCCN là phạm trù trung tâm của nguyên lý nào trong chủ nghĩa Mác – Lênin?",
+    "id": 56,
+    "question": "Nguyên tắc Early testing yêu cầu điều gì?",
     "options": {
-      "A": "Kinh tế chính trị Mác - Lênin",
-      "B": "Triết học Mác – Lênin",
-      "C": "CNXH khoa học",
-      "D": "Học thuyết Kinh tế xã hội"
+      "A": "Chỉ bắt đầu testing sau khi triển khai",
+      "B": "Testing nên bắt đầu càng sớm càng tốt trong vòng đời phát triển",
+      "C": "Chỉ tester mới được tham gia từ cuối dự án",
+      "D": "Chỉ test sau khi tất cả code hoàn thành"
     },
-    "answer": "C"
+    "answer": "Testing nên bắt đầu càng sớm càng tốt trong vòng đời phát triển",
+    "explanation": "Early testing nhấn mạnh bắt đầu kiểm thử càng sớm càng tốt vì lỗi phát hiện càng muộn thì chi phí sửa càng cao."
   },
   {
-    "id": 160,
-    "question": "Sứ mệnh lịch sử thế giới của GCCN vừa mang tính .. vừa mang tính ..",
+    "id": 57,
+    "question": "Defect clustering đề cập đến hiện tượng nào?",
     "options": {
-      "A": "Giai cấp …… dân tộc.",
-      "B": "Giai cấp …… nhân dân.",
-      "C": "Dân tộc …… nhân dân.",
-      "D": "Dân tộc …… quốc tế"
+      "A": "Mọi module có số lượng lỗi bằng nhau",
+      "B": "Phần lớn lỗi thường tập trung ở một số ít module",
+      "C": "Lỗi chỉ xuất hiện ở database",
+      "D": "Lỗi luôn xuất hiện ở module đầu tiên"
     },
-    "answer": "D"
+    "answer": "Phần lớn lỗi thường tập trung ở một số ít module",
+    "explanation": "Tài liệu mô tả defect clustering là hiện tượng lỗi tập trung ở một số ít hot spots và đưa ra quy tắc 80–20: khoảng 80% lỗi nằm trong khoảng 20% module."
   },
   {
-    "id": 161,
-    "question": "C. Mác và Ăngghen luận giải một cách khoa học sứ mệnh lịch sử của GCCN là dựa trên phát kiến:",
+    "id": 58,
+    "question": "The pesticide paradox có ý nghĩa gì?",
     "options": {
-      "A": "Chủ nghĩa duy vật biện chứng",
-      "B": "Chủ nghĩa duy vật lịch sử và học thuyết giá trị thặng dư",
-      "C": "Kinh tế học chính trị cổ điển Anh",
-      "D": "Thuyết tiến hoá của Darwin"
+      "A": "Một test case càng lặp lại càng phát hiện nhiều lỗi mới",
+      "B": "Nếu lặp lại cùng một bộ test nhiều lần, bộ test dần không còn phát hiện lỗi mới",
+      "C": "Không cần thay đổi test case",
+      "D": "Chỉ cần sử dụng automated testing"
     },
-    "answer": "B"
+    "answer": "Nếu lặp lại cùng một bộ test nhiều lần, bộ test dần không còn phát hiện lỗi mới",
+    "explanation": "Tương tự côn trùng lờn thuốc, cùng một test suite lặp lại có thể mất khả năng phát hiện lỗi mới. Cần thường xuyên rà soát, sửa đổi và bổ sung test case."
   },
   {
-    "id": 162,
-    "question": "Đặc điểm nào khẳng định GCCN là giai cấp tiến bộ nhất",
+    "id": 59,
+    "question": "Nguyên tắc Testing is context dependent có nghĩa là gì?",
     "options": {
-      "A": "Đại biểu cho phương thức sản xuất hiện đại",
-      "B": "Có tinh thần quốc tế trong sáng",
-      "C": "Có tính chất tổ chức kỷ luật cao",
-      "D": "Có số lượng đông"
+      "A": "Mọi sản phẩm phải dùng cùng một phương pháp testing",
+      "B": "Phương pháp testing cần phù hợp với yêu cầu, mục đích và mức độ rủi ro của từng sản phẩm",
+      "C": "Chỉ phần mềm safety-critical mới cần testing",
+      "D": "Chỉ web application mới cần testing"
     },
-    "answer": "C"
+    "answer": "Phương pháp testing cần phù hợp với yêu cầu, mục đích và mức độ rủi ro của từng sản phẩm",
+    "explanation": "Tài liệu nêu không nên áp dụng cùng một cách kiểm thử cho mọi sản phẩm vì mỗi sản phẩm có yêu cầu, chức năng, mục đích và rủi ro khác nhau."
   },
   {
-    "id": 163,
-    "question": "Chọn phương án đúng điền vào chỗ trống: Theo quan điểm của chủ nghĩa Mác – Lênin: “Lực lượng sản xuất hàng đầu của toàn nhân loại là…, là…”",
+    "id": 60,
+    "question": "Absence of errors fallacy cảnh báo điều gì?",
     "options": {
-      "A": "Công nhân/ người không lao động.",
-      "B": "Trí thức/ người lao động.",
-      "C": "Công nhân/ người lao động",
-      "D": "Nông dân/ người lao động."
+      "A": "Sửa hết lỗi luôn đảm bảo người dùng chấp nhận hệ thống",
+      "B": "Nếu không tìm thấy lỗi thì hệ thống chắc chắn phù hợp nhu cầu",
+      "C": "Tìm và sửa hết lỗi không có nghĩa hệ thống sẽ được người dùng chấp nhận nếu không đáp ứng nhu cầu và kỳ vọng",
+      "D": "Testing không liên quan đến nhu cầu người dùng"
     },
-    "answer": "C"
-  },
-  {
-    "id": 164,
-    "question": "Với phương thức lao động công nghiệp trong nền sản xuất TBCN, giai cấp nào là những người trực tiếp hay gián tiếp vận hành các công cụ lao động có tính chất công nghiệp ngày càng hiện đại và xã hội hóa cao?",
-    "options": {
-      "A": "Giai cấp tư sản",
-      "B": "GCCN",
-      "C": "Giai cấp nông dân",
-      "D": "GCCN và nông dân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 165,
-    "question": "Theo tư tưởng Hồ Chí Minh, quy luật hình thành và phát triển của ĐCS Việt Nam là gì?",
-    "options": {
-      "A": "Chủ nghĩa Mác; tư tưởng Hồ Chí Minh và phong trào công nhân",
-      "B": "Chủ nghĩa Mác – Lênin; tư tưởng Hồ Chí Minh và phong trào công nhân",
-      "C": "Chủ nghĩa Mác – Lênin; tư tưởng Hồ Chí Minh; phong trào công nhân và phong trào yêu nước",
-      "D": "Chủ nghĩa Mác – Lênin; phong trào công nhân, phong trào yêu nước"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 166,
-    "question": "Chọn phương án đúng nhất: Theo C.Mác và Ph.Ăngghen những điều kiện quy định sứ mệnh lịch sử của GCCN thì điều kiện khách quan để GCCN thực hiện sứ mệnh lịch sử là gì?",
-    "options": {
-      "A": "Do sự phát triển của bản thân GCCN cả về số lượng và chất lượng",
-      "B": "Sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác",
-      "C": "Do địa vị kinh tế của GCCN; do địa vị chính trị - xã hội của GCCN; do nhu cầu giải quyết mâu thuẫn trong chủ nghĩa tư bản",
-      "D": "ĐCS; sự phát triển của bản thân GCCN do GCCN thông qua đội tiên phong của nó là ĐCS lãnh đạo"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 167,
-    "question": "CNXH khoa học ra đời từ điều kiện kinh tế - xã hội:",
-    "options": {
-      "A": "Khi ra đời chính Đảng của GCCN.",
-      "B": "Khi có sự ủng hộ của giai cấp nông dân và tầng lớp trí thức đối với GCCN",
-      "C": "Khi GCCN đã thực sự giác ngộ sứ mệnh lịch sử của giai cấp mình.",
-      "D": "Khi phương thức sản xuất TBCN đã phát triển và sự lớn mạnh của GCCN"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 168,
-    "question": "GCCN hình thành và phát triển mạnh trong xã hội?",
-    "options": {
-      "A": "Xã hội TBCN",
-      "B": "Xã hội chiếm hữu nô lệ",
-      "C": "Xã hội XHCN",
-      "D": "Xã hội phong kiến"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 169,
-    "question": "GCCN có những đặc điểm chủ yếu nào?",
-    "options": {
-      "A": "Lao động bằng phương thức công nghiệp với đặc trưng công cụ lao động là máy móc, tạo ra năng suất lao động cao, quá trình lao động mang tính chất xã hội hóa.",
-      "B": "Đại biểu cho lực lượng sản xuất tiên tiến, cho phương thức sản xuất tiên tiến, quyết định sự tồn tại và phát triển của xã hội hiện đại.",
-      "C": "Nền sản xuất đại công nghiệp và phương thức sản xuất tiên tiến đã rèn luyện cho GCCN những phẩm chất đặc biệt về tính tổ chức, kỷ luật lao động, tinh thần hợp tác...",
-      "D": "Bao gồm tất cả các đáp án."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 170,
-    "question": "Chọn phương án đúng nhất điền vào chỗ trống “Chủ nghĩa Mác – Lênin chỉ rõ, để cuộc cách mạng thực hiện sứ mệnh lịch sử của GCCN đi tới thắng lợi, phải có sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác, thông qua đội tiên phong của nó là ”.",
-    "options": {
-      "A": "Giai cấp bị thống trị lãnh đạo",
-      "B": "ĐCS lãnh đạo",
-      "C": "Liên minh công nông và tầng lớp trí thức lãnh đạo",
-      "D": "GCCN lãnh đạo"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 171,
-    "question": "Theo C.Mác và Ph.Ăngghen những điều kiện quy định sứ mệnh lịch sử của GCCN thì “Điều kiện chủ quan để GCCN thực hiện sứ mệnh lịch sử” là gì?",
-    "options": {
-      "A": "Sự liên minh giai cấp giữa GCCN với các tầng lớp lao động khác do GCCN thông qua đội tiên phong của nó là ĐCS lãnh đạo.",
-      "B": "ĐCS; sự phát triển của bản thân GCCN",
-      "C": "Liên minh giai cấp giữa GCCN với các tầng lớp lao động khác; sự phát triển của bản thân GCCN",
-      "D": "Sự phát triển của bản thân GCCN cả về số lượng và chất lượng; ĐCS là nhân tố chủ quan quan trọng nhất để GCCN thực hiện thắng lợi sứ mệnh lịch sử của mình"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 172,
-    "question": "ĐCS đại biểu cho lợi ích và trí tuệ của:",
-    "options": {
-      "A": "GCCN.",
-      "B": "GCCN và giai cấp nông dân.",
-      "C": "Tất cả các giai cấp, các tầng lớp nhân dân trong xã hội.",
-      "D": "GCCN và nhân dân lao động."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 173,
-    "question": "Hãy cho biết: “3 khâu đột phá” của thời kỳ quá độ lên CNXH trong Giáo trình CNXH khoa học (dành cho bậc đại học – không chuyên lý luận chính trị) – 2021 là gì?",
-    "options": {
-      "A": "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; hiệu quả công việc tăng cao; phát triển kết cấu hạ tầng đồng bộ",
-      "B": "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; phát triển nguồn nhân lực chất lượng cao; phát triển kết cấu hạ tầng đồng bộ",
-      "C": "Năng suất lao động tăng cao; quốc phòng; an ninh vững chắc; phát triển kết cấu hạ tầng đồng",
-      "D": "Theo hiệu quả lao động; phát triển nguồn nhân lực chất lượng cao; phát triển kết cấu hạ tầng đồng bộ; phát triển nguồn nhân lực chất lượng cao"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 174,
-    "question": "Nguyên nhân sâu xa dẫn đến sự thay thế hình thái kinh tế - xã hội TBCN bằng hình thái kinh tế - xã hội cộng sản chủ nghĩa là gì?",
-    "options": {
-      "A": "Mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa ngày càng cao với quan hệ sản xuất TBCN dựa trên chế độ chiếm hữu tư nhân TBCN về tư liệu sản xuất chủ yếu",
-      "B": "Mâu thuẫn giữa các giai cấp, tầng lớp lao động trong xã hội",
-      "C": "Mâu thuẫn giữa phương thức sản xuất cộng sản chủ nghĩa với phương thức sản xuất TBCN",
-      "D": "Mâu thuẫn giữa tư liệu lao động đối với đối tượng lao động trong nền sản xuất hàng hóa TBCN"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 175,
-    "question": "Thời kỳ quá độ lên CNXH có mấy đặc điểm cơ bản?",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 176,
-    "question": "Quá độ lên CNXH bỏ qua chế độ TBCN được hiểu là:",
-    "options": {
-      "A": "Tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ TBCN",
-      "B": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng TBCN",
-      "C": "Tạo ra sự biến đổi về chất của xã hội trên tất cả các lĩnh vực của đời sống",
-      "D": "Cả A, B, C"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 177,
-    "question": "Theo quan điểm của các nhà sáng lập chủ nghĩa xã hội khoa học, CNXH gồm mấy đặc trưng?",
-    "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "6"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 178,
-    "question": "Khái niệm: “Hệ thống chính trị XHCN” do tổ chức Đảng nào sau đây nêu ra?",
-    "options": {
-      "A": "ĐCS Liên Xô",
-      "B": "ĐCS Trung Quốc",
-      "C": "ĐCS Việt Nam",
-      "D": "Quốc tế Cộng sản (Quốc tế III)"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 179,
-    "question": "Theo C.Mác và Ph.Ăngghen hình thái kinh tế - xã hội cộng sản chủ nghĩa phát triển qua mấy giai đoạn?",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 180,
-    "question": "Những đặc trưng cơ bản của CNXH mà nhân dân ta đang xây dựng hiện nay được thông qua tại đại hội nào?",
-    "options": {
-      "A": "Đại hội IX",
-      "B": "Đại hội VIII",
-      "C": "Đại hội VII",
-      "D": "Đại hội VI"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 181,
-    "question": "\"Thiết lập, tăng cường chuyên chính vô sản\" là đặc điểm của thời kỳ quá độ lên CNXH trên lĩnh vực nào?",
-    "options": {
-      "A": "Trên lĩnh vực chính trị",
-      "B": "Trên lĩnh vực kinh tế",
-      "C": "Trên lĩnh vực tư tưởng - văn hóa",
-      "D": "Trên lĩnh vực xã hội"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 182,
-    "question": "Ai khẳng định: “Đối với những nước chưa có chủ nghĩa tư bản phát triển cao thì cần phải có thời kì quá độ khá lâu dài, từ chủ nghĩa tư bản lên chủ nghĩa xã hội”?",
-    "options": {
-      "A": "Ph.Ăngghen",
-      "B": "Hồ Chí Minh",
-      "C": "V.I.Lênin",
-      "D": "C.Mác"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 183,
-    "question": "Trong giai đoạn hiện nay, thực hiện bước quá độ lên CNXH ở Việt Nam có những yếu tố thuận lợi nào?",
-    "options": {
-      "A": "Cách mạng khoa học và công nghệ hiện đại đang diễn ra mạnh mẽ",
-      "B": "Nền sản xuất vật chất và đời sống xã hội đang trong quá trình quốc tế hóa sâu sắc",
-      "C": "Quá trình đổi mới và chính sách cởi mở của Đảng và Nhà nước Việt Nam trong hội nhập quốc tế",
-      "D": "Cả A, B, C"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 184,
-    "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (1991) Đảng ta xác định mấy phương hướng?",
-    "options": {
-      "A": "5",
-      "B": "6",
-      "C": "7",
-      "D": "8"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 185,
-    "question": "Tiêu chí nào là quan trọng nhất để C.Mác phân chia giai đoạn phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa?",
-    "options": {
-      "A": "Ý thức giác ngộ của nhân dân lao động",
-      "B": "Trình độ quản lý của Nhà nước",
-      "C": "Trình độ dân trí của xã hội",
-      "D": "Trình độ xã hội hóa của lực lượng sản xuất"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 186,
-    "question": "Hãy cho biết mục tiêu của cách mạng XHCN là gì?",
-    "options": {
-      "A": "Giải phóng con người",
-      "B": "Giải phóng xã hội",
-      "C": "Giải phóng xã hội, giải phóng con người khỏi chế độ áp bức, bóc lột",
-      "D": "Giải phóng xã hội, giải phóng con người"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 187,
-    "question": "Cách mạng vô sản trên thực tế được thực hiện bằng con đường:",
-    "options": {
-      "A": "Con đường thỏa hiệp",
-      "B": "Con đường bạo lực cách mạng",
-      "C": "Con đường hòa bình",
-      "D": "Đấu tranh chính trị"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 188,
-    "question": "Một trong những thuận lợi khi Việt Nam quá độ lên chủ nghĩa xã hội:",
-    "options": {
-      "A": "Cuộc cách mạng khoa học và công nghệ hiện đại đang diễn ra mạnh mẽ, cuốn hút tất cả các nước ở mức độ khác nhau",
-      "B": "Xuất phát từ một xã hội vốn là thuộc địa, nửa phong kiến, lực lượng sản xuất rất thấp.",
-      "C": "Các thế lực thù địch thường xuyên tìm cách phá hoại.",
-      "D": "Đất nước trải qua chiến tranh ác liệt, kéo dài nhiều thập kỷ, hậu quả để lại còn nặng nề."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 189,
-    "question": "Chọn phương án đúng nhất điền vào chỗ trống: C.Mác cho rằng: “Giữa xã hội TBCN và xã hội cộng sản chủ nghĩa là một thời kỳ ….. từ xã hội này sang xã hội kia. Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị, và nhà nước của thời kỳ ấy không thể là cái gì khác hơn là nền chuyên chính cách mạng của giai cấp vô sản”.",
-    "options": {
-      "A": "Quá độ chính trị",
-      "B": "Chuyên chính cách mạng",
-      "C": "Của giai cấp vô sản",
-      "D": "Cải biến cách mạng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 190,
-    "question": "C. Mác đã dựa vào nhân tố nào trong sự vận động của chủ nghĩa tư bản để kết luận rằng xã hội tư bản sẽ chuyển sang xã hội XHCN?",
-    "options": {
-      "A": "C.Mác đã phân tích những quy luật kinh tế trong xã hội tư bản",
-      "B": "C.Mác đã phân tích những áp bức, bất công trong xã hội tư bản",
-      "C": "C.Mác đã phân tích những hạn chế trong xã hội tư bản",
-      "D": "C.Mác đã phân tích sự phân hóa giàu nghèo trong xã hội tư bản"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 191,
-    "question": "Đặc trưng bản chất của CNXH ở Việt Nam gồm mấy đặc trưng?",
-    "options": {
-      "A": "5",
-      "B": "6",
-      "C": "36",
-      "D": "8"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 192,
-    "question": "Điều kiện ra đời của CNXH là gì?",
-    "options": {
-      "A": "Mâu thuẫn giữa tư sản và phong kiến",
-      "B": "Mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân TBCN",
-      "C": "Mâu thuẫn với quan hệ sản xuất TBCN",
-      "D": "Mâu thuẫn giữa GCCN hiện đại với giai cấp tư sản lỗi thời"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 193,
-    "question": "Sự khác nhau giữa giai đoạn thấp và giai đoạn cao của hình thái kinh tế - xã hội cộng sản chủ nghĩa là gì?",
-    "options": {
-      "A": "Giai đoạn thấp còn sự phân chia giai cấp, giai đoạn cao còn một giai cấp",
-      "B": "Giai đoạn thấp làm theo năng lực, hưởng theo lao động, giai đoạn cao làm theo năng lực, hưởng theo nhu cầu",
-      "C": "Giai đoạn thấp thực hiện phân phối theo nhu cầu, giai đoạn cao thực hiện phân phối theo lao động",
-      "D": "Giai đoạn thấp sử dụng pháp quyền tư sản, giai đoạn cao sử dụng pháp quyền XHCN"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 194,
-    "question": "Hãy cho biết: CNXH (Socialism) được hiểu theo mấy nghĩa?",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 195,
-    "question": "Một trong những khó khăn khi Việt Nam quá độ lên chủ nghĩa xã hội:",
-    "options": {
-      "A": "Xuất phát từ một xã hội vốn là thuộc địa, nửa phong kiến, lực lượng sản xuất rất thấp.",
-      "B": "Cuộc cách mạng khoa học và công nghệ hiện đại đang diễn ra mạnh mẽ.",
-      "C": "Thời đại ngày nay vẫn là thời đại quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội.",
-      "D": "Bao gồm tất cả các đáp án."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 196,
-    "question": "Hãy cho biết: CNXH thực hiện nguyên tắc phân phối như thế nào?",
-    "options": {
-      "A": "Theo hiệu quả công việc",
-      "B": "Theo hiệu quả lao động",
-      "C": "Theo lao động",
-      "D": "Theo năng suất lao động"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 197,
-    "question": "Hãy cho biết: Mục đích cách mạng XHCN là gì?",
-    "options": {
-      "A": "Giải phóng GCCN, nhân dân lao động ra khỏi tình trạng bị áp bức bóc lột, đưa lại cuộc sống ấm no hạnh phúc",
-      "B": "Giải phóng toàn xã hội",
-      "C": "Giải phóng con người khỏi tình trạng bị áp bức bóc lột, đưa lại cuộc sống ấm no hạnh phúc",
-      "D": "Giải phóng GCCN, nhân dân lao động"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 198,
-    "question": "Cách mạng XHCN theo nghĩa hẹp là gì?",
-    "options": {
-      "A": "Giải phóng GCCN, xây dựng CNXH và chủ nghĩa cộng sản.",
-      "B": "Là quá trình cải biến một cách toàn diện trên tất cả các lĩnh vực của đời sống xã hội từ kinh tế, chính trị, văn hoá, tư tưởng, v.v. để xây dựng CNXH và cuối cùng là chủ nghĩa cộng sản",
-      "C": "Là cuộc cách mạng của GCCN cùng với nhân dân lao động đánh đổ sự thống trị của giai cấp tư sản",
-      "D": "Là một cuộc cách mạng chính trị được kết thúc bằng việc GCCN cùng với nhân dân lật đổ giai cấp tư sản và chủ nghĩa tư bản"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 199,
-    "question": "Học thuyết hình thái kinh tế - xã hội của chủ nghĩa Mác - Lênin đã cung cấp những tiêu chuẩn thực sự duy vật, khoa học cho sự phân kỳ lịch sử, trong đó có sự phân kỳ hình thái kinh tế - xã hội nào?",
-    "options": {
-      "A": "Xã hội - XHCN",
-      "B": "TBCN",
-      "C": "Chiếm hữu nô lệ",
-      "D": "Cộng sản chủ nghĩa"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 200,
-    "question": "So với hình thái kinh tế xã hội đã xuất hiện trong lịch sử, hình thái kinh tế - xã hội cộng sản chủ nghĩa có sự khác biệt về chất đó là gì?",
-    "options": {
-      "A": "Dưới sự lãnh đạo của ĐCS có giai cấp đối kháng",
-      "B": "Là nền chuyên chính cách mạng của giai cấp vô sản",
-      "C": "Không có giai cấp đối kháng, con người từng bước trở thành người tự do",
-      "D": "Là nền chuyên chính cách mạng của giai cấp vô sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 201,
-    "question": "Cách mạng XHCN theo nghĩa rộng là gì?",
-    "options": {
-      "A": "Là quá trình cải biến một cách toàn diện trên tất cả các lĩnh vực của đời sống xã hội từ kinh tế, chính trị, văn hoá, tư tưởng, v.v. để xây dựng CNXH và cuối cùng là chủ nghĩa cộng sản",
-      "B": "Là một cuộc cách mạng có nội dung chủ yếu về mặt kinh tế dưới sự lãnh đạo của GCCN để xây dựng CNXH và chủ nghĩa cộng sản",
-      "C": "Với nhân dân lao động giành được chính quyền, thiết lập nhà nước chuyên chính vô sản",
-      "D": "Là cuộc cách mạng của GCCN cùng với nhân dân lao động đánh đổ sự thống trị của giai cấp tư sản và lật đổ chủ nghĩa tư bản"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 202,
-    "question": "Học thuyết về hình thái kinh tế - xã hội do C.Mác và Ph.Ăngghen khởi xướng được V.I.Lênin bổ sung, phát triển và hiện thực hóa trong công cuộc xây dựng CNXH ở nước nào?",
-    "options": {
-      "A": "Triều Tiên",
-      "B": "Trung Quốc",
-      "C": "Việt Nam",
-      "D": "Nga Xô viết"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 203,
-    "question": "Trong các đặc trưng của chủ nghĩa xã hội, đặc trưng nào thể hiện thuộc tính bản chất?",
-    "options": {
-      "A": "Tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ TBCN",
-      "B": "Tạo ra sự biến đổi về chất của xã hội trên tất cả các lĩnh vực của đời sống",
-      "C": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng TBCN",
-      "D": "Cả A, B, C"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 204,
-    "question": "Hãy cho biết: “4 trụ cột” phát triển của thời kỳ quá độ lên CNXH trong Giáo trình CNXH khoa học (dành cho bậc đại học – không chuyên lý luận chính trị) – 2021 là gì?",
-    "options": {
-      "A": "Con người có cuộc sống tiên tiến; ấm no, tự do, hạnh phúc; có điều kiện phát triển toàn diện; phát triển nguồn nhân lực chất lượng cao",
-      "B": "Xây dựng Đảng là then chốt; phát triển văn hóa, con người là nền tảng tinh thần; phát triển nguồn nhân lực chất lượng cao",
-      "C": "Có nền văn hóa, đậm đà bản sắc dân tộc; phát triển kinh tế - xã hội là trung tâm; xây dựng Đảng là then chốt",
-      "D": "Phát triển kinh tế - xã hội là trung tâm; xây dựng Đảng là then chốt; phát triển văn hóa, con người là nền tảng tinh thần; củng cố quốc phòng, an ninh là nhiệm vụ trọng yếu và thường xuyên"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 205,
-    "question": "Đoạn trích sau: “Giữ vững và tăng cường bản chất GCCN của Đảng. Đây là nhiệm vụ có ý nghĩa quan trọng hàng đầu đối với Đảng ta”. Được Đảng ta ghi ở Đại hội nào?",
-    "options": {
-      "A": "Đại hội VI",
-      "B": "Đại hội VII",
-      "C": "Đại hội VIII",
-      "D": "Đại hội IX"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 206,
-    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Trong điều kiện xã hội mới - xã hội XHCN, GCCN cùng với nhân dân lao động là ........ ra các giá trị văn hóa, tinh thần của xã hội”.",
-    "options": {
-      "A": "Chủ thể sáng tạo",
-      "B": "Lực lượng sáng tạo",
-      "C": "Giai cấp sáng tạo",
-      "D": "Người sáng tạo"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 207,
-    "question": "Thời kì quá độ lên CNXH bắt đầu khi nào?",
-    "options": {
-      "A": "Khi xây dựng thành công chủ nghĩa xã hội",
-      "B": "Là việc thiết lập, tăng cường chuyên chính vô sản",
-      "C": "Khi GCCN và nhân dân lao động giành được chính quyền",
-      "D": "GCCN và nhân dân lao động giành được chính quyền"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 208,
-    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Chủ nghĩa xã hội, với bản chất tốt đẹp do con người, vì con người luôn là bảo đảm cho các dân tộc ….. và hợp tác hữu nghị, đồng thời có quan hệ với nhân dân tất cả các nước trên thế giới”.",
-    "options": {
-      "A": "Vì con người",
-      "B": "Bình đẳng, đoàn kết",
-      "C": "Hợp tác hữu nghị",
-      "D": "Có quan hệ với nhân dân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 209,
-    "question": "Đoạn trích sau là của tác giả nào? “Con đường biện chứng của quá trình phát triển dân chủ là từ chuyên chế đến dân chủ tư sản, từ dân chủ tư sản đến dân chủ vô sản; từ dân chủ vô sản đến không còn dân chủ nữa”.",
-    "options": {
-      "A": "Ph.Ăngghen",
-      "B": "Hồ Chí Minh",
-      "C": "V.I.Lênin",
-      "D": "C.Mác"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 210,
-    "question": "Trong hệ thống chính trị nước ta, vai trò của Mặt trận Tổ quốc và các tổ chức chính trị - xã hội là gì?",
-    "options": {
-      "A": "Đoàn kết toàn dân tộc",
-      "B": "Đoàn kết, tập hợp quần chúng",
-      "C": "Bảo vệ quyền và lợi ích hợp pháp của công dân",
-      "D": "Tập hợp, vận động, đoàn kết rộng rãi các tầng lớp nhân dân"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 211,
-    "question": "Động lực của cách mạng XHCN là gì?",
-    "options": {
-      "A": "GCCN, giai cấp nông dân và tầng lớp trí thức",
-      "B": "Lực lượng cách mạng trong nước và ngoài nước",
-      "C": "Lực lượng đồng minh",
-      "D": "Toàn thể dân tộc"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 212,
-    "question": "Thực tiễn cho thấy, bản chất tốt đẹp và tính ưu việt của nền dân chủ XHCN ở Việt Nam ngày càng thể hiện:",
-    "options": {
-      "A": "Giá trị lấy dân làm gốc",
-      "B": "Giá trị ưu việt của chủ nghĩa xã hội",
-      "C": "Giá trị tốt đẹp của xã hội tương lai",
-      "D": "Giá trị văn hóa tinh thần"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 213,
-    "question": "Dân chủ XHCN có mối quan hệ như thế nào với việc xây dựng và hoạt động của nhà nước XHCN:",
-    "options": {
-      "A": "Là cơ sở, nền tảng",
-      "B": "Là cơ sở, động lực",
-      "C": "Là cơ sở, cách thức",
-      "D": "Là cơ sở, điều kiện"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 214,
-    "question": "Nhà nước pháp quyền XHCN quản lý mọi mặt của đời sống xã hội chủ yếu bằng yếu tố nào?",
-    "options": {
-      "A": "Đường lối, chính sách",
-      "B": "Tuyên truyền, giáo dục",
-      "C": "Nêu gương, giáo dục",
-      "D": "Hiến pháp, pháp luật"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 215,
-    "question": "Quyền lực nhà nước thống nhất, có sự phân cấp rõ ràng, có cơ chế phối hợp, nhịp nhàng giữa các cơ quan:",
-    "options": {
-      "A": "Các cơ quan trong chính phủ",
-      "B": "Ủy ban nhân dân các cấp từ Trung ương đến địa phương",
-      "C": "Lập pháp, hành pháp, tư pháp",
-      "D": "Các bộ, ngành từ Trung ương đến địa phương"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 216,
-    "question": "Hệ thống chính trị ở Việt Nam hiện nay ra đời từ khi nào?",
-    "options": {
-      "A": "1930",
-      "B": "1945",
-      "C": "1954",
-      "D": "1975"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 217,
-    "question": "Nhà nước XHCN đầu tiên trên thế giới ra đời ở quốc gia nào?",
-    "options": {
-      "A": "Trung Quốc",
-      "B": "Liên xô",
-      "C": "Cuba",
-      "D": "Việt Nam"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 218,
-    "question": "Theo quan điểm của chủ nghĩa Mác-Lênin, dân chủ gồm mấy đặc trưng?",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 219,
-    "question": "Theo Hồ Chí Minh động lực quyết định nhất của CNXH là gì?",
-    "options": {
-      "A": "Khoa học kỹ thuật",
-      "B": "Con người",
-      "C": "Chính trị",
-      "D": "Sự ủng hộ, giúp đỡ quốc tế"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 220,
-    "question": "Một trong những nội dung tiếp tục xây dựng và hoàn thiện Nhà nước pháp quyền XHCN ở Việt Nam hiện nay:",
-    "options": {
-      "A": "Cải cách thể chế và phương thức hoạt động của Nhà nước",
-      "B": "Xây dựng các tổ chức nhà nước vững mạnh",
-      "C": "Nâng cao vai trò quản lý của các tổ chức nhà nước",
-      "D": "Hoàn thiện các hệ thống giám sát, phản biện xã hội"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 221,
-    "question": "Căn cứ vào tính chất của quyền lực nhà nước, chức năng của Nhà nước XHCN được chia thành:",
-    "options": {
-      "A": "Chức năng đối nội, chức năng đối ngoại",
-      "B": "Chức năng giai cấp, chức năng xã hội",
-      "C": "Chức năng đối nội, chức năng chính trị",
-      "D": "Chức năng kinh tế, chức năng chính trị"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 222,
-    "question": "Một trong những đổi mới tư duy của Đảng ta về hệ thống chính trị, về vấn đề Nhà nước là gì?",
-    "options": {
-      "A": "Xây dựng Nhà nước trong đó quyền lực thuộc về nhân dân",
-      "B": "Xây dựng Nhà nước pháp quyền XHCN",
-      "C": "Xây dựng Nhà nước của dân, do dân, vì dân",
-      "D": "Xây dựng Nhà nước có sự phân công rành mạch"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 223,
-    "question": "Bản chất xã hội của dân chủ XHCN:",
-    "options": {
-      "A": "Là sự kết hợp hài hòa về lợi ích giữa cá nhân, tập thể và lợi ích toàn xã hội",
-      "B": "Luôn có sự kế thừa trong bất cứ thời kỳ nào của lịch sử",
-      "C": "Hình thành và phát triển dưới sự lãnh đạo của Đảng, có sự quản lý của nhà nước XHCN",
-      "D": "Hình thành và phát triển một cách tự giác, đặt dưới sự lãnh đạo của GCCN thông qua tổ chức Đảng, có sự quản lý của nhà nước XHCN"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 224,
-    "question": "Theo quan điểm của chủ nghĩa Mác – Lênin về phương diện quyền lực, dân chủ là quyền lực thuộc về ai?",
-    "options": {
-      "A": "Là quyền của con người",
-      "B": "Là quyền tự do của mỗi người",
-      "C": "Là trật tự xã hội",
-      "D": "Là quyền lực thuộc về nhân dân"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 225,
-    "question": "Quan điểm: “Thực hành dân chủ là cái chìa khoá vạn năng có thể giải quyết mọi khó khăn” là của ai?",
-    "options": {
-      "A": "V.I.Lênin",
-      "B": "Hồ Chí Minh",
-      "C": "Mao Trạch Đông",
-      "D": "Lê Duẩn"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 226,
-    "question": "Theo quan điểm của chủ nghĩa Mác – Lênin trên phương diện chế độ xã hội và trong lĩnh vực chính trị, dân chủ là gì?",
-    "options": {
-      "A": "Một hình thức hay hình thái nhà nước, là chính thể dân chủ hay chế độ dân chủ",
-      "B": "Dân là chủ và dân làm chủ",
-      "C": "Là quyền lực nhà nước thuộc sở hữu của nhân dân",
-      "D": "Là quyền tự do của mỗi người"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 227,
-    "question": "Chọn phương án đúng nhất điền vào chỗ trống: “Lịch sử xã hội loài người bước vào thời kỳ đen tối với sự thống trị của nhà nước chuyên chế phong kiến, chế độ dân chủ chủ nô đã bị xóa bỏ và thay vào đó là ”.",
-    "options": {
-      "A": "XHCN",
-      "B": "Nhà nước độc tài",
-      "C": "Chế độ độc tài chuyên chế",
-      "D": "TBCN"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 228,
-    "question": "Trên cơ sở của chủ nghĩa Mác – Lênin và điều kiện cụ thể của Việt Nam, Chủ tịch Hồ Chí Minh đã khẳng định dân chủ là gì?",
-    "options": {
-      "A": "Là quyền của con người",
-      "B": "Là dân là chủ và dân làm chủ",
-      "C": "Là nhân dân là người chủ, mà Chính phủ là người đầy tớ trung thành của nhân dân",
-      "D": "Là địa vị cao nhất là dân, vì dân là chủ"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 229,
-    "question": "Tại sao dân chủ là phạm trù lịch sử?",
-    "options": {
-      "A": "Phản ánh lợi ích của tầng lớp tri thức",
-      "B": "Phản ánh lợi ích của giai cấp nắm giữ tư liệu sản xuất của xã hội",
-      "C": "Phản ánh lợi ích của giai cấp tiểu tư sản",
-      "D": "Phản ánh lợi ích của các giai cấp trong xã hội."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 230,
-    "question": "Đặc trưng cơ bản của nền dân chủ XHCN là gì?",
-    "options": {
-      "A": "Thiết lập nền dân chủ vô sản (dân chủ XHCN)",
-      "B": "Thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội",
-      "C": "Nâng cao mức độ giải phóng cho những người lao động",
-      "D": "Thực hiện quyền lực của nhân dân - tức là xây dựng nhà nước dân chủ thực sự, dân làm chủ nhà nước và xã hội, bảo vệ quyền và lợi ích cho đại đa số nhân dân"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 231,
-    "question": "So với các nền dân chủ trước đây, dân chủ XHCN có điểm khác biệt cơ bản nào?",
-    "options": {
-      "A": "Không còn mang tính giai cấp",
-      "B": "Là nền dân chủ rộng rãi cho GCCN và nhân dân lao động",
-      "C": "Là nền dân chủ thuần tuý",
-      "D": "Là nền dân chủ phi lịch sử"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 232,
-    "question": "Đổi mới hệ thống chính trị ở nước ta hiện nay là gì?",
-    "options": {
-      "A": "Đổi mới mục tiêu, con đường XHCN",
-      "B": "Thay đổi hệ thống tư duy lý luận",
-      "C": "Đổi mới nội dung, phương thức hoạt động, tổ chức cán bộ và quan hệ giữa các tổ chức trong hệ thống chính trị",
-      "D": "Đổi mới tư duy"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 233,
-    "question": "Nhà nước pháp quyền XHCN Việt Nam do cơ quan nào lãnh đạo?",
-    "options": {
-      "A": "ĐCS Việt Nam",
-      "B": "Quốc hội",
-      "C": "Mặt trận Tổ quốc Việt Nam",
-      "D": "Chính phủ"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 234,
-    "question": "Động lực chủ yếu phát triển nước ta trong giai đoạn mới xây dựng hệ thống chính trị là gì?",
-    "options": {
-      "A": "Xóa bỏ cơ chế tập trung quan liêu, bao cấp",
-      "B": "Phát huy nội lực, tận dụng sức mạnh ngoại lực",
-      "C": "Đổi mới chính trị kết hợp đổi mới kinh tế",
-      "D": "Đại đoàn kết toàn dân"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 235,
-    "question": "Bản chất chính trị của nền dân chủ XHCN thể hiện như thế nào?",
-    "options": {
-      "A": "Là thực hiện quyền lực của GCCN và nhân dân lao động đối với toàn xã hội",
-      "B": "Là sự lãnh đạo của GCCN thông qua Đảng của nó đối với toàn xã hội, để thực hiện quyền lợi và lợi ích của toàn thể nhân dân lao động, trong đó có GCCN",
-      "C": "Là sự lãnh đạo của GCCN thông qua chính đảng của nó để cải tạo xã hội cũ và xây dựng xã hội mới",
-      "D": "Là sự lãnh đạo của GCCN thông qua Đảng của nó đối với toàn xã hội"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 236,
-    "question": "Tại sao dân chủ là phạm trù lịch sử?",
-    "options": {
-      "A": "Phản ánh lợi ích của giai cấp nắm giữ tư liệu sản xuất của xã hội",
-      "B": "Phản ánh lợi ích của tầng lớp tri thức",
-      "C": "Phản ánh lợi ích của giai cấp tiểu tư sản",
-      "D": "Phản ánh lợi ích của các giai cấp trong xã hội."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 237,
-    "question": "Bản chất của nhà nước XHCN là gì?",
-    "options": {
-      "A": "Mang bản chất của GCCN",
-      "B": "Mang bản chất của đa số nhân dân lao động",
-      "C": "Vừa mang bản chất của GCCN, vừa mang bản chất của nhân dân lao động và tính dân tộc sâu sắc",
-      "D": "Mang bản chất của GCCN, tính nhân dân rộng rãi và tính dân tộc sâu sắc"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 238,
-    "question": "Động lực chủ yếu phát triển nước ta trong giai đoạn mới xây dựng hệ thống chính trị là gì?",
-    "options": {
-      "A": "Xóa bỏ cơ chế tập trung quan liêu, bao cấp",
-      "B": "Phát huy nội lực, tận dụng sức mạnh ngoại lực",
-      "C": "Đổi mới chính trị kết hợp đổi mới kinh tế",
-      "D": "Đại đoàn kết toàn dân"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 239,
-    "question": "Lý luận về hình thái kinh tế - xã hội do C.Mác và Ph.Ăngghen khởi xướng, được V.I.Lênin bổ sung, phát triển, cụ thể hóa trong công cuộc xây dựng CNXH ở?",
-    "options": {
-      "A": "Trung Quốc",
-      "B": "Nga",
-      "C": "Nga - Xô Viết",
-      "D": "Việt Nam"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 240,
-    "question": "Ai là người đã đưa ra tư tưởng về sự tiêu vong của dân chủ cùng với sự tiêu vong của Nhà nước?",
-    "options": {
-      "A": "V.I.Lênin",
-      "B": "C.Mác",
-      "C": "Ph.Ăngghen",
-      "D": "Hồ Chí Minh"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 241,
-    "question": "Theo Hiến pháp 2013, hoạt động của Nhà nước được giám sát bởi nhân dân với phương châm:",
-    "options": {
-      "A": "Dân biết, dân bàn, dân kiểm tra thông qua các tổ chức, các cá nhân được nhân dân ủy nhiệm",
-      "B": "Nhà nước phục vụ nhân dân, gắn bó mật thiết với nhân dân, thực hiện đầy đủ các quyền làm chủ của nhân dân",
-      "C": "Nhà nước lắng nghe ý kiến của nhân dân và chịu sự kiểm soát của nhân dân",
-      "D": "Nhà nước phải được hoàn thiện bằng việc ban hành các cơ chế và biện pháp kiểm soát, ngăn ngừa các hiện tượng tiêu cực…"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 242,
-    "question": "Cách mạng vô sản trên thực tế được thực hiện bằng con đường:",
-    "options": {
-      "A": "Con đường thỏa hiệp",
-      "B": "Con đường bạo lực cách mạng",
-      "C": "Con đường hòa bình",
-      "D": "Đấu tranh chính trị"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 243,
-    "question": "Điền từ còn thiếu vào chỗ trống: “Nhà nước XHCN vừa có bản chất GCCN, vừa có tính nhân dân rộng rãi và tính ............ sâu sắc”.",
-    "options": {
-      "A": "Giai cấp",
-      "B": "Nhân đạo",
-      "C": "Cộng đồng",
-      "D": "Dân tộc"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 244,
-    "question": "Sự khác biệt cơ bản của nền dân chủ XHCN với các nền dân chủ của các xã hội có phân chia giai cấp trong lịch sử nhân loại?",
-    "options": {
-      "A": "Nền dân chủ XHCN là nền dân chủ có tổ chức ĐCS lãnh đạo",
-      "B": "Nền dân chủ XHCN là nền dân chủ của số đông, của tất cả quần chúng nhân dân lao động trong xã hội",
-      "C": "Nền dân chủ XHCN là nền dân chủ phi giai cấp",
-      "D": "Nền dân chủ XHCN là nền dân chủ được thực thi bằng luật pháp nhân dân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 245,
-    "question": "Trong xã hội có giai cấp, “Dân” là ai và do đối tượng nào quy định?",
-    "options": {
-      "A": "Dân là thành viên trong xã hội do luật pháp của giai cấp thống trị quy định",
-      "B": "Dân là mọi thành viên sống trong xã hội, dân do xã hội quy định",
-      "C": "Dân là những người tham gia vào quá trình lao động sản xuất xã hội, họ được tổ chức kinh tế công nhận",
-      "D": "Dân là mọi thành viên trong xã hội"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 246,
-    "question": "Sự ra đời của nền dân chủ XHCN đánh dấu bước phát triển mới về:",
-    "options": {
-      "A": "Giá trị của dân chủ",
-      "B": "Chất của dân chủ",
-      "C": "Lượng của dân chủ",
-      "D": "Nội dung của dân chủ"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 247,
-    "question": "Cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta thời kỳ trước đổi mới là gì?",
-    "options": {
-      "A": "Lý luận Mác - Lênin về thời kỳ quá độ và về chuyên chính vô sản",
-      "B": "Lý luận của Hồ Chí Minh",
-      "C": "Cơ sở kinh tế và chính trị của hệ thống chuyên chính vô sản",
-      "D": "Lý luận Mác - Lênin về thời kỳ quá độ và về chuyên chính vô sản và cơ chế kế hoạch hóa tập trung, quan liêu, bao cấp"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 248,
-    "question": "Bản chất chính trị của nền dân chủ XHCN thể hiện như thế nào?",
-    "options": {
-      "A": "Là sự lãnh đạo của GCCN thông qua chính đảng của nó để cải tạo xã hội cũ và xây dựng xã hội mới",
-      "B": "Là sự lãnh đạo của GCCN thông qua đảng của nó đối với toàn xã hội, để thực hiện quyền lực và lợi ích của toàn thể nhân dân lao động, trong đó có GCCN",
-      "C": "Là cuộc cách mạng của GCCN cùng với nhân dân lao động đánh đổ sự thống trị của của giai cấp tư sản",
-      "D": "Là thực hiện quyền lực của GCCN và nhân dân lao động đối với toàn xã hội"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 249,
-    "question": "Nhà nước pháp quyền XHCN ở Việt Nam mang bản chất giai cấp nào?",
-    "options": {
-      "A": "Của nhân dân lao động",
-      "B": "GCCN",
-      "C": "GCCN - nông dân - trí thức",
-      "D": "Công nhân và nông dân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 250,
-    "question": "Nội hàm cơ bản của dân chủ XHCN là gì?",
-    "options": {
-      "A": "Toàn bộ quyền lực thuộc về nhân dân",
-      "B": "Quyền lực thuộc về Gia cấp công nhân",
-      "C": "Quyền lực thuộc về Gia cấp nông dân",
-      "D": "Quyền lực thuộc về người lãnh đạo"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 251,
-    "question": "Thuật ngữ “Dân chủ” ra đời từ thế kỷ nào đến thế kỷ nào?",
-    "options": {
-      "A": "V- IV (TCN)",
-      "B": "VIII-VII (TCN)",
-      "C": "VI-V (TCN)",
-      "D": "VII-VI (TCN)"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 252,
-    "question": "Hình thức dân chủ nào mà được thực hiện do nhân dân «ủy quyền», giao quyền lực của mình cho tổ chức mà nhân dân trực tiếp bầu ra?",
-    "options": {
-      "A": "Dân chủ gián tiếp",
-      "B": "Dân chủ trực tiếp",
-      "C": "Dân chủ hiến định",
-      "D": "Dân chủ bán trực tiếp"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 253,
-    "question": "Trong quá trình đổi mới và thực thi dân chủ của nước ta hiện nay, nhiệm vụ nào được xem là khó khăn, phức tạp, nhạy cảm nhất hiện nay?",
-    "options": {
-      "A": "Cải cách giáo dục",
-      "B": "Xóa đói giảm nghèo",
-      "C": "Trật tự an toàn giao thông",
-      "D": "Chống tham nhũng"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 254,
-    "question": "Thành phần kinh tế quá độ theo cách gọi của V.I.Lênin là thành phần kinh tế nào?",
-    "options": {
-      "A": "Kinh tế nhà nước",
-      "B": "Kinh tế tư bản tư nhân",
-      "C": "Kinh tế tập thể",
-      "D": "Kinh tế tư bản nhà nước"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 255,
-    "question": "Chọn câu đúng nhất: “Nguồn gốc của sự hình thành và phân chia giai cấp trong xã hội” là do đâu?",
-    "options": {
-      "A": "Sắc tộc",
-      "B": "Tài năng",
-      "C": "Tôn giáo",
-      "D": "Kinh tế"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 256,
-    "question": "Đoàn Thanh niên Cộng sản Hồ Chí Minh, Hội Liên hiệp Thanh niên Việt Nam cần chủ động hướng dẫn các hình thức hoạt động, các phong trào thi đua yêu nước, phát huy tài năng sáng tạo của vì sự nghiệp xây dựng và bảo vệ Tổ quốc XHCN.",
-    "options": {
-      "A": "Thanh niên",
-      "B": "Tuổi trẻ",
-      "C": "Thiếu nhi",
-      "D": "Thiếu niên"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 257,
-    "question": "Trong cơ cấu xã hội - giai cấp ở thời kỳ quá độ lên CNXH, giai cấp, tầng lớp nào là lực lượng tiêu biểu trong quá trình cải tạo xã hội cũ, xây dựng xã hội mới?",
-    "options": {
-      "A": "GCCN tầng lớp trí thức",
-      "B": "GCCN và đội ngũ doanh nhân",
-      "C": "Giai cấp nông dân, Đội ngũ trí thức, Đội ngũ doanh nhân, Đội ngũ thanh niên",
-      "D": "GCCN và nông dân"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 258,
-    "question": "Trong Mặt trận dân tộc thống nhất, ĐCS là?",
-    "options": {
-      "A": "Thành viên của Mặt trận dân tộc thống nhất",
-      "B": "Cử ra và miễn nhiệm người đứng đầu",
-      "C": "Cử ra và bãi bỏ người đứng đầu",
-      "D": "Lực lượng lãnh đạo Mặt trận dân tộc thống nhất"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 259,
-    "question": "Biến đổi của cơ cấu xã hội - giai cấp gắn liền và được quy định bởi sự biến động của cơ cấu nào?",
-    "options": {
-      "A": "Cơ cấu xã hội - kinh tế",
-      "B": "Cơ cấu xã hội - dân tộc",
-      "C": "Cơ cấu xã hội - dân cư",
-      "D": "Cơ cấu xã hội - dân số"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 260,
-    "question": "C.Mác và Ph.Ăngghen đã dựa vào những phát kiến nào để xây dựng luận chứng về sứ mệnh lịch sử của GCCN?",
-    "options": {
-      "A": "Phép biện chứng duy vật và học thuyết giá trị thặng dư",
-      "B": "Triết học cổ điển Đức và kinh tế chính trị học cổ điển Anh",
-      "C": "CNXH không tưởng phê phán",
-      "D": "Chủ nghĩa duy vật lịch sử và học thuyết giá trị thặng dư"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 261,
-    "question": "Cơ cấu xã hội nào có vai trò quan trọng nhất trong xã hội XHCN?",
-    "options": {
-      "A": "Cơ cấu giai cấp",
-      "B": "Cơ cấu xã hội",
-      "C": "Cơ cấu dân cư",
-      "D": "Cơ cấu nghề nghiệp"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 262,
-    "question": "Trong quá trình xây dựng chủ nghĩa xã hội, liên minh giữa GCCN, giai cấp nông dân và tầng lớp trí thức dưới góc độ nào giữ vai trò quyết định?",
-    "options": {
-      "A": "Kinh tế",
-      "B": "Tư tưởng",
-      "C": "Chính trị",
-      "D": "Văn hoá"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 263,
-    "question": "Vai trò của đấu tranh giai cấp trong lịch sử nhân loại?",
-    "options": {
-      "A": "Là một động lực quan trọng của sự phát triển xã hội trong các xã hội có giai cấp",
-      "B": "Là động lực cơ bản của sự phát triển xã hội",
-      "C": "Lật đổ ách thống trị của giai cấp thống trị",
-      "D": "Thay thế các hình thái kinh tế xã hội từ thấp đến cao"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 264,
-    "question": "Quá độ lên CNXH bỏ qua chế độ TBCN là bỏ qua yếu tố nào của chủ nghĩa tư bản?",
-    "options": {
-      "A": "Bỏ qua nhà nước của giai cấp tư sản",
-      "B": "Bỏ qua cơ sở kinh tế của chủ nghĩa tư bản",
-      "C": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư tưởng TBCN",
-      "D": "Bỏ qua chế độ áp bức bóc lột của giai cấp tư sản"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 265,
-    "question": "Liên minh giữa GCCN với giai cấp nông dân và tầng lớp trí thức là do?",
-    "options": {
-      "A": "Yêu cầu của trí thức",
-      "B": "Yêu cầu của nông dân",
-      "C": "Do mong muốn của công nhân",
-      "D": "Do đòi hỏi khách quan của cả công nhân, nông dân và trí thức"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 266,
-    "question": "Xu hướng phát triển cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ mang tính đa dạng và thống nhất chủ yếu do yếu tố nào quyết định?",
-    "options": {
-      "A": "Do trình độ phát triển không đồng đều",
-      "B": "Do nền kinh tế nhiều thành phần",
-      "C": "Do nhu cầu của thời kỳ quá độ",
-      "D": "Do sự mong muốn của GCCN"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 267,
-    "question": "Mâu thuẫn đối kháng giữa các giai cấp là do yếu tố nào?",
-    "options": {
-      "A": "Sự khác nhau giữa giàu và nghèo",
-      "B": "Sự đối lập về lợi ích cơ bản - lợi ích kinh tế",
-      "C": "Sự khác nhau về mức thu nhập",
-      "D": "Sự khác nhau về tư tưởng, lối sống"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 268,
-    "question": "Trong thời kỳ quá độ lập trường chính trị của liên minh công - nông, trí thức được xác định bởi lập trường chính trị của giai cấp nào?",
-    "options": {
-      "A": "GCCN",
-      "B": "Nông dân, công nhân và trí thức",
-      "C": "Tầng lớp trí thức",
-      "D": "Giai cấp nông dân"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 269,
-    "question": "Cơ cấu xã hội - giai cấp của Việt Nam ở thời kỳ quá độ lên CNXH bao gồm những giai cấp, tầng lớp cơ bản nào?",
-    "options": {
-      "A": "Giai cấp nông dân, Đội ngũ trí thức, Đội ngũ doanh nhân",
-      "B": "Đội ngũ trí thức, Đội ngũ doanh nhân, Đội ngũ thanh niên",
-      "C": "GCCN, Giai cấp nông dân, Đội ngũ trí thức, Đội ngũ doanh nhân, Đội ngũ thanh niên",
-      "D": "GCCN, Giai cấp nông dân, Đội ngũ trí thức"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 270,
-    "question": "Yếu tố nào quyết định sự liên minh giữa GCCN, giai cấp nông dân và tầng lớp trí thức?",
-    "options": {
-      "A": "Do có cùng một kẻ thù là giai cấp tư sản",
-      "B": "Do GCCN mong muốn",
-      "C": "Do mục tiêu về chính trị của GCCN",
-      "D": "Do có những lợi ích cơ bản thống nhất với nhau"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 271,
-    "question": "Những triết gia nào đã dùng thuật ngữ khác nhau để chỉ về công nhân và GCCN?",
-    "options": {
-      "A": "C.Mác và Ph.Ăngghen và V.I.Lênin",
-      "B": "C.Mác và Ph.Ăngghen",
-      "C": "C.Mác và Ph.Ăngghen và Hêghen",
-      "D": "C.Mác và Ph.Ăngghen và Cantơ"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 272,
-    "question": "Câu nói: “Vô sản tất cả các nước và các dân tộc bị áp bức, đoàn kết lại” là của ai?",
-    "options": {
-      "A": "Mác & Ph.Ăngghen",
-      "B": "C.Mác",
-      "C": "Hồ Chí Minh",
-      "D": "V.I.Lênin"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 273,
-    "question": "Cơ sở kinh tế của hệ thống chuyên chính vô sản thời kỳ trước đổi mới là nền kinh tế hướng tới mục tiêu gì?",
-    "options": {
-      "A": "Xoá bỏ chế độ tư hữu đối với tư liệu sản xuất",
-      "B": "Công bằng dân chủ",
-      "C": "Xóa ách áp bức bất công, giải phóng lao động",
-      "D": "Dân giàu nước mạnh"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 274,
-    "question": "Ai là người đưa ra tư tưởng:“Độc lập dân tộc gắn liền với chủ nghĩa xã hội”?",
-    "options": {
-      "A": "V.I.Lênin",
-      "B": "Hồ Chí Minh",
-      "C": "C.Mác",
-      "D": "Phạm Văn Đồng"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 275,
-    "question": "Nội dung nào quan trọng nhất trong các nội dung Liên minh công – nông - trí thức?",
-    "options": {
-      "A": "Chính trị",
-      "B": "Tư tưởng",
-      "C": "Kinh tế",
-      "D": "Văn hoá- xã hội"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 276,
-    "question": "Sự chuyển đổi trong cơ cấu kinh tế đã dẫn đến những biến đổi trong cơ cấu xã hội - giai cấp ở Việt Nam diễn ra từ Đại hội nào?",
-    "options": {
-      "A": "Đại hội VIII (1996)",
-      "B": "Đại hội VI (1986)",
-      "C": "Đại hội IX (2001)",
-      "D": "Đại hội VII (1991)"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 277,
-    "question": "Tìm ý đúng cho luận điểm sau: “Cùng với sự phát triển của khoa học và công nghệ ngày càng hiện đại, GCCN” sẽ:",
-    "options": {
-      "A": "Giảm về số lượng và nâng cao về chất lượng",
-      "B": "Giảm về số lượng và có trình độ sản xuất ngày càng cao",
-      "C": "Tăng về số lượng giảm về chất lượng",
-      "D": "Tăng về số lượng và nâng cao về chất lượng"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 278,
-    "question": "Xét về phương thức lao động, phương thức sản xuất, GCCN mang thuộc tính cơ bản nào?",
-    "options": {
-      "A": "Có số lượng đông nhất trong dân cư",
-      "B": "Có số lượng không đông trong dân cư, là giai cấp tạo ra của cải vật chất làm giàu cho xã hội",
-      "C": "Là giai cấp trực tiếp vận hành máy móc có tính chất công nghiệp ngày càng hiện đại",
-      "D": "Là giai cấp tạo ra của cải vật chất làm giàu cho xã hội"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 279,
-    "question": "Tại Đại hội đại biểu toàn quốc lần mấy Đảng ta khẳng định: “Đại đoàn kết toàn dân tộc là đường lối chiến lược của cách mạng Việt Nam, là động lực và nguồn lực to lớn trong xây dựng và bảo vệ Tổ quốc. Tăng cường khối đại đoàn kết toàn dân tộc trên nền tảng liên minh GCCN với giai cấp nông dân và đội ngũ trí thức do Đảng lãnh đạo”.",
-    "options": {
-      "A": "Đại hội XII",
-      "B": "Đại hội X",
-      "C": "Đại hội IX",
-      "D": "Đại hội XI"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 280,
-    "question": "Một trong những điều kiện chủ quan để GCCN thực hiện sứ mệnh lịch sử:",
-    "options": {
-      "A": "Địa vị chính trị - xã hội của giai cấp công",
-      "B": "Sự phát triển của bản thân GCCN cả về số lượng và chất lượng",
-      "C": "Địa vị kinh tế của GCCN",
-      "D": "Bao gồm tất cả các đáp án"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 281,
-    "question": "Đâu không là quan điểm của Đảng ta về việc giải quyết các vấn đề xã hội trong thời kỳ đổi mới?",
-    "options": {
-      "A": "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với chi tiêu phát triển con người",
-      "B": "Xây dựng và thể chế gắn kết kinh tế với tiến bộ, công bằng xã hội",
-      "C": "Đề ra chính sách làm phân hóa giàu nghèo ngày càng cao giữa các tầng lớp dân cư",
-      "D": "Kết hợp các mục tiêu kinh tế với mục tiêu xã hội"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 282,
-    "question": "Cơ cấu xã hội có những loại nào?",
-    "options": {
-      "A": "Cơ cấu xã hội - dân cư",
-      "B": "Cơ cấu xã hội - giai cấp; cơ cấu xã hội - dân tộc; cơ cấu xã hội - tôn giáo...",
-      "C": "Cơ cấu xã hội - nghề nghiệp",
-      "D": "Bao gồm tất cả các đáp án"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 283,
-    "question": "Ở Việt Nam hiện nay, giai tầng nào là chủ thể của quá trình phát triển, xây dựng nông thôn mới gắn với xây dựng các cơ sở công nghiệp, dịch vụ và phát triển đô thị theo quy hoạch; phát triển toàn diện, hiện đại hóa nông nghiệp.",
-    "options": {
-      "A": "GCCN",
-      "B": "Giai cấp nông dân",
-      "C": "Đội ngũ trí thức",
-      "D": "Đội ngũ doanh nhân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 284,
-    "question": "Trong các đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây tạo ra tâm lý ỷ lại, thụ động, tiêu cực trong hoạt động kinh tế?",
-    "options": {
-      "A": "Giá cả do Nhà nước quy định, nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh",
-      "B": "Nhà nước quản lý nền kinh tế thông qua chế độ cấp phát-giao nộp và cơ chế “xin- cho”",
-      "C": "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu",
-      "D": "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 285,
-    "question": "Cơ cấu xã hội - giai cấp biến đổi gắn liền và bị quy định bởi cơ cấu nào?",
-    "options": {
-      "A": "Cơ cấu kinh tế",
-      "B": "Cơ cấu chính trị",
-      "C": "Cơ cấu dân tộc",
-      "D": "Cơ cấu văn hoá"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 286,
-    "question": "Ở Việt Nam hiện nay, bộ phận nào là lực lượng nòng cốt trong liên minh GCCN với giai cấp nông dân và đội ngũ trí thức?",
-    "options": {
-      "A": "GCCN",
-      "B": "Đội ngũ doanh nhân",
-      "C": "Giai cấp nông dân",
-      "D": "Đội ngũ trí thức"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 287,
-    "question": "Cơ chế quản lý kinh tế ở nước ta thời kỳ trước đổi mới là gì?",
-    "options": {
-      "A": "Cơ chế kinh tế thị trường",
-      "B": "Cơ chế kinh tế thị trường định hướng XHCN",
-      "C": "Cơ chế kế hoạch hóa tập trung quan liêu, bao cấp",
-      "D": "Cơ chế xã hội"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 288,
-    "question": "Văn kiện Đại hội Đảng lần thứ mấy, Đảng ta bắt đầu dùng khái niệm: “Kinh tế thị trường định hướng XHCN”? ",
-    "options": {
-      "A": "Đại hội VI",
-      "B": "Đại hội VII",
-      "C": "Đại hội VIII",
-      "D": "Đại hội IX"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 289,
-    "question": "Khái niệm dân tộc – tộc người (ethnies) có mấy đặc trưng cơ bản sau đây\\:",
-    "options": {
-      "A": "Dân tộc là cộng đồng người được hình thành lâu dài trong lịch sử",
-      "B": "Dân tộc là cộng đồng người được hình thành lâu dài trong lịch sử, có lãnh thổ chung ổn định không bị chia cắt",
-      "C": "Dân tộc - tộc người (ethnies), là cộng đồng người được hình thành lâu dài trong lịch sử và có ba đặc trưng cơ bản: Cộng đồng về ngôn ngữ; Cộng đồng về văn hóa; Ý thức tự giác tộc người",
-      "D": "Dân tộc - tộc người (ethnies), là cộng đồng người được hình thành lâu dài trong lịch sử và có hai đặc trưng cơ bản: Cộng đồng về ngôn ngữ; Ý thức tự giác tộc người"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 290,
-    "question": "Trong một quốc gia đa tộc người, vấn đề gì được coi là có ý nghĩa cơ bản nhất để thực hiện quyền bình đẳng giữa các dân tộc?",
-    "options": {
-      "A": "Ban hành hệ thống hiến pháp và pháp luật về quyền bình đẳng giữa các dân tộc",
-      "B": "Xoá bỏ dần sự chênh lệch về mọi mặt giữa các dân tộc do lịch sử để lại",
-      "C": "Chống tư tưởng phân biệt chủng tộc, kì thị và chia rẽ dân tộc",
-      "D": "Nâng cao trình độ dân trí, văn hoá cho đồng bào"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 291,
-    "question": "Nội dung nào dưới đây phản ánh đúng nhất lập trường của người cộng sản về vấn đề tín ngưỡng, tôn giáo?",
-    "options": {
-      "A": "Sử dụng bạo lực để giải quyết vấn đề tôn giáo",
-      "B": "Luôn tôn trọng quyền tự do tín ngưỡng, tôn giáo của nhân dân",
-      "C": "Sử dụng bạo lực để giải quyết vấn đề tôn giáo",
-      "D": "Không quan tâm đến nhu cầu tín ngưỡng, tôn giáo của nhân dân"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 292,
-    "question": "Trong các nội dung của quyền dân tộc tự quyết thì nội dung nào được coi là cơ bản nhất, tiên quyết nhất?",
-    "options": {
-      "A": "Tự quyết về chính trị",
-      "B": "Tự quyết về kinh tế",
-      "C": "Tự quyết về văn hoá",
-      "D": "Tự quyết về lãnh thổ"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 293,
-    "question": "Số lượng tôn giáo và số lượng tín đồ của các tôn giáo hiện nay ở nước ta là bao nhiêu?",
-    "options": {
-      "A": "13 tôn giáo với khoảng 30 triệu tín đồ",
-      "B": "16 tôn giáo với khoảng 20 triệu tín đồ",
-      "C": "15 tôn giáo với khoảng 25 triệu tín đồ",
-      "D": "14 tôn giáo với khoảng 15 triệu tín đồ"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 294,
-    "question": "Đoạn trích sau đây là của ai? “Tư tưởng hẹp hòi thì hành động cũng hẹp hòi. Tư tưởng hẹp hòi thì nhiều thu mà ít bạn (như vấn đề tôn giáo). Người mà hẹp hòi thì ít kẻ giúp. Đoàn thể mà hẹp hòi thì không phát triển”.",
-    "options": {
-      "A": "V.I.Lênin",
-      "B": "C.Mác",
-      "C": "Ph.Ăng ghen",
-      "D": "Hồ Chí Minh"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 295,
-    "question": "Hãy cho biết câu nói: “Tôn giáo là thuốc phiện của nhân dân” là của ai?",
-    "options": {
-      "A": "Phoi ơbắc",
-      "B": "V.I.Lênin",
-      "C": "Hêghen",
-      "D": "C.Mác"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 296,
-    "question": "Trong mối quan hệ với tín ngưỡng, tôn giáo là ?",
-    "options": {
-      "A": "Khái niệm nhỏ hơn, là một loại hình tín ngưỡng",
-      "B": "Một khái niệm hoàn toàn độc lập, không có mối liên hệ với tín ngưỡng",
-      "C": "Một khái niệm tương đương tín ngưỡng",
-      "D": "Một khái niệm rộng hơn, bao trùm tín ngưỡng"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 297,
-    "question": "Nguyễn Ái Quốc xuất bản báo Người cung khổ (Le Paria) vào năm nào?",
-    "options": {
-      "A": "1920",
-      "B": "1921",
-      "C": "1922",
-      "D": "1923"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 298,
-    "question": "Tại sao tôn giáo là một phạm trù lịch sử?",
-    "options": {
-      "A": "Là do điều kiện kinh tế - xã hội sinh ra",
-      "B": "Tôn giáo ra đời, tồn tại và biến đổi trong một giai đoạn lịch sử nhất định của loài người",
-      "C": "Là sản phẩm của con người",
-      "D": "Tôn giáo sẽ tồn tại và phát triển cùng với sự phát triển của lịch sử nhân loại"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 299,
-    "question": "Nguyễn Ái Quốc cùng với một số nhà yêu nước của các nước thuộc địa khác thành lập Hội liên hiệp các dân tộc thuộc địa vào tháng? năm nào?",
-    "options": {
-      "A": "Tháng 4 - 1921",
-      "B": "Tháng 3 - 1921",
-      "C": "Tháng 6 - 1921",
-      "D": "Tháng 5 - 1921"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 300,
-    "question": "Hiện nay trên thế giới, số lượng tín đồ ảnh hưởng bởi tôn giáo chiếm tỷ lệ bao nhiêu?",
-    "options": {
-      "A": "Gần 5/4 dân số thế giới",
-      "B": "Gần 3/4 dân số thế giới",
-      "C": "Gần 1/4 dân số thế giới",
-      "D": "Gần 2/4 dân số thế giới"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 301,
-    "question": "Đại hội nào sau đây Đảng ta khẳng định:“Đoàn kết các dân tộc có vị trí chiến lược trong sự nghiệp cách mạng của nước ta.Tiếp tục hoàn thiện cơ chế chính sách, bảo đảm các dân tộc bình đẳng, tôn trọng, đoàn kết.., tạo chuyển biến rõ rệt trong phát triển kinh tế, văn hóa, xã hội vung đồng bào dân tộc thiểu số…”",
-    "options": {
-      "A": "Đại hội X",
-      "B": "Đại hội XI",
-      "C": "Đại hội IX",
-      "D": "Đại hội XII"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 302,
-    "question": "Bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của V.I.Lênin thường được gọi tắt là Luận cương của V.I.Lênin, được V.I.Lênin viết xong vào năm nào?",
-    "options": {
-      "A": "1918",
-      "B": "1920",
-      "C": "1921",
-      "D": "1922"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 303,
-    "question": "Về phương diện thế giới quan, các tôn giáo mang thế giới quan như thế nào?",
-    "options": {
-      "A": "Thế giới quan duy tâm",
-      "B": "Thế giới quan duy vật",
-      "C": "Duy tâm khách quan",
-      "D": "Duy tâm chủ quan"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 304,
-    "question": "Theo chủ nghĩa Mác - Lênin, hình thức tín ngưỡng gồm những loại hình tín ngưỡng nào?",
-    "options": {
-      "A": "Thờ cúng tổ tiên; tín ngưỡng Thờ anh hùng dân tộc",
-      "B": "Thờ cúng tổ tiên; tín ngưỡng Thờ anh hùng dân tộc; tín ngưỡng Thờ mẫu…",
-      "C": "Thờ anh hùng dân tộc",
-      "D": "Thờ cúng tổ tiên; Thần thánh"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 305,
-    "question": "Đoạn trích sau đây là của ai? Trong văn hóa và đạo đức tôn giáo: “Cái gì tốt thì ta nên khôi phục và phát triển, còn cái gì xấu, thì ta phải bỏ đi”.",
-    "options": {
-      "A": "Ph.Ăng ghen",
-      "B": "Hồ Chí Minh",
-      "C": "C.Mác",
-      "D": "V.I.Lênin"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 306,
-    "question": "Nguồn gốc kinh tế - xã hội của tôn giáo là?",
-    "options": {
-      "A": "Do sự thất vọng, bất lực của con người trước những bất công xã hội",
-      "B": "Trình độ phát triển lực lượng sản xuất, sự áp bức về chính trị của con người; Do sự bần cùng về kinh tế, áp bức về chính trị của con người; Do sự thất vọng, bất lực của con người trước những bất công xã hội",
-      "C": "Trình độ phát triển lực lượng sản xuất, sự áp bức về chính trị của con người",
-      "D": "Do sự bần cùng về kinh tế, áp bức về chính trị của con người"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 307,
-    "question": "Hiện nay tôn giáo nào ở Việt Nam có số lượng tín đồ đông nhất?",
-    "options": {
-      "A": "Tin lành",
-      "B": "Công giáo",
-      "C": "Phật giáo",
-      "D": "Hồi giáo"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 308,
-    "question": "Đoạn trích sau đây là của ai? “Tín ngưỡng tự do và lương giáo đoàn kết”.",
-    "options": {
-      "A": "V.I.Lênin",
-      "B": "Ph.Ăng ghen",
-      "C": "Hồ Chí Minh",
-      "D": "C.Mác"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 309,
-    "question": "Ở Phương tây, dân tộc xuất hiện khi nào?",
-    "options": {
-      "A": "Khi cuộc cách mạng tư sản thắng lợi",
-      "B": "Khi phương thức sản xuất TBCN được xác lập thay thế phương thức sản xuất phong kiến",
-      "C": "Khi phương thức sản xuất TBCN được xác lập thay thế phương thức sản xuất chiếm hữu nô lệ",
-      "D": "Khi sự biến đổi của phương thức sản xuất chính là nguyên nhân quyết định sự biến đổi của cộng đồng dân tộc"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 310,
-    "question": "Hiện nay ở Việt Nam có những dân tộc, dân số chỉ vài trăm người. Đó là những dân tộc nào?",
-    "options": {
-      "A": "Cống, Hà nhì, La hủ, Lô lô, Phù lá, Si la",
-      "B": "Si la, Pu péo, Rơ măm, Brâu, Ơđu",
-      "C": "Cờ lao, La Chí, La ha, Pu péo",
-      "D": "Hoa, Ngái, Sán dìu"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 311,
-    "question": "Đặc trưng nổi bật trong quan hệ giữa các dân tộc ở nước ta là gì?",
-    "options": {
-      "A": "Là sự có đoàn kết dân tộc, hoà hợp dân tộc trong một cộng đồng thống nhất",
-      "B": "Là các dân tộc có bản sắc văn hoá riêng, đa dạng, phong phú",
-      "C": "Là sự phân bố đan xen nhau, không một dân tộc nào có lãnh thổ riêng",
-      "D": "Là có sự chênh lệch về trình độ phát triển kinh tế - xã hội giữa các dân tộc"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 312,
-    "question": "Giữa chủ nghĩa Mác - Lênin và hệ tư tưởng tôn giáo khác nhau ở điểm nào?",
-    "options": {
-      "A": "Khác nhau về thế giới quan",
-      "B": "Khác nhau về nhân sinh quan",
-      "C": "Khác nhau về thế giới quan; về nhân sinh quan; về con đường mưu cầu hạnh phúc cho nhân dân",
-      "D": "Khác nhau ở con đường mưu cầu hạnh phúc cho nhân dân"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 313,
-    "question": "Loại hình tôn giáo cổ xưa nhất, thể hiện niềm tin của con người vào một loài động vật, cây cỏ, đồ vật, hiện tượng trong đời sống là nội dung của\\:",
-    "options": {
-      "A": "Tô tem giáo",
-      "B": "Bái vật giáo",
-      "C": "Ma thuật giáo",
-      "D": "Saman giáo"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 314,
-    "question": "Nội dung cương lĩnh dân tộc của chủ nghĩa Mác - Lênin là\\:",
-    "options": {
-      "A": "Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc lại",
-      "B": "Các dân tộc đoàn kết, bình đẳng và liên hiệp công nhân tất cả các dân tộc lại",
-      "C": "Các dân tộc có quyền tự quyết, các dân tộc có quyền bình đẳng, liên hiệp công nhân tất cả các dân tộc lại",
-      "D": "Các dân tộc hoàn toàn bình đẳng, tự quyết và liên hiệp công nhân các nước"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 315,
-    "question": "Điền từ còn thiếu vào chỗ trống: “Tôn giáo là một hình thái ý thức - xã hội phản ánh một cách hoang đường, hư ảo ....... khách quan. Qua sự phản ánh của tôn giáo, những sức mạnh tự phát trong tự nhiên và xã hội đều trở thành thần bí”.",
-    "options": {
-      "A": "Cuộc sống",
-      "B": "Thực tiễn",
-      "C": "Hiện thực",
-      "D": "Điều kiện"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 316,
-    "question": "Tác phẩm: “Về quyền dân tộc tự quyết” là của ai?",
-    "options": {
-      "A": "Ph.Ăng ghen",
-      "B": "V.I.Lênin",
-      "C": "C.Mác",
-      "D": "Stalin"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 317,
-    "question": "Đại hội nào Đảng ta đã khẳng định: “… phát huy những giá trị văn hóa, đạo đức tốt đẹp của các tôn giáo. Quan tâm và tạo điều kiện cho các tổ chức tôn giáo sinh hoạt theo hiến chương, điều lệ của tổ chức tôn giáo đã được Nhà nước công nhận, theo quy định của pháp luật, đóng góp tích cực vào sự nghiệp xây dựng và bảo vệ đất nước…”",
-    "options": {
-      "A": "Đại hội XI",
-      "B": "Đại hội X",
-      "C": "Đại hội XII",
-      "D": "Đại hội IX"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 318,
-    "question": "Chính sách dân tộc của Đảng, Nhà nước Việt Nam về Chính trị hiện nay là gì?",
-    "options": {
-      "A": "Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc",
-      "B": "Xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc",
-      "C": "Nâng cao nhận thức của đồng bào các dân tộc thiểu số",
-      "D": "Độc lập dân tộc và chủ nghĩa xã hội, dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 319,
-    "question": "Điền từ còn thiếu vào chỗ trống: Lênin viết: “Với sự giúp đỡ của giai cấp vô sản các nước tiên tiến, các nước lạc hậu có thể tiến tới chế độ Xô viết, và qua những giai đoạn phát triển nhất định, tiến tới chủ nghĩa cộng sản, không phải trải qua phát triển TBCN  ”.",
-    "options": {
-      "A": "Giai đoạn",
-      "B": "Chế độ",
-      "C": "Hình thức",
-      "D": "Quá trình"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 320,
-    "question": "Cương lĩnh: “Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc lại” là của ai?",
-    "options": {
-      "A": "V.I.Lênin",
-      "B": "Stalin",
-      "C": "Ph.Ăngghen",
-      "D": "C.Mác"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 321,
-    "question": "Để tăng cường, củng cố khối đại đoàn kết dân tộc ở nước ta hiện nay thì chính sách cụ thể nào của Đảng và Nhà nước ta được coi là vấn đề cực kỳ quan trọng?",
-    "options": {
-      "A": "Tôn trọng lợi ích, truyền thống, văn hoá của các dân tộc",
-      "B": "Tăng cường bồi dưỡng, đào tạo đội ngũ cán bộ là người dân tộc thiểu số",
-      "C": "Phát huy truyền thống đoàn kết giữa các dân tộc",
-      "D": "Phát triển kinh tế hàng hoá ở các vùng dân tộc thiểu số"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 322,
-    "question": "Dân tộc (Nation) hay quốc gia dân tộc là cộng đồng chính trị - xã hội có những đặc trưng cơ bản sau đây?",
-    "options": {
-      "A": "Có chung phương thức sinh hoạt kinh tế; Có lãnh thổ chung ổn định không bị chia cắt; Có sự quản lý của một nhà nước; Có ngôn ngữ chung của quốc gia; Có nét tâm lý",
-      "B": "Có lãnh thổ chung ổn định không bị chia cắt; Có sự quản lý của một nhà nước",
-      "C": "Có chung phương thức sinh hoạt kinh tế. Đây là đặc trưng quan trọng nhất của dân tộc và là cơ sở liên kết các bộ phận, các thành viên của dân tộc, tạo nên nền tảng vững chắc của dân tộc",
-      "D": "Có sự quản lý của một nhà nước; Có ngôn ngữ chung của quốc gia làm công cụ giao tiếp trong xã hội và trong cộng đồng (bao gồm cả ngôn ngữ nói và ngôn ngữ viết)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 323,
-    "question": "Chọn phương án đúng: Các thế lực thù địch sử dụng chiến lược “diễn biến hòa bình” chống phá sự nghiệp xây dựng Tổ quốc XHCN của nhân dân ta trên phương diện nào?",
-    "options": {
-      "A": "Đạo đức, lối sống",
-      "B": "Kinh tế, chính trị - xã hội",
-      "C": "Kinh tế, chính trị - xã hội; Đạo đức, lối sống; Văn hoá, tư tưởng",
-      "D": "Văn hoá, tư tưởng"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 324,
-    "question": "Khi nào thì tôn giáo mang tính chính trị?",
-    "options": {
-      "A": "Phản ánh nguyện vọng của nhân dân",
-      "B": "Khi các giai cấp thống trị đã lợi dụng và sử dụng tôn giáo để phục vụ lợi ích của mình",
-      "C": "Khi các cuộc chiến tranh tôn giáo nổ ra",
-      "D": "Khi các cuộc chiến tranh tôn giáo nổ ra nhằm giành quyền lãnh đạo chính trị"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 325,
-    "question": "Nước ta có bao nhiêu dân tộc cùng nhau chung sống?",
-    "options": {
-      "A": "51",
-      "B": "52",
-      "C": "53",
-      "D": "54"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 326,
-    "question": "Điền từ còn thiếu vào chỗ trống: “Quyền dân tộc tự quyết là quyền làm chủ của mỗi dân tộc đối với vận mệnh dân tộc mình, quyền tự quyết định chế độ chính trị – xã hội và........ phát triển của dân tộc mình”.",
-    "options": {
-      "A": "Cách thức",
-      "B": "Mục tiêu",
-      "C": "Con đường",
-      "D": "Hình thức"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 327,
-    "question": "Trong một quốc gia đa tộc người, vấn đề gì được coi là có ý nghĩa cơ bản nhất để thực hiện quyền bình đẳng giữa các dân tộc?",
-    "options": {
-      "A": "Ban hành hệ thống hiến pháp và pháp luật về quyền bình đẳng giữa các dân tộc",
-      "B": "Chống tư tưởng phân biệt chủng tộc, kì thị và chia rẽ dân tộc",
-      "C": "Nâng cao trình độ dân trí, văn hoá cho đồng bào",
-      "D": "Xoá bỏ dần sự chênh lệch về mọi mặt giữa các dân tộc do lịch sử để lại"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 328,
-    "question": "Theo chủ nghĩa Mác - Lênin, tín ngưỡng là gì?",
-    "options": {
-      "A": "Hệ thống niềm tin vào lực lượng có tính thần thánh",
-      "B": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người",
-      "C": "Hệ thống niềm tin, sự ngưỡng mộ, cũng như cách thức thể hiện niềm tin của con người trước các sự vật, hiện tượng, lực lượng có tính thần thánh, linh thiêng để cầu mong sự che chở, giúp đỡ",
-      "D": "Hệ thống niềm tin vào lực lượng có tính thần thánh cầu mong sự che chở, giúp đỡ"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 329,
-    "question": "Chính sách dân tộc về chính trị của Đảng, Nhà nước Việt Nam hiện nay là gì?",
-    "options": {
-      "A": "Chính sách dân tộc góp phần nâng cao tính tích cực chính trị của công dân",
-      "B": "Thực hiện bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển giữa các dân tộc",
-      "C": "Chính sách dân tộc góp phần nâng cao nhận thức của đồng bào các dân tộc thiểu số về tầm quan trọng của vấn đề đoàn kết dân tộc, thống nhất mục tiêu chung là độc lập dân tộc và chủ nghĩa xã hội",
-      "D": "Thực hiện dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 330,
-    "question": "Theo chủ nghĩa Mác - Lênin, mê tín là gì?",
-    "options": {
-      "A": "Mê tín là niềm tin về mối quan hệ nhân quả giữa các sự kiện, sự vật, hiện tượng, nhưng thực tế không có mối liên hệ cụ thể, rõ ràng",
-      "B": "Mê tín tín là niềm tin mê muội, viển vông quá mức được bao phủ bởi các yếu tố siêu nhiên, thần thánh, hư ảo",
-      "C": "Mê tín là sự suy đoán, hành động tùy tiện, sai lệch những điều bình thường, chuẩn mực trong cuộc sống",
-      "D": "Mê tín là niềm tin mê muội, viển vông quá mức, không dựa trên một cơ sở khoa học nào"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 331,
-    "question": "Ở Phương đông, dân tộc được hình thành trên cơ sở nào?",
-    "options": {
-      "A": "Là quá trình phát triển lâu dài của xã hội loài người, trải qua các hình thức cộng đồng từ thấp đến cao, bao gồm: thị tộc, bộ lạc, bộ tộc, dân tộc",
-      "B": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi",
-      "C": "Hình thành trên cơ sở một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế tuy đã đạt tới một mức độ nhất định song nhìn chung còn kém phát triển và ở trạng thái phân tán",
-      "D": "Một nền văn hóa, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế đã đạt tới một mức độ nhất định"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 332,
-    "question": "Đoạn trích sau là của ai? “....….tất cả mọi tôn giáo chẳng qua chỉ là sự phản ánh hư ảo - vào trong đầu óc con người - của những lực lượng ở bên ngoài chi phối cuộc sống hàng ngày của họ; chỉ là sự phản ánh tỏng đó những lực lượng ở trần thế đã mang hình thức những lực lượng siêu trần thế”.",
-    "options": {
-      "A": "C.Mác",
-      "B": "Stalin",
-      "C": "Ph.Ăng ghen",
-      "D": "V.I.Lênin"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 333,
-    "question": "Hãy tìm ý đúng trong các phương án dưới đây, trong Văn kiện Đại hội đại biểu toàn quốc lần thứ IX của ĐCS Việt Nam?",
-    "options": {
-      "A": "Vấn đề dân tộc và tăng cường khối đại đoàn kết toàn dân tộc là vấn đề chiến lược của Việt Nam hiện nay",
-      "B": "Vấn đề dân tộc và đoàn kết các dân tộc có vị trí quyết định đến sự sống còn của dân tộc ta hiện nay",
-      "C": "Vấn đề dân tộc và đoàn kết các dân tộc luôn có vị trí chiến lược trong sự nghiệp cách mạng",
-      "D": "Vấn đề dân tộc có vai trò quan trọng đối với sự nghiệp phát triển kinh tế - xã hội ở nước ta hiện nay"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 334,
-    "question": "Trong các nội dung của quyền dân tộc tự quyết thì nội dung nào được coi là cơ bản nhất, tiên quyết nhất?",
-    "options": {
-      "A": "Tự quyết về văn hoá",
-      "B": "Tự quyết về chính trị",
-      "C": "Tự quyết về kinh tế",
-      "D": "Tự quyết về lãnh thổ"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 335,
-    "question": "Hiện nay các dân tộc thiểu số ở nước ta có dân số chiếm tỉ lệ bao nhiêu phần trăm số dân cả nước?",
-    "options": {
-      "A": "13%",
-      "B": "17%",
-      "C": "15%",
-      "D": "13,5%"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 336,
-    "question": "Cách sắp xếp nào sau đây đúng về sự xuất hiện của các tộc người?",
-    "options": {
-      "A": "Bộ lạc, thị tộc, bộ tộc, dân tộc",
-      "B": "Bộ tộc, bộ lạc, thị tộc, dân tộc",
-      "C": "Thị tộc, bộ lạc, bộ tộc, dân tộc",
-      "D": "Thị tộc, bộ tộc, bộ lạc, dân tộc"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 337,
-    "question": "Theo chủ nghĩa Mác - Lênin, mê tín dị đoan là gì?",
-    "options": {
-      "A": "Mê tín dị đoan là hành động tùy tiện, sai lệch những điều bình thường, trái với các giá trị văn hóa, đạo đức, pháp luật, gây tổn hại cho cá nhân, xã hội và cộng đồng.",
-      "B": "Mê tín dị đoan là niềm tin của con người vào những lực lượng siêu nhiên, thần thánh đến mức độ mê muội, cuồng tín, dẫn đến những hành vi cực đoan, sai lệch quá mức, trái với các giá trị văn hóa, đạo đức, pháp luật, gây tổn hại cho cá nhân, xã hội và cộng đồng",
-      "C": "Mê tín dị đoan là niềm tin của con người vào những lực lượng siêu nhiên, viển vông quá mức được bao phủ bởi các yếu tố siêu nhiên, thần thánh, hư ảo",
-      "D": "Mê tín dị đoan là niềm tin của con người vào những lực lượng siêu nhiên, thần thánh đến mức độ mê muội, cuồng tín, dẫn đến những hành vi cực đoan, sai lệch."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 338,
-    "question": "Căn cứ vào phạm vi tác động của quyền lực nhà nước XHCN thì nhà nước có chức năng nào?",
-    "options": {
-      "A": "Chức năng đối nội.",
-      "B": "Chức năng chính trị.",
-      "C": "Chức năng kinh tế.",
-      "D": "Chức năng giai cấp."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 339,
-    "question": "Chủ nghĩa Mác – Lênin là hệ tư tưởng của giai cấp, tầng lớp nào?",
-    "options": {
-      "A": "Nhân dân lao động.",
-      "B": "Tầng lớp trí thức.",
-      "C": "GCCN.",
-      "D": "Giai cấp nông dân."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 340,
-    "question": "GCCN thông qua con đường nào để giải phóng mình và giải phóng nhân dân lao động?",
-    "options": {
-      "A": "Biểu tình, bãi công",
-      "B": "Đấu tranh nghị viện.",
-      "C": "Cách mạng XHCN.",
-      "D": "Đấu tranh kinh tế."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 341,
-    "question": "GCCN là người lao động gắn với nền sản xuất:",
-    "options": {
-      "A": "Nông nghiệp.",
-      "B": "Thủ công nghiệp.",
-      "C": "Đại công nghiệp.",
-      "D": "Công - nông nghiệp."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 342,
-    "question": "Trong các nước đi theo con đường XHCN, GCCN cùng với nhân dân lao động đã trở thành những người làm chủ về:",
-    "options": {
-      "A": "Tất cả tư liệu lao động.",
-      "B": "Hầu hết tư liệu sản xuất.",
-      "C": "Tư liệu sản xuất chủ yếu.",
-      "D": "Tất cả sản phẩm xã hội."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 343,
-    "question": "Một trong ba nội dung cơ bản trong “Cương lĩnh dân tộc” của Lênin là các dân tộc:",
-    "options": {
-      "A": "Hoàn toàn bình đẳng.",
-      "B": "Tất cả bình đẳng.",
-      "C": "Có nhiều bình đẳng.",
-      "D": "Bình đẳng về văn hoá."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 344,
-    "question": "Một trong ba nội dung cơ bản trong “cương lĩnh dân tộc” của Lênin là các dân tộc có quyền:",
-    "options": {
-      "A": "Tự do.",
-      "B": "Tự quyết.",
-      "C": "Độc lập.",
-      "D": "Làm chủ."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 345,
-    "question": "Một trong ba nội dung cơ bản trong “cương lĩnh dân tộc” của Lênin là liên hiệp GCCN với:",
-    "options": {
-      "A": "Nông dân các nước.",
-      "B": "Nhân dân thế giới.",
-      "C": "Tất cả các dân tộc.",
-      "D": "Người lao động của các nước."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 346,
-    "question": "Đặc trưng bản chất của dân chủ XHCN là bảo đảm mọi quyền lực đều thuộc về lực lượng nào?",
-    "options": {
-      "A": "Công nhân và nông dân.",
-      "B": "Nhân dân.",
-      "C": "Trí thức.",
-      "D": "Những người lao động."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 347,
-    "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết giữa các tôn giáo là một vấn đề:",
-    "options": {
-      "A": "Mang tính nguyên tắc.",
-      "B": "Ưu tiên hàng đầu.",
-      "C": "Phải thực hiện ngay.",
-      "D": "Cần thiết và cấp bách."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 348,
-    "question": "Lao động trong nền sản xuất đại công nghiệp với hệ thống sản xuất dây chuyền đã hình thành đặc điểm nào ở GCCN?",
-    "options": {
-      "A": "Tính khẩn trương.",
-      "B": "Tinh thần cách mạng.",
-      "C": "Tính tổ chức, kỷ luật.",
-      "D": "Tính chính trị cao."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 349,
-    "question": "Để sứ mệnh lịch sử của GCCN từ khả năng thành hiện thực phải thông qua nhân tố chủ quan, trong đó nhân tố quyết định là:",
-    "options": {
-      "A": "Thành lập ĐCS.",
-      "B": "Xây dựng khối liên minh công - nông.",
-      "C": "Thành lập Mặt trận dân tộc thống nhất.",
-      "D": "Xây dựng hệ thống chính trị."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 350,
-    "question": "Quan niệm cơ bản của Chủ nghĩa Mác-Lênin là dân chủ với tư cách một phạm trù chính trị gắn với một kiểu nhà nước và một giai cấp cầm quyền thì sẽ:",
-    "options": {
-      "A": "Có tính nhân dân rộng rãi.",
-      "B": "Không có dân chủ phi giai cấp.",
-      "C": "Có nền dân chủ phi giai cấp.",
-      "D": "Thủ tiêu dân chủ nhân dân."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 351,
-    "question": "Căn cứ vào lĩnh vực tác động của quyền lực nhà nước XHCN thì nhà nước có chức năng nào?",
-    "options": {
-      "A": "Chức năng chính trị.",
-      "B": "Chức năng giai cấp.",
-      "C": "Chức năng đối nội.",
-      "D": "Cả a, b, c đều đúng."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 352,
-    "question": "Nhà nước XHCN vừa có bản chất GCCN, vừa có tính nhân dân rộng rãi và tính …… sâu sắc",
-    "options": {
-      "A": "Giai cấp.",
-      "B": "Nhân đạo.",
-      "C": "Dân tộc.",
-      "D": "Cộng đồng"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 353,
-    "question": "Trong quá trình xây dựng chủ nghĩa xã hội, liên minh giữa GCCN, giai cấp nông dân và tầng lớp trí thức nội dung nào giữ vai trò quyết định?",
-    "options": {
-      "A": "Chính trị",
-      "B": "Kinh tế",
-      "C": "Văn hóa",
-      "D": "Tư tưởng."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 354,
-    "question": "Gia đình được xây dựng trên cơ sở mối quan hệ nào?",
-    "options": {
-      "A": "Quan hệ hôn nhân.",
-      "B": "Quan hệ huyết thống.",
-      "C": "Quan hệ nuôi dưỡng, giáo dục.",
-      "D": "Tất cả đáp án đều đúng."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 355,
-    "question": "Đâu là vị trí của gia đình trong mối quan hệ với xã hội?",
-    "options": {
-      "A": "Gia đình là tế bào của xã hội.",
-      "B": "Gia đình là tổ ấm mang lại các giá trị hạnh phúc.",
-      "C": "Gia đình là cầu nối giữa cá nhân với xã hội.",
-      "D": "Tất cả đáp án đều đúng."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 356,
-    "question": "Hãy xác định chức năng cơ bản của gia đình:",
-    "options": {
-      "A": "Tái sản xuất ra con người.",
-      "B": "Nuôi dưỡng, giáo dục.",
-      "C": "Kinh tế và tổ chức tiêu dùng.",
-      "D": "Tất cả đáp án đều đúng."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 357,
-    "question": "Nội dung nào thể hiện chế độ hôn nhân tiến bộ?",
-    "options": {
-      "A": "Hôn nhân gắn kết",
-      "B": "Hôn nhân bình đẳng",
-      "C": "Hôn nhân bền vững",
-      "D": "Hôn nhân tự nguyện"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 358,
-    "question": "Sự biến đổi về cơ cấu xã hội – giai cấp gắn liền và qui định bởi sự biến đổi của loại hình cơ cấu nào?",
-    "options": {
-      "A": "Cơ cấu kinh tế.",
-      "B": "Cơ cấu chính trị.",
-      "C": "Cơ cấu văn hoá.",
-      "D": "Cơ cấu dân tộc."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 359,
-    "question": "Xu hướng biến đổi chủ yếu của các giai cấp, tầng lớp trong thời kỳ quá độ lên CNXH là gì?",
-    "options": {
-      "A": "Xích lại gần nhau.",
-      "B": "Tách xa nhau.",
-      "C": "Đan xen vào nhau.",
-      "D": "Triệt tiêu lẫn nhau."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 360,
-    "question": "Cách mạng XHCN vẫn là một tất yếu khách quan của tiến trình phát triển lịch sử nhân loại chừng nào:",
-    "options": {
-      "A": "Nguyên nhân sâu xa chưa được giải quyết.",
-      "B": "Mâu thuẫn giữa tư sản với vô sản chưa được giải quyết.",
-      "C": "Chế độ XHCN chưa được hoàn thiện.",
-      "D": "Mâu thuẫn giai cấp vẫn còn."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 361,
-    "question": "Nội dung trước tiên của cách mạng XHCN là phải giành chính quyền về tay GCCN, nhân dân lao động, đưa những người lao động:",
-    "options": {
-      "A": "Thành người lao động tập thể.",
-      "B": "Làm chủ tư liệu sản xuất.",
-      "C": "Thành người quản lý xã hội.",
-      "D": "Lên địa vị làm chủ xã hội."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 362,
-    "question": "Tại sao nói cách mạng XHCN là cuộc cách mạng toàn diện, sâu sắc và triệt để nhất trong lịch sử?",
-    "options": {
-      "A": "Vì GCCN lãnh đạo.",
-      "B": "Vì thủ tiêu chủ nghĩa tư bản.",
-      "C": "Vì lôi kéo được đông đảo nhân dân tham gia.",
-      "D": "Vì xoá bỏ chế độ tư hữu, thủ tiêu chế độ người bóc lột người."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 363,
-    "question": "Liên minh giai cấp về văn hóa trong CNXH GCCN, nông dân và những người lao động khác phải thường xuyên:",
-    "options": {
-      "A": "Nâng cao đạo đức cách mạng.",
-      "B": "Học tập nâng cao trình độ.",
-      "C": "Đoàn kết, hợp tác, tương trợ.",
-      "D": "Nâng cao tính tổ chức, kỷ luật."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 364,
-    "question": "Chọn câu trả lời đúng. Cuộc cách mạng vô sản, về cơ bản khác các cuộc cách mạng trước đó trong lịch sử như thế nào?",
-    "options": {
-      "A": "Thủ tiêu sự thống trị của giai cấp thống trị phản động.",
-      "B": "Thủ tiêu sở hữu tư nhân nói chung.",
-      "C": "Thủ tiêu chế độ tư hữu về tư liệu sản xuất.",
-      "D": "Thủ tiêu nhà nước tư sản."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 365,
-    "question": "C.Mác đã nói về giai đoạn thấp của xã hội cộng sản chủ nghĩa, là một xã hội vừa thoát thai từ xã hội TBCN, do đó về mọi phương diện đều:",
-    "options": {
-      "A": "Chưa thật sự văn minh.",
-      "B": "Chưa thực sự hoàn thiện.",
-      "C": "Còn mang dấu vết xã hội cũ.",
-      "D": "Còn rất lạc hậu về kinh tế."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 366,
-    "question": "Đặc trưng cơ bản của CNXH là gì?",
-    "options": {
-      "A": "Khả năng đoàn kết phong trào công nhân quốc tế.",
-      "B": "Tập hợp nhân dân lao động chống lại chủ nghĩa tư bản.",
-      "C": "Do nhân dân lao động làm chủ.",
-      "D": "Tất cả tư liệu sản xuất của xã hội đều là sở hữu chung."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 367,
-    "question": "Chủ nghĩa Mác – Lênin và hệ tư tưởng tôn giáo khác nhau cơ bản ở điểm nào?",
-    "options": {
-      "A": "Khác nhau về thế giới quan.",
-      "B": "Khác nhau về nhân sinh quan.",
-      "C": "Khác nhau ở con đường mưu cầu hạnh phúc cho nhân dân.",
-      "D": "Tất cả các đáp án đều đúng."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 368,
-    "question": "Mặt tư tưởng của tôn giáo thể hiện sự tín ngưỡng tôn giáo. Trong quá trình xây dựng chủ nghĩa xã hội, khắc phục mặt này là việc làm:",
-    "options": {
-      "A": "Cấp bách.",
-      "B": "Khẩn chương",
-      "C": "Thường xuyên",
-      "D": "Lâu dài"
-    },
-    "answer": "D"
-  },
-  {
-    "id": 369,
-    "question": "Sự biến đổi cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ lên CNXH ngoài tính đặc thù còn mang đặc điểm gì khác?",
-    "options": {
-      "A": "Tính quy luật chung.",
-      "B": "Tính đa dạng, phong phú.",
-      "C": "Tính quy luật phổ biến.",
-      "D": "Tính khách quan."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 370,
-    "question": "Chức năng cơ bản và riêng có của gia đình là gì?",
-    "options": {
-      "A": "Chức năng nuôi dưỡng và giáo dục.",
-      "B": "Chức năng kinh tế và tổ chức tiêu dùng.",
-      "C": "Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm.",
-      "D": "Chức năng tái sản xuất ra con người."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 371,
-    "question": "Quan hệ nào của gia đình được coi là mối quan hệ tự nhiên, là yếu tố mạnh mẽ nhất gắn kết các thành viên trong gia đình với nhau?",
-    "options": {
-      "A": "Quan hệ hôn nhân.",
-      "B": "Quan hệ nuôi dưỡng.",
-      "C": "Quan hệ huyết thống.",
-      "D": "Quan hệ quần tụ trong một không gian sinh tồn."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 372,
-    "question": "Điều kiện và tiền đề kinh tế - xã hội để xây dựng gia đình trong thời kỳ quá độ lên CNXH là gì?",
-    "options": {
-      "A": "Xác lập chế độ công hữu về tư liệu sản xuất.",
-      "B": "Hoàn thiện các chính sách văn hóa – xã hội.",
-      "C": "Phát triển giáo dục, đào tạo.",
-      "D": "Phát triển khoa học – công nghệ hiện đại."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 373,
-    "question": "Tìm ra điểm khác biệt của GCCN hiện nay với GCCN thế kỷ XIX?",
-    "options": {
-      "A": "Làm việc trong nền sản xuất công nghiệp.",
-      "B": "Công nhân một số nước trở thành giai cấp cầm quyền.",
-      "C": "Là giai cấp bán sức lao động cho nhà tư bản.",
-      "D": "GCCN phát triển cả số lượng và chất lượng."
-    },
-    "answer": "B"
-  },
-  {
-    "id": 374,
-    "question": "Nhà nước Cộng hoà XHCN Việt Nam là nhà nước pháp quyền mang bản chất gì?",
-    "options": {
-      "A": "Giai cấp nông dân, tính nhân dân và tính dân tộc.",
-      "B": "Nhân dân và dân tộc.",
-      "C": "GCCN, tính nhân dân và tính dân tộc.",
-      "D": "Tính nhân dân rộng rãi và dân tộc sâu sắc."
-    },
-    "answer": "C"
-  },
-  {
-    "id": 375,
-    "question": "Điểm then chốt để thực hiện thành công sứ mệnh lịch sử của GCCN Việt Nam là gì?",
-    "options": {
-      "A": "Tăng nhanh số lượng GCCN.",
-      "B": "Trí thức hóa nhanh GCCN.",
-      "C": "Liên minh chặt chẽ với các giai cấp lao động khác.",
-      "D": "Xây dựng Đảng trong sạch, vững mạnh."
-    },
-    "answer": "D"
-  },
-  {
-    "id": 376,
-    "question": "Đâu là yếu tố cơ bản để GCCN Việt Nam gắn bó mật thiết với các tầng lớp nhân dân trong xã hội?",
-    "options": {
-      "A": "Thống nhất cao về lợi ích.",
-      "B": "Cùng là người lao động.",
-      "C": "Đều là động lực trong xây dựng xã hội mới.",
-      "D": "Đều là người làm chủ đất nước."
-    },
-    "answer": "A"
-  },
-  {
-    "id": 377,
-    "question": "Chức năng, nhiệm vụ của nhà nước XHCN biểu hiện tâp trung ở việc quản lý xã hội trên tất cả các lĩnh vực bằng:",
-    "options": {
-      "A": "Khoa học và công nghệ.",
-      "B": "Các công cụ kinh tế.",
-      "C": "Hiến pháp và pháp luật.",
-      "D": "Hệ thống kế hoạch hóa."
-    },
-    "answer": "C"
+    "answer": "Tìm và sửa hết lỗi không có nghĩa hệ thống sẽ được người dùng chấp nhận nếu không đáp ứng nhu cầu và kỳ vọng",
+    "explanation": "P7 nhấn mạnh rằng phần mềm có thể không còn lỗi được phát hiện nhưng vẫn không có giá trị đối với người dùng nếu không đáp ứng đúng nhu cầu và kỳ vọng thực tế."
   }
 ]
