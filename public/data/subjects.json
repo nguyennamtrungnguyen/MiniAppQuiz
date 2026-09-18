@@ -10,5 +10,11 @@
     "name": "Chủ nghĩa xã hội khoa học",
     "description": "Ôn tập môn Chủ nghĩa xã hội khoa học",
     "questionFile": "/data/subjects/cnxhkh.json"
+  },
+  {
+    "id": "oop-java",
+    "name": "Lập Trình Hướng Đối Tượng OOP JAVA",
+    "description": "Ôn tập lập trình hướng đối tượng OOP Java",
+    "questionFile": "/data/subjects/oop_java.json"
   }
 ]

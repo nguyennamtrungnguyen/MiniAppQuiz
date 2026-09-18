@@ -1,0 +1,2546 @@
+[
+  {
+    "id": 1,
+    "question": "Lập trình hướng đối tượng (OOP) là gì?",
+    "options": {
+      "A": "Một phương pháp lập trình chỉ dựa trên các hàm độc lập",
+      "B": "Một mô hình lập trình tổ chức phần mềm xung quanh các đối tượng chứa dữ liệu và hành vi",
+      "C": "Một ngôn ngữ lập trình duy nhất là Java",
+      "D": "Một kỹ thuật chỉ dùng để vẽ giao diện đồ họa"
+    },
+    "answer": "B",
+    "explanation": "OOP là mô hình lập trình tổ chức chương trình thành các đối tượng (object), mỗi đối tượng gói gọn dữ liệu (thuộc tính) và hành vi (phương thức)."
+  },
+  {
+    "id": 2,
+    "question": "Trong Java, class được hiểu là gì?",
+    "options": {
+      "A": "Một đối tượng cụ thể đã được khởi tạo trong bộ nhớ",
+      "B": "Bản thiết kế (khuôn mẫu) để tạo ra các đối tượng",
+      "C": "Một biến nguyên thủy (primitive)",
+      "D": "Một file thực thi (.exe)"
+    },
+    "answer": "B",
+    "explanation": "Class là khuôn mẫu (template/blueprint) mô tả thuộc tính và phương thức chung, từ đó các object được khởi tạo."
+  },
+  {
+    "id": 3,
+    "question": "Object trong Java là gì?",
+    "options": {
+      "A": "Một thể hiện (instance) cụ thể được tạo ra từ một class",
+      "B": "Tên gọi khác của phương thức main",
+      "C": "Một kiểu dữ liệu nguyên thủy",
+      "D": "Tập hợp các class có liên quan"
+    },
+    "answer": "A",
+    "explanation": "Object là instance cụ thể của class, được cấp phát vùng nhớ trên heap khi dùng từ khóa new."
+  },
+  {
+    "id": 4,
+    "question": "Từ khóa nào dùng để tạo một đối tượng mới trong Java?",
+    "options": {
+      "A": "create",
+      "B": "new",
+      "C": "make",
+      "D": "object"
+    },
+    "answer": "B",
+    "explanation": "Từ khóa new được dùng để cấp phát bộ nhớ và khởi tạo một đối tượng mới, ví dụ: Car c = new Car();"
+  },
+  {
+    "id": 5,
+    "question": "Thành phần nào KHÔNG thuộc về một class trong Java?",
+    "options": {
+      "A": "Thuộc tính (field/attribute)",
+      "B": "Phương thức (method)",
+      "C": "Constructor",
+      "D": "Trình duyệt web (web browser)"
+    },
+    "answer": "D",
+    "explanation": "Trình duyệt web không phải là thành phần của class; class Java chỉ gồm thuộc tính, phương thức, constructor, khối khởi tạo, lớp lồng nhau..."
+  },
+  {
+    "id": 6,
+    "question": "Bốn trụ cột (pillars) chính của OOP là gì?",
+    "options": {
+      "A": "Biến, hàm, vòng lặp, điều kiện",
+      "B": "Đóng gói, kế thừa, đa hình, trừu tượng hóa",
+      "C": "Compile, run, debug, deploy",
+      "D": "Class, package, module, jar"
+    },
+    "answer": "B",
+    "explanation": "Bốn trụ cột kinh điển của OOP gồm: Encapsulation (đóng gói), Inheritance (kế thừa), Polymorphism (đa hình), Abstraction (trừu tượng hóa)."
+  },
+  {
+    "id": 7,
+    "question": "Thuộc tính (attribute/field) của một class dùng để làm gì?",
+    "options": {
+      "A": "Lưu trữ trạng thái (dữ liệu) của đối tượng",
+      "B": "Biên dịch chương trình",
+      "C": "Kết nối tới cơ sở dữ liệu",
+      "D": "Chỉ để đặt tên cho class"
+    },
+    "answer": "A",
+    "explanation": "Attribute (field) lưu trạng thái/dữ liệu của đối tượng, ví dụ: name, age trong class Person."
+  },
+  {
+    "id": 8,
+    "question": "Phương thức (method) trong Java dùng để làm gì?",
+    "options": {
+      "A": "Định nghĩa hành vi (behavior) mà đối tượng có thể thực hiện",
+      "B": "Chỉ dùng để khai báo biến",
+      "C": "Chỉ tồn tại trong interface",
+      "D": "Thay thế hoàn toàn cho constructor"
+    },
+    "answer": "A",
+    "explanation": "Method định nghĩa hành vi/thao tác mà object có thể thực hiện, ví dụ phương thức bark() của class Dog."
+  },
+  {
+    "id": 9,
+    "question": "Trạng thái (state) của một đối tượng được xác định bởi điều gì?",
+    "options": {
+      "A": "Tên class của nó",
+      "B": "Giá trị hiện tại của các thuộc tính (field)",
+      "C": "Số lượng phương thức trong class",
+      "D": "Địa chỉ IP của máy tính"
+    },
+    "answer": "B",
+    "explanation": "State của object là tập hợp giá trị hiện tại của các field của nó tại một thời điểm."
+  },
+  {
+    "id": 10,
+    "question": "Hành vi (behavior) của một đối tượng được biểu diễn thông qua điều gì?",
+    "options": {
+      "A": "Các phương thức (method) mà đối tượng cung cấp",
+      "B": "Kiểu dữ liệu của biến toàn cục",
+      "C": "Số dòng code của class",
+      "D": "Tên file .java"
+    },
+    "answer": "A",
+    "explanation": "Behavior của object được thể hiện thông qua các method mà nó cung cấp để tương tác hoặc thay đổi trạng thái."
+  },
+  {
+    "id": 11,
+    "question": "Một file .java có thể chứa bao nhiêu class public?",
+    "options": {
+      "A": "Không giới hạn",
+      "B": "Tối đa 1 class public",
+      "C": "Chính xác 2 class public",
+      "D": "Không được chứa class public nào"
+    },
+    "answer": "B",
+    "explanation": "Java quy định một file .java chỉ được chứa tối đa 1 class public, và tên file phải trùng với tên class public đó."
+  },
+  {
+    "id": 12,
+    "question": "Constructor trong Java có đặc điểm gì?",
+    "options": {
+      "A": "Có kiểu trả về là void",
+      "B": "Có tên trùng với tên class và không có kiểu trả về",
+      "C": "Phải luôn là static",
+      "D": "Không thể có tham số"
+    },
+    "answer": "B",
+    "explanation": "Constructor có tên trùng với tên class, không khai báo kiểu trả về (kể cả void), dùng để khởi tạo đối tượng."
+  },
+  {
+    "id": 13,
+    "question": "Nếu một class không khai báo constructor nào, điều gì sẽ xảy ra?",
+    "options": {
+      "A": "Chương trình sẽ báo lỗi biên dịch",
+      "B": "Java tự động cung cấp một constructor mặc định (default constructor) không tham số",
+      "C": "Class đó không thể tạo object",
+      "D": "Class đó tự động trở thành abstract"
+    },
+    "answer": "B",
+    "explanation": "Trình biên dịch Java tự động sinh ra một default constructor không tham số nếu lớp không khai báo constructor nào."
+  },
+  {
+    "id": 14,
+    "question": "Constructor overloading là gì?",
+    "options": {
+      "A": "Một class có nhiều constructor với danh sách tham số khác nhau",
+      "B": "Một class chỉ có duy nhất một constructor",
+      "C": "Ghi đè constructor của lớp cha",
+      "D": "Xóa constructor mặc định"
+    },
+    "answer": "A",
+    "explanation": "Constructor overloading là việc định nghĩa nhiều constructor trong cùng một class, khác nhau về số lượng/kiểu tham số."
+  },
+  {
+    "id": 15,
+    "question": "Từ khóa nào dùng để gọi một constructor khác trong cùng class?",
+    "options": {
+      "A": "super()",
+      "B": "this()",
+      "C": "new()",
+      "D": "self()"
+    },
+    "answer": "B",
+    "explanation": "this() được dùng bên trong một constructor để gọi tới một constructor khác của cùng class, phải là lệnh đầu tiên."
+  },
+  {
+    "id": 16,
+    "question": "Bộ thu gom rác (Garbage Collector) trong Java có nhiệm vụ gì?",
+    "options": {
+      "A": "Biên dịch mã nguồn Java",
+      "B": "Tự động giải phóng bộ nhớ của các object không còn được tham chiếu",
+      "C": "Quản lý các luồng (thread)",
+      "D": "Kiểm tra lỗi cú pháp"
+    },
+    "answer": "B",
+    "explanation": "Garbage Collector tự động dọn dẹp, giải phóng vùng nhớ heap của những object không còn bất kỳ tham chiếu nào trỏ tới."
+  },
+  {
+    "id": 17,
+    "question": "Trong Java, tất cả các class (mặc định) đều kế thừa trực tiếp hoặc gián tiếp từ class nào?",
+    "options": {
+      "A": "String",
+      "B": "Object",
+      "C": "Main",
+      "D": "System"
+    },
+    "answer": "B",
+    "explanation": "Mọi class trong Java đều kế thừa (trực tiếp hoặc gián tiếp) từ class java.lang.Object, root của cây phân cấp lớp."
+  },
+  {
+    "id": 18,
+    "question": "Phương thức main() trong Java có vai trò gì?",
+    "options": {
+      "A": "Điểm bắt đầu thực thi của chương trình",
+      "B": "Định nghĩa các thuộc tính của class",
+      "C": "Chỉ dùng trong interface",
+      "D": "Chỉ dùng để khai báo hằng số"
+    },
+    "answer": "A",
+    "explanation": "public static void main(String[] args) là điểm khởi đầu (entry point) mà JVM gọi để bắt đầu chạy chương trình."
+  },
+  {
+    "id": 19,
+    "question": "Đóng gói (Encapsulation) trong OOP là gì?",
+    "options": {
+      "A": "Việc ẩn dữ liệu bên trong class và chỉ cho truy cập thông qua phương thức public",
+      "B": "Việc tạo nhiều class con từ một class cha",
+      "C": "Việc một đối tượng có nhiều hình thái khác nhau",
+      "D": "Việc loại bỏ hoàn toàn các biến private"
+    },
+    "answer": "A",
+    "explanation": "Encapsulation là việc gói dữ liệu (field) và phương thức xử lý dữ liệu đó vào trong class, đồng thời hạn chế truy cập trực tiếp từ bên ngoài bằng access modifier."
+  },
+  {
+    "id": 20,
+    "question": "Cách phổ biến nhất để thực hiện encapsulation trong Java là gì?",
+    "options": {
+      "A": "Khai báo tất cả field là public",
+      "B": "Khai báo field là private và cung cấp getter/setter public",
+      "C": "Không khai báo field nào",
+      "D": "Dùng từ khóa abstract cho mọi field"
+    },
+    "answer": "B",
+    "explanation": "Cách chuẩn để đóng gói là khai báo field private, sau đó cung cấp các phương thức getter/setter public để kiểm soát việc đọc/ghi dữ liệu."
+  },
+  {
+    "id": 21,
+    "question": "Lợi ích chính của encapsulation là gì?",
+    "options": {
+      "A": "Tăng tốc độ biên dịch chương trình",
+      "B": "Bảo vệ dữ liệu, kiểm soát cách dữ liệu được truy cập và thay đổi",
+      "C": "Giảm số lượng class cần viết",
+      "D": "Tự động tạo giao diện đồ họa"
+    },
+    "answer": "B",
+    "explanation": "Encapsulation giúp bảo vệ tính toàn vẹn dữ liệu, kiểm soát truy cập, và cho phép thay đổi cài đặt bên trong mà không ảnh hưởng code bên ngoài."
+  },
+  {
+    "id": 22,
+    "question": "Getter method thường được dùng để làm gì?",
+    "options": {
+      "A": "Thay đổi giá trị của field private",
+      "B": "Trả về (đọc) giá trị hiện tại của field private",
+      "C": "Xóa một field",
+      "D": "Khởi tạo đối tượng mới"
+    },
+    "answer": "B",
+    "explanation": "Getter (ví dụ getName()) trả về giá trị hiện tại của field private, cho phép truy cập đọc dữ liệu một cách có kiểm soát."
+  },
+  {
+    "id": 23,
+    "question": "Setter method thường được dùng để làm gì?",
+    "options": {
+      "A": "Đọc giá trị của field",
+      "B": "Gán/thay đổi giá trị cho field private, có thể kèm kiểm tra hợp lệ (validation)",
+      "C": "In dữ liệu ra màn hình",
+      "D": "Xóa toàn bộ đối tượng"
+    },
+    "answer": "B",
+    "explanation": "Setter (ví dụ setAge(int age)) cho phép gán giá trị mới cho field private, thường kèm logic kiểm tra tính hợp lệ của dữ liệu đầu vào."
+  },
+  {
+    "id": 24,
+    "question": "Việc khai báo field là private mang lại lợi ích kiểm soát nào?",
+    "options": {
+      "A": "Cho phép mọi class khác truy cập trực tiếp không giới hạn",
+      "B": "Ngăn các class khác truy cập trực tiếp, buộc phải đi qua phương thức được cung cấp",
+      "C": "Làm cho field trở thành hằng số",
+      "D": "Làm cho field tự động là static"
+    },
+    "answer": "B",
+    "explanation": "Field private chỉ truy cập được trong chính class đó, các class khác phải thông qua các phương thức public (getter/setter) mà class cung cấp."
+  },
+  {
+    "id": 25,
+    "question": "Trong ví dụ class BankAccount với field private balance, tại sao không nên để balance là public?",
+    "options": {
+      "A": "Vì Java không cho phép field public trong class",
+      "B": "Vì cho phép class khác thay đổi số dư trực tiếp mà không qua kiểm tra hợp lệ, dễ gây lỗi logic nghiệp vụ",
+      "C": "Vì làm chương trình chạy chậm hơn",
+      "D": "Vì trình biên dịch sẽ báo lỗi"
+    },
+    "answer": "B",
+    "explanation": "Nếu balance là public, bất kỳ đoạn code nào cũng có thể gán giá trị âm hoặc bất hợp lý mà không qua kiểm tra, vi phạm tính toàn vẹn dữ liệu."
+  },
+  {
+    "id": 26,
+    "question": "Từ 'data hiding' (ẩn dữ liệu) trong OOP có liên quan chặt chẽ nhất đến khái niệm nào?",
+    "options": {
+      "A": "Inheritance",
+      "B": "Encapsulation",
+      "C": "Polymorphism",
+      "D": "Interface only"
+    },
+    "answer": "B",
+    "explanation": "Data hiding là một khía cạnh cốt lõi của Encapsulation: ẩn chi tiết cài đặt và dữ liệu nội bộ khỏi thế giới bên ngoài."
+  },
+  {
+    "id": 27,
+    "question": "Điều gì xảy ra nếu một setter kiểm tra dữ liệu không hợp lệ (ví dụ tuổi âm) trước khi gán?",
+    "options": {
+      "A": "Đây là ví dụ cho việc setter giúp bảo vệ tính toàn vẹn dữ liệu",
+      "B": "Đây là lỗi cú pháp trong Java",
+      "C": "Setter không được phép chứa câu lệnh if",
+      "D": "Điều này làm mất tính đóng gói"
+    },
+    "answer": "A",
+    "explanation": "Việc setter kiểm tra tính hợp lệ (ví dụ if (age > 0)) trước khi gán là minh chứng rõ ràng cho lợi ích bảo vệ dữ liệu của encapsulation."
+  },
+  {
+    "id": 28,
+    "question": "JavaBean là quy ước đặt tên phổ biến cho getter/setter như thế nào?",
+    "options": {
+      "A": "get<TênField>() và set<TênField>(value)",
+      "B": "fetch<TênField>() và update<TênField>()",
+      "C": "read<TênField>() và write<TênField>()",
+      "D": "load<TênField>() và save<TênField>()"
+    },
+    "answer": "A",
+    "explanation": "Quy ước JavaBean chuẩn: getX() để đọc field x, setX(value) để gán giá trị cho field x (với boolean thường dùng isX())."
+  },
+  {
+    "id": 29,
+    "question": "Getter cho một field boolean thường được đặt tên theo tiền tố nào?",
+    "options": {
+      "A": "get",
+      "B": "set",
+      "C": "is",
+      "D": "has (chỉ dùng riêng lẻ)"
+    },
+    "answer": "C",
+    "explanation": "Theo quy ước JavaBean, getter cho field kiểu boolean thường dùng tiền tố is, ví dụ isActive() thay vì getActive()."
+  },
+  {
+    "id": 30,
+    "question": "Một lớp immutable (bất biến) trong Java thường KHÔNG có thành phần nào?",
+    "options": {
+      "A": "Constructor",
+      "B": "Setter method cho các field",
+      "C": "Field private final",
+      "D": "Getter method"
+    },
+    "answer": "B",
+    "explanation": "Lớp immutable thường có field private final, chỉ khởi tạo qua constructor, và không cung cấp setter để đảm bảo trạng thái không đổi sau khi tạo."
+  },
+  {
+    "id": 31,
+    "question": "Kế thừa (Inheritance) trong OOP là gì?",
+    "options": {
+      "A": "Cơ chế cho phép một class con (subclass) kế thừa thuộc tính và phương thức từ class cha (superclass)",
+      "B": "Cơ chế ẩn dữ liệu của một class",
+      "C": "Cơ chế cho phép một phương thức có nhiều hình thái",
+      "D": "Cơ chế tạo giao diện người dùng"
+    },
+    "answer": "A",
+    "explanation": "Inheritance cho phép một class (subclass) kế thừa các thuộc tính, phương thức đã có từ một class khác (superclass), giúp tái sử dụng code."
+  },
+  {
+    "id": 32,
+    "question": "Từ khóa nào dùng để một class kế thừa từ class khác trong Java?",
+    "options": {
+      "A": "implements",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "answer": "B",
+    "explanation": "Từ khóa extends được dùng để một class kế thừa từ một class khác, ví dụ: class Dog extends Animal."
+  },
+  {
+    "id": 33,
+    "question": "Java hỗ trợ đa kế thừa (multiple inheritance) giữa các class hay không?",
+    "options": {
+      "A": "Có, một class có thể extends nhiều class cùng lúc",
+      "B": "Không, một class chỉ được extends duy nhất một class (đơn kế thừa)",
+      "C": "Chỉ hỗ trợ nếu dùng từ khóa implements",
+      "D": "Chỉ hỗ trợ trong Java phiên bản cũ"
+    },
+    "answer": "B",
+    "explanation": "Java không hỗ trợ đa kế thừa class để tránh vấn đề 'diamond problem'; một class chỉ được extends một class cha duy nhất (nhưng có thể implements nhiều interface)."
+  },
+  {
+    "id": 34,
+    "question": "Superclass (lớp cha) còn được gọi là gì?",
+    "options": {
+      "A": "Base class hoặc parent class",
+      "B": "Derived class",
+      "C": "Subclass",
+      "D": "Abstract class bắt buộc"
+    },
+    "answer": "A",
+    "explanation": "Superclass, base class và parent class là các tên gọi tương đương chỉ lớp mà các lớp khác kế thừa từ nó."
+  },
+  {
+    "id": 35,
+    "question": "Subclass (lớp con) còn được gọi là gì?",
+    "options": {
+      "A": "Parent class",
+      "B": "Derived class hoặc child class",
+      "C": "Interface",
+      "D": "Static class"
+    },
+    "answer": "B",
+    "explanation": "Subclass còn được gọi là derived class hoặc child class, là lớp kế thừa từ superclass."
+  },
+  {
+    "id": 36,
+    "question": "Từ khóa super trong Java dùng để làm gì?",
+    "options": {
+      "A": "Tham chiếu tới đối tượng hiện tại",
+      "B": "Tham chiếu tới thành phần (constructor/field/method) của lớp cha",
+      "C": "Khởi tạo một class mới hoàn toàn độc lập",
+      "D": "Đánh dấu một phương thức là trừu tượng"
+    },
+    "answer": "B",
+    "explanation": "super dùng để tham chiếu tới constructor, field hoặc method của lớp cha (superclass) từ trong lớp con."
+  },
+  {
+    "id": 37,
+    "question": "Lệnh super() trong constructor của lớp con dùng để làm gì?",
+    "options": {
+      "A": "Gọi constructor của lớp cha",
+      "B": "Gọi constructor khác trong cùng lớp con",
+      "C": "Xóa các field kế thừa",
+      "D": "Tạo một interface mới"
+    },
+    "answer": "A",
+    "explanation": "super() gọi tới constructor của superclass, thường được dùng để khởi tạo phần dữ liệu thừa kế từ lớp cha."
+  },
+  {
+    "id": 38,
+    "question": "Nếu constructor của lớp con không gọi tường minh super(...), điều gì xảy ra?",
+    "options": {
+      "A": "Chương trình luôn báo lỗi biên dịch",
+      "B": "Java tự động chèn lời gọi super() không tham số ở dòng đầu tiên",
+      "C": "Lớp cha sẽ không được khởi tạo",
+      "D": "Lớp con sẽ trở thành abstract"
+    },
+    "answer": "B",
+    "explanation": "Nếu không gọi super(...) tường minh, trình biên dịch tự động chèn super() (constructor mặc định của lớp cha) làm dòng lệnh đầu tiên."
+  },
+  {
+    "id": 39,
+    "question": "Loại kế thừa nào KHÔNG được Java hỗ trợ trực tiếp giữa các class (nhưng có thể mô phỏng qua interface)?",
+    "options": {
+      "A": "Đơn kế thừa (single inheritance)",
+      "B": "Đa kế thừa (multiple inheritance) giữa các class",
+      "C": "Kế thừa nhiều cấp (multilevel inheritance)",
+      "D": "Kế thừa phân cấp (hierarchical inheritance)"
+    },
+    "answer": "B",
+    "explanation": "Java không hỗ trợ multiple inheritance giữa class với class, nhưng cho phép một class implements nhiều interface để đạt hiệu quả tương tự."
+  },
+  {
+    "id": 40,
+    "question": "Kế thừa nhiều cấp (multilevel inheritance) là gì?",
+    "options": {
+      "A": "A kế thừa B, B kế thừa C, tạo thành một chuỗi kế thừa",
+      "B": "Nhiều class cùng kế thừa từ một class cha",
+      "C": "Một class kế thừa nhiều interface",
+      "D": "Một class không kế thừa gì cả"
+    },
+    "answer": "A",
+    "explanation": "Multilevel inheritance là chuỗi kế thừa nhiều cấp, ví dụ: class Puppy extends Dog, Dog extends Animal."
+  },
+  {
+    "id": 41,
+    "question": "Kế thừa phân cấp (hierarchical inheritance) là gì?",
+    "options": {
+      "A": "Nhiều subclass khác nhau cùng kế thừa từ một superclass duy nhất",
+      "B": "Một subclass kế thừa từ nhiều superclass",
+      "C": "Một class kế thừa chính nó",
+      "D": "Kế thừa chỉ áp dụng cho interface"
+    },
+    "answer": "A",
+    "explanation": "Hierarchical inheritance là khi nhiều lớp con (ví dụ Cat, Dog, Bird) cùng kế thừa từ một lớp cha chung (Animal)."
+  },
+  {
+    "id": 42,
+    "question": "Thành phần nào của lớp cha KHÔNG được kế thừa bởi lớp con?",
+    "options": {
+      "A": "Phương thức public",
+      "B": "Phương thức protected",
+      "C": "Constructor",
+      "D": "Phương thức default trong cùng package"
+    },
+    "answer": "C",
+    "explanation": "Constructor không được kế thừa; lớp con phải tự định nghĩa constructor riêng, tuy có thể gọi constructor cha qua super()."
+  },
+  {
+    "id": 43,
+    "question": "Từ khóa final khi áp dụng cho một class có ý nghĩa gì?",
+    "options": {
+      "A": "Class đó không thể bị kế thừa (không thể có subclass)",
+      "B": "Class đó bắt buộc phải có subclass",
+      "C": "Class đó tự động là abstract",
+      "D": "Class đó chỉ chứa static method"
+    },
+    "answer": "A",
+    "explanation": "Khi một class được khai báo final, nó không thể được kế thừa bởi bất kỳ class nào khác, ví dụ class String trong Java là final."
+  },
+  {
+    "id": 44,
+    "question": "Từ khóa final khi áp dụng cho một method có ý nghĩa gì?",
+    "options": {
+      "A": "Phương thức đó không thể bị override (ghi đè) ở lớp con",
+      "B": "Phương thức đó không thể được gọi",
+      "C": "Phương thức đó bắt buộc phải là static",
+      "D": "Phương thức đó tự động trở thành abstract"
+    },
+    "answer": "A",
+    "explanation": "Một method được khai báo final không thể bị ghi đè (override) trong bất kỳ subclass nào."
+  },
+  {
+    "id": 45,
+    "question": "Quan hệ 'is-a' (là một) thường được thể hiện bằng cơ chế OOP nào?",
+    "options": {
+      "A": "Composition",
+      "B": "Inheritance",
+      "C": "Aggregation",
+      "D": "Encapsulation"
+    },
+    "answer": "B",
+    "explanation": "Quan hệ 'is-a' (ví dụ: Dog is-a Animal) thường được biểu diễn bằng inheritance (kế thừa) trong OOP."
+  },
+  {
+    "id": 46,
+    "question": "Quan hệ 'has-a' (có một) thường được thể hiện bằng cơ chế OOP nào?",
+    "options": {
+      "A": "Inheritance",
+      "B": "Polymorphism",
+      "C": "Composition (thành phần)",
+      "D": "Abstraction"
+    },
+    "answer": "C",
+    "explanation": "Quan hệ 'has-a' (ví dụ: Car has-a Engine) thường được biểu diễn bằng composition/aggregation, tức là class này chứa tham chiếu tới object của class khác."
+  },
+  {
+    "id": 47,
+    "question": "Tại sao Java không cho phép đa kế thừa class trực tiếp?",
+    "options": {
+      "A": "Vì lý do bảo mật tệp tin",
+      "B": "Để tránh vấn đề mơ hồ khi hai lớp cha có phương thức trùng tên (diamond problem)",
+      "C": "Vì JVM không đủ bộ nhớ",
+      "D": "Vì cú pháp extends chỉ chấp nhận 1 tham số theo quy định IDE"
+    },
+    "answer": "B",
+    "explanation": "Đa kế thừa class có thể gây ra 'diamond problem': nếu hai superclass có method trùng chữ ký, subclass sẽ không biết kế thừa hành vi nào, nên Java loại bỏ tính năng này để đơn giản hóa."
+  },
+  {
+    "id": 48,
+    "question": "Trong ví dụ class Vehicle là cha, Car và Motorbike là con, đây là loại kế thừa nào?",
+    "options": {
+      "A": "Đơn kế thừa",
+      "B": "Đa kế thừa",
+      "C": "Phân cấp (hierarchical)",
+      "D": "Nhiều cấp (multilevel)"
+    },
+    "answer": "C",
+    "explanation": "Khi nhiều subclass (Car, Motorbike) cùng kế thừa từ một superclass (Vehicle), đây là ví dụ điển hình của hierarchical inheritance."
+  },
+  {
+    "id": 49,
+    "question": "Access modifier nào của field/method lớp cha CHO PHÉP lớp con ở package khác truy cập trực tiếp qua kế thừa?",
+    "options": {
+      "A": "private",
+      "B": "protected",
+      "C": "chỉ default (package-private)",
+      "D": "Không có modifier nào"
+    },
+    "answer": "B",
+    "explanation": "protected cho phép truy cập trong cùng package và cả từ các subclass ở package khác (thông qua kế thừa)."
+  },
+  {
+    "id": 50,
+    "question": "Trong Java, khi lớp con override một phương thức, dấu hiệu @Override có tác dụng gì?",
+    "options": {
+      "A": "Bắt buộc phải có để code biên dịch được",
+      "B": "Là annotation giúp trình biên dịch kiểm tra phương thức có thực sự override đúng chữ ký hay không",
+      "C": "Biến phương thức thành static",
+      "D": "Xóa phương thức của lớp cha"
+    },
+    "answer": "B",
+    "explanation": "@Override là annotation (không bắt buộc nhưng khuyến nghị) giúp compiler báo lỗi sớm nếu chữ ký phương thức không khớp với phương thức ở lớp cha."
+  },
+  {
+    "id": 51,
+    "question": "Điều gì xảy ra khi lớp con định nghĩa lại một field có cùng tên với lớp cha?",
+    "options": {
+      "A": "Đây là lỗi biên dịch, Java không cho phép",
+      "B": "Field của lớp con sẽ 'che' (shadow/hide) field của lớp cha khi truy cập qua tên biến kiểu lớp con",
+      "C": "Field của lớp cha sẽ bị xóa hoàn toàn",
+      "D": "Cả hai field sẽ tự động gộp thành một"
+    },
+    "answer": "B",
+    "explanation": "Field không có tính đa hình động như method; khi trùng tên, field lớp con sẽ che (shadow) field lớp cha, việc truy cập phụ thuộc vào kiểu khai báo của biến tham chiếu, không phải kiểu thực tế của object."
+  },
+  {
+    "id": 52,
+    "question": "Trong sơ đồ kế thừa Animal -> Dog, phương thức nào của Animal có thể được Dog sử dụng lại mà không cần viết lại?",
+    "options": {
+      "A": "Chỉ các phương thức private của Animal",
+      "B": "Các phương thức public và protected của Animal (không bị override)",
+      "C": "Không phương thức nào cả",
+      "D": "Chỉ phương thức main()"
+    },
+    "answer": "B",
+    "explanation": "Dog kế thừa và có thể sử dụng trực tiếp các phương thức public/protected của Animal mà không cần viết lại, trừ khi muốn thay đổi hành vi (override)."
+  },
+  {
+    "id": 53,
+    "question": "Constructor chaining là gì?",
+    "options": {
+      "A": "Chuỗi các lời gọi constructor thông qua this() hoặc super() để khởi tạo đối tượng theo tầng lớp",
+      "B": "Việc xóa constructor thừa kế",
+      "C": "Việc gộp nhiều class vào một constructor duy nhất",
+      "D": "Một loại vòng lặp trong constructor"
+    },
+    "answer": "A",
+    "explanation": "Constructor chaining là chuỗi lời gọi constructor (this() gọi constructor cùng lớp, super() gọi constructor lớp cha) để đảm bảo mọi tầng lớp đều được khởi tạo đúng."
+  },
+  {
+    "id": 54,
+    "question": "Trong Java, thứ tự khởi tạo khi tạo một đối tượng của lớp con là gì?",
+    "options": {
+      "A": "Constructor lớp con chạy trước, constructor lớp cha chạy sau",
+      "B": "Constructor lớp cha (thông qua super) chạy trước, sau đó mới đến phần còn lại của constructor lớp con",
+      "C": "Cả hai constructor chạy đồng thời song song",
+      "D": "Chỉ constructor lớp con chạy, lớp cha bị bỏ qua"
+    },
+    "answer": "B",
+    "explanation": "Khi khởi tạo object của lớp con, constructor lớp cha (được gọi ngầm định hoặc tường minh qua super()) luôn thực thi trước, sau đó mới đến các câu lệnh còn lại trong constructor lớp con."
+  },
+  {
+    "id": 55,
+    "question": "Đa hình (Polymorphism) trong OOP là gì?",
+    "options": {
+      "A": "Khả năng một class chỉ có một phương thức duy nhất",
+      "B": "Khả năng một hành động/phương thức có thể có nhiều hình thái (cách thực hiện) khác nhau tùy đối tượng",
+      "C": "Khả năng ẩn dữ liệu của class",
+      "D": "Khả năng một class không có constructor"
+    },
+    "answer": "B",
+    "explanation": "Polymorphism nghĩa là 'nhiều hình thái' - cùng một lời gọi phương thức nhưng có thể cho ra hành vi khác nhau tùy vào đối tượng thực sự đang được tham chiếu."
+  },
+  {
+    "id": 56,
+    "question": "Có bao nhiêu loại đa hình chính trong Java?",
+    "options": {
+      "A": "1 loại",
+      "B": "2 loại: compile-time (overloading) và runtime (overriding)",
+      "C": "3 loại",
+      "D": "4 loại"
+    },
+    "answer": "B",
+    "explanation": "Java có hai loại đa hình chính: đa hình tại thời điểm biên dịch (compile-time/static - method overloading) và đa hình tại thời điểm chạy (runtime/dynamic - method overriding)."
+  },
+  {
+    "id": 57,
+    "question": "Method Overloading (nạp chồng phương thức) là gì?",
+    "options": {
+      "A": "Nhiều phương thức cùng tên trong cùng một class nhưng khác nhau về danh sách tham số",
+      "B": "Ghi đè phương thức của lớp cha ở lớp con",
+      "C": "Chỉ áp dụng được cho constructor",
+      "D": "Xóa một phương thức đã có"
+    },
+    "answer": "A",
+    "explanation": "Overloading là việc định nghĩa nhiều phương thức cùng tên trong một class, khác nhau về số lượng, kiểu, hoặc thứ tự tham số."
+  },
+  {
+    "id": 58,
+    "question": "Method Overriding (ghi đè phương thức) là gì?",
+    "options": {
+      "A": "Lớp con định nghĩa lại một phương thức đã có ở lớp cha với cùng chữ ký (signature)",
+      "B": "Tạo nhiều phương thức cùng tên trong một class",
+      "C": "Xóa hoàn toàn phương thức của lớp cha khỏi bộ nhớ",
+      "D": "Đặt tên phương thức trùng với tên biến"
+    },
+    "answer": "A",
+    "explanation": "Overriding xảy ra khi subclass cung cấp cách triển khai (implementation) mới cho một phương thức đã kế thừa từ superclass, với cùng tên, tham số và kiểu trả về (hoặc kiểu trả về là subtype hợp lệ)."
+  },
+  {
+    "id": 59,
+    "question": "Overloading được xác định (resolve) tại thời điểm nào?",
+    "options": {
+      "A": "Runtime (khi chương trình đang chạy)",
+      "B": "Compile-time (khi biên dịch)",
+      "C": "Chỉ khi dùng reflection",
+      "D": "Không bao giờ được xác định"
+    },
+    "answer": "B",
+    "explanation": "Overloading là đa hình tĩnh (static polymorphism), được trình biên dịch xác định phương thức nào sẽ được gọi dựa trên chữ ký tham số ngay tại thời điểm biên dịch."
+  },
+  {
+    "id": 60,
+    "question": "Overriding được xác định (resolve) tại thời điểm nào?",
+    "options": {
+      "A": "Compile-time",
+      "B": "Runtime (dựa trên kiểu thực sự của đối tượng)",
+      "C": "Không bao giờ được resolve",
+      "D": "Chỉ khi dùng static method"
+    },
+    "answer": "B",
+    "explanation": "Overriding là đa hình động (dynamic polymorphism); JVM quyết định phiên bản phương thức nào sẽ chạy dựa trên kiểu thực sự (runtime type) của object tại thời điểm thực thi."
+  },
+  {
+    "id": 61,
+    "question": "Điều kiện nào KHÔNG bắt buộc cho method overloading?",
+    "options": {
+      "A": "Cùng tên phương thức",
+      "B": "Khác nhau về số lượng hoặc kiểu tham số",
+      "C": "Cùng kiểu trả về (return type) bắt buộc phải giống nhau",
+      "D": "Có thể nằm trong cùng một class"
+    },
+    "answer": "C",
+    "explanation": "Overloading không bắt buộc kiểu trả về phải giống nhau; điều kiện then chốt là danh sách tham số (số lượng/kiểu/thứ tự) phải khác nhau, kiểu trả về không dùng để phân biệt overload."
+  },
+  {
+    "id": 62,
+    "question": "Điều kiện nào bắt buộc khi thực hiện method overriding?",
+    "options": {
+      "A": "Tên phương thức, danh sách tham số phải giống hệt phương thức ở lớp cha",
+      "B": "Tên phương thức có thể khác lớp cha",
+      "C": "Phạm vi truy cập ở lớp con phải hẹp hơn lớp cha",
+      "D": "Phương thức ở lớp cha phải là private"
+    },
+    "answer": "A",
+    "explanation": "Override yêu cầu tên phương thức và danh sách tham số (signature) giống hệt phương thức ở lớp cha; phạm vi truy cập ở lớp con không được hẹp hơn lớp cha, và phương thức private không thể bị override."
+  },
+  {
+    "id": 63,
+    "question": "Phương thức static có thể được override hay không?",
+    "options": {
+      "A": "Có, static method có thể override bình thường như instance method",
+      "B": "Không, static method chỉ có thể bị 'ẩn' (hidden), không phải override thực sự (không có đa hình động)",
+      "C": "Chỉ override được nếu class là abstract",
+      "D": "Chỉ override được trong cùng package"
+    },
+    "answer": "B",
+    "explanation": "Static method gắn với class chứ không gắn với object, nên không tham gia vào đa hình động; khi lớp con định nghĩa lại một static method trùng tên, đó là 'method hiding' chứ không phải overriding."
+  },
+  {
+    "id": 64,
+    "question": "Upcasting trong đa hình là gì?",
+    "options": {
+      "A": "Gán tham chiếu của đối tượng lớp con cho biến kiểu lớp cha",
+      "B": "Gán tham chiếu của đối tượng lớp cha cho biến kiểu lớp con",
+      "C": "Chuyển đổi kiểu int sang double",
+      "D": "Xóa toàn bộ thông tin kiểu dữ liệu"
+    },
+    "answer": "A",
+    "explanation": "Upcasting là việc gán một object của subclass cho một biến tham chiếu kiểu superclass, ví dụ: Animal a = new Dog(); Đây là cơ sở của đa hình runtime."
+  },
+  {
+    "id": 65,
+    "question": "Downcasting trong đa hình là gì?",
+    "options": {
+      "A": "Chuyển tham chiếu kiểu lớp cha về lại kiểu lớp con cụ thể, cần ép kiểu tường minh",
+      "B": "Xảy ra tự động không cần ép kiểu",
+      "C": "Không thể thực hiện trong Java",
+      "D": "Chỉ áp dụng cho kiểu nguyên thủy"
+    },
+    "answer": "A",
+    "explanation": "Downcasting là việc ép kiểu (cast) tường minh một tham chiếu superclass về lại subclass cụ thể, ví dụ: Dog d = (Dog) animal;, có thể ném ClassCastException nếu không đúng kiểu thực tế."
+  },
+  {
+    "id": 66,
+    "question": "Dynamic Method Dispatch (điều phối phương thức động) là gì?",
+    "options": {
+      "A": "Cơ chế JVM quyết định gọi phiên bản phương thức nào (lớp cha hay lớp con) dựa trên kiểu thực sự của object tại runtime",
+      "B": "Cơ chế biên dịch xác định phương thức ngay khi viết code",
+      "C": "Cơ chế chỉ áp dụng cho biến static",
+      "D": "Cơ chế xóa các phương thức không dùng"
+    },
+    "answer": "A",
+    "explanation": "Dynamic Method Dispatch là cơ chế nền tảng của runtime polymorphism: khi gọi phương thức qua tham chiếu kiểu lớp cha nhưng object thực sự là lớp con, JVM sẽ gọi phiên bản đã override ở lớp con."
+  },
+  {
+    "id": 67,
+    "question": "Cho đoạn code: Animal a = new Dog(); a.sound(); nếu Dog override sound() của Animal, phương thức nào sẽ được gọi?",
+    "options": {
+      "A": "sound() của Animal",
+      "B": "sound() của Dog",
+      "C": "Cả hai đều chạy",
+      "D": "Chương trình sẽ báo lỗi biên dịch"
+    },
+    "answer": "B",
+    "explanation": "Nhờ dynamic method dispatch, phương thức được gọi phụ thuộc vào kiểu thực sự của object (Dog) chứ không phải kiểu khai báo của biến (Animal), nên sound() của Dog sẽ chạy."
+  },
+  {
+    "id": 68,
+    "question": "Toán tử instanceof trong Java dùng để làm gì?",
+    "options": {
+      "A": "Kiểm tra một đối tượng có phải là instance của một kiểu (class/interface) cụ thể hay không",
+      "B": "Tạo một đối tượng mới",
+      "C": "So sánh hai giá trị số",
+      "D": "Khai báo một biến static"
+    },
+    "answer": "A",
+    "explanation": "instanceof kiểm tra xem một object có phải là instance của một class/interface nhất định hay không, thường dùng trước khi downcasting để tránh ClassCastException."
+  },
+  {
+    "id": 69,
+    "question": "Đa hình runtime (runtime polymorphism) chủ yếu dựa vào cơ chế OOP nào?",
+    "options": {
+      "A": "Method overloading",
+      "B": "Method overriding kết hợp với upcasting",
+      "C": "Constructor overloading",
+      "D": "Việc khai báo field private"
+    },
+    "answer": "B",
+    "explanation": "Runtime polymorphism đạt được nhờ method overriding kết hợp với việc gán object subclass cho tham chiếu superclass (upcasting), sau đó gọi phương thức sẽ thực thi phiên bản của subclass thực tế."
+  },
+  {
+    "id": 70,
+    "question": "Ví dụ nào sau đây minh họa method overloading?",
+    "options": {
+      "A": "class A { void show(int x){} void show(String s){} }",
+      "B": "class A { void show(){} } class B extends A { void show(){} }",
+      "C": "class A { final void show(){} }",
+      "D": "interface A { void show(); }"
+    },
+    "answer": "A",
+    "explanation": "Hai phương thức cùng tên show nhưng khác kiểu tham số (int vs String) trong cùng một class là ví dụ điển hình của overloading."
+  },
+  {
+    "id": 71,
+    "question": "Ví dụ nào sau đây minh họa method overriding?",
+    "options": {
+      "A": "class A { void show(int x){} void show(double x){} }",
+      "B": "class Animal { void sound(){...} } class Cat extends Animal { void sound(){...} }",
+      "C": "class A { void show(int x, int y){} }",
+      "D": "class A { void show(String s, int x){} }"
+    },
+    "answer": "B",
+    "explanation": "Cat kế thừa Animal và định nghĩa lại phương thức sound() với cùng chữ ký - đây chính là overriding."
+  },
+  {
+    "id": 72,
+    "question": "Trong overloading, việc thay đổi CHỈ kiểu trả về (giữ nguyên tên và tham số) có được coi là overload hợp lệ không?",
+    "options": {
+      "A": "Có, hoàn toàn hợp lệ",
+      "B": "Không, đây là lỗi biên dịch vì trùng chữ ký phương thức (signature ambiguous)",
+      "C": "Chỉ hợp lệ với kiểu trả về là void",
+      "D": "Chỉ hợp lệ trong constructor"
+    },
+    "answer": "B",
+    "explanation": "Chữ ký phương thức (method signature) chỉ gồm tên và danh sách tham số, không bao gồm kiểu trả về; do đó hai phương thức cùng tên, cùng tham số nhưng khác kiểu trả về sẽ gây lỗi biên dịch."
+  },
+  {
+    "id": 73,
+    "question": "Đa hình giúp ích gì cho việc thiết kế phần mềm?",
+    "options": {
+      "A": "Cho phép viết code linh hoạt, xử lý chung cho nhiều loại đối tượng khác nhau thông qua cùng một interface/superclass",
+      "B": "Làm chương trình chạy chậm hơn và khó bảo trì hơn",
+      "C": "Chỉ có tác dụng trang trí code, không có ý nghĩa thực tế",
+      "D": "Ngăn cản việc tái sử dụng code"
+    },
+    "answer": "A",
+    "explanation": "Đa hình cho phép viết những đoạn code tổng quát (ví dụ vòng lặp xử lý danh sách Animal) mà vẫn tự động gọi đúng hành vi cụ thể của từng loại con (Dog, Cat...), giúp code linh hoạt và dễ mở rộng."
+  },
+  {
+    "id": 74,
+    "question": "Ép kiểu tự động (implicit casting) từ subclass lên superclass còn gọi là gì?",
+    "options": {
+      "A": "Narrowing conversion",
+      "B": "Widening reference conversion (upcasting)",
+      "C": "Explicit casting bắt buộc",
+      "D": "Boxing"
+    },
+    "answer": "B",
+    "explanation": "Việc gán một object subclass cho biến kiểu superclass được coi là 'widening reference conversion' và diễn ra tự động (implicit), không cần ép kiểu tường minh."
+  },
+  {
+    "id": 75,
+    "question": "Nếu không dùng instanceof trước khi downcasting sai kiểu, lỗi nào có thể xảy ra khi chạy chương trình?",
+    "options": {
+      "A": "NullPointerException",
+      "B": "ClassCastException",
+      "C": "ArrayIndexOutOfBoundsException",
+      "D": "NumberFormatException"
+    },
+    "answer": "B",
+    "explanation": "Nếu ép kiểu (downcast) một tham chiếu về một lớp con không đúng với kiểu thực sự của object, JVM sẽ ném ra ClassCastException tại runtime."
+  },
+  {
+    "id": 76,
+    "question": "Phương thức private của lớp cha có thể bị override ở lớp con không?",
+    "options": {
+      "A": "Có, vì mọi phương thức đều override được",
+      "B": "Không, vì phương thức private không được kế thừa nên lớp con không nhìn thấy để override",
+      "C": "Chỉ override được nếu cùng package",
+      "D": "Chỉ override được nếu class cha là abstract"
+    },
+    "answer": "B",
+    "explanation": "Phương thức private chỉ có thể truy cập trong chính class khai báo nó, không được kế thừa xuống lớp con, nên không thể bị override; nếu lớp con định nghĩa phương thức trùng tên, đó là một phương thức hoàn toàn mới, độc lập."
+  },
+  {
+    "id": 77,
+    "question": "Đa hình tham số (parametric polymorphism) trong Java thường được thực hiện thông qua cơ chế nào?",
+    "options": {
+      "A": "Generics",
+      "B": "Overriding",
+      "C": "Constructor chaining",
+      "D": "final keyword"
+    },
+    "answer": "A",
+    "explanation": "Generics (kiểu tổng quát, ví dụ List<T>) là cách Java hiện thực đa hình tham số, cho phép một class/method hoạt động với nhiều kiểu dữ liệu khác nhau mà vẫn đảm bảo an toàn kiểu (type-safe)."
+  },
+  {
+    "id": 78,
+    "question": "Trừu tượng hóa (Abstraction) trong OOP là gì?",
+    "options": {
+      "A": "Việc chỉ hiển thị những đặc điểm/hành vi cần thiết, ẩn đi chi tiết cài đặt phức tạp bên trong",
+      "B": "Việc tạo ra càng nhiều class càng tốt",
+      "C": "Việc xóa toàn bộ constructor của class",
+      "D": "Việc chỉ dùng biến static"
+    },
+    "answer": "A",
+    "explanation": "Abstraction tập trung vào việc thể hiện những đặc điểm cốt lõi, cần thiết của đối tượng đối với người dùng, đồng thời ẩn đi các chi tiết triển khai phức tạp bên trong."
+  },
+  {
+    "id": 79,
+    "question": "Java hỗ trợ trừu tượng hóa thông qua những cơ chế nào?",
+    "options": {
+      "A": "Abstract class và interface",
+      "B": "Chỉ thông qua vòng lặp for",
+      "C": "Chỉ thông qua biến final",
+      "D": "Chỉ thông qua package"
+    },
+    "answer": "A",
+    "explanation": "Java hiện thực abstraction chủ yếu qua hai cơ chế: abstract class (trừu tượng một phần) và interface (trừu tượng hoàn toàn hoặc gần hoàn toàn)."
+  },
+  {
+    "id": 80,
+    "question": "Abstract class trong Java là gì?",
+    "options": {
+      "A": "Một class có thể chứa cả phương thức đã cài đặt và phương thức trừu tượng (chưa cài đặt), không thể tạo object trực tiếp",
+      "B": "Một class luôn không có bất kỳ phương thức nào",
+      "C": "Một class chỉ chứa các hằng số",
+      "D": "Một class bắt buộc phải final"
+    },
+    "answer": "A",
+    "explanation": "Abstract class có thể có cả method thường (đã implement) lẫn abstract method (chỉ khai báo, chưa cài đặt), và không thể được khởi tạo trực tiếp bằng new."
+  },
+  {
+    "id": 81,
+    "question": "Từ khóa nào dùng để khai báo một class là abstract?",
+    "options": {
+      "A": "interface",
+      "B": "abstract",
+      "C": "final",
+      "D": "static"
+    },
+    "answer": "B",
+    "explanation": "Từ khóa abstract đặt trước class, ví dụ: abstract class Shape { ... }, đánh dấu class đó là trừu tượng."
+  },
+  {
+    "id": 82,
+    "question": "Một abstract method là gì?",
+    "options": {
+      "A": "Phương thức chỉ có khai báo (chữ ký), không có phần thân (body), lớp con phải cài đặt lại",
+      "B": "Phương thức luôn là static",
+      "C": "Phương thức không có tên",
+      "D": "Phương thức chỉ tồn tại trong class thường (không abstract)"
+    },
+    "answer": "A",
+    "explanation": "Abstract method chỉ khai báo tên, tham số, kiểu trả về mà không có phần thân {}, ví dụ: abstract void draw();, và lớp con không abstract bắt buộc phải override để cài đặt."
+  },
+  {
+    "id": 83,
+    "question": "Có thể tạo object trực tiếp từ một abstract class bằng từ khóa new hay không?",
+    "options": {
+      "A": "Có, hoàn toàn bình thường",
+      "B": "Không, phải thông qua một subclass cụ thể (concrete class) kế thừa và cài đặt đầy đủ",
+      "C": "Chỉ được nếu abstract class không có phương thức nào",
+      "D": "Chỉ được trong constructor tĩnh"
+    },
+    "answer": "B",
+    "explanation": "Abstract class không thể được khởi tạo trực tiếp; phải tạo một subclass cụ thể, cài đặt đầy đủ các abstract method, rồi mới tạo object từ subclass đó."
+  },
+  {
+    "id": 84,
+    "question": "Nếu một class kế thừa abstract class nhưng không cài đặt hết các abstract method, điều gì xảy ra?",
+    "options": {
+      "A": "Class con vẫn biên dịch bình thường và tạo object được",
+      "B": "Class con đó cũng phải được khai báo là abstract, nếu không sẽ lỗi biên dịch",
+      "C": "Java sẽ tự động cài đặt các phương thức còn thiếu",
+      "D": "Chương trình sẽ chạy nhưng phương thức đó trả về null"
+    },
+    "answer": "B",
+    "explanation": "Nếu một subclass không cài đặt đầy đủ mọi abstract method kế thừa được, chính subclass đó cũng phải được khai báo abstract, nếu không trình biên dịch sẽ báo lỗi."
+  },
+  {
+    "id": 85,
+    "question": "Interface trong Java là gì?",
+    "options": {
+      "A": "Một kiểu tham chiếu (reference type) mô tả tập hợp các phương thức trừu tượng (và có thể có default/static method) mà class phải cài đặt",
+      "B": "Một class thông thường có constructor",
+      "C": "Một biến toàn cục",
+      "D": "Một vòng lặp đặc biệt"
+    },
+    "answer": "A",
+    "explanation": "Interface là một kiểu tham chiếu dùng để định nghĩa 'hợp đồng' (contract) về các phương thức mà bất kỳ class nào implements nó đều phải cung cấp cài đặt."
+  },
+  {
+    "id": 86,
+    "question": "Từ khóa nào dùng để một class cài đặt (thực thi) một interface?",
+    "options": {
+      "A": "extends",
+      "B": "implements",
+      "C": "inherits",
+      "D": "using"
+    },
+    "answer": "B",
+    "explanation": "Từ khóa implements được dùng khi một class thực thi một interface, ví dụ: class Dog implements Pet."
+  },
+  {
+    "id": 87,
+    "question": "Trước Java 8, các phương thức trong interface mặc định có tính chất gì?",
+    "options": {
+      "A": "public và abstract (chưa có phần thân)",
+      "B": "private và final",
+      "C": "protected và static",
+      "D": "Không có tính chất đặc biệt nào"
+    },
+    "answer": "A",
+    "explanation": "Trước Java 8, mọi phương thức khai báo trong interface đều ngầm định là public abstract, không có phần thân, buộc class implements phải cài đặt."
+  },
+  {
+    "id": 88,
+    "question": "Từ Java 8 trở đi, interface có thể chứa loại phương thức mới nào có sẵn phần thân?",
+    "options": {
+      "A": "default method và static method",
+      "B": "private constructor",
+      "C": "final field không hằng số",
+      "D": "abstract constructor"
+    },
+    "answer": "A",
+    "explanation": "Từ Java 8, interface có thể có default method (có thân, class implements có thể dùng lại hoặc override) và static method (thuộc về interface, gọi qua tên interface)."
+  },
+  {
+    "id": 89,
+    "question": "Một class có thể implements bao nhiêu interface cùng lúc?",
+    "options": {
+      "A": "Chỉ 1 interface duy nhất",
+      "B": "Nhiều interface cùng lúc (phân tách bằng dấu phẩy)",
+      "C": "Không được implements interface nào",
+      "D": "Tối đa 2 interface"
+    },
+    "answer": "B",
+    "explanation": "Khác với việc chỉ extends được 1 class, một class Java có thể implements nhiều interface cùng lúc, đây là cách Java mô phỏng đa kế thừa hành vi."
+  },
+  {
+    "id": 90,
+    "question": "Field khai báo trong interface (không có phần thân) mặc định có tính chất gì?",
+    "options": {
+      "A": "private static",
+      "B": "public static final (hằng số)",
+      "C": "protected",
+      "D": "default (package-private)"
+    },
+    "answer": "B",
+    "explanation": "Mọi field khai báo trong interface đều ngầm định là public static final, tức là hằng số, không thể thay đổi giá trị."
+  },
+  {
+    "id": 91,
+    "question": "Sự khác biệt cốt lõi giữa abstract class và interface là gì?",
+    "options": {
+      "A": "Abstract class có thể có constructor và field trạng thái (không hằng số), hỗ trợ đơn kế thừa; interface (truyền thống) chỉ có hằng số và không có state, hỗ trợ đa kế thừa hành vi",
+      "B": "Interface có thể có constructor còn abstract class thì không",
+      "C": "Không có sự khác biệt nào giữa hai khái niệm",
+      "D": "Abstract class chỉ dùng được trong package java.util"
+    },
+    "answer": "A",
+    "explanation": "Abstract class hỗ trợ có field trạng thái, constructor, và một class chỉ extends được một abstract class; interface truyền thống chỉ chứa hằng số và phương thức (từ Java 8 có thêm default/static), một class có thể implements nhiều interface."
+  },
+  {
+    "id": 92,
+    "question": "Khi nào nên ưu tiên dùng interface thay vì abstract class?",
+    "options": {
+      "A": "Khi muốn định nghĩa một hợp đồng hành vi mà nhiều class không liên quan về mặt phân cấp đều có thể cài đặt",
+      "B": "Khi cần chia sẻ trạng thái (field) và code cài đặt chung phức tạp giữa các lớp có quan hệ 'is-a' chặt chẽ",
+      "C": "Khi chỉ có duy nhất một class sử dụng",
+      "D": "Khi không cần bất kỳ phương thức nào"
+    },
+    "answer": "A",
+    "explanation": "Interface phù hợp khi muốn mô tả khả năng/hành vi (ví dụ Comparable, Flyable) mà nhiều class không cùng họ phân cấp có thể cùng thực thi, trong khi abstract class phù hợp hơn khi các lớp có quan hệ họ hàng gần và cần chia sẻ code/trạng thái chung."
+  },
+  {
+    "id": 93,
+    "question": "Interface có thể extends một hay nhiều interface khác không?",
+    "options": {
+      "A": "Không, interface không thể extends interface khác",
+      "B": "Có, một interface có thể extends một hoặc nhiều interface khác",
+      "C": "Chỉ được extends đúng 1 interface",
+      "D": "Chỉ abstract class mới extends được interface"
+    },
+    "answer": "B",
+    "explanation": "Không giống class, một interface có thể extends nhiều interface khác cùng lúc, ví dụ: interface C extends A, B."
+  },
+  {
+    "id": 94,
+    "question": "Marker interface (interface đánh dấu) là gì?",
+    "options": {
+      "A": "Interface không chứa phương thức nào, chỉ dùng để đánh dấu một đặc điểm cho class (ví dụ Serializable, Cloneable)",
+      "B": "Interface chứa duy nhất một phương thức abstract",
+      "C": "Interface chỉ dùng trong GUI",
+      "D": "Interface bắt buộc phải có ít nhất 5 phương thức"
+    },
+    "answer": "A",
+    "explanation": "Marker interface (như java.io.Serializable) không có phương thức nào cả, chỉ đóng vai trò 'đánh dấu' để JVM hoặc framework nhận biết class có đặc tính đặc biệt nào đó."
+  },
+  {
+    "id": 95,
+    "question": "Functional interface trong Java là gì?",
+    "options": {
+      "A": "Interface chỉ có đúng một phương thức abstract (có thể kèm nhiều default/static method), dùng được với lambda expression",
+      "B": "Interface có nhiều hơn 10 phương thức abstract",
+      "C": "Interface không cho phép có default method",
+      "D": "Interface bắt buộc extends Object"
+    },
+    "answer": "A",
+    "explanation": "Functional interface (đánh dấu bằng @FunctionalInterface) chỉ có một abstract method duy nhất (Single Abstract Method), cho phép sử dụng lambda expression để cài đặt gọn hơn, ví dụ Runnable, Comparator."
+  },
+  {
+    "id": 96,
+    "question": "Đâu là một ví dụ về functional interface có sẵn trong Java?",
+    "options": {
+      "A": "Runnable (chỉ có phương thức run())",
+      "B": "List",
+      "C": "ArrayList",
+      "D": "String"
+    },
+    "answer": "A",
+    "explanation": "Runnable là functional interface kinh điển, chỉ có một abstract method là run(), thường dùng với luồng (Thread) hoặc lambda expression."
+  },
+  {
+    "id": 97,
+    "question": "Abstract class có thể có constructor hay không?",
+    "options": {
+      "A": "Không, vì không thể tạo object trực tiếp nên không cần constructor",
+      "B": "Có, constructor của abstract class được gọi khi subclass cụ thể khởi tạo object (thông qua super())",
+      "C": "Chỉ được có constructor nếu không có abstract method nào",
+      "D": "Constructor trong abstract class phải là private"
+    },
+    "answer": "B",
+    "explanation": "Dù không thể new trực tiếp abstract class, nó vẫn có thể có constructor để khởi tạo các field chung, và constructor này sẽ được gọi thông qua super() khi subclass cụ thể tạo object."
+  },
+  {
+    "id": 98,
+    "question": "Trong Java, một class có thể vừa extends một class vừa implements một hoặc nhiều interface không?",
+    "options": {
+      "A": "Không, chỉ được chọn một trong hai",
+      "B": "Có, ví dụ: class Dog extends Animal implements Pet, Comparable<Dog>",
+      "C": "Chỉ interface mới được phép làm điều này",
+      "D": "Chỉ khi class cha là abstract mới được phép"
+    },
+    "answer": "B",
+    "explanation": "Java cho phép một class vừa extends một superclass (đơn kế thừa) vừa implements nhiều interface cùng lúc để tận dụng cả kế thừa lẫn đa hình hành vi."
+  },
+  {
+    "id": 99,
+    "question": "Việc thiết kế theo nguyên tắc 'lập trình hướng interface, không hướng cài đặt cụ thể' mang lại lợi ích gì?",
+    "options": {
+      "A": "Giảm sự phụ thuộc (coupling) giữa các thành phần, dễ thay đổi cài đặt cụ thể mà không ảnh hưởng code sử dụng",
+      "B": "Làm chương trình khó bảo trì hơn",
+      "C": "Buộc phải viết lại toàn bộ chương trình mỗi khi thay đổi nhỏ",
+      "D": "Không có lợi ích thực tế nào"
+    },
+    "answer": "A",
+    "explanation": "Khi code phụ thuộc vào interface (ví dụ List thay vì ArrayList cụ thể), ta có thể dễ dàng thay đổi cài đặt cụ thể bên dưới (ArrayList, LinkedList...) mà không cần sửa đổi phần lớn code sử dụng, giảm coupling."
+  },
+  {
+    "id": 100,
+    "question": "Đâu là phát biểu ĐÚNG về default method trong interface (Java 8+)?",
+    "options": {
+      "A": "Default method bắt buộc phải được override ở mọi class implements",
+      "B": "Default method cung cấp cài đặt sẵn, class implements có thể dùng trực tiếp hoặc override nếu muốn",
+      "C": "Default method không thể gọi được từ object của class implements",
+      "D": "Default method chỉ tồn tại trong abstract class, không có trong interface"
+    },
+    "answer": "B",
+    "explanation": "Default method có sẵn phần thân trong interface; các class implements có thể sử dụng ngay cài đặt mặc định này, hoặc override lại nếu cần hành vi khác, giúp interface tiến hóa mà không phá vỡ code cũ."
+  },
+  {
+    "id": 101,
+    "question": "Static method trong interface (Java 8+) được gọi như thế nào?",
+    "options": {
+      "A": "Gọi thông qua tên interface, ví dụ: InterfaceName.staticMethod()",
+      "B": "Gọi thông qua object của class implements",
+      "C": "Không thể gọi được trong Java",
+      "D": "Chỉ gọi được từ bên trong chính interface đó"
+    },
+    "answer": "A",
+    "explanation": "Static method trong interface thuộc về bản thân interface (giống static method của class), được gọi qua tên interface chứ không qua instance của class implements."
+  },
+  {
+    "id": 102,
+    "question": "Điểm khác biệt giữa abstract method trong abstract class và abstract method trong interface (truyền thống) là gì về access modifier?",
+    "options": {
+      "A": "Abstract method trong abstract class có thể có bất kỳ phạm vi truy cập nào (public/protected/default) trừ private; abstract method trong interface mặc định luôn là public",
+      "B": "Cả hai đều bắt buộc phải là private",
+      "C": "Abstract method trong interface có thể là protected",
+      "D": "Không có sự khác biệt nào"
+    },
+    "answer": "A",
+    "explanation": "Abstract method trong abstract class có thể khai báo public, protected, hoặc default (không được private vì cần override), trong khi abstract method khai báo trong interface luôn ngầm định là public."
+  },
+  {
+    "id": 103,
+    "question": "Composition (thành phần) thường được ưu tiên hơn Inheritance trong nguyên tắc thiết kế nào?",
+    "options": {
+      "A": "\"Favor composition over inheritance\" - ưu tiên tổ hợp thành phần hơn kế thừa khi có thể",
+      "B": "\"Favor inheritance over everything\"",
+      "C": "\"Never use interface\"",
+      "D": "\"Always use abstract class instead of interface\""
+    },
+    "answer": "A",
+    "explanation": "Đây là một nguyên tắc thiết kế OOP phổ biến: composition thường linh hoạt hơn, giảm sự ràng buộc chặt (tight coupling) so với kế thừa, nên được khuyến khích ưu tiên khi thiết kế hệ thống."
+  },
+  {
+    "id": 104,
+    "question": "Đâu là ví dụ đúng cú pháp khai báo abstract method trong Java?",
+    "options": {
+      "A": "abstract void draw() { System.out.println(\"vẽ\"); }",
+      "B": "abstract void draw();",
+      "C": "void draw() abstract;",
+      "D": "public draw() abstract void;"
+    },
+    "answer": "B",
+    "explanation": "Abstract method chỉ có chữ ký kết thúc bằng dấu chấm phẩy, không có phần thân {}: abstract void draw();"
+  },
+  {
+    "id": 105,
+    "question": "Class trừu tượng (abstract class) có thể có phương thức static hay không?",
+    "options": {
+      "A": "Không, tuyệt đối không được phép",
+      "B": "Có, abstract class có thể chứa static method như class thông thường",
+      "C": "Chỉ được nếu class đó không có abstract method nào",
+      "D": "Chỉ được trong Java phiên bản mới nhất"
+    },
+    "answer": "B",
+    "explanation": "Abstract class hoạt động như một class bình thường ngoại trừ việc không thể khởi tạo trực tiếp và có thể chứa abstract method; nó hoàn toàn có thể có static method, field static, constructor như class thông thường."
+  },
+  {
+    "id": 106,
+    "question": "Java có bao nhiêu loại access modifier (bổ từ truy cập) chính?",
+    "options": {
+      "A": "2 loại",
+      "B": "3 loại",
+      "C": "4 loại: public, protected, default (package-private), private",
+      "D": "5 loại"
+    },
+    "answer": "C",
+    "explanation": "Java có 4 mức truy cập: public (mọi nơi), protected (cùng package + subclass), default/package-private (chỉ cùng package), và private (chỉ trong chính class đó)."
+  },
+  {
+    "id": 107,
+    "question": "Access modifier private cho phép truy cập từ đâu?",
+    "options": {
+      "A": "Từ mọi class trong chương trình",
+      "B": "Chỉ từ bên trong chính class khai báo thành phần đó",
+      "C": "Từ mọi class trong cùng package",
+      "D": "Từ các subclass ở package khác"
+    },
+    "answer": "B",
+    "explanation": "private là mức truy cập hẹp nhất, thành phần chỉ có thể được truy cập từ bên trong chính class nơi nó được khai báo."
+  },
+  {
+    "id": 108,
+    "question": "Access modifier public cho phép truy cập từ đâu?",
+    "options": {
+      "A": "Chỉ trong cùng class",
+      "B": "Chỉ trong cùng package",
+      "C": "Từ bất kỳ đâu trong chương trình, kể cả package khác",
+      "D": "Chỉ từ các subclass"
+    },
+    "answer": "C",
+    "explanation": "public là mức truy cập rộng nhất, cho phép truy cập từ bất kỳ class nào, ở bất kỳ package nào, miễn có tham chiếu hợp lệ."
+  },
+  {
+    "id": 109,
+    "question": "Access modifier protected cho phép truy cập từ đâu?",
+    "options": {
+      "A": "Chỉ trong chính class đó",
+      "B": "Trong cùng package, và từ các subclass dù ở package khác",
+      "C": "Chỉ từ package khác không liên quan",
+      "D": "Không cho phép truy cập từ đâu cả"
+    },
+    "answer": "B",
+    "explanation": "protected cho phép truy cập trong cùng package, đồng thời cho phép các subclass (dù ở package khác) truy cập thông qua kế thừa."
+  },
+  {
+    "id": 110,
+    "question": "Default (package-private) access modifier là gì?",
+    "options": {
+      "A": "Không ghi bất kỳ từ khóa access modifier nào, chỉ cho phép truy cập trong cùng package",
+      "B": "Từ khóa 'default' phải được ghi tường minh",
+      "C": "Giống hệt private",
+      "D": "Giống hệt public"
+    },
+    "answer": "A",
+    "explanation": "Khi không khai báo access modifier nào (không viết public/private/protected), Java áp dụng mức mặc định là package-private: chỉ các class trong cùng package mới truy cập được."
+  },
+  {
+    "id": 111,
+    "question": "Thứ tự phạm vi truy cập từ hẹp đến rộng nhất trong Java là gì?",
+    "options": {
+      "A": "public < protected < default < private",
+      "B": "private < default < protected < public",
+      "C": "protected < private < public < default",
+      "D": "default < private < public < protected"
+    },
+    "answer": "B",
+    "explanation": "Thứ tự từ hẹp nhất đến rộng nhất: private (hẹp nhất) < default (package-private) < protected < public (rộng nhất)."
+  },
+  {
+    "id": 112,
+    "question": "Từ khóa static trong Java dùng để đánh dấu điều gì?",
+    "options": {
+      "A": "Thành phần (field/method) thuộc về class, dùng chung cho mọi object, không cần tạo instance để truy cập",
+      "B": "Thành phần chỉ tồn tại trong một object duy nhất",
+      "C": "Thành phần bắt buộc phải là private",
+      "D": "Thành phần không bao giờ được sử dụng"
+    },
+    "answer": "A",
+    "explanation": "static đánh dấu field/method thuộc về class (class-level), được chia sẻ chung giữa tất cả các instance, có thể truy cập qua tên class mà không cần tạo object."
+  },
+  {
+    "id": 113,
+    "question": "Biến static (static field) còn được gọi là gì?",
+    "options": {
+      "A": "Instance variable",
+      "B": "Class variable",
+      "C": "Local variable",
+      "D": "Final variable bắt buộc"
+    },
+    "answer": "B",
+    "explanation": "Biến static còn gọi là class variable vì nó thuộc về class, được chia sẻ giữa tất cả các đối tượng của class đó, chỉ tồn tại duy nhất một bản sao trong bộ nhớ."
+  },
+  {
+    "id": 114,
+    "question": "Có thể gọi một static method thông qua tên class mà không cần tạo object hay không?",
+    "options": {
+      "A": "Không, luôn phải tạo object trước",
+      "B": "Có, ví dụ Math.sqrt(4) gọi trực tiếp qua tên class Math",
+      "C": "Chỉ gọi được nếu class đó là abstract",
+      "D": "Chỉ gọi được từ bên trong main()"
+    },
+    "answer": "B",
+    "explanation": "Static method thuộc về class, có thể được gọi trực tiếp qua tên class (ClassName.methodName()) mà không cần khởi tạo object, ví dụ Math.sqrt(4)."
+  },
+  {
+    "id": 115,
+    "question": "Static method có được truy cập trực tiếp vào instance variable (biến không static) của class hay không?",
+    "options": {
+      "A": "Có, truy cập bình thường",
+      "B": "Không, vì static method không gắn với bất kỳ object cụ thể nào nên không thể truy cập trực tiếp instance variable",
+      "C": "Chỉ truy cập được nếu biến đó là public",
+      "D": "Chỉ truy cập được nếu dùng vòng lặp"
+    },
+    "answer": "B",
+    "explanation": "Static method thuộc phạm vi class, không có tham chiếu 'this' tới object cụ thể, nên không thể truy cập trực tiếp instance variable (field không static) mà phải thông qua một object cụ thể."
+  },
+  {
+    "id": 116,
+    "question": "Khối khởi tạo static (static initializer block) dùng để làm gì?",
+    "options": {
+      "A": "Khởi tạo giá trị cho biến static, chạy đúng một lần khi class được nạp (load) vào JVM",
+      "B": "Khởi tạo cho từng object mỗi khi tạo mới",
+      "C": "Chỉ chạy khi gọi phương thức main()",
+      "D": "Không có tác dụng gì trong Java"
+    },
+    "answer": "A",
+    "explanation": "Static initializer block (static { ... }) chạy đúng một lần duy nhất khi class được classloader nạp vào bộ nhớ, thường dùng để khởi tạo các giá trị static phức tạp."
+  },
+  {
+    "id": 117,
+    "question": "Từ khóa this trong Java tham chiếu đến điều gì?",
+    "options": {
+      "A": "Đối tượng hiện tại (instance hiện tại) mà phương thức/constructor đang được gọi trên đó",
+      "B": "Lớp cha của class hiện tại",
+      "C": "Một class hoàn toàn khác",
+      "D": "Giá trị null mặc định"
+    },
+    "answer": "A",
+    "explanation": "this là tham chiếu tới chính đối tượng hiện tại (the current instance) mà trong đó phương thức hoặc constructor đang thực thi."
+  },
+  {
+    "id": 118,
+    "question": "this thường được dùng để làm gì khi tên tham số trùng với tên field?",
+    "options": {
+      "A": "Phân biệt biến field của đối tượng với biến tham số cục bộ cùng tên, ví dụ this.name = name;",
+      "B": "Xóa giá trị của tham số",
+      "C": "Biến tham số thành static",
+      "D": "Gây ra lỗi biên dịch bắt buộc"
+    },
+    "answer": "A",
+    "explanation": "Khi tham số trùng tên với field (ví dụ constructor Person(String name)), this.name dùng để chỉ rõ đó là field của object, phân biệt với tham số cục bộ name."
+  },
+  {
+    "id": 119,
+    "question": "Biến cục bộ (local variable) trong một phương thức tồn tại trong phạm vi nào?",
+    "options": {
+      "A": "Trong suốt vòng đời của object chứa phương thức đó",
+      "B": "Chỉ trong phạm vi của phương thức/khối lệnh nơi nó được khai báo",
+      "C": "Trong toàn bộ chương trình",
+      "D": "Trong tất cả các class của package"
+    },
+    "answer": "B",
+    "explanation": "Local variable chỉ tồn tại và có thể truy cập trong phạm vi khối lệnh (block) hoặc phương thức nơi nó được khai báo, sau khi khối lệnh kết thúc, biến sẽ không còn tồn tại."
+  },
+  {
+    "id": 120,
+    "question": "Sự khác biệt giữa instance variable và static variable là gì?",
+    "options": {
+      "A": "Instance variable có riêng cho từng object; static variable chỉ có một bản sao dùng chung cho mọi object của class",
+      "B": "Cả hai hoàn toàn giống nhau",
+      "C": "Static variable có riêng cho từng object còn instance variable dùng chung",
+      "D": "Instance variable chỉ tồn tại trong interface"
+    },
+    "answer": "A",
+    "explanation": "Mỗi object có bản sao instance variable riêng của mình; ngược lại, static variable chỉ tồn tại một bản sao duy nhất, được chia sẻ và có thể bị thay đổi chung bởi mọi object của class."
+  },
+  {
+    "id": 121,
+    "question": "Từ khóa final khi áp dụng cho một biến (variable) có ý nghĩa gì?",
+    "options": {
+      "A": "Biến đó chỉ có thể được gán giá trị một lần, sau đó không thể thay đổi (hằng số)",
+      "B": "Biến đó tự động là static",
+      "C": "Biến đó không thể được sử dụng trong phương thức",
+      "D": "Biến đó bắt buộc phải là kiểu số nguyên"
+    },
+    "answer": "A",
+    "explanation": "Khi biến được khai báo final, giá trị của nó chỉ có thể gán một lần (tại khai báo hoặc trong constructor với instance field); sau đó không thể gán lại, biến trở thành hằng số/bất biến."
+  },
+  {
+    "id": 122,
+    "question": "Kết hợp static final thường được dùng để khai báo điều gì?",
+    "options": {
+      "A": "Một hằng số toàn cục của class, dùng chung và không đổi cho mọi object",
+      "B": "Một biến chỉ tồn tại tạm thời trong vòng lặp",
+      "C": "Một phương thức abstract",
+      "D": "Một constructor đặc biệt"
+    },
+    "answer": "A",
+    "explanation": "static final thường dùng để khai báo hằng số class-level, ví dụ: public static final double PI = 3.14159;, giá trị dùng chung cho toàn bộ chương trình và không thể thay đổi."
+  },
+  {
+    "id": 123,
+    "question": "Package trong Java có vai trò gì?",
+    "options": {
+      "A": "Tổ chức các class/interface có liên quan vào cùng một không gian tên (namespace), tránh trùng tên và hỗ trợ kiểm soát truy cập",
+      "B": "Chỉ dùng để tăng tốc độ biên dịch",
+      "C": "Là tên gọi khác của interface",
+      "D": "Không có vai trò thực tế nào"
+    },
+    "answer": "A",
+    "explanation": "Package giúp tổ chức các class/interface liên quan vào cùng namespace, giúp tránh xung đột tên giữa các class khác nhau, đồng thời là cơ sở cho access modifier package-private/protected."
+  },
+  {
+    "id": 124,
+    "question": "Từ khóa nào dùng để nhập (sử dụng) một class từ package khác?",
+    "options": {
+      "A": "package",
+      "B": "import",
+      "C": "using",
+      "D": "require"
+    },
+    "answer": "B",
+    "explanation": "Từ khóa import cho phép sử dụng class/interface từ package khác mà không cần viết tên đầy đủ (fully qualified name) mỗi lần dùng."
+  },
+  {
+    "id": 125,
+    "question": "Thứ tự thực thi phổ biến của các thành phần khi khởi tạo một object trong Java là gì?",
+    "options": {
+      "A": "Static initializer (một lần, khi load class) -> Instance initializer/field initialization -> Constructor",
+      "B": "Constructor luôn chạy trước static initializer mỗi lần tạo object",
+      "C": "Chỉ có constructor chạy, không có thứ tự nào khác",
+      "D": "Instance field không bao giờ được khởi tạo"
+    },
+    "answer": "A",
+    "explanation": "Static initializer/static field chạy một lần duy nhất khi class được nạp; sau đó với mỗi object mới, instance field được khởi tạo giá trị, rồi mới đến phần thân constructor."
+  },
+  {
+    "id": 126,
+    "question": "Vì sao static method không thể sử dụng từ khóa this hoặc super?",
+    "options": {
+      "A": "Vì static method không gắn với bất kỳ instance cụ thể nào, nên không có 'đối tượng hiện tại' để this/super tham chiếu tới",
+      "B": "Vì đây là quy tắc tùy ý không có lý do",
+      "C": "Vì this và super chỉ dùng được trong interface",
+      "D": "Vì static method không được phép có tham số"
+    },
+    "answer": "A",
+    "explanation": "this và super đều tham chiếu tới một object cụ thể (this) hoặc lớp cha của object đó (super); vì static method thuộc về class chứ không gắn với instance nào, nên không thể sử dụng hai từ khóa này."
+  },
+  {
+    "id": 127,
+    "question": "Nếu một field được khai báo là public static trong class A, làm sao truy cập nó từ class B?",
+    "options": {
+      "A": "Bắt buộc phải tạo object A rồi truy cập qua object đó",
+      "B": "Có thể truy cập trực tiếp qua A.tenField mà không cần tạo object",
+      "C": "Không thể truy cập được từ class khác",
+      "D": "Chỉ truy cập được nếu B kế thừa A"
+    },
+    "answer": "B",
+    "explanation": "Vì field là public static, nó thuộc về class A và có thể truy cập công khai; do đó có thể truy cập trực tiếp bằng cú pháp A.tenField mà không cần khởi tạo object của A."
+  },
+  {
+    "id": 128,
+    "question": "Singleton pattern (một pattern OOP phổ biến) thường sử dụng static kết hợp với thành phần nào của class?",
+    "options": {
+      "A": "Một constructor private và một static method/field để đảm bảo chỉ có duy nhất một instance của class",
+      "B": "Một interface không có phương thức nào",
+      "C": "Nhiều constructor public",
+      "D": "Không sử dụng static ở bất kỳ đâu"
+    },
+    "answer": "A",
+    "explanation": "Singleton pattern thường dùng constructor private (ngăn tạo object từ bên ngoài) kết hợp với một static field lưu instance duy nhất và một static method (getInstance()) để truy cập instance đó."
+  },
+  {
+    "id": 129,
+    "question": "Exception (ngoại lệ) trong Java là gì?",
+    "options": {
+      "A": "Một sự kiện bất thường xảy ra trong quá trình thực thi chương trình, làm gián đoạn luồng thực thi bình thường",
+      "B": "Một loại biến nguyên thủy",
+      "C": "Một class chỉ dùng cho GUI",
+      "D": "Tên gọi khác của comment trong code"
+    },
+    "answer": "A",
+    "explanation": "Exception là sự kiện xảy ra trong khi chương trình đang chạy làm gián đoạn luồng thực thi thông thường của các lệnh, ví dụ chia cho 0 hay truy cập phần tử ngoài mảng."
+  },
+  {
+    "id": 130,
+    "question": "Khối try-catch trong Java dùng để làm gì?",
+    "options": {
+      "A": "Bắt và xử lý các exception có thể xảy ra trong một đoạn code",
+      "B": "Chỉ dùng để khai báo biến",
+      "C": "Tăng tốc độ chạy chương trình",
+      "D": "Thay thế hoàn toàn cho vòng lặp for"
+    },
+    "answer": "A",
+    "explanation": "try chứa đoạn code có khả năng ném exception; catch bắt và xử lý exception đó nếu nó xảy ra, giúp chương trình không bị dừng đột ngột."
+  },
+  {
+    "id": 131,
+    "question": "Khối finally trong try-catch-finally có đặc điểm gì?",
+    "options": {
+      "A": "Luôn được thực thi bất kể có exception xảy ra hay không (trừ một số trường hợp đặc biệt như System.exit())",
+      "B": "Chỉ chạy khi không có exception nào xảy ra",
+      "C": "Chỉ chạy khi có exception xảy ra",
+      "D": "Không bao giờ được thực thi"
+    },
+    "answer": "A",
+    "explanation": "Khối finally luôn được thực thi sau try/catch dù có exception xảy ra hay không, thường dùng để giải phóng tài nguyên (đóng file, đóng kết nối...)."
+  },
+  {
+    "id": 132,
+    "question": "Từ khóa throw trong Java dùng để làm gì?",
+    "options": {
+      "A": "Chủ động ném ra một exception cụ thể tại một điểm trong code",
+      "B": "Bắt exception đã xảy ra",
+      "C": "Khai báo một phương thức có thể ném exception",
+      "D": "Kết thúc chương trình ngay lập tức không có ngoại lệ"
+    },
+    "answer": "A",
+    "explanation": "throw dùng để chủ động tạo và ném ra một đối tượng exception, ví dụ: throw new IllegalArgumentException(\"Lỗi\");"
+  },
+  {
+    "id": 133,
+    "question": "Từ khóa throws trong khai báo phương thức dùng để làm gì?",
+    "options": {
+      "A": "Khai báo rằng phương thức có thể ném ra một hoặc nhiều loại checked exception, buộc nơi gọi phải xử lý hoặc khai báo tiếp",
+      "B": "Chủ động ném ra exception ngay lập tức",
+      "C": "Bắt tất cả exception",
+      "D": "Tạo một class exception mới"
+    },
+    "answer": "A",
+    "explanation": "throws được đặt trong chữ ký phương thức để khai báo các loại checked exception mà phương thức có thể ném ra, buộc bên gọi phải try-catch hoặc tiếp tục khai báo throws."
+  },
+  {
+    "id": 134,
+    "question": "Checked exception khác gì với unchecked exception?",
+    "options": {
+      "A": "Checked exception bắt buộc phải được xử lý (try-catch hoặc throws) tại thời điểm biên dịch; unchecked exception thì không bắt buộc",
+      "B": "Checked exception chỉ xảy ra khi chạy chương trình, unchecked chỉ xảy ra khi biên dịch",
+      "C": "Cả hai hoàn toàn giống nhau",
+      "D": "Unchecked exception luôn nghiêm trọng hơn checked exception"
+    },
+    "answer": "A",
+    "explanation": "Checked exception (như IOException) được trình biên dịch kiểm tra bắt buộc phải xử lý; unchecked exception (RuntimeException và các lớp con) không bị kiểm tra bắt buộc tại compile-time."
+  },
+  {
+    "id": 135,
+    "question": "RuntimeException là loại exception nào?",
+    "options": {
+      "A": "Checked exception bắt buộc xử lý",
+      "B": "Unchecked exception, không bắt buộc phải try-catch hay khai báo throws",
+      "C": "Một loại lỗi chỉ xảy ra khi biên dịch",
+      "D": "Không phải là một class trong Java"
+    },
+    "answer": "B",
+    "explanation": "RuntimeException và các lớp con của nó (như NullPointerException, ArithmeticException) là unchecked exception, trình biên dịch không bắt buộc phải xử lý."
+  },
+  {
+    "id": 136,
+    "question": "Custom exception (exception tự định nghĩa) trong Java thường được tạo bằng cách nào?",
+    "options": {
+      "A": "Tạo một class mới kế thừa (extends) từ Exception hoặc RuntimeException (hoặc lớp con của chúng)",
+      "B": "Không thể tự định nghĩa exception trong Java",
+      "C": "Chỉ được tạo bằng cách implements Runnable",
+      "D": "Chỉ định nghĩa được trong interface"
+    },
+    "answer": "A",
+    "explanation": "Để tạo custom exception, ta định nghĩa một class mới kế thừa từ Exception (checked) hoặc RuntimeException (unchecked), thường có constructor gọi super(message)."
+  },
+  {
+    "id": 137,
+    "question": "Có thể có nhiều khối catch cho một khối try duy nhất hay không?",
+    "options": {
+      "A": "Không, chỉ được đúng 1 khối catch",
+      "B": "Có, có thể có nhiều khối catch để xử lý các loại exception khác nhau",
+      "C": "Chỉ được nhiều catch nếu không có finally",
+      "D": "Chỉ Java phiên bản cũ mới hỗ trợ điều này"
+    },
+    "answer": "B",
+    "explanation": "Một khối try có thể đi kèm nhiều khối catch khác nhau, mỗi khối xử lý một loại exception cụ thể, giúp phân biệt cách xử lý cho từng tình huống lỗi."
+  },
+  {
+    "id": 138,
+    "question": "Thứ tự sắp xếp các khối catch khi có quan hệ kế thừa giữa các exception cần tuân theo nguyên tắc gì?",
+    "options": {
+      "A": "Không quan trọng thứ tự",
+      "B": "Exception con (cụ thể hơn) phải được đặt catch trước, exception cha (tổng quát hơn) đặt sau",
+      "C": "Exception cha phải luôn đặt trước exception con",
+      "D": "Chỉ được bắt duy nhất một loại exception trong toàn chương trình"
+    },
+    "answer": "B",
+    "explanation": "Nếu đặt catch cho lớp cha (ví dụ Exception) trước lớp con (ví dụ IOException), khối catch con sẽ không bao giờ được thực thi (unreachable code) và gây lỗi biên dịch; do đó cần đặt exception cụ thể trước, tổng quát sau."
+  },
+  {
+    "id": 139,
+    "question": "try-with-resources (Java 7+) dùng để làm gì?",
+    "options": {
+      "A": "Tự động đóng (close) các tài nguyên (implements AutoCloseable) sau khi khối try kết thúc, không cần viết finally để đóng thủ công",
+      "B": "Thay thế hoàn toàn khối catch",
+      "C": "Chỉ dùng để khai báo biến static",
+      "D": "Không có tác dụng thực tế trong Java"
+    },
+    "answer": "A",
+    "explanation": "try-with-resources tự động gọi phương thức close() của các tài nguyên (như file, kết nối DB) khi khối try kết thúc, giúp code gọn hơn và tránh rò rỉ tài nguyên (resource leak)."
+  },
+  {
+    "id": 140,
+    "question": "Exception nào thường xảy ra khi truy cập một tham chiếu object đang là null?",
+    "options": {
+      "A": "ArithmeticException",
+      "B": "NullPointerException",
+      "C": "ClassCastException",
+      "D": "NumberFormatException"
+    },
+    "answer": "B",
+    "explanation": "NullPointerException xảy ra khi cố gắng gọi phương thức hoặc truy cập field trên một tham chiếu đang có giá trị null."
+  },
+  {
+    "id": 141,
+    "question": "Exception nào thường xảy ra khi chia một số nguyên cho 0?",
+    "options": {
+      "A": "ArithmeticException",
+      "B": "IOException",
+      "C": "NullPointerException",
+      "D": "ClassNotFoundException"
+    },
+    "answer": "A",
+    "explanation": "ArithmeticException (thông báo '/ by zero') xảy ra khi thực hiện phép chia số nguyên cho 0, ví dụ int x = 10 / 0;"
+  },
+  {
+    "id": 142,
+    "question": "Exception nào thường xảy ra khi truy cập chỉ số ngoài phạm vi của mảng?",
+    "options": {
+      "A": "ArrayIndexOutOfBoundsException",
+      "B": "StringIndexOutOfBoundsException",
+      "C": "IllegalStateException",
+      "D": "IOException"
+    },
+    "answer": "A",
+    "explanation": "ArrayIndexOutOfBoundsException xảy ra khi truy cập một chỉ số (index) nằm ngoài phạm vi hợp lệ [0, length-1] của mảng."
+  },
+  {
+    "id": 143,
+    "question": "Lớp cha (superclass) chung nhất của tất cả các exception và error trong Java là gì?",
+    "options": {
+      "A": "Exception",
+      "B": "Error",
+      "C": "Throwable",
+      "D": "RuntimeException"
+    },
+    "answer": "C",
+    "explanation": "java.lang.Throwable là lớp gốc của toàn bộ cây phân cấp exception/error trong Java; nó có hai nhánh con chính là Exception và Error."
+  },
+  {
+    "id": 144,
+    "question": "Sự khác biệt giữa Exception và Error trong Java là gì?",
+    "options": {
+      "A": "Exception thường là các tình huống có thể xử lý và phục hồi được trong chương trình; Error thường biểu thị lỗi nghiêm trọng của JVM/hệ thống, khó hoặc không nên phục hồi",
+      "B": "Cả hai hoàn toàn giống nhau, chỉ khác tên gọi",
+      "C": "Error luôn nhẹ hơn Exception",
+      "D": "Exception chỉ xảy ra khi biên dịch, Error chỉ xảy ra khi chạy"
+    },
+    "answer": "A",
+    "explanation": "Exception thường đại diện cho các vấn đề ở tầng ứng dụng mà chương trình có thể bắt và xử lý; Error (như OutOfMemoryError, StackOverflowError) thường là lỗi nghiêm trọng liên quan tới JVM/tài nguyên hệ thống, thường không nên cố xử lý và phục hồi."
+  },
+  {
+    "id": 145,
+    "question": "Việc bắt (catch) exception nhưng không xử lý gì (khối catch rỗng) có phải là thực hành tốt không?",
+    "options": {
+      "A": "Có, đây luôn là cách xử lý tốt nhất",
+      "B": "Không, đây là một 'anti-pattern' vì nuốt lỗi (swallow exception) khiến việc debug khó khăn hơn",
+      "C": "Chỉ tốt khi dùng trong môi trường production",
+      "D": "Không liên quan gì đến chất lượng code"
+    },
+    "answer": "B",
+    "explanation": "Bắt exception nhưng để khối catch rỗng (không log, không xử lý) được coi là thực hành xấu vì làm 'biến mất' thông tin lỗi, gây khó khăn lớn khi cần chẩn đoán và sửa lỗi sau này."
+  },
+  {
+    "id": 146,
+    "question": "Trong phân cấp exception, IOException là loại checked hay unchecked exception?",
+    "options": {
+      "A": "Checked exception",
+      "B": "Unchecked exception",
+      "C": "Không phải exception",
+      "D": "Là một Error"
+    },
+    "answer": "A",
+    "explanation": "IOException là checked exception (kế thừa trực tiếp từ Exception, không phải RuntimeException), bắt buộc phải được xử lý bằng try-catch hoặc khai báo throws."
+  },
+  {
+    "id": 147,
+    "question": "Generics trong Java được dùng để làm gì?",
+    "options": {
+      "A": "Cho phép class, interface, method hoạt động với nhiều kiểu dữ liệu khác nhau mà vẫn đảm bảo kiểm tra kiểu (type-safe) tại thời điểm biên dịch",
+      "B": "Chỉ dùng để tăng tốc độ chạy chương trình",
+      "C": "Thay thế hoàn toàn cho vòng lặp",
+      "D": "Chỉ áp dụng được cho kiểu String"
+    },
+    "answer": "A",
+    "explanation": "Generics cho phép định nghĩa class/interface/method với tham số kiểu (type parameter), ví dụ List<T>, giúp code tái sử dụng được với nhiều kiểu dữ liệu mà vẫn kiểm tra kiểu chặt chẽ tại compile-time."
+  },
+  {
+    "id": 148,
+    "question": "Cú pháp nào sau đây khai báo đúng một class generic đơn giản trong Java?",
+    "options": {
+      "A": "class Box<T> { private T value; }",
+      "B": "class Box(T) { private T value; }",
+      "C": "class Box[T] { private T value; }",
+      "D": "generic class Box { private T value; }"
+    },
+    "answer": "A",
+    "explanation": "Cú pháp chuẩn để khai báo class generic là dùng dấu ngoặc nhọn <>, ví dụ: class Box<T> { private T value; }"
+  },
+  {
+    "id": 149,
+    "question": "Ưu điểm chính của Generics so với việc dùng kiểu Object chung chung là gì?",
+    "options": {
+      "A": "Kiểm tra kiểu dữ liệu ngay tại thời điểm biên dịch, tránh lỗi ClassCastException khi chạy chương trình",
+      "B": "Làm chương trình chạy nhanh hơn về mặt tốc độ CPU",
+      "C": "Không cần khai báo kiểu dữ liệu nào nữa",
+      "D": "Chỉ có tác dụng với kiểu nguyên thủy (int, double)"
+    },
+    "answer": "A",
+    "explanation": "Trước Generics, dùng Object chung chung dễ gây lỗi ClassCastException khi runtime; Generics giúp compiler kiểm tra kiểu ngay lúc biên dịch, phát hiện lỗi sớm hơn và loại bỏ nhu cầu ép kiểu thủ công."
+  },
+  {
+    "id": 150,
+    "question": "Collection Framework trong Java bao gồm những interface gốc chính nào?",
+    "options": {
+      "A": "List, Set, Map, Queue",
+      "B": "Class, Object, Method",
+      "C": "String, Integer, Double",
+      "D": "Thread, Runnable"
+    },
+    "answer": "A",
+    "explanation": "Java Collection Framework xây dựng quanh các interface chính: Collection (với List, Set, Queue là các nhánh con) và Map (không kế thừa Collection nhưng thuộc framework)."
+  },
+  {
+    "id": 151,
+    "question": "ArrayList và LinkedList đều là cài đặt (implementation) của interface nào?",
+    "options": {
+      "A": "Map",
+      "B": "List",
+      "C": "Set",
+      "D": "Thread"
+    },
+    "answer": "B",
+    "explanation": "Cả ArrayList và LinkedList đều là các class cài đặt cụ thể của interface List, cung cấp danh sách có thứ tự, cho phép phần tử trùng lặp."
+  },
+  {
+    "id": 152,
+    "question": "Interface Set trong Java Collection Framework có đặc điểm gì?",
+    "options": {
+      "A": "Không cho phép phần tử trùng lặp",
+      "B": "Luôn cho phép phần tử trùng lặp không giới hạn",
+      "C": "Chỉ chứa được kiểu String",
+      "D": "Không có bất kỳ cài đặt cụ thể nào"
+    },
+    "answer": "A",
+    "explanation": "Set là interface đại diện cho tập hợp không cho phép các phần tử trùng lặp, ví dụ các cài đặt HashSet, TreeSet, LinkedHashSet."
+  },
+  {
+    "id": 153,
+    "question": "Interface Map trong Java lưu trữ dữ liệu dưới dạng gì?",
+    "options": {
+      "A": "Cặp khóa-giá trị (key-value pair)",
+      "B": "Chỉ giá trị đơn lẻ không có khóa",
+      "C": "Chỉ số nguyên liên tiếp",
+      "D": "Chuỗi văn bản duy nhất"
+    },
+    "answer": "A",
+    "explanation": "Map lưu trữ dữ liệu theo cặp key-value, mỗi khóa (key) là duy nhất và ánh xạ tới một giá trị (value) tương ứng, ví dụ HashMap, TreeMap."
+  },
+  {
+    "id": 154,
+    "question": "Phương thức equals() được kế thừa mặc định từ class Object có hành vi so sánh như thế nào?",
+    "options": {
+      "A": "So sánh nội dung (giá trị) của hai đối tượng",
+      "B": "So sánh địa chỉ tham chiếu (reference) - giống toán tử ==",
+      "C": "Luôn trả về true",
+      "D": "Luôn trả về false"
+    },
+    "answer": "B",
+    "explanation": "Mặc định, equals() kế thừa từ Object so sánh tham chiếu (giống ==), tức hai object chỉ 'bằng nhau' khi chúng là cùng một object trong bộ nhớ, trừ khi class override lại equals() để so sánh theo nội dung."
+  },
+  {
+    "id": 155,
+    "question": "Vì sao khi override equals(), người ta thường khuyến nghị cũng nên override hashCode()?",
+    "options": {
+      "A": "Để đảm bảo tính nhất quán: hai object 'bằng nhau' theo equals() phải có cùng giá trị hashCode(), tránh lỗi khi dùng trong HashMap/HashSet",
+      "B": "Vì Java bắt buộc phải viết cả hai, nếu không chương trình sẽ không biên dịch được",
+      "C": "Vì hashCode() không có tác dụng thực tế",
+      "D": "Vì equals() và hashCode() luôn phải trả về cùng một giá trị số"
+    },
+    "answer": "A",
+    "explanation": "Hợp đồng (contract) giữa equals() và hashCode() yêu cầu: nếu hai object equals() nhau thì hashCode() của chúng phải giống nhau; vi phạm điều này sẽ gây lỗi khi dùng object làm khóa trong HashMap/HashSet."
+  },
+  {
+    "id": 156,
+    "question": "Phương thức toString() trong class Object dùng để làm gì?",
+    "options": {
+      "A": "Trả về một chuỗi (String) mô tả đối tượng, thường được override để hiển thị thông tin dễ đọc hơn",
+      "B": "Chuyển một chuỗi thành số nguyên",
+      "C": "So sánh hai chuỗi với nhau",
+      "D": "Xóa toàn bộ nội dung của object"
+    },
+    "answer": "A",
+    "explanation": "toString() trả về biểu diễn dạng chuỗi của object; mặc định trả về dạng 'TênClass@hashcode', nhưng thường được override để in ra thông tin có ý nghĩa hơn, ví dụ 'Person{name=An, age=20}'."
+  },
+  {
+    "id": 157,
+    "question": "Bounded type parameter trong Generics (ví dụ <T extends Number>) có ý nghĩa gì?",
+    "options": {
+      "A": "Giới hạn tham số kiểu T chỉ được là Number hoặc các lớp con của Number",
+      "B": "Cho phép T là bất kỳ kiểu nào không giới hạn",
+      "C": "Bắt buộc T phải là interface",
+      "D": "Xóa hoàn toàn khả năng dùng Generics"
+    },
+    "answer": "A",
+    "explanation": "Bounded type parameter (<T extends SomeClass>) giới hạn kiểu T chỉ được là SomeClass hoặc các lớp con/lớp cài đặt của nó, giúp đảm bảo T có các phương thức mong muốn."
+  },
+  {
+    "id": 158,
+    "question": "Wildcard <?> trong Generics (ví dụ List<?>) có ý nghĩa gì?",
+    "options": {
+      "A": "Đại diện cho một kiểu chưa xác định (unknown type), thường dùng khi không quan tâm cụ thể kiểu phần tử",
+      "B": "Chỉ dùng được với kiểu int",
+      "C": "Là lỗi cú pháp trong Java",
+      "D": "Bắt buộc phải luôn kèm theo extends"
+    },
+    "answer": "A",
+    "explanation": "Wildcard <?> đại diện cho một kiểu chưa xác định cụ thể, thường dùng trong tham số phương thức khi ta muốn chấp nhận List của bất kỳ kiểu nào mà không cần biết chính xác kiểu đó."
+  },
+  {
+    "id": 159,
+    "question": "Trong OOP, quan hệ Aggregation (kết hợp/tập hợp) khác gì với Composition (thành phần)?",
+    "options": {
+      "A": "Aggregation là quan hệ 'has-a' lỏng lẻo, các đối tượng thành phần có thể tồn tại độc lập; Composition là quan hệ chặt chẽ hơn, thành phần phụ thuộc vòng đời vào đối tượng chứa nó",
+      "B": "Cả hai hoàn toàn giống nhau về mặt vòng đời đối tượng",
+      "C": "Aggregation chặt chẽ hơn Composition",
+      "D": "Composition không liên quan gì đến OOP"
+    },
+    "answer": "A",
+    "explanation": "Aggregation (ví dụ Team có nhiều Player, Player vẫn tồn tại nếu Team giải thể) là quan hệ has-a lỏng; Composition (ví dụ House có các Room, Room không tồn tại nếu House bị phá hủy) là quan hệ has-a chặt, vòng đời thành phần phụ thuộc vào đối tượng chủ."
+  },
+  {
+    "id": 160,
+    "question": "Phương thức clone() trong Object dùng để làm gì?",
+    "options": {
+      "A": "Tạo ra một bản sao (copy) của đối tượng hiện tại",
+      "B": "Xóa đối tượng hiện tại khỏi bộ nhớ",
+      "C": "So sánh hai đối tượng có bằng nhau không",
+      "D": "Chuyển đối tượng thành chuỗi văn bản"
+    },
+    "answer": "A",
+    "explanation": "clone() (yêu cầu class implements Cloneable) tạo ra một bản sao của object hiện tại; mặc định thực hiện shallow copy (sao chép nông) các field."
+  },
+  {
+    "id": 161,
+    "question": "Shallow copy và Deep copy khác nhau như thế nào khi sao chép đối tượng?",
+    "options": {
+      "A": "Shallow copy chỉ sao chép tham chiếu tới các object con (field kiểu tham chiếu); Deep copy tạo bản sao độc lập hoàn toàn của cả các object con bên trong",
+      "B": "Cả hai hoàn toàn giống nhau",
+      "C": "Deep copy chỉ áp dụng được cho kiểu nguyên thủy",
+      "D": "Shallow copy luôn tốt hơn Deep copy trong mọi trường hợp"
+    },
+    "answer": "A",
+    "explanation": "Shallow copy chỉ sao chép giá trị các field cấp 1; nếu field là tham chiếu tới object khác, cả bản gốc và bản sao vẫn trỏ chung tới object con đó. Deep copy tạo ra các bản sao độc lập hoàn toàn ở mọi cấp, không chia sẻ tham chiếu."
+  },
+  {
+    "id": 162,
+    "question": "Autoboxing trong Java là gì?",
+    "options": {
+      "A": "Cơ chế tự động chuyển đổi kiểu nguyên thủy (primitive) sang kiểu wrapper class tương ứng (ví dụ int sang Integer)",
+      "B": "Cơ chế chỉ áp dụng cho kiểu String",
+      "C": "Cơ chế xóa các biến không dùng",
+      "D": "Một loại vòng lặp đặc biệt"
+    },
+    "answer": "A",
+    "explanation": "Autoboxing là quá trình Java tự động chuyển đổi giá trị kiểu nguyên thủy (int, double...) sang đối tượng wrapper class tương ứng (Integer, Double...), ví dụ: Integer i = 5;"
+  },
+  {
+    "id": 163,
+    "question": "Unboxing trong Java là gì?",
+    "options": {
+      "A": "Cơ chế tự động chuyển đổi ngược từ wrapper class về kiểu nguyên thủy tương ứng",
+      "B": "Cơ chế đóng gói dữ liệu (giống Encapsulation)",
+      "C": "Chỉ áp dụng cho mảng",
+      "D": "Không tồn tại trong Java"
+    },
+    "answer": "A",
+    "explanation": "Unboxing là quá trình ngược lại với autoboxing: Java tự động chuyển đổi một đối tượng wrapper class (Integer, Double...) về lại giá trị kiểu nguyên thủy tương ứng, ví dụ: int x = new Integer(5);"
+  },
+  {
+    "id": 164,
+    "question": "Lớp Comparable trong Java dùng để làm gì?",
+    "options": {
+      "A": "Định nghĩa thứ tự sắp xếp tự nhiên (natural ordering) cho các object của một class thông qua phương thức compareTo()",
+      "B": "Chỉ dùng để so sánh hai chuỗi ký tự",
+      "C": "Là một class cụ thể chứ không phải interface",
+      "D": "Không có tác dụng thực tế trong Java"
+    },
+    "answer": "A",
+    "explanation": "Comparable là interface với phương thức compareTo(T o), cho phép một class định nghĩa thứ tự sắp xếp mặc định (tự nhiên) của các object, thường dùng khi sắp xếp bằng Collections.sort()."
+  },
+  {
+    "id": 165,
+    "question": "Inner class (lớp lồng nhau/nội bộ) trong Java là gì?",
+    "options": {
+      "A": "Một class được định nghĩa bên trong một class khác",
+      "B": "Một class chỉ được dùng cho giao diện đồ họa",
+      "C": "Một class không thể có phương thức nào",
+      "D": "Một class luôn phải là static"
+    },
+    "answer": "A",
+    "explanation": "Inner class (nested class) là một class được khai báo bên trong một class khác, giúp nhóm các class có liên quan chặt chẽ về mặt logic lại với nhau."
+  },
+  {
+    "id": 166,
+    "question": "Java có mấy loại nested class (lớp lồng nhau) chính?",
+    "options": {
+      "A": "Chỉ 1 loại duy nhất",
+      "B": "4 loại: static nested class, (non-static) inner class, local class, anonymous class",
+      "C": "10 loại",
+      "D": "Không có loại nào cả"
+    },
+    "answer": "B",
+    "explanation": "Java hỗ trợ 4 loại lớp lồng nhau: static nested class, inner class (non-static), local class (khai báo trong một khối/phương thức), và anonymous class (lớp vô danh)."
+  },
+  {
+    "id": 167,
+    "question": "Static nested class khác gì với (non-static) inner class?",
+    "options": {
+      "A": "Static nested class không cần một instance của lớp ngoài để tồn tại; inner class (non-static) luôn gắn liền với một instance cụ thể của lớp ngoài",
+      "B": "Cả hai hoàn toàn giống nhau",
+      "C": "Inner class không thể truy cập được field của lớp ngoài",
+      "D": "Static nested class không thể có phương thức nào"
+    },
+    "answer": "A",
+    "explanation": "Static nested class hoạt động độc lập, không cần instance của outer class để tạo ra; trong khi (non-static) inner class luôn cần gắn với một instance cụ thể của lớp ngoài (Outer.Inner obj = outer.new Inner();)."
+  },
+  {
+    "id": 168,
+    "question": "Anonymous class (lớp vô danh) trong Java là gì?",
+    "options": {
+      "A": "Một class không có tên, được định nghĩa và khởi tạo cùng lúc, thường dùng để cài đặt nhanh một interface hoặc kế thừa một class",
+      "B": "Một class có tên nhưng ẩn khỏi người dùng",
+      "C": "Một class chỉ chứa các field private",
+      "D": "Một class không thể chứa bất kỳ phương thức nào"
+    },
+    "answer": "A",
+    "explanation": "Anonymous class không có tên riêng, được định nghĩa và tạo instance ngay tại chỗ sử dụng, thường dùng để cài đặt nhanh gọn một interface hoặc override một phương thức mà không cần tạo một class riêng biệt."
+  },
+  {
+    "id": 169,
+    "question": "Cú pháp nào sau đây là ví dụ về việc tạo một anonymous class cài đặt interface Runnable?",
+    "options": {
+      "A": "Runnable r = new Runnable() { public void run() { System.out.println(\"Chạy\"); } };",
+      "B": "Runnable r = class Runnable { void run(); };",
+      "C": "Runnable r() { anonymous run(); }",
+      "D": "new anonymous Runnable run();"
+    },
+    "answer": "A",
+    "explanation": "Đây là cú pháp chuẩn để tạo anonymous class: new Runnable() { ... } tạo ra một đối tượng của một class vô danh cài đặt interface Runnable ngay tại chỗ."
+  },
+  {
+    "id": 170,
+    "question": "Local class (lớp cục bộ) trong Java được khai báo ở đâu?",
+    "options": {
+      "A": "Bên trong một khối lệnh, ví dụ bên trong thân của một phương thức",
+      "B": "Chỉ được khai báo ở cấp cao nhất của file .java",
+      "C": "Chỉ được khai báo trong interface",
+      "D": "Không thể khai báo được trong Java"
+    },
+    "answer": "A",
+    "explanation": "Local class là một class được định nghĩa bên trong thân của một phương thức hoặc một khối lệnh, chỉ có thể sử dụng trong phạm vi khối đó."
+  },
+  {
+    "id": 171,
+    "question": "Lợi ích chính khi sử dụng inner class là gì?",
+    "options": {
+      "A": "Nhóm logic các class có liên quan chặt chẽ, tăng tính đóng gói, cho phép truy cập trực tiếp tới thành phần của outer class",
+      "B": "Làm chương trình luôn chạy chậm hơn",
+      "C": "Ngăn cản việc tổ chức code",
+      "D": "Không có lợi ích thực tế nào"
+    },
+    "answer": "A",
+    "explanation": "Inner class giúp nhóm các class liên quan chặt chẽ về logic, tăng tính đóng gói (có thể ẩn khỏi các class khác), đồng thời (với inner class non-static) có thể truy cập trực tiếp field/method của outer class instance."
+  },
+  {
+    "id": 172,
+    "question": "Anonymous inner class thường được sử dụng phổ biến trong ngữ cảnh nào của lập trình sự kiện Java?",
+    "options": {
+      "A": "Cài đặt nhanh các Event Listener (ví dụ ActionListener) ngay tại nơi đăng ký sự kiện cho một component",
+      "B": "Chỉ dùng cho việc đọc file",
+      "C": "Chỉ dùng cho việc kết nối cơ sở dữ liệu",
+      "D": "Không liên quan gì đến lập trình sự kiện"
+    },
+    "answer": "A",
+    "explanation": "Trong lập trình GUI/sự kiện với AWT/Swing, anonymous inner class rất thường được dùng để cài đặt nhanh gọn một EventListener (như ActionListener) ngay tại chỗ gọi addActionListener(), không cần tạo class riêng."
+  },
+  {
+    "id": 173,
+    "question": "Inner class (non-static) có thể truy cập trực tiếp private field của outer class hay không?",
+    "options": {
+      "A": "Không, vì đây là hai class khác nhau",
+      "B": "Có, inner class (non-static) có thể truy cập trực tiếp mọi thành viên (kể cả private) của outer class instance chứa nó",
+      "C": "Chỉ truy cập được nếu field đó là public",
+      "D": "Chỉ truy cập được nếu inner class là static"
+    },
+    "answer": "B",
+    "explanation": "Một đặc điểm quan trọng của (non-static) inner class là nó có thể truy cập trực tiếp tất cả các thành viên, kể cả private, của instance outer class đang chứa nó."
+  },
+  {
+    "id": 174,
+    "question": "Từ khóa nào KHÔNG thể sử dụng để khai báo local class bên trong một phương thức?",
+    "options": {
+      "A": "public/private/protected (access modifier)",
+      "B": "final",
+      "C": "abstract",
+      "D": "extends/implements bình thường"
+    },
+    "answer": "A",
+    "explanation": "Local class được khai báo bên trong thân phương thức không được phép có access modifier (public/private/protected) vì phạm vi của nó vốn đã giới hạn trong khối chứa nó; nó vẫn có thể là final hoặc abstract."
+  },
+  {
+    "id": 175,
+    "question": "Lập trình hướng sự kiện (Event-Driven Programming) là gì?",
+    "options": {
+      "A": "Mô hình lập trình trong đó luồng thực thi chương trình được quyết định bởi các sự kiện (event) như click chuột, gõ phím, thay đổi trạng thái",
+      "B": "Mô hình lập trình chỉ chạy tuần tự từ trên xuống dưới không có ngoại lệ",
+      "C": "Mô hình chỉ áp dụng cho lập trình mạng",
+      "D": "Mô hình không sử dụng bất kỳ hàm nào"
+    },
+    "answer": "A",
+    "explanation": "Event-driven programming là mô hình trong đó chương trình phản ứng lại các sự kiện (do người dùng, hệ thống, hoặc chương trình khác tạo ra) thay vì thực thi tuần tự cố định, phổ biến trong lập trình GUI."
+  },
+  {
+    "id": 176,
+    "question": "Trong Java, hai thư viện chính hỗ trợ xây dựng giao diện đồ họa (GUI) và lập trình sự kiện là gì?",
+    "options": {
+      "A": "AWT (Abstract Window Toolkit) và Swing",
+      "B": "JDBC và JUnit",
+      "C": "Servlet và JSP",
+      "D": "Collections và Stream"
+    },
+    "answer": "A",
+    "explanation": "AWT là thư viện GUI nguyên thủy của Java (dùng thành phần native của hệ điều hành), còn Swing được xây dựng dựa trên AWT, cung cấp các component nhẹ (lightweight) và linh hoạt hơn cho GUI."
+  },
+  {
+    "id": 177,
+    "question": "Sự kiện (Event) trong lập trình GUI Java là gì?",
+    "options": {
+      "A": "Một đối tượng đại diện cho một hành động hoặc sự thay đổi trạng thái xảy ra trên một component (ví dụ click chuột, gõ phím)",
+      "B": "Một class chỉ chứa các hằng số toán học",
+      "C": "Một phương thức của class String",
+      "D": "Một loại vòng lặp trong Java"
+    },
+    "answer": "A",
+    "explanation": "Event là một object (ví dụ ActionEvent, MouseEvent) đại diện cho một hành động cụ thể xảy ra trên một GUI component, mang thông tin về nguồn phát sinh sự kiện và chi tiết liên quan."
+  },
+  {
+    "id": 178,
+    "question": "Event Source (nguồn sự kiện) trong mô hình sự kiện của Java là gì?",
+    "options": {
+      "A": "Đối tượng (component) nơi sự kiện được sinh ra, ví dụ một JButton khi bị click",
+      "B": "Class xử lý logic nghiệp vụ của toàn ứng dụng",
+      "C": "Tên gọi khác của JVM",
+      "D": "Một loại exception đặc biệt"
+    },
+    "answer": "A",
+    "explanation": "Event source là component (như JButton, JTextField) mà trên đó sự kiện được kích hoạt, ví dụ khi người dùng click vào một JButton, chính JButton đó là event source."
+  },
+  {
+    "id": 179,
+    "question": "Event Listener (bộ lắng nghe sự kiện) trong Java là gì?",
+    "options": {
+      "A": "Một đối tượng cài đặt một interface listener cụ thể, được đăng ký để nhận và xử lý thông báo khi sự kiện xảy ra trên event source",
+      "B": "Một class chỉ dùng để lưu trữ dữ liệu tĩnh",
+      "C": "Một phương thức chỉ dùng trong vòng lặp",
+      "D": "Một loại biến nguyên thủy"
+    },
+    "answer": "A",
+    "explanation": "Event Listener là object cài đặt một interface lắng nghe sự kiện tương ứng (như ActionListener), được đăng ký (thông qua addXListener) với event source để nhận thông báo và xử lý khi sự kiện xảy ra."
+  },
+  {
+    "id": 180,
+    "question": "Mô hình xử lý sự kiện chuẩn trong Java (từ JDK 1.1 trở đi) được gọi là gì?",
+    "options": {
+      "A": "Delegation Event Model (mô hình ủy quyền sự kiện)",
+      "B": "Direct Event Model",
+      "C": "Static Event Model",
+      "D": "Compile-time Event Model"
+    },
+    "answer": "A",
+    "explanation": "Java sử dụng Delegation Event Model: event source 'ủy quyền' việc xử lý sự kiện cho một hoặc nhiều Event Listener đã đăng ký, tách biệt rõ ràng giữa nguồn sinh sự kiện và logic xử lý."
+  },
+  {
+    "id": 181,
+    "question": "Trong Delegation Event Model, thành phần nào chịu trách nhiệm ĐĂNG KÝ một listener với một source?",
+    "options": {
+      "A": "Phương thức add<TênLoạiSựKiện>Listener() được gọi trên event source, ví dụ button.addActionListener(listener)",
+      "B": "Chỉ có thể đăng ký thông qua file cấu hình XML",
+      "C": "JVM tự động đăng ký mà không cần lập trình viên viết code",
+      "D": "Không thể đăng ký listener trong Java"
+    },
+    "answer": "A",
+    "explanation": "Để đăng ký một listener, ta gọi phương thức add<LoạiListener>() trên event source, ví dụ: button.addActionListener(myListener); - từ đó source sẽ gọi lại listener mỗi khi sự kiện tương ứng xảy ra."
+  },
+  {
+    "id": 182,
+    "question": "ActionListener là interface dùng để xử lý loại sự kiện nào phổ biến nhất?",
+    "options": {
+      "A": "Sự kiện hành động, ví dụ khi người dùng click vào một JButton hoặc nhấn Enter trên JTextField",
+      "B": "Sự kiện chỉ liên quan đến bàn phím",
+      "C": "Sự kiện chỉ liên quan đến việc đóng cửa sổ",
+      "D": "Sự kiện chỉ liên quan đến chuột di chuyển"
+    },
+    "answer": "A",
+    "explanation": "ActionListener là interface phổ biến nhất, thường dùng để xử lý sự kiện 'hành động' như click nút JButton, chọn mục trong JMenuItem, hoặc nhấn Enter trong JTextField."
+  },
+  {
+    "id": 183,
+    "question": "Phương thức duy nhất mà interface ActionListener yêu cầu cài đặt là gì?",
+    "options": {
+      "A": "actionPerformed(ActionEvent e)",
+      "B": "mouseClicked(MouseEvent e)",
+      "C": "keyPressed(KeyEvent e)",
+      "D": "windowClosing(WindowEvent e)"
+    },
+    "answer": "A",
+    "explanation": "ActionListener là functional interface chỉ có một phương thức: actionPerformed(ActionEvent e), được gọi tự động khi sự kiện hành động xảy ra trên source đã đăng ký."
+  },
+  {
+    "id": 184,
+    "question": "MouseListener trong Java dùng để xử lý những loại sự kiện nào?",
+    "options": {
+      "A": "Các sự kiện liên quan đến chuột như click, nhấn (press), thả (release), di chuột vào/ra khỏi component",
+      "B": "Chỉ xử lý sự kiện bàn phím",
+      "C": "Chỉ xử lý sự kiện đóng cửa sổ",
+      "D": "Chỉ xử lý sự kiện của JMenu"
+    },
+    "answer": "A",
+    "explanation": "MouseListener cung cấp các phương thức như mouseClicked(), mousePressed(), mouseReleased(), mouseEntered(), mouseExited() để xử lý các tương tác của chuột với component."
+  },
+  {
+    "id": 185,
+    "question": "KeyListener trong Java dùng để xử lý những loại sự kiện nào?",
+    "options": {
+      "A": "Các sự kiện liên quan đến bàn phím như nhấn phím, thả phím, gõ ký tự",
+      "B": "Chỉ xử lý sự kiện chuột",
+      "C": "Chỉ xử lý sự kiện mạng",
+      "D": "Chỉ xử lý lỗi ngoại lệ"
+    },
+    "answer": "A",
+    "explanation": "KeyListener cung cấp các phương thức keyPressed(), keyReleased(), keyTyped() để bắt và xử lý các sự kiện liên quan đến thao tác bàn phím trên một component."
+  },
+  {
+    "id": 186,
+    "question": "WindowListener trong Java thường dùng để xử lý sự kiện gì?",
+    "options": {
+      "A": "Các sự kiện vòng đời của cửa sổ (window) như mở, đóng, thu nhỏ, phóng to, kích hoạt cửa sổ",
+      "B": "Chỉ xử lý sự kiện của nút bấm",
+      "C": "Chỉ xử lý sự kiện mạng internet",
+      "D": "Chỉ xử lý sự kiện của thanh cuộn"
+    },
+    "answer": "A",
+    "explanation": "WindowListener cung cấp các phương thức như windowClosing(), windowOpened(), windowIconified()... để xử lý các sự kiện liên quan tới vòng đời của một JFrame/Window."
+  },
+  {
+    "id": 187,
+    "question": "Trong Swing, JFrame là gì?",
+    "options": {
+      "A": "Một class đại diện cho cửa sổ chính (top-level window) của ứng dụng GUI, có thanh tiêu đề, viền, nút đóng/thu nhỏ",
+      "B": "Một loại exception đặc biệt",
+      "C": "Một interface chỉ dùng để so sánh đối tượng",
+      "D": "Một phương thức xử lý chuỗi"
+    },
+    "answer": "A",
+    "explanation": "JFrame là class trong javax.swing đại diện cho một cửa sổ cấp cao (top-level container), thường là cửa sổ chính chứa các component khác của ứng dụng GUI."
+  },
+  {
+    "id": 188,
+    "question": "JButton, JTextField, JLabel trong Swing được gọi chung là gì?",
+    "options": {
+      "A": "Component (thành phần giao diện)",
+      "B": "Exception",
+      "C": "Package",
+      "D": "Thread"
+    },
+    "answer": "A",
+    "explanation": "JButton, JTextField, JLabel... đều là các Component (thành phần GUI cụ thể), kế thừa từ java.awt.Component, dùng để xây dựng giao diện người dùng."
+  },
+  {
+    "id": 189,
+    "question": "Container trong Swing/AWT có vai trò gì?",
+    "options": {
+      "A": "Là một loại component đặc biệt có khả năng chứa và quản lý các component khác bên trong nó (ví dụ JPanel, JFrame)",
+      "B": "Chỉ dùng để lưu trữ số nguyên",
+      "C": "Là tên gọi khác của exception",
+      "D": "Không có vai trò gì trong GUI"
+    },
+    "answer": "A",
+    "explanation": "Container (như JPanel, JFrame, JDialog) là component có khả năng chứa các component con khác bên trong, thường kết hợp với Layout Manager để sắp xếp vị trí các thành phần con."
+  },
+  {
+    "id": 190,
+    "question": "Layout Manager trong Swing/AWT dùng để làm gì?",
+    "options": {
+      "A": "Quản lý cách bố trí, sắp xếp vị trí và kích thước của các component bên trong một container",
+      "B": "Quản lý việc kết nối cơ sở dữ liệu",
+      "C": "Quản lý các luồng (Thread) của chương trình",
+      "D": "Không có tác dụng thực tế nào"
+    },
+    "answer": "A",
+    "explanation": "Layout Manager (như FlowLayout, BorderLayout, GridLayout) chịu trách nhiệm tự động sắp xếp vị trí và kích thước các component con bên trong container, giúp giao diện linh hoạt khi thay đổi kích thước cửa sổ."
+  },
+  {
+    "id": 191,
+    "question": "ActionEvent là gì trong Java?",
+    "options": {
+      "A": "Một class đại diện cho đối tượng sự kiện hành động, mang thông tin về nguồn phát sinh và loại hành động",
+      "B": "Một interface không có phương thức nào",
+      "C": "Một phương thức của class String",
+      "D": "Một loại ngoại lệ runtime"
+    },
+    "answer": "A",
+    "explanation": "ActionEvent là class (kế thừa từ EventObject) đại diện cho sự kiện hành động, chứa thông tin như nguồn phát sinh sự kiện (getSource()) và lệnh hành động (getActionCommand())."
+  },
+  {
+    "id": 192,
+    "question": "Lớp gốc của mọi lớp sự kiện (event class) trong Java (java.util.EventObject) có phương thức phổ biến nào để lấy nguồn phát sinh sự kiện?",
+    "options": {
+      "A": "getSource()",
+      "B": "getMessage()",
+      "C": "toString() duy nhất",
+      "D": "getClass() duy nhất"
+    },
+    "answer": "A",
+    "explanation": "getSource() là phương thức kế thừa từ java.util.EventObject, trả về đối tượng (component) đã sinh ra sự kiện đó, ví dụ button nào đã được click."
+  },
+  {
+    "id": 193,
+    "question": "MouseEvent cung cấp phương thức nào để lấy tọa độ x, y nơi sự kiện chuột xảy ra?",
+    "options": {
+      "A": "getX() và getY()",
+      "B": "getRow() và getColumn()",
+      "C": "getWidth() và getHeight()",
+      "D": "getSource() duy nhất, không có tọa độ"
+    },
+    "answer": "A",
+    "explanation": "MouseEvent cung cấp các phương thức getX() và getY() (hoặc getPoint()) để lấy tọa độ nơi sự kiện chuột xảy ra trên component."
+  },
+  {
+    "id": 194,
+    "question": "KeyEvent cung cấp phương thức nào để lấy mã phím vừa được nhấn?",
+    "options": {
+      "A": "getKeyCode()",
+      "B": "getX()",
+      "C": "getActionCommand()",
+      "D": "getClickCount()"
+    },
+    "answer": "A",
+    "explanation": "getKeyCode() trả về mã số nguyên đại diện cho phím vật lý vừa được nhấn/thả, thường so sánh với các hằng số như KeyEvent.VK_ENTER."
+  },
+  {
+    "id": 195,
+    "question": "Adapter class trong lập trình sự kiện Java (ví dụ MouseAdapter, WindowAdapter) có mục đích gì?",
+    "options": {
+      "A": "Cung cấp cài đặt rỗng (empty implementation) sẵn cho tất cả phương thức của một listener interface có nhiều phương thức, giúp lập trình viên chỉ cần override đúng phương thức cần dùng",
+      "B": "Thay thế hoàn toàn cho interface listener, không cần dùng interface nữa",
+      "C": "Chỉ dùng để kết nối cơ sở dữ liệu",
+      "D": "Là một loại exception đặc biệt"
+    },
+    "answer": "A",
+    "explanation": "Adapter class (như MouseAdapter cho MouseListener có 5 phương thức) cung cấp sẵn cài đặt rỗng cho tất cả các phương thức của interface, giúp class con chỉ cần override những phương thức thực sự cần dùng thay vì phải cài đặt toàn bộ."
+  },
+  {
+    "id": 196,
+    "question": "Vì sao adapter class hữu ích khi làm việc với các listener interface có nhiều phương thức (ví dụ MouseListener có 5 phương thức)?",
+    "options": {
+      "A": "Tránh việc phải cài đặt (override) toàn bộ tất cả các phương thức của interface khi chỉ cần dùng một vài phương thức",
+      "B": "Vì adapter class chạy nhanh hơn interface về mặt lý thuyết",
+      "C": "Vì Java bắt buộc phải dùng adapter class, không cho phép implements trực tiếp interface",
+      "D": "Vì adapter class không cần import bất kỳ package nào"
+    },
+    "answer": "A",
+    "explanation": "Nếu implements trực tiếp MouseListener, ta buộc phải cài đặt cả 5 phương thức dù chỉ cần 1; dùng MouseAdapter (class trừu tượng cài đặt sẵn rỗng cả 5 phương thức) cho phép chỉ override phương thức cần thiết, giảm code thừa."
+  },
+  {
+    "id": 197,
+    "question": "MouseAdapter là một ví dụ về loại cơ chế OOP nào đã học?",
+    "options": {
+      "A": "Abstract class cung cấp cài đặt mặc định (rỗng) cho một interface có nhiều phương thức",
+      "B": "Một interface hoàn toàn mới không liên quan gì đến MouseListener",
+      "C": "Một kiểu dữ liệu nguyên thủy",
+      "D": "Một loại vòng lặp for-each"
+    },
+    "answer": "A",
+    "explanation": "MouseAdapter là một abstract class implements MouseListener với cài đặt rỗng cho tất cả các phương thức; các class con chỉ cần extends MouseAdapter và override đúng phương thức mong muốn."
+  },
+  {
+    "id": 198,
+    "question": "Trong lập trình sự kiện Swing, anonymous inner class thường được dùng kết hợp với phương thức add<X>Listener() như thế nào?",
+    "options": {
+      "A": "Truyền trực tiếp một đối tượng anonymous class cài đặt listener ngay trong lời gọi phương thức, ví dụ: button.addActionListener(new ActionListener(){ public void actionPerformed(ActionEvent e){...} });",
+      "B": "Không thể sử dụng anonymous class trong ngữ cảnh này",
+      "C": "Chỉ dùng được nếu listener interface có nhiều hơn 10 phương thức",
+      "D": "Phải luôn tạo một file .java riêng cho mỗi listener"
+    },
+    "answer": "A",
+    "explanation": "Đây là cách dùng rất phổ biến trong Swing/AWT: tạo và cài đặt một anonymous class ngay tại chỗ gọi addActionListener(), giúp code ngắn gọn khi logic xử lý sự kiện đơn giản và chỉ dùng một lần."
+  },
+  {
+    "id": 199,
+    "question": "Lambda expression (Java 8+) có thể thay thế anonymous class khi cài đặt listener trong trường hợp nào?",
+    "options": {
+      "A": "Khi interface đó là một functional interface (chỉ có đúng 1 phương thức abstract), ví dụ ActionListener",
+      "B": "Trong mọi trường hợp không có ngoại lệ, kể cả interface có nhiều phương thức",
+      "C": "Chỉ khi listener interface không có phương thức nào",
+      "D": "Lambda expression không liên quan gì đến việc xử lý sự kiện"
+    },
+    "answer": "A",
+    "explanation": "Vì ActionListener chỉ có 1 phương thức abstract (actionPerformed), nó là functional interface, nên có thể dùng lambda thay cho anonymous class: button.addActionListener(e -> System.out.println(\"Clicked\"));"
+  },
+  {
+    "id": 200,
+    "question": "Cách viết nào sau đây dùng lambda expression để đăng ký ActionListener hợp lệ trong Java 8+?",
+    "options": {
+      "A": "button.addActionListener(e -> System.out.println(\"Đã click\"));",
+      "B": "button.addActionListener(class { void run(); });",
+      "C": "button.addActionListener(abstract ActionEvent e);",
+      "D": "button.addActionListener(new abstract());"
+    },
+    "answer": "A",
+    "explanation": "Cú pháp lambda hợp lệ để cài đặt functional interface ActionListener là (tham_số) -> {thân xử lý}, ví dụ: e -> System.out.println(\"Đã click\");"
+  },
+  {
+    "id": 201,
+    "question": "Multiple listener registration (đăng ký nhiều listener) cho cùng một event source có được Java cho phép không?",
+    "options": {
+      "A": "Không, mỗi source chỉ được đăng ký đúng 1 listener duy nhất",
+      "B": "Có, một event source có thể đăng ký nhiều listener cùng loại, tất cả sẽ được gọi khi sự kiện xảy ra",
+      "C": "Chỉ được phép nếu dùng adapter class",
+      "D": "Chỉ được phép trong phiên bản Java cũ"
+    },
+    "answer": "B",
+    "explanation": "Java cho phép đăng ký nhiều listener cùng loại cho một event source (gọi nhiều lần addActionListener() với các listener khác nhau); khi sự kiện xảy ra, tất cả các listener đã đăng ký đều sẽ được thông báo và gọi lần lượt."
+  },
+  {
+    "id": 202,
+    "question": "Phương thức removeActionListener() dùng để làm gì?",
+    "options": {
+      "A": "Hủy đăng ký (gỡ bỏ) một listener đã được thêm trước đó khỏi event source",
+      "B": "Xóa toàn bộ component khỏi giao diện",
+      "C": "Thêm một listener mới",
+      "D": "Đóng toàn bộ chương trình ngay lập tức"
+    },
+    "answer": "A",
+    "explanation": "removeActionListener(listener) gỡ bỏ một listener cụ thể đã đăng ký trước đó khỏi event source, sau đó listener này sẽ không còn nhận được thông báo sự kiện nữa."
+  },
+  {
+    "id": 203,
+    "question": "ItemListener trong Swing thường dùng để xử lý sự kiện của những component nào?",
+    "options": {
+      "A": "Các component có thể thay đổi trạng thái lựa chọn như JCheckBox, JComboBox, JRadioButton",
+      "B": "Chỉ dùng cho JFrame",
+      "C": "Chỉ dùng cho việc đọc file văn bản",
+      "D": "Chỉ dùng cho kết nối mạng"
+    },
+    "answer": "A",
+    "explanation": "ItemListener (với phương thức itemStateChanged()) thường dùng để lắng nghe sự thay đổi trạng thái lựa chọn (chọn/bỏ chọn) của các component như JCheckBox, JComboBox, JRadioButton."
+  },
+  {
+    "id": 204,
+    "question": "FocusListener trong Swing dùng để xử lý loại sự kiện nào?",
+    "options": {
+      "A": "Sự kiện khi một component nhận (focus gained) hoặc mất (focus lost) tiêu điểm nhập liệu",
+      "B": "Sự kiện khi đóng ứng dụng",
+      "C": "Sự kiện khi kết nối internet bị mất",
+      "D": "Sự kiện khi chương trình biên dịch xong"
+    },
+    "answer": "A",
+    "explanation": "FocusListener cung cấp các phương thức focusGained() và focusLost() để xử lý khi một component (như JTextField) nhận được hoặc mất đi tiêu điểm (focus) nhập liệu từ người dùng."
+  },
+  {
+    "id": 205,
+    "question": "Trong mô hình sự kiện Java, việc tách rời (decouple) giữa GUI component (source) và logic xử lý (listener) mang lại lợi ích gì, liên quan đến nguyên tắc OOP nào?",
+    "options": {
+      "A": "Thể hiện tính đóng gói và giảm sự phụ thuộc chặt (loose coupling), cho phép thay đổi logic xử lý mà không cần sửa đổi component GUI",
+      "B": "Không liên quan gì đến các nguyên tắc OOP đã học",
+      "C": "Làm tăng sự phụ thuộc chặt chẽ (tight coupling) giữa các thành phần",
+      "D": "Chỉ có tác dụng làm chậm chương trình"
+    },
+    "answer": "A",
+    "explanation": "Delegation Event Model tách biệt rõ ràng giữa nơi phát sinh sự kiện (source) và nơi xử lý logic (listener), thể hiện nguyên tắc loose coupling/đóng gói trong OOP, giúp dễ dàng thay đổi hoặc thêm bớt cách xử lý mà không ảnh hưởng tới bản thân GUI component."
+  },
+  {
+    "id": 206,
+    "question": "Đâu là quy trình đúng (tổng quát) để xử lý sự kiện click nút trong Swing?",
+    "options": {
+      "A": "Tạo JButton -> Tạo/implements một class ActionListener (hoặc anonymous class/lambda) cài đặt actionPerformed() -> Gọi button.addActionListener(listenerInstance)",
+      "B": "Chỉ cần tạo JButton là chương trình tự động biết cách xử lý mọi sự kiện",
+      "C": "Phải viết lại toàn bộ JVM để xử lý sự kiện",
+      "D": "Sự kiện chỉ có thể xử lý được thông qua cơ sở dữ liệu"
+    },
+    "answer": "A",
+    "explanation": "Quy trình chuẩn: (1) tạo component như JButton, (2) tạo một đối tượng cài đặt ActionListener (qua class riêng, anonymous class, hoặc lambda) với logic trong actionPerformed(), (3) đăng ký đối tượng đó với component bằng addActionListener()."
+  },
+  {
+    "id": 207,
+    "question": "ComponentListener trong AWT/Swing dùng để lắng nghe loại sự kiện gì?",
+    "options": {
+      "A": "Sự kiện liên quan tới thay đổi kích thước, di chuyển, ẩn/hiện của chính component đó",
+      "B": "Chỉ sự kiện click chuột",
+      "C": "Chỉ sự kiện gõ phím",
+      "D": "Chỉ sự kiện đóng cửa sổ"
+    },
+    "answer": "A",
+    "explanation": "ComponentListener cung cấp các phương thức như componentResized(), componentMoved(), componentShown(), componentHidden() để theo dõi các thay đổi trạng thái vật lý của chính component."
+  },
+  {
+    "id": 208,
+    "question": "Trong ví dụ WindowAdapter, việc override chỉ phương thức windowClosing() mà không cần cài đặt 6 phương thức còn lại của WindowListener thể hiện lợi ích gì?",
+    "options": {
+      "A": "Lợi ích của Adapter class: kế thừa cài đặt rỗng sẵn có, chỉ cần override phương thức thực sự cần dùng",
+      "B": "Đây là lỗi biên dịch bắt buộc phải sửa",
+      "C": "Thể hiện tính đa hình tại thời điểm biên dịch (overloading)",
+      "D": "Không có ý nghĩa gì đặc biệt về mặt lập trình"
+    },
+    "answer": "A",
+    "explanation": "Đây chính là mục đích cốt lõi của Adapter class: WindowAdapter đã cài đặt rỗng toàn bộ 7 phương thức của WindowListener, class con chỉ cần override đúng windowClosing() cần dùng, tránh phải viết thừa 6 phương thức rỗng còn lại."
+  },
+  {
+    "id": 209,
+    "question": "Sự kiện ActionEvent thường được sinh ra khi nào đối với một JTextField?",
+    "options": {
+      "A": "Khi người dùng nhấn phím Enter trong khi con trỏ đang ở trong JTextField đó",
+      "B": "Khi JTextField được tạo ra lần đầu tiên",
+      "C": "Khi chương trình khởi động, bất kể người dùng có tương tác hay không",
+      "D": "Không bao giờ sinh ra ActionEvent với JTextField"
+    },
+    "answer": "A",
+    "explanation": "Đối với JTextField, ActionEvent thường được sinh ra khi người dùng nhập xong văn bản và nhấn phím Enter, kích hoạt actionPerformed() của ActionListener đã đăng ký."
+  },
+  {
+    "id": 210,
+    "question": "Trong thiết kế GUI hướng sự kiện, việc một class Controller riêng biệt implements các listener interface (thay vì để chính JFrame implements) thể hiện nguyên tắc thiết kế nào?",
+    "options": {
+      "A": "Tách biệt trách nhiệm (Separation of Concerns) - tách logic xử lý sự kiện khỏi logic hiển thị giao diện",
+      "B": "Không có nguyên tắc thiết kế nào liên quan",
+      "C": "Vi phạm nguyên tắc đóng gói",
+      "D": "Bắt buộc phải luôn dùng theo cách này, không có lựa chọn khác"
+    },
+    "answer": "A",
+    "explanation": "Việc tách một class Controller riêng để xử lý logic sự kiện, thay vì nhồi tất cả vào class GUI (View), thể hiện nguyên tắc Separation of Concerns, giúp code dễ bảo trì, kiểm thử và mở rộng hơn, thường thấy trong các mô hình như MVC."
+  },
+  {
+    "id": 211,
+    "question": "Trong lập trình sự kiện, việc một phương thức callback (như actionPerformed) được gọi 'ngược lại' bởi framework/thư viện (thay vì được gọi trực tiếp bởi code của lập trình viên) minh họa khái niệm nào?",
+    "options": {
+      "A": "Inversion of Control / Callback mechanism (cơ chế gọi lại)",
+      "B": "Static binding hoàn toàn",
+      "C": "Compile-time polymorphism đơn thuần",
+      "D": "Không có khái niệm đặc biệt nào liên quan"
+    },
+    "answer": "A",
+    "explanation": "Đây là ví dụ điển hình của 'Inversion of Control': thay vì lập trình viên chủ động gọi hàm xử lý, framework GUI (Swing/AWT) sẽ tự động gọi ngược lại (callback) phương thức actionPerformed() khi sự kiện tương ứng xảy ra."
+  },
+  {
+    "id": 212,
+    "question": "Một class có thể vừa là JFrame (kế thừa) vừa implements ActionListener để tự xử lý sự kiện của chính các component bên trong nó hay không?",
+    "options": {
+      "A": "Không, Java không cho phép điều này",
+      "B": "Có, ví dụ: class MyFrame extends JFrame implements ActionListener {...}, đây là cách phổ biến kết hợp kế thừa và cài đặt interface",
+      "C": "Chỉ được phép nếu không có bất kỳ component nào bên trong",
+      "D": "Chỉ được phép với abstract class, không được với JFrame"
+    },
+    "answer": "B",
+    "explanation": "Đây là một mẫu phổ biến trong Swing: một class vừa extends JFrame (để trở thành cửa sổ) vừa implements ActionListener (để tự xử lý sự kiện của các nút bên trong nó), tận dụng cả kế thừa lẫn đa hình hành vi qua interface."
+  }
+]
