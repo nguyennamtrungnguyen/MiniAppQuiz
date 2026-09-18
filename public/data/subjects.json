@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kiem-thu-phan-mem",
+    "name": "Kiểm thử phần mềm",
+    "description": "Ôn tập môn Kiểm thử phần mềm",
+    "questionFile": "/data/subjects/kiem-thu-phan-mem.json"
+  },
+  {
+    "id": "cnxhkh",
+    "name": "Chủ nghĩa xã hội khoa học",
+    "description": "Ôn tập môn Chủ nghĩa xã hội khoa học",
+    "questionFile": "/data/subjects/cnxhkh.json"
+  }
+]
