@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDnGfOX2ypB2deyxCxF7INkRNwM2lZCKbk",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "miniappquiz.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "miniappquiz",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "miniappquiz.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "971097098091",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:971097098091:web:52ce2ae75299e614ea2e2e",
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-9E2NT3ZWJQ",
 };
 
 let db = null;
