@@ -31,7 +31,7 @@ export default function Layout({ children }) {
             <span className="text-lg font-bold">Hệ thống ôn tập</span>
           </Link>
           <Link
-            to="/admin/login"
+            to="/admin"
             className="text-white/60 hover:text-white text-sm transition"
           >
             Admin

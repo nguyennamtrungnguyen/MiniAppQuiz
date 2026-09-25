@@ -11,5 +11,25 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+let db = null;
+
+const isConfigValid = Boolean(
+  firebaseConfig.apiKey &&
+  firebaseConfig.projectId &&
+  firebaseConfig.apiKey !== 'undefined' &&
+  firebaseConfig.projectId !== 'undefined'
+);
+
+if (isConfigValid) {
+  try {
+    const app = initializeApp(firebaseConfig);
+    db = getFirestore(app);
+  } catch (error) {
+    console.warn('Lỗi khi khởi tạo Firebase Firestore:', error);
+    db = null;
+  }
+} else {
+  console.warn('Firebase chưa được cấu hình biến môi trường hoặc không hợp lệ. Đang dùng dữ liệu Local Storage / static JSON.');
+}
+
+export { db };
