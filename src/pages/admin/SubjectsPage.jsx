@@ -43,14 +43,14 @@ export default function SubjectsPage() {
     setShowModal(true);
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     if (!form.id.trim() || !form.name.trim()) {
       alert('Vui lòng nhập ID và tên môn học');
       return;
     }
 
     if (editingSubject) {
-      const updated = updateSubject(editingSubject.id, form);
+      const updated = await updateSubject(editingSubject.id, form);
       setSubjects(updated);
     } else {
       // Check duplicate ID
@@ -58,16 +58,16 @@ export default function SubjectsPage() {
         alert('ID môn học đã tồn tại');
         return;
       }
-      const updated = addSubject({ ...form, questionFile: form.questionFile || `/data/subjects/${form.id}.json` });
+      const updated = await addSubject({ ...form, questionFile: form.questionFile || `/data/subjects/${form.id}.json` });
       setSubjects(updated);
     }
 
     setShowModal(false);
   };
 
-  const handleDelete = (id) => {
+  const handleDelete = async (id) => {
     if (window.confirm('Bạn có chắc muốn xóa môn học này? Tất cả câu hỏi sẽ bị xóa.')) {
-      const updated = deleteSubject(id);
+      const updated = await deleteSubject(id);
       setSubjects(updated);
     }
   };

@@ -72,7 +72,7 @@ export default function ImportPage() {
       dataToImport = [...existing, ...newQuestions];
     }
 
-    importQuestions(selectedSubject, dataToImport);
+    await importQuestions(selectedSubject, dataToImport);
     setImported(true);
   };
 

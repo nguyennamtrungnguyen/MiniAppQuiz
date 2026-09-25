@@ -59,7 +59,7 @@ export default function QuestionsPage() {
     setShowModal(true);
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     if (!form.question.trim()) {
       alert('Vui lòng nhập nội dung câu hỏi');
       return;
@@ -72,10 +72,10 @@ export default function QuestionsPage() {
     }
 
     if (editingQuestion) {
-      const updated = updateQuestion(selectedSubject, editingQuestion.id, form);
+      const updated = await updateQuestion(selectedSubject, editingQuestion.id, form);
       setQuestions(updated);
     } else {
-      const updated = addQuestion(selectedSubject, {
+      const updated = await addQuestion(selectedSubject, {
         question: form.question,
         options: form.options,
         answer: form.answer,
@@ -87,9 +87,9 @@ export default function QuestionsPage() {
     setShowModal(false);
   };
 
-  const handleDelete = (id) => {
+  const handleDelete = async (id) => {
     if (window.confirm('Bạn có chắc muốn xóa câu hỏi này?')) {
-      const updated = deleteQuestion(selectedSubject, id);
+      const updated = await deleteQuestion(selectedSubject, id);
       setQuestions(updated);
     }
   };
