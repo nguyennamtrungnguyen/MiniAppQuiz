@@ -28,7 +28,7 @@ export default function Layout({ children }) {
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-white hover:opacity-80 transition">
             <span className="text-2xl">📚</span>
-            <span className="text-lg font-bold">Hệ thống ôn tập</span>
+            <span className="text-lg font-bold">QuizZone</span>
           </Link>
           <Link
             to="/admin"
