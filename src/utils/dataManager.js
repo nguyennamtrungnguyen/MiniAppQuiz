@@ -1,4 +1,4 @@
-import { db, isFirebaseConfigured } from '../services/firebase';
+import { db } from '../services/firebase';
 import { collection, doc, getDocs, getDoc, setDoc, deleteDoc } from 'firebase/firestore';
 
 const STORAGE_KEYS = {
@@ -9,8 +9,8 @@ const STORAGE_KEYS = {
 // ========== SUBJECTS ==========
 
 export async function getSubjects() {
-  // 1. Nếu có Firebase, ưu tiên đồng bộ từ Firestore
-  if (isFirebaseConfigured && db) {
+  // 1. Ưu tiên đồng bộ từ Firestore
+  if (db) {
     try {
       const snap = await getDocs(collection(db, 'subjects'));
       if (!snap.empty) {
@@ -43,7 +43,7 @@ export async function getSubjects() {
     }
   }
 
-  // 2. Fallback nếu chưa kết nối Firebase: Dùng localStorage
+  // 2. Fallback nếu chưa có kết nối: Dùng localStorage
   const stored = localStorage.getItem(STORAGE_KEYS.SUBJECTS);
   if (stored) {
     try {
@@ -86,7 +86,7 @@ export async function addSubject(subject) {
   subjects.push(subject);
   localStorage.setItem(STORAGE_KEYS.SUBJECTS, JSON.stringify(subjects));
 
-  if (isFirebaseConfigured && db) {
+  if (db) {
     try {
       await setDoc(doc(db, 'subjects', subject.id), subject);
       // Tạo sẵn document câu hỏi rỗng trên Firestore
@@ -106,7 +106,7 @@ export async function updateSubject(id, updatedSubject) {
     localStorage.setItem(STORAGE_KEYS.SUBJECTS, JSON.stringify(subjects));
   }
 
-  if (isFirebaseConfigured && db) {
+  if (db) {
     try {
       await setDoc(doc(db, 'subjects', id), updatedSubject, { merge: true });
     } catch (err) {
@@ -122,7 +122,7 @@ export async function deleteSubject(id) {
   localStorage.setItem(STORAGE_KEYS.SUBJECTS, JSON.stringify(subjects));
   localStorage.removeItem(STORAGE_KEYS.QUESTIONS_PREFIX + id);
 
-  if (isFirebaseConfigured && db) {
+  if (db) {
     try {
       await deleteDoc(doc(db, 'subjects', id));
       await deleteDoc(doc(db, 'quiz_data', id));
@@ -136,8 +136,8 @@ export async function deleteSubject(id) {
 // ========== QUESTIONS ==========
 
 export async function getQuestions(subjectId) {
-  // 1. Nếu có Firebase, ưu tiên đọc từ Firestore
-  if (isFirebaseConfigured && db) {
+  // 1. Ưu tiên đọc từ Firestore
+  if (db) {
     try {
       const snap = await getDoc(doc(db, 'quiz_data', subjectId));
       if (snap.exists()) {
@@ -174,7 +174,7 @@ export async function getQuestions(subjectId) {
       localStorage.setItem(storageKey, JSON.stringify(data));
 
       // Tự động sao lưu lên Firestore nếu Firestore chưa có
-      if (isFirebaseConfigured && db) {
+      if (db) {
         setDoc(doc(db, 'quiz_data', subjectId), { questions: data }).catch(console.error);
       }
       return data;
@@ -203,7 +203,7 @@ export async function saveQuestions(subjectId, questions) {
   const storageKey = STORAGE_KEYS.QUESTIONS_PREFIX + subjectId;
   localStorage.setItem(storageKey, JSON.stringify(questions));
 
-  if (isFirebaseConfigured && db) {
+  if (db) {
     try {
       await setDoc(doc(db, 'quiz_data', subjectId), { questions });
     } catch (err) {

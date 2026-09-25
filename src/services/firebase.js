@@ -1,34 +1,16 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
+const { env } = import.meta;
 
-// ⚙️ Dán cấu hình Firebase của bạn vào đây (hoặc dùng biến môi trường VITE_FIREBASE_...)
 const firebaseConfig = {
-  apiKey: "AIzaSyDnGfOX2ypB2deyxCxF7INkRNwM2lZCKbk",
-  authDomain: "miniappquiz.firebaseapp.com",
-  projectId: "miniappquiz",
-  storageBucket: "miniappquiz.firebasestorage.app",
-  messagingSenderId: "971097098091",
-  appId: "1:971097098091:web:52ce2ae75299e614ea2e2e",
-  measurementId: "G-9E2NT3ZWJQ"
+  apiKey: env.VITE_FIREBASE_API_KEY,
+  authDomain: env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: env.VITE_FIREBASE_APP_ID,
+  measurementId: env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-// Kiểm tra xem đã điền cấu hình thật chưa
-export const isFirebaseConfigured = Boolean(
-  firebaseConfig.apiKey && 
-  firebaseConfig.apiKey !== "YOUR_API_KEY" && 
-  firebaseConfig.projectId !== "YOUR_PROJECT_ID"
-);
-
-let app = null;
-let db = null;
-
-if (isFirebaseConfigured) {
-  try {
-    app = initializeApp(firebaseConfig);
-    db = getFirestore(app);
-  } catch (error) {
-    console.error("Lỗi khởi tạo Firebase:", error);
-  }
-}
-
-export { db };
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
