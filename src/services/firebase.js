@@ -1,5 +1,5 @@
-import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -16,8 +16,8 @@ let db = null;
 const isConfigValid = Boolean(
   firebaseConfig.apiKey &&
   firebaseConfig.projectId &&
-  firebaseConfig.apiKey !== 'undefined' &&
-  firebaseConfig.projectId !== 'undefined'
+  firebaseConfig.apiKey !== "undefined" &&
+  firebaseConfig.projectId !== "undefined",
 );
 
 if (isConfigValid) {
@@ -25,11 +25,13 @@ if (isConfigValid) {
     const app = initializeApp(firebaseConfig);
     db = getFirestore(app);
   } catch (error) {
-    console.warn('Lỗi khi khởi tạo Firebase Firestore:', error);
+    console.warn("Lỗi khi khởi tạo Firebase Firestore:", error);
     db = null;
   }
 } else {
-  console.warn('Firebase chưa được cấu hình biến môi trường hoặc không hợp lệ. Đang dùng dữ liệu Local Storage / static JSON.');
+  console.warn(
+    "Firebase chưa được cấu hình biến môi trường hoặc không hợp lệ. Đang dùng dữ liệu Local Storage / static JSON.",
+  );
 }
 
 export { db };
